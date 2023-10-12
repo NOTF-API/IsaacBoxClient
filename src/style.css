@@ -1,0 +1,36 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@font-face {
+  font-family: upheavtt;
+  src: url("/fonts/upheavtt.ttf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  position: relative;
+}
+
+body {
+  overflow: hidden;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+  min-height: 600px;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+  background-image: radial-gradient(#ccbebb, #433f3e);
+  background-color: #fff;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  opacity: 0;
+}
