@@ -1,5 +1,5 @@
 <template>
-  <div class="view-container">
+  <div class="cards view-container">
     <div class="view-content card-list no-scrollbar" :class="{ active: props.open }">
       <div class="item card" v-for="item, index in arr" @click="handleSpawn(item.id)">
         <div class="number">#{{ item.id.split(".")[2] }}</div>

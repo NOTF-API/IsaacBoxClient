@@ -1,5 +1,5 @@
 <template>
-  <div class="view-container">
+  <div class="trinkets view-container">
     <div class="view-content no-scrollbar">
       <div class="items">
         <template v-for="i in 189">

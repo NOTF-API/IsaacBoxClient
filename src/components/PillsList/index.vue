@@ -1,5 +1,5 @@
 <template>
-  <div class="view-container">
+  <div class="pills view-container">
     <div class="view-content pills-list no-scrollbar">
       <div class="item" v-for="item, index in arr" @click="handleGive(item.id)">
         <div class="number">#{{ item.id }}</div>

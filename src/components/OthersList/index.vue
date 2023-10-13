@@ -1,5 +1,5 @@
 <template>
-  <div class="view-container">
+  <div class="others view-container">
     <div class="view-content no-scrollbar">
       <CoinItems />
       <BoomItems />
