@@ -16,6 +16,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Pills"
+}
+</script>
     
 <script setup>
 import { emit } from "@/utils/ws"

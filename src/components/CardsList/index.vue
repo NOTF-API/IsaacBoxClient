@@ -1,6 +1,6 @@
 <template>
   <div class="cards view-container">
-    <div class="view-content card-list no-scrollbar" :class="{ active: props.open }">
+    <div class="view-content card-list no-scrollbar">
       <div class="item card" v-for="item, index in arr" @click="handleSpawn(item.id)">
         <div class="number">#{{ item.id.split(".")[2] }}</div>
         <div class="image">
@@ -11,6 +11,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Cards"
+}
+</script>
   
 <script setup>
 import { emit } from "@/utils/ws"
@@ -18,7 +24,6 @@ import arr from './cards.js'
 const handleSpawn = (id) => {
   emit("COMMAND", `spawn ${id}`);
 }
-const props = defineProps(["open"])
 import { useItemsStore } from "@/store"
 import { storeToRefs } from 'pinia'
 const store = useItemsStore();

@@ -18,6 +18,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Trinkets"
+}
+</script>
   
 <script setup>
 import { emit } from "@/utils/ws"

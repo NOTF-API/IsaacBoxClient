@@ -11,42 +11,22 @@
           @click="handleActiveSubmenu(submenu)"></button>
       </div>
     </div>
-    <!-- TODO:为什么这里不加v-memo="[submenu]"会导致卡顿 -->
-    <!-- <component v-for="submenu in submenus" v-memo="[submenu]" :is="submenu.component" :style="getViewStyle(submenu)" /> -->
     <component v-for="submenu in submenus" :is="submenu.component" :style="getViewStyle(submenu)" />
   </div>
-  <GlobalSearch :searchInput="searchInput" />
+  <GlobalSearch @close="handleGlobalSearchClose" />
 </template>
+
+<script>
+export default {
+  name: "MainMenu"
+}
+</script>
 
 <script setup>
 import { ref, reactive, computed } from 'vue'
 import { submenus, getViewStyle } from './submenus'
 
 import GlobalSearch from '@/components/GlobalSearch/index.vue'
-const searchInput = ref("")
-
-window.addEventListener("keydown", (event) => {
-  console.log(event.key)
-  if (event.key === "Escape") {
-    submenus.forEach((submenu) => {
-      if (submenu.active.value) {
-        submenu.active.value === false
-      }
-    });
-    isActive.value = true;
-    transform.x = 0;
-    transform.y = 0;
-  }
-  else if (/^[a-zA-Z0-9\x20\.]{1}$$/.test(event.key)) {
-    searchInput.value += event.key;
-  } else if (event.key === "Backspace") {
-    if (searchInput.value.length === 0) {
-      return;
-    } else {
-      searchInput.value = searchInput.value.substring(0, searchInput.value.length - 1)
-    }
-  }
-});
 
 const isActive = ref(true);
 const transform = reactive({
@@ -67,7 +47,22 @@ const getTransformedStyle = computed(() => {
   }
 })
 
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    submenus.forEach((submenu) => {
+      if (submenu.active.value) {
+        submenu.active.value === false
+      }
+    });
+    isActive.value = true;
+    transform.x = 0;
+    transform.y = 0;
+  }
+});
 
+const handleGlobalSearchClose = () => {
+ 
+}
 
 </script>
 

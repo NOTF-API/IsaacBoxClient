@@ -1,14 +1,36 @@
 <template>
-  <div class="search" v-show="props.searchInput.length !== 0">
-    <div class="shadowed search-bar">{{ props.searchInput }}</div>
-    <transition name="search-content">
-      <div class="search-result view-content" v-show="props.searchInput.length !== 0"></div>
-    </transition>
-  </div>
+  <transition name="search">
+    <div class="search" v-show="searchInput.length !== 0">
+      <div class="shadowed search-bar">{{ searchInput }}</div>
+      <div class="search-result view-content"></div>
+    </div>
+  </transition>
 </template>
 
+<script>
+export default {
+  name: "GlobalSearch"
+}
+</script>
+
 <script setup>
-const props = defineProps(["searchInput"])
+import { ref } from 'vue'
+
+const searchInput = ref("")
+
+window.addEventListener("keydown", (event) => {
+  if (/^[a-zA-Z0-9\x20\.]{1}$$/.test(event.key)) {
+    searchInput.value += event.key;
+  } else if (event.key === "Backspace") {
+    if (searchInput.value.length === 0) {
+      return;
+    } else {
+      searchInput.value = searchInput.value.substring(0, searchInput.value.length - 1)
+    }
+  }else if(event.key==="Escape"){
+    searchInput.value = ""
+  }
+});
 </script>
 
 <style scoped lang="less">
@@ -53,15 +75,15 @@ const props = defineProps(["searchInput"])
 </style>
 
 <style>
-.search-content-enter-active,
-.search-content-leave-active {
+.search-enter-active,
+.search-leave-active {
   transform: translateY(0);
   /* opacity: 1; */
   transition: transform 0.2s ease;
 }
 
-.search-content-enter-from,
-.search-content-leave-to {
+.search-enter-from,
+.search-leave-to {
   /* opacity: 0; */
   transform: translateY(-120%);
 }

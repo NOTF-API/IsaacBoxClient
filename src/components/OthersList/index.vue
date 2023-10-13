@@ -11,6 +11,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Others"
+}
+</script>
     
 <script setup>
 import CoinItems from './coins.vue'

@@ -12,6 +12,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "Monsters"
+}
+</script>
+
 <script setup>
 import itemGroups from './monsters.js'
 import { emit } from "@/utils/ws"

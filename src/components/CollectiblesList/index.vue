@@ -13,6 +13,12 @@
   </div>
 </template>
 
+<script>
+ export default {
+    name:"Collectibles"
+ }
+</script>
+
 <script setup>
 import { collectibles, emit } from "@/utils/ws"
 import { useItemsStore } from "@/store"
