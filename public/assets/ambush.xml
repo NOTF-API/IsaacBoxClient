@@ -1,0 +1,419 @@
+<ambushRoom>
+	<baseWave>
+		<stage id="1">
+			<wave>
+				<enemy type="29" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="12" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="15" variant="0" count="2"/>
+			</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="31" variant="0" count="5"/>
+			</wave>
+			<wave>
+				<enemy type="22" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="27" variant="0" count="3"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="39" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="34" variant="0" count="4"/>
+			</wave>
+			<wave>
+				<enemy type="24" variant="0" count="4"/>
+			</wave>
+		</stage>
+		<stage id="4">
+			<wave>
+				<enemy type="19" variant="0" count="3" chunks="3"/>
+			</wave>
+			<wave>
+				<enemy type="28" variant="0" count="1" chunks="3"/>
+				<enemy type="23" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="20" variant="0" count="2"/>
+			</wave>
+		</stage>
+	</baseWave>
+	<altWave>
+		<stage id="1">
+			<wave>
+				<enemy type="18" variant="0" count="5"/>
+			</wave>
+			<wave>
+				<enemy type="14" variant="0" count="5"/>
+			</wave>
+			<wave>
+				<enemy type="10" variant="0" count="4"/>
+			</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="23" variant="0" count="5"/>
+			</wave>
+			<wave>
+				<enemy type="24" variant="0" count="4"/>
+			</wave>
+			<wave>
+				<enemy type="26" variant="0" count="4"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="38" variant="0" count="4"/>
+			</wave>
+			<wave>
+				<enemy type="29" variant="0" count="5"/>
+			</wave>
+			<wave>
+				<enemy type="41" variant="0" count="4"/>
+			</wave>
+		</stage>
+		<stage id="4">
+			<wave>
+				<enemy type="71" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="69" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="28" variant="0" count="1" chunks="3"/>
+			</wave>
+		</stage>
+	</altWave>
+	<secBaseWave>
+		<stage id="1">
+			<wave>
+				<enemy type="208" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="244" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="217" variant="0" count="5"/>
+			</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="227" variant="0" count="2"/>
+			</wave>
+			<wave>
+				<enemy type="229" variant="0" count="2"/>
+			</wave>
+			<wave>
+				<enemy type="240" variant="0" count="3"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="227" variant="0" count="4"/>
+			</wave>
+			<wave>
+				<enemy type="220" variant="0" count="2"/>
+			</wave>
+			<wave>
+				<enemy type="252" variant="0" count="3"/>
+			</wave>
+		</stage>
+	</secBaseWave>
+	<secAltWave>
+		<stage id="1">
+			<wave>
+				<enemy type="10" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="12" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="208" variant="0" count="3"/>
+			</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="244" variant="0" count="4"/>
+			</wave>
+			<wave>
+				<enemy type="255" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="239" variant="0" count="1" chunks="3"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="41" variant="0" count="4"/>
+			</wave>
+			<wave>
+				<enemy type="213" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="209" variant="0" count="3"/>
+			</wave>
+		</stage>
+	</secAltWave>
+</ambushRoom>
+<bossAmbushRoom>
+	<baseWave>
+		<stage id="1">
+		<wave>
+			<enemy type="20" variant="0" count="1"/>
+		</wave>
+		<wave>
+			<enemy type="19" variant="0" count="3" chunks="3"/>
+		</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="28" variant="0" count="1" chunks="3"/>
+				<enemy type="23" variant="0" count="3"/>
+			</wave>
+			<wave>
+				<enemy type="68" variant="0" count="1"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="69" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="43" variant="0" count="1"/>
+			</wave>
+		</stage>
+		<stage id="4">
+			<wave>
+				<enemy type="71" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="69" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="28" variant="0" count="1" chunks="3"/>
+			</wave>
+		</stage>
+	</baseWave>
+	<altWave>
+	</altWave>
+	<secBaseWave>
+		<stage id="1">
+			<wave>
+				<enemy type="62" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="237" variant="1" count="2"/>
+			</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="264" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="262" variant="0" count="1"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="262" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="67" variant="1" count="1"/>
+			</wave>
+		</stage>
+	</secBaseWave>
+	<secAltWave>
+		<stage id="1">
+			<wave>
+				<enemy type="261" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="79" variant="0" count="1"/>
+			</wave>
+		</stage>
+		<stage id="2">
+			<wave>
+				<enemy type="71" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="260" variant="0" count="1"/>
+			</wave>
+		</stage>
+		<stage id="3">
+			<wave>
+				<enemy type="267" variant="0" count="1"/>
+			</wave>
+			<wave>
+				<enemy type="69" variant="0" count="1"/>
+			</wave>
+		</stage>
+	</secAltWave>
+</bossAmbushRoom>
+
+<!-- Boss rush: You can add multiple enemy tags to a spawn tag to make custom waves. 
+     [spawnsPerWave] random spawn groups will be selected for each wave. 
+     Enemies will be arranged in a circle, counterclockwise starting from the right. -->
+<bossrush numWaves="15" spawnsPerWave="2"> 
+	<!-- Flash version bosses -->
+	<spawn>
+		<enemy type="99" variant="0" count="1"/> <!-- Gurdy Jr. -->
+	</spawn>
+	<spawn>
+		<enemy type="79" variant="2" count="1"/> <!-- Blighted Ovum -->
+	</spawn>
+	<spawn>
+		<enemy type="100" variant="1" count="1"/> <!-- The Wretched -->
+	</spawn>
+	<spawn>
+		<enemy type="28" variant="2" count="1" chunks="3"/> <!-- Carrion Queen -->
+	</spawn>
+	<spawn>
+		<enemy type="67" variant="0" count="1"/> <!-- Duke of Flies -->
+	</spawn>
+	<spawn>
+		<enemy type="68" variant="0" count="1"/> <!-- Peep -->
+	</spawn>
+	<spawn>
+		<enemy type="69" variant="0" count="1"/> <!-- Loki -->
+	</spawn>
+	<spawn>
+		<enemy type="74" variant="0" count="1"/> <!-- Blastocyst -->
+	</spawn>
+	<spawn>
+		<enemy type="79" variant="0" count="1"/> <!-- Gemeni -->
+	</spawn>
+	<spawn>
+		<enemy type="79" variant="1" count="1"/> <!-- Steven -->
+	</spawn>
+	<spawn>
+		<enemy type="71" variant="0" count="1"/> <!-- Fistula -->
+	</spawn>
+	<spawn>
+		<enemy type="19" variant="0" count="3" chunks="5"/> <!-- Larry Jr. -->
+	</spawn>
+	<spawn>
+		<enemy type="20" variant="0" count="1"/> <!-- Monstro -->
+	</spawn>
+	<spawn>
+		<enemy type="28" variant="1" count="1" chunks="3"/> <!-- C.H.A.D -->
+	</spawn>
+	<spawn>
+		<enemy type="28" variant="0" count="1" chunks="3"/> <!-- Chub -->
+	</spawn>
+	<spawn>
+		<enemy type="36" variant="0" count="1"/> <!-- Gurdy -->
+	</spawn>
+	<spawn>
+		<enemy type="43" variant="1" count="1"/> <!-- Gish -->
+	</spawn>
+	<spawn>
+		<enemy type="43" variant="0" count="1"/> <!-- Monstro II -->
+	</spawn>
+	<spawn>
+		<enemy type="62" variant="0" count="1"/> <!-- Pin -->
+	</spawn>
+	<spawn>
+		<enemy type="100" variant="0" count="1"/> <!-- Widow -->
+	</spawn>
+	<spawn>
+		<enemy type="67" variant="1" count="1"/> <!-- The Husk -->
+	</spawn>
+	<spawn>
+		<enemy type="19" variant="1" count="3" chunks="5"/> <!-- The Hollow -->
+	</spawn>
+	<spawn>
+		<enemy type="68" variant="1" count="1"/> <!-- The Bloat -->
+	</spawn>
+	<spawn>
+		<enemy type="97" variant="0" count="1"/> <!-- Mask of Infamy -->
+	</spawn>
+	<spawn>
+		<enemy type="63" variant="0" count="1"/> <!-- Famine -->
+	</spawn>
+	<spawn>
+		<enemy type="64" variant="0" count="1"/> <!-- Pestilence -->
+	</spawn>
+	<spawn>
+		<enemy type="65" variant="0" count="1"/> <!-- War -->
+	</spawn>
+	<spawn>
+		<enemy type="66" variant="0" count="1"/> <!-- Death -->
+	</spawn>
+	<spawn>
+		<enemy type="82" variant="0" count="1"/> <!-- Headless Horseman -->
+	</spawn>
+	<spawn>
+		<enemy type="81" variant="0" count="1"/> <!-- The Fallen -->
+	</spawn>
+	<!-- Rebirth -->
+	<spawn>
+		<enemy type="237" variant="1" count="3"/> <!-- Gurglings -->
+	</spawn>
+	<spawn>
+		<enemy type="260" variant="0" count="1"/> <!-- Haunt -->
+	</spawn>
+	<spawn>
+		<enemy type="261" variant="0" count="1"/> <!-- Dingle -->
+	</spawn>
+	<spawn>
+		<enemy type="262" variant="0" count="1"/> <!-- Mega Maw -->
+	</spawn>
+	<spawn>
+		<enemy type="263" variant="0" count="1"/> <!-- Gate -->
+	</spawn>
+	<spawn>
+		<enemy type="264" variant="0" count="1"/> <!-- Mega Fatty -->
+	</spawn>
+	<spawn>
+		<enemy type="265" variant="0" count="1"/> <!-- Cage -->
+	</spawn>
+	<spawn>
+		<enemy type="267" variant="0" count="1"/> <!-- Dark One -->
+	</spawn>
+	<spawn>
+		<enemy type="268" variant="0" count="1"/> <!-- Adversary -->
+	</spawn>
+	<spawn>
+		<enemy type="269" variant="0" count="1"/> <!-- Polycephalus -->
+	</spawn>
+	<spawn>
+		<enemy type="271" variant="0" count="1"/> <!-- Uriel -->
+	</spawn>
+	<spawn>
+		<enemy type="272" variant="0" count="1"/> <!-- Gabriel -->
+	</spawn>
+	<!-- Afterbirth -->
+	<spawn>
+		<enemy type="261" variant="1" count="1"/> <!-- Dangle -->
+	</spawn>
+	<spawn>
+		<enemy type="401" variant="0" count="1"/> <!-- Stain -->
+	</spawn>
+	<spawn>
+		<enemy type="402" variant="0" count="1"/> <!-- Brownie -->
+	</spawn>
+	<spawn>
+		<enemy type="403" variant="0" count="1"/> <!-- Forsaken -->
+	</spawn>
+	<spawn>
+		<enemy type="404" variant="0" count="1"/> <!-- Little Horn -->
+	</spawn>
+	<spawn>
+		<enemy type="405" variant="0" count="1"/> <!-- Rag Man -->
+	</spawn>
+	<spawn>
+		<enemy type="62" variant="2" count="1"/> <!-- Frail -->
+	</spawn>
+	<spawn>
+		<enemy type="237" variant="2" count="3"/> <!-- Turdlings -->
+	</spawn>
+	
+</bossrush>

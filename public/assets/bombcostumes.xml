@@ -1,0 +1,78 @@
+<bombcostumes anm2root="gfx/items/pick ups/bombs/">
+<!--
+	Rules are evaluated from top to bottom. A rule will only trigger if all of its conditions are true.
+	
+	Conditions:
+		- includeFlags: True if all provided flags are set
+		- excludeFlags: True if none of the provided flags are set
+	Layers (in rendering order):
+		- back
+		- body
+		- body2
+		- front
+		- front2
+		- overlay
+	GFX suffixes:
+		- suffix
+		- suffix2
+-->
+	<bomb variant="0"> <!-- Normal bomb -->
+		<rule body="bomb.anm2" />
+		<rule includeFlags="126" front2="fast.anm2" />
+		<rule includeFlags="125" suffix2="_gold" />
+		
+		<rule includeFlags="2" body2="homing.anm2" />
+		<rule includeFlags="22" body="hot.anm2" back="flame.anm2" />
+		<rule includeFlags="28" body="sad.anm2" />
+		<rule includeFlags="4" body="poison.anm2" />
+		<rule includeFlags="29" body="poop.anm2" />
+		<rule includeFlags="35" body="glitter.anm2" overlay="glitter_sparkle.anm2" />
+		<rule includeFlags="45" body="bomber.anm2" />
+		<rule includeFlags="37" body="sticky.anm2" />
+		<rule includeFlags="36" body="scatter.anm2" />
+		
+		<rule includeFlags="37 22" body="sticky_hot.anm2" />
+		<rule includeFlags="36 4" body="scatter_poison.anm2" />
+		
+		<rule includeFlags="28" excludeFlags="45 36" front="tears.anm2" />
+		<rule includeFlags="28 37" body="sticky_sad.anm2" front="tears.anm2" />
+		<rule includeFlags="28 35" body="glitter_sad.anm2" front="tears.anm2" />
+		<rule includeFlags="28 29" body="poop_sad.anm2" front="tears.anm2" />
+		
+<!-- REPENTANCE BEGIN -->
+		<rule includeFlags="78" body="ghost.anm2" />
+		<rule includeFlags="35 78" body="glitter_ghost.anm2" />
+		<rule includeFlags="29 78" body="poop_ghost.anm2" />
+		
+		<rule includeFlags="28 72" excludeFlags="45 36" front="tears_blood.anm2" />
+		<rule includeFlags="72" excludeFlags="28" body="blood.anm2" />
+		<rule includeFlags="36 72" body="scatter_blood.anm2" />
+		<rule includeFlags="75" body="brimstone.anm2" />
+		<rule includeFlags="75 22" back="wide_flame.anm2" />
+<!-- REPENTANCE END -->
+	</bomb>
+	
+	<bomb variant="9"> <!-- Butt bomb (for No. 2) -->
+		<rule body="poop.anm2" />
+		<rule includeFlags="126" front2="fast.anm2" />
+		<rule includeFlags="125" suffix2="_gold" />
+		
+		<rule includeFlags="2" body2="homing.anm2" />
+		<rule includeFlags="22" back="flame.anm2" />
+		<rule includeFlags="35" overlay="glitter_sparkle.anm2" />
+		<rule includeFlags="28 29" body="poop_sad.anm2" front="tears.anm2" />
+		
+<!-- REPENTANCE BEGIN -->
+		<rule includeFlags="78" body="poop_ghost.anm2" />
+		<rule includeFlags="28 72" front="tears_blood.anm2" />
+<!-- REPENTANCE END -->
+	</bomb>
+	
+<!-- REPENTANCE BEGIN -->
+	<bomb variant="19"> <!-- Rocket (for Rocket in a Jar) -->
+		<rule includeFlags="125" suffix2="_gold" />
+		<rule body="rocket.anm2" />
+	</bomb>
+<!-- REPENTANCE END -->
+</bombcostumes>
+

@@ -1,0 +1,181 @@
+<giantbook anm2root="gfx/ui/giantbook/">
+	<entry id="1" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_001_Necronomicon.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="2" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_002_MonsterManual.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="3" anm2="GiantBook_WhoreOfBabylon.anm2" anim="Appear" gfx="GiantBook_003_WhataNight.png" />
+	<entry id="4" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_004_Scroll.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="5" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_005_Tarot.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="6" anm2="GiantBook_EternalHeart.anm2" anim="Appear_SoulHeart" gfx="GiantBook_013_HeartPiece.png" />
+	<entry id="7" anm2="GiantBookBig.anm2" anim="Appear" gfx="GiantBook_007_Mom.png">
+		<layer name="poof" r="128" g="128" b="128" a="255" />
+		<layer name="bg" r="20" g="39" b="0" a="255" />
+		<layer name="poof2" r="102" g="128" b="77" a="255" />
+	</entry>
+	<entry id="8" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_008_Diaper.png">
+		<layer name="poof" r="128" g="128" b="128" a="255" />
+		<layer name="bg" r="20" g="39" b="0" a="255" />
+		<layer name="poof2" r="102" g="128" b="77" a="255" />
+	</entry>
+	<entry id="9" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_009_Anarchy.png">
+		<layer name="poof" r="128" g="128" b="128" a="255" />
+		<layer name="bg" r="25" g="25" b="25" a="255" />
+		<layer name="poof2" r="255" g="102" b="25" a="128" />
+	</entry>
+	<entry id="10" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_010_Bible.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="11" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_011_BookOfRevelations.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="12" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_012_Skull.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="13" anm2="GiantBook_EternalHeart.anm2" anim="Appear" gfx="GiantBook_013_HeartPiece.png" />
+	<entry id="14" anm2="GiantBook.anm2" anim="Flip" gfx="GiantBook_014_Hourglass.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="15" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_001_SatanicBible.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="16" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_002_BlackHeart.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="17" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_Rebirth_003_D4.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="18" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_Rebirth_004_D10.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="19" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_Rebirth_005_Flush.png">
+		<layer name="poof" r="128" g="128" b="128" a="255" />
+		<layer name="bg" r="20" g="39" b="0" a="255" />
+		<layer name="poof2" r="102" g="128" b="77" a="255" />
+	</entry>
+	<entry id="20" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_01_Hagalaz.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="21" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_02_Jera.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="22" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_03_Ehwaz.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="23" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_04_Dagaz.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="24" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_05_Ansuz.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="25" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_06_Perthro.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="26" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_07_Berkand.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="27" anm2="GiantBook.anm2" anim="Appear" gfx="Rune_08_Algiz.png">
+		<layer name="poof" r="51" g="25" b="72" a="255" />
+		<layer name="bg" r="30" g="3" b="51" a="255" />
+		<layer name="poof2" r="13" g="13" b="13" a="255" />
+	</entry>
+	<entry id="28" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_Rebirth_006_D100.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="29" anm2="GiantBook.anm2" anim="Appear" gfx="GiantBook_Rebirth_007_Rainbow.png">
+		<layer name="poof" r="255" g="208" b="230" a="255" />
+		<layer name="bg" r="230" g="230" b="230" a="153" />
+		<layer name="poof2" r="255" g="166" b="204" a="128" />
+	</entry>
+	<entry id="30" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_008_AMissingPage.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="31" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_009_MissingPage2.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="32" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_009_SpiderButt.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="33" anm2="GiantBook_Sleep.anm2" anim="Idle" gfx="GiantBook_Rebirth_010_Sleep.png" />
+	<entry id="34" anm2="GiantBook.anm2" anim="ShakeFire" gfx="GiantBook_006_BookofBeast.png" />
+	<entry id="35" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_011_Betrayal.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="36" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_012_D8.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="37" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_013_D12.png">
+		<layer name="poof" r="228" g="228" b="228" a="255" />
+		<layer name="bg" r="228" g="228" b="228" a="153" />
+		<layer name="poof2" r="225" g="225" b="225" a="128" />
+	</entry>
+	<entry id="38" anm2="GiantBook_SuperBum.anm2" anim="Main" gfx="GiantBook_SuperBum.png" />
+	<entry id="39" anm2="GiantBook_Clicker.anm2" anim="Effect" gfx="GiantBook_Clicker.png" />
+	<entry id="40" anm2="GiantBook_MaMa_Mega.anm2" anim="Idle" gfx="GiantBook_015_White.png" />
+	
+	<entry id="41" anm2="GiantBook_EternalHeart.anm2" anim="Appear_EmptyHeart" gfx="GiantBook_013_HeartPiece.png" />
+	<entry id="42" anm2="GiantBook_ReverseEmpress.anm2" anim="Appear" gfx="GiantBook_001x_MorningSun.png" />
+	<entry id="43" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_002x_ReverseSun.png">
+		<layer name="poof" r="5" g="5" b="5" a="255" />
+		<layer name="bg" r="13" g="13" b="13" a="180" />
+		<layer name="poof2" r="5" g="5" b="5" a="255" />
+	</entry>
+	<entry id="44" anm2="GiantBook_SleepNightmare.anm2" anim="Idle" gfx="GiantBook_Rebirth_010_Sleep.png" />
+	<entry id="45" /> <!-- custom implementation -->
+	<entry id="46" anm2="GiantBook_EternalHeart.anm2" anim="Appear_BlackHeart" gfx="GiantBook_013_HeartPiece.png" />
+</giantbook>

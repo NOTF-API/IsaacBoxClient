@@ -1,0 +1,170 @@
+<pocketitems>
+	<card id="0" name="NULL" />
+	<card type="tarot" pickup="1" description="#THE_FOOL_DESCRIPTION" id="1" name="#THE_FOOL_NAME" announcer="375" announcerdelay="60" mimiccharge="2" />
+	<card type="tarot" pickup="1" description="#THE_MAGICIAN_DESCRIPTION" id="2" name="#THE_MAGICIAN_NAME" announcer="381" mimiccharge="2" />
+	<card type="tarot" pickup="1" description="#THE_HIGH_PRIESTESS_DESCRIPTION" id="3" name="#THE_HIGH_PRIESTESS_NAME" announcer="379" announcerdelay="110" mimiccharge="2" />
+	<card type="tarot" pickup="1" description="#THE_EMPRESS_DESCRIPTION" id="4" name="#THE_EMPRESS_NAME" announcer="374" announcerdelay="70" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#THE_EMPEROR_DESCRIPTION" id="5" name="#THE_EMPEROR_NAME" greedmode="false" announcer="373" announcerdelay="70" mimiccharge="4" />
+	<card type="tarot" pickup="1" description="#THE_HIEROPHANT_DESCRIPTION" id="6" name="#THE_HIEROPHANT_NAME" announcer="378" announcerdelay="70" mimiccharge="12" />
+	<card type="tarot" pickup="1" description="#THE_LOVERS_DESCRIPTION" id="7" name="#THE_LOVERS_NAME" announcer="380" announcerdelay="70" mimiccharge="6" />
+	<card type="tarot" pickup="1" description="#THE_CHARIOT_DESCRIPTION" id="8" name="#THE_CHARIOT_NAME" announcer="371" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#JUSTICE_DESCRIPTION" id="9" name="#JUSTICE_NAME" announcer="349" mimiccharge="6" />
+	<card type="tarot" pickup="1" description="#THE_HERMIT_DESCRIPTION" id="10" name="#THE_HERMIT_NAME" greedmode="false" announcer="377" announcerdelay="60" mimiccharge="2" />
+	<card type="tarot" pickup="1" description="#WHEEL_OF_FORTUNE_DESCRIPTION" id="11" name="#WHEEL_OF_FORTUNE_NAME" announcer="391" announcerdelay="60" mimiccharge="4" />
+	<card type="tarot" pickup="1" description="#STRENGTH_DESCRIPTION" id="12" name="#STRENGTH_NAME" announcer="365" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#THE_HANGED_MAN_DESCRIPTION" id="13" name="#THE_HANGED_MAN_NAME" announcer="376" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#DEATH_DESCRIPTION" id="14" name="#DEATH_NAME" announcer="337" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#TEMPERANCE_DESCRIPTION" id="15" name="#TEMPERANCE_NAME" announcer="370" announcerdelay="60" mimiccharge="6" />
+	<card type="tarot" pickup="1" description="#THE_DEVIL_DESCRIPTION" id="16" name="#THE_DEVIL_NAME" announcer="372" announcerdelay="40" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#THE_TOWER_DESCRIPTION" id="17" name="#THE_TOWER_NAME" announcer="385" announcerdelay="20" mimiccharge="3" />
+	<card type="tarot" pickup="1" description="#THE_STARS_DESCRIPTION" id="18" name="#THE_STARS_NAME" announcer="383" announcerdelay="60" mimiccharge="2" />
+	<card type="tarot" pickup="1" description="#THE_MOON_DESCRIPTION" id="19" name="#THE_MOON_NAME" greedmode="false" announcer="382" announcerdelay="60" mimiccharge="2" />
+	<card type="tarot" pickup="1" description="#THE_SUN_DESCRIPTION" id="20" name="#THE_SUN_NAME" announcer="384" announcerdelay="10" mimiccharge="12" />
+	<card type="tarot" pickup="1" description="#JUDGEMENT_DESCRIPTION" id="21" name="#JUDGEMENT_NAME" announcer="348" mimiccharge="6" />
+	<card type="tarot" pickup="1" description="#THE_WORLD_DESCRIPTION" id="22" name="#THE_WORLD_NAME" greedmode="false" announcer="386" mimiccharge="3" />
+	<card type="suit" pickup="2" description="#TWO_OF_CLUBS_DESCRIPTION" id="23" name="#TWO_OF_CLUBS_NAME" announcer="387" mimiccharge="12" />
+	<card type="suit" pickup="2" description="#TWO_OF_DIAMONDS_DESCRIPTION" id="24" name="#TWO_OF_DIAMONDS_NAME" announcer="388" mimiccharge="12" />
+	<card type="suit" pickup="2" description="#TWO_OF_SPADES_DESCRIPTION" id="25" name="#TWO_OF_SPADES_NAME" announcer="390" mimiccharge="12" />
+	<card type="suit" pickup="2" description="#TWO_OF_HEARTS_DESCRIPTION" id="26" name="#TWO_OF_HEARTS_NAME" announcer="389" mimiccharge="12" />
+	<card type="suit" pickup="2" achievement="322" description="#ACE_OF_CLUBS_DESCRIPTION" id="27" name="#ACE_OF_CLUBS_NAME" announcer="456" announcerdelay="90" mimiccharge="6" />
+	<card type="suit" pickup="2" achievement="326" description="#ACE_OF_DIAMONDS_DESCRIPTION" id="28" name="#ACE_OF_DIAMONDS_NAME" announcer="455" announcerdelay="90" mimiccharge="6" />
+	<card type="suit" pickup="2" achievement="327" description="#ACE_OF_SPADES_DESCRIPTION" id="29" name="#ACE_OF_SPADES_NAME" announcer="447" announcerdelay="90" mimiccharge="6" />
+	<card type="suit" pickup="2" achievement="329" description="#ACE_OF_HEARTS_DESCRIPTION" id="30" name="#ACE_OF_HEARTS_NAME" announcer="450" announcerdelay="90" mimiccharge="6" />
+	<card type="suit" pickup="2" description="#JOKER_DESCRIPTION" id="31" name="#JOKER_NAME" announcer="347" announcerdelay="60" mimiccharge="2" />
+	<rune type="rune" pickup="3" achievement="89" description="#HAGALAZ_DESCRIPTION" id="32" name="#HAGALAZ_NAME" announcer="341" mimiccharge="2" />
+	<rune type="rune" pickup="3" achievement="90" description="#JERA_DESCRIPTION" id="33" name="#JERA_NAME" announcer="346" mimiccharge="12" />
+	<rune type="rune" pickup="3" achievement="91" description="#EHWAZ_DESCRIPTION" id="34" name="#EHWAZ_NAME" announcer="338" mimiccharge="4" />
+	<rune type="rune" pickup="3" achievement="92" description="#DAGAZ_DESCRIPTION" id="35" name="#DAGAZ_NAME" announcer="336" mimiccharge="6" />
+	<rune type="rune" pickup="4" achievement="93" description="#ANSUZ_DESCRIPTION" id="36" name="#ANSUZ_NAME" announcer="327" mimiccharge="2" />
+	<rune type="rune" pickup="4" achievement="94" description="#PERTHRO_DESCRIPTION" id="37" name="#PERTHRO_NAME" announcer="354" mimiccharge="4" />
+	<rune type="rune" pickup="4" achievement="95" description="#BERKANO_DESCRIPTION" id="38" name="#BERKANO_NAME" announcer="331" mimiccharge="2" />
+	<rune type="rune" pickup="4" achievement="96" description="#ALGIZ_DESCRIPTION" id="39" name="#ALGIZ_NAME" announcer="325" mimiccharge="4" />
+	<rune type="rune" pickup="4" achievement="233" description="#BLANK_RUNE_DESCRIPTION" id="40" name="#BLANK_RUNE_NAME" mimiccharge="3" />
+	<rune type="rune" pickup="7" achievement="309" description="#BLACK_RUNE_DESCRIPTION" id="41" name="#BLACK_RUNE_NAME" announcer="457" announcerdelay="150" mimiccharge="4" />
+	<card type="special" pickup="8" achievement="97" description="#CHAOS_CARD_DESCRIPTION" id="42" name="#CHAOS_CARD_NAME" announcer="334" mimiccharge="6" />
+	<card type="special" pickup="10" achievement="98" description="#CREDIT_CARD_DESCRIPTION" id="43" name="#CREDIT_CARD_NAME" announcer="335" mimiccharge="6" />
+	<card type="special" pickup="2" achievement="99" description="#RULES_CARD_DESCRIPTION" id="44" name="#RULES_CARD_NAME" announcer="361" announcerdelay="30" mimiccharge="1" />
+	<card type="special" pickup="9" achievement="100" description="#A_CARD_AGAINST_HUMANITY_DESCRIPTION" id="45" name="#A_CARD_AGAINST_HUMANITY_NAME" announcer="333" announcerdelay="60" mimiccharge="6" />
+	<card type="special" pickup="2" achievement="120" description="#SUICIDE_KING_DESCRIPTION" id="46" name="#SUICIDE_KING_NAME" announcer="366" announcerdelay="110" mimiccharge="1" />
+	<card type="special" pickup="12" achievement="225" description="#GET_OUT_OF_JAIL_FREE_CARD_DESCRIPTION" id="47" name="#GET_OUT_OF_JAIL_FREE_CARD_NAME" announcer="404" announcerdelay="30" mimiccharge="2" />
+	<card type="special" pickup="2" description="#Q_CARD_DESCRIPTION" id="48" name="#Q_CARD_NAME" announcer="408" announcerdelay="15" mimiccharge="1" />
+	<card type="object" pickup="6" description="#DICE_SHARD_DESCRIPTION" id="49" name="#DICE_SHARD_NAME" announcer="400" announcerdelay="3" mimiccharge="4" />
+	<card type="object" pickup="5" description="#EMERGENCY_CONTACT_DESCRIPTION" id="50" name="#EMERGENCY_CONTACT_NAME" announcer="401" announcerdelay="70" mimiccharge="3" />
+	<card type="special" pickup="11" achievement="293" description="#HOLY_CARD_DESCRIPTION" id="51" name="#HOLY_CARD_NAME" announcer="449" mimiccharge="4" />
+	<!-- Booster Pack #1 -->
+	<card type="special" pickup="8"  announcer="735" achievement="361" description="#HUGE_GROWTH_DESCRIPTION" name="#HUGE_GROWTH_NAME" id="52" mimiccharge="3" />
+	<card type="special" pickup="8"  announcer="733" achievement="362" description="#ANCIENT_RECALL_DESCRIPTION" name="#ANCIENT_RECALL_NAME" id="53" mimiccharge="12" />
+	<card type="special" pickup="8"  announcer="734" achievement="363" description="#ERA_WALK_DESCRIPTION" name="#ERA_WALK_NAME" id="54" mimiccharge="3" />
+	<rune type="rune"    pickup="13" announcer="736" description="#RUNE_SHARD_DESCRIPTION" id="55" name="#RUNE_SHARD_NAME" mimiccharge="1" />
+	
+	<!-- Reverse tarot cards -->
+	<card type="tarot_reverse" pickup="14" achievement="524" announcer="512" announcerdelay="60" description="#THE_FOOL_R_DESCRIPTION" id="56" name="#THE_FOOL_R_NAME" mimiccharge="12" />
+	<card type="tarot_reverse" pickup="14" achievement="525" announcer="513" announcerdelay="0" description="#THE_MAGICIAN_R_DESCRIPTION" id="57" name="#THE_MAGICIAN_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="526" announcer="514" announcerdelay="110" description="#THE_HIGH_PRIESTESS_R_DESCRIPTION" id="58" name="#THE_HIGH_PRIESTESS_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="527" announcer="515" announcerdelay="70" description="#THE_EMPRESS_R_DESCRIPTION" id="59" name="#THE_EMPRESS_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="528" announcer="516" announcerdelay="30" description="#THE_EMPEROR_R_DESCRIPTION" id="60" name="#THE_EMPEROR_R_NAME" greedmode="false" mimiccharge="2" />
+	<card type="tarot_reverse" pickup="14" achievement="529" announcer="517" announcerdelay="70" description="#THE_HIEROPHANT_R_DESCRIPTION" id="61" name="#THE_HIEROPHANT_R_NAME" mimiccharge="12" />
+	<card type="tarot_reverse" pickup="14" achievement="530" announcer="518" announcerdelay="60" description="#THE_LOVERS_R_DESCRIPTION" id="62" name="#THE_LOVERS_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="531" announcer="519" announcerdelay="0" description="#THE_CHARIOT_R_DESCRIPTION" id="63" name="#THE_CHARIOT_R_NAME" mimiccharge="2" />
+	<card type="tarot_reverse" pickup="14" achievement="532" announcer="520" announcerdelay="0" description="#JUSTICE_R_DESCRIPTION" id="64" name="#JUSTICE_R_NAME" mimiccharge="12" />
+	<card type="tarot_reverse" pickup="14" achievement="533" announcer="521" announcerdelay="60" description="#THE_HERMIT_R_DESCRIPTION" id="65" name="#THE_HERMIT_R_NAME" mimiccharge="2" />
+	<card type="tarot_reverse" pickup="14" achievement="534" announcer="522" announcerdelay="60" description="#WHEEL_OF_FORTUNE_R_DESCRIPTION" id="66" name="#WHEEL_OF_FORTUNE_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="535" announcer="523" announcerdelay="0" description="#STRENGTH_R_DESCRIPTION" id="67" name="#STRENGTH_R_NAME" mimiccharge="3" />
+	<card type="tarot_reverse" pickup="14" achievement="536" announcer="524" announcerdelay="0" description="#THE_HANGED_MAN_R_DESCRIPTION" id="68" name="#THE_HANGED_MAN_R_NAME" mimiccharge="6" />
+	<card type="tarot_reverse" pickup="14" achievement="537" announcer="525" announcerdelay="0" description="#DEATH_R_DESCRIPTION" id="69" name="#DEATH_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="538" announcer="526" announcerdelay="120" description="#TEMPERANCE_R_DESCRIPTION" id="70" name="#TEMPERANCE_R_NAME" mimiccharge="6" />
+	<card type="tarot_reverse" pickup="14" achievement="539" announcer="527" announcerdelay="70" description="#THE_DEVIL_R_DESCRIPTION" id="71" name="#THE_DEVIL_R_NAME" mimiccharge="4" />
+	<card type="tarot_reverse" pickup="14" achievement="540" announcer="528" announcerdelay="110" description="#THE_TOWER_R_DESCRIPTION" id="72" name="#THE_TOWER_R_NAME" mimiccharge="3" />
+	<card type="tarot_reverse" pickup="14" achievement="541" announcer="529" announcerdelay="0" description="#THE_STARS_R_DESCRIPTION" id="73" name="#THE_STARS_R_NAME" mimiccharge="12" />
+	<card type="tarot_reverse" pickup="14" achievement="542" announcer="530" announcerdelay="0" description="#THE_MOON_R_DESCRIPTION" id="74" name="#THE_MOON_R_NAME" greedmode="false" mimiccharge="2" />
+	<card type="tarot_reverse" pickup="14" achievement="542" announcer="531" announcerdelay="0" description="#THE_SUN_R_DESCRIPTION" id="75" name="#THE_SUN_R_NAME" mimiccharge="6" />
+	<card type="tarot_reverse" pickup="14" achievement="543" announcer="532" announcerdelay="30" description="#JUDGEMENT_R_DESCRIPTION" id="76" name="#JUDGEMENT_R_NAME" mimiccharge="12" />
+	<card type="tarot_reverse" pickup="14" achievement="544" announcer="533" announcerdelay="30" description="#THE_WORLD_R_DESCRIPTION" id="77" name="#THE_WORLD_R_NAME" mimiccharge="2" />
+	
+	<!-- Misc cards -->
+	<card type="object"  announcer="740" announcerdelay="60" pickup="15" achievement="415" description="#CRACKED_KEY_DESCRIPTION" name="#CRACKED_KEY_NAME" greedmode="false" id="78" mimiccharge="4" />
+	<card type="suit"    announcer="741" announcerdelay="80" pickup="2" achievement="602" description="#QUEEN_OF_HEARTS_DESCRIPTION" id="79" name="#QUEEN_OF_HEARTS_NAME" mimiccharge="12" />
+	<card type="special" announcer="742" announcerdelay="70" pickup="17" achievement="610" description="#WILD_CARD_DESCRIPTION" id="80" name="#WILD_CARD_NAME" mimiccharge="6" />
+	
+	<!-- Soul stones -->
+	<card type="rune" pickup="18" achievement="618" announcer="743" description="#SOUL_OF_ISAAC_DESCRIPTION" id="81" name="#SOUL_OF_ISAAC_NAME" mimiccharge="4" />
+	<card type="rune" pickup="19" achievement="619" announcer="744" description="#SOUL_OF_MAGDALENE_DESCRIPTION" id="82" name="#SOUL_OF_MAGDALENE_NAME" mimiccharge="3" />
+	<card type="rune" pickup="20" achievement="620" announcer="745" description="#SOUL_OF_CAIN_DESCRIPTION" id="83" name="#SOUL_OF_CAIN_NAME" mimiccharge="6" />
+	<card type="rune" pickup="21" achievement="621" announcer="746" description="#SOUL_OF_JUDAS_DESCRIPTION" id="84" name="#SOUL_OF_JUDAS_NAME" mimiccharge="3" />
+	<card type="rune" pickup="22" achievement="622" announcer="747" announcerdelay="110" description="#SOUL_OF_BLUEBABY_DESCRIPTION" id="85" name="#SOUL_OF_BLUEBABY_NAME" mimiccharge="3" />
+	<card type="rune" pickup="23" achievement="623" announcer="748" description="#SOUL_OF_EVE_DESCRIPTION" id="86" name="#SOUL_OF_EVE_NAME" mimiccharge="4" />
+	<card type="rune" pickup="24" achievement="624" announcer="749" description="#SOUL_OF_SAMSON_DESCRIPTION" id="87" name="#SOUL_OF_SAMSON_NAME" mimiccharge="6" />
+	<card type="rune" pickup="25" achievement="625" announcer="750" description="#SOUL_OF_AZAZEL_DESCRIPTION" id="88" name="#SOUL_OF_AZAZEL_NAME" mimiccharge="6" />
+	<card type="rune" pickup="26" achievement="626" announcer="751" announcerdelay="60" description="#SOUL_OF_LAZARUS_DESCRIPTION" id="89" name="#SOUL_OF_LAZARUS_NAME" mimiccharge="1" />
+	<card type="rune" pickup="27" achievement="627" announcer="752" description="#SOUL_OF_EDEN_DESCRIPTION" id="90" name="#SOUL_OF_EDEN_NAME" mimiccharge="4" />
+	<card type="rune" pickup="28" achievement="628" announcer="753" announcerdelay="60" description="#SOUL_OF_THE_LOST_DESCRIPTION" id="91" name="#SOUL_OF_THE_LOST_NAME" mimiccharge="3" />
+	<card type="rune" pickup="29" achievement="629" announcer="754" announcerdelay="30" description="#SOUL_OF_LILITH_DESCRIPTION" id="92" name="#SOUL_OF_LILITH_NAME" mimiccharge="12" />
+	<card type="rune" pickup="30" achievement="630" announcer="755" description="#SOUL_OF_THE_KEEPER_DESCRIPTION" id="93" name="#SOUL_OF_THE_KEEPER_NAME" mimiccharge="12" />
+	<card type="rune" pickup="31" achievement="631" announcer="756" description="#SOUL_OF_APOLLYON_DESCRIPTION" id="94" name="#SOUL_OF_APOLLYON_NAME" mimiccharge="6" />
+	<card type="rune" pickup="32" achievement="632" announcer="757" description="#SOUL_OF_THE_FORGOTTEN_DESCRIPTION" id="95" name="#SOUL_OF_THE_FORGOTTEN_NAME" mimiccharge="4" />
+	<card type="rune" pickup="33" achievement="633" announcer="758" description="#SOUL_OF_BETHANY_DESCRIPTION" id="96" name="#SOUL_OF_BETHANY_NAME" mimiccharge="6" />
+	<card type="rune" pickup="34" achievement="634" announcer="759" description="#SOUL_OF_JACOB_AND_ESAU_DESCRIPTION" id="97" name="#SOUL_OF_JACOB_AND_ESAU_NAME" mimiccharge="4" />
+	
+	<!--
+	Pill classes:
+		3: Major (a permanent effect, usually a stat modifier)
+		2: Medium (an effect with a significant impact, i.e. health or damage)
+		1: Minor (an effect which is only situationally useful)
+		0: Joke (an effect which is nigh useless)
+		
+	Append a + or - at the end to denote a positive or negative effect, no suffix means a neutral effect
+	-->
+	
+	<pilleffect announcer2="760" id="0" name="#BAD_GAS_NAME" announcer="328" class="1+" mimiccharge="1" />
+	<pilleffect announcer2="761" id="1" name="#BAD_TRIP_NAME" announcer="329" announcerdelay="60" class="2-" mimiccharge="2" />
+	<pilleffect announcer2="762" id="2" name="#BALLS_OF_STEEL_NAME" announcer="330" announcerdelay="70" class="2+" mimiccharge="12" />
+	<pilleffect announcer2="763" id="3" name="#BOMBS_ARE_KEY_NAME" announcer="332" announcerdelay="70" class="2" mimiccharge="1" />
+	<pilleffect announcer2="764" id="4" name="#EXPLOSIVE_DIARRHEA_NAME" announcer="339" announcerdelay="30" class="1" mimiccharge="3" />
+	<pilleffect announcer2="765" id="5" name="#FULL_HEALTH_NAME" announcer="340" announcerdelay="70" class="2+" mimiccharge="12" />
+	<pilleffect announcer2="767" id="6" name="#HEALTH_DOWN_NAME" announcer="342" announcerdelay="55" class="3-" mimiccharge="4" />
+	<pilleffect announcer2="766" id="7" name="#HEALTH_UP_NAME" announcer="343" announcerdelay="70" class="3+" mimiccharge="6" />
+	<pilleffect announcer2="768" id="8" name="#I_FOUND_PILLS_NAME" description="#I_FOUND_PILLS_DESCRIPTION" announcer="345" announcerdelay="50" class="0" mimiccharge="1" />
+	<pilleffect announcer2="769" id="9" name="#PUBERTY_NAME" announcer="357" announcerdelay="60" class="0" mimiccharge="1" />
+	<pilleffect announcer2="770" id="10" name="#PRETTY_FLY_NAME" announcer="356" announcerdelay="45" class="2+" mimiccharge="6" />
+	<pilleffect announcer2="771" id="11" name="#RANGE_DOWN_NAME" announcer="359" announcerdelay="60" class="3-" mimiccharge="4" />
+	<pilleffect announcer2="772" id="12" name="#RANGE_UP_NAME" announcer="360" announcerdelay="70" class="3+" mimiccharge="6" />
+	<pilleffect announcer2="773" id="13" name="#SPEED_DOWN_NAME" announcer="363" announcerdelay="60" class="3-" mimiccharge="4" />
+	<pilleffect announcer2="774" id="14" name="#SPEED_UP_NAME" announcer="364" announcerdelay="70" class="3+" mimiccharge="6" />
+	<pilleffect announcer2="775" id="15" name="#TEARS_DOWN_NAME" announcer="367" announcerdelay="60" class="3-" mimiccharge="4" />
+	<pilleffect announcer2="776" id="16" name="#TEARS_UP_NAME" announcer="368" announcerdelay="70" class="3+" mimiccharge="6" />
+	<pilleffect announcer2="777" id="17" name="#LUCK_DOWN_NAME" announcer="351" announcerdelay="60" class="3-" mimiccharge="4" />
+	<pilleffect announcer2="778" id="18" name="#LUCK_UP_NAME" announcer="352" announcerdelay="70" class="3+" mimiccharge="6" />
+	<pilleffect announcer2="779" id="19" name="#TELEPILLS_NAME" greedmode="false" announcer="369" announcerdelay="60" class="1" mimiccharge="1" />
+	<pilleffect announcer2="780" id="20" name="#48_HOUR_ENERGY_NAME" announcer="324" announcerdelay="50" class="2+" mimiccharge="12" />
+	<pilleffect announcer2="781" id="21" name="#HEMATEMESIS_NAME" announcer="344" class="2" mimiccharge="6" />
+	<pilleffect announcer2="782" id="22" name="#PARALYSIS_NAME" announcer="353" class="1-" mimiccharge="6" />
+	<pilleffect announcer2="783" id="23" name="#I_CAN_SEE_FOREVER_NAME" announcer="362" announcerdelay="60" class="2+" mimiccharge="4" />
+	<pilleffect announcer2="784" id="24" name="#PHEROMONES_NAME" announcer="355" announcerdelay="40" class="1+" mimiccharge="2" />
+	<pilleffect announcer2="785" id="25" name="#AMNESIA_NAME" announcer="326" announcerdelay="70" class="2-" mimiccharge="6" />
+	<pilleffect announcer2="786" id="26" name="#LEMON_PARTY_NAME" announcer="350" class="1+" mimiccharge="3" />
+	<pilleffect announcer2="787" id="27" name="#R_U_A_WIZARD_NAME" announcer="358" announcerdelay="60" class="1-" mimiccharge="6" />
+	<pilleffect announcer2="788" achievement="227" id="28" name="#PERCS_NAME" announcer="406" announcerdelay="45" class="1+" mimiccharge="2" />
+	<pilleffect announcer2="789" achievement="227" id="29" name="#ADDICTED_NAME" announcer="399" announcerdelay="40" class="1-" mimiccharge="6" />
+	<pilleffect announcer2="790" achievement="228" id="30" name="#RELAX_NAME" announcer="409" announcerdelay="80" class="0" mimiccharge="2" />
+	<pilleffect announcer2="791" achievement="228" id="31" name="#QUESTION_MARKS_NAME" announcer="412" announcerdelay="60" class="1-" mimiccharge="6" />
+	<pilleffect announcer2="792" id="32" name="#ONE_MAKES_YOU_LARGER_NAME" announcer="405" announcerdelay="1" class="1" mimiccharge="6" />
+	<pilleffect announcer2="793" id="33" name="#ONE_MAKES_YOU_SMALL_NAME" announcer="411" announcerdelay="1" class="1" mimiccharge="6" />
+	<pilleffect announcer2="794" id="34" name="#INFESTED_NAME_1" announcer="402" announcerdelay="30" class="1+" mimiccharge="2" />
+	<pilleffect announcer2="795" id="35" name="#INFESTED_NAME_2" announcer="403" announcerdelay="5" class="1+" mimiccharge="2" />
+	<pilleffect announcer2="796" id="36" name="#POWER_PILL_NAME" announcer="407" announcerdelay="5" class="1+" mimiccharge="3" />
+	<pilleffect announcer2="797" id="37" name="#RETRO_VISION_NAME" announcer="410" announcerdelay="30" class="1-" mimiccharge="6" />
+	<pilleffect announcer2="798" id="38" name="#FRIENDS_TILL_THE_END_NAME" announcer="452" announcerdelay="30" class="1+" mimiccharge="1" />
+	<pilleffect announcer2="799" id="39" name="#XLAX_NAME" announcer="443" announcerdelay="30" class="0-" mimiccharge="1" />
+	<pilleffect announcer2="800" id="40" name="#SOMETHINGS_WRONG_NAME" announcer="444" announcerdelay="30" class="0+" mimiccharge="1" />
+	<pilleffect announcer2="801" id="41" name="#IM_DROWSY_NAME" announcer="454" announcerdelay="30" class="1" mimiccharge="3" />
+	<pilleffect announcer2="802" id="42" name="#IM_EXCITED_NAME" announcer="453" announcerdelay="30" class="1" mimiccharge="6" />
+	<pilleffect announcer2="803" achievement="321" id="43" name="#GULP_NAME" announcer="451" announcerdelay="30" class="2+" mimiccharge="4" />
+	<pilleffect announcer2="804" achievement="325" id="44" name="#HORF_NAME" announcer="448" announcerdelay="70" class="0" mimiccharge="1" />
+	<pilleffect announcer2="805" achievement="324" id="45" name="#FEELS_LIKE_IM_WALKING_ON_SUNSHINE_NAME" announcer="446" announcerdelay="30" class="1+" mimiccharge="1" />
+	<pilleffect announcer2="806" achievement="330" id="46" name="#VURP_NAME" announcer="445" announcerdelay="60" class="2+" mimiccharge="6" />
+<!-- REPENTANCE BEGIN -->
+	<pilleffect id="47" announcer="737" announcer2="807" announcerdelay="55" name="#SHOT_SPEED_DOWN_NAME" class="1-" mimiccharge="4" />
+	<pilleffect id="48" announcer="738" announcer2="808" announcerdelay="70" name="#SHOT_SPEED_UP_NAME" class="1+" mimiccharge="6" />
+	<pilleffect id="49" announcer="739" announcer2="809" announcerdelay="70" name="#EXPERIMENTAL_PILL_NAME" class="3" mimiccharge="3" />
+<!-- REPENTANCE END -->
+</pocketitems>

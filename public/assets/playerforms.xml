@@ -1,0 +1,17 @@
+<playerforms>
+	<form id="0" name="#TRANSFORMATION_GUPPY" costume="5" tags="guppy" cache="flying tearflag" />
+	<form id="1" name="#TRANSFORMATION_BEELZEBUB" costume="3" tags="fly" cache="flying" />
+	<form id="2" name="#TRANSFORMATION_FUN_GUY" costume="20" tags="mushroom" />
+	<form id="3" name="#TRANSFORMATION_SERAPHIM" costume="21" tags="angel" cache="flying" />
+	<form id="4" name="#TRANSFORMATION_BOB" costume="22" tags="bob" />
+	<form id="5" name="#TRANSFORMATION_SPUN" costume="23" tags="syringe" cache="speed damage" />
+	<form id="6" name="#TRANSFORMATION_YES_MOTHER" costume="24" tags="mom" />
+	<form id="7" name="#TRANSFORMATION_CONJOINED" costume="25" tags="baby" cache="firedelay damage" />
+	<form id="8" name="#TRANSFORMATION_LEVIATHAN" costume="26" tags="devil" cache="flying" />
+	<form id="9" name="#TRANSFORMATION_OH_CRAP" costume="27" tags="poop" />
+	<form id="10" name="#TRANSFORMATION_BOOK_WORM" costume="37" tags="book" />
+	<form id="11" name="#TRANSFORMATION_ADULT" costume="38" />
+	<form id="12" name="#TRANSFORMATION_SPIDER_BABY" costume="39" tags="spider" cache="familiars" />
+	<form id="13" name="#TRANSFORMATION_STOMPY" />
+	<!-- <form id="14" name="#UNUSED_Transform_Flight" /> -->
+</playerforms>

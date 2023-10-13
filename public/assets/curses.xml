@@ -1,0 +1,10 @@
+<curses>
+	<curse id="1" name="#CURSE_OF_DARKNESS_NAME" />
+	<curse id="2" name="#CURSE_OF_THE_LABYRINTH_NAME" />
+	<curse id="3" name="#CURSE_OF_THE_LOST_NAME" />
+	<curse id="4" name="#CURSE_OF_THE_UNKNOWN_NAME" />
+	<curse id="5" name="#CURSE_OF_THE_CURSED_NAME" />
+	<curse id="6" name="#CURSE_OF_THE_MAZE_NAME" />
+	<curse id="7" name="#CURSE_OF_THE_BLIND_NAME" />
+	<curse id="8" name="#CURSE_OF_THE_GIANT_NAME" />
+</curses>

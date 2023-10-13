@@ -1,0 +1,80 @@
+<!--
+	Challenge Format:
+* name = challenge name
+* id = challenge id
+* startingitems = comma separated (nospace) item ids that will be added at the start
+* startingtrinkets = comma separated (nospace) trinket ids that will be added at the start (max 2)
+* startingpill = effect id of the starting pill (-1 for no pill | default)
+* startingcard = card id of the starting card (can include runes) (-1 for random tarot card, 0 for no card | default)
+* playertype = player type id for player type to start with (0 for Isaac | default)
+* endstage = the last stage of the challenge (use eLevelStage ids)
+* roomfilter = list of room ids to not be generated in challenge [Not all room ids can be used] (NORMAL - 1, Shop - 2, Error - 3, Treasure - 4, Boss - 5, Miniboss - 6, Secret - 7, SuperSecret - 8, Arcade - 9, Curse - 10, Challenge - 11, Library - 12, Sacrifice - 13, Devil - 14, Angel - 15, Dungeon - 16, Bossrush - 17, Isaacs - 18, Barren - 19, Chest - 20, Dice - 21, BMarket - 22).
+* cursefilter = bitmask for curses to be removed (Darkness = 1, Labyrinth = 2, Lost = 4, Unknown = 8, Cursed = 16)
+* getcurse = bitmask for curses to be forced (Same id's as curse filter)
+* achievements = list of achievement ids that are required to be able to play the challenge
+* altpath = alternative floor for light/dark path (isaac/satan)
+* canshoot = determines if player can shoot (true | default)
+* redhp = add red hp
+* maxhp = add hp container
+* soulhp = add soul hp
+* blackhp = add black hp
+* coins = add coins
+* maxdamage = maximal damage or more (clamps at min 100)
+* adddamage = + damage up
+* minfirerate = minimal fire rate or more
+* minshotspeed = minimal shot speed or less
+* bigrange = big range
+* difficulty = game difficulty (0 - normal | default, 1 - hard)
+* megasatan = last boss is megasatan
+* secretpath = force Repentance alt path
+-->
+<challenges version="1">
+	<challenge name="Pitch Black" id="1" endstage="6" roomfilter="2" cursefilter="6" getcurse="9" />
+	<challenge name="High Brow" id="2" startingitems="209,6,236,291" startingtrinkets="2" endstage="6" roomfilter="4" />
+	<challenge name="Head Trauma" id="3" startingitems="233,330,201,90" endstage="6" roomfilter="4" />
+	<challenge name="Darkness Falls" id="4" startingitems="126,259,51,172" endstage="10" roomfilter="4" playertype="5" achievements="42,34,53" altpath="false"/>
+	<challenge name="The Tank" id="5" startingitems="314,129,242" endstage="6" roomfilter="4" playertype="1" achievements="1" />
+	<challenge name="Solar System" id="6" startingitems="57,128,10,20" endstage="8" roomfilter="4" achievements="8" canshoot="false"  />
+	<challenge name="Suicide King" id="7" startingitems="149,5,106" endstage="10" roomfilter="4" altpath="true" playertype="8" achievements="80,34" />
+	<challenge name="Cat Got Your Tongue" id="8" startingitems="134,145,187" endstage="6" roomfilter="4" achievements="65" soulhp="6" blackhp="6" canshoot="false" />
+	<challenge name="Demo Man" id="9" startingitems="52,137" startingtrinkets="41" endstage="8" roomfilter="4" achievements="11" />
+	<challenge name="Cursed!" id="10" startingitems="54,21,246,16" startingtrinkets="34" endstage="6" getcurse="16" playertype="1" achievements="1" />
+	<challenge name="Glass Cannon" id="11" startingitems="168,87" endstage="10" roomfilter="4" achievements="15,62,34,3" altpath="false" playertype="3" />
+	<challenge name="When Life Gives You Lemons" id="12" startingitems="56,156,116" startingpill="26" endstage="6" roomfilter="4" />
+	<challenge name="BEANS!" id="13" startingitems="209,190,180,111,116" endstage="6" roomfilter="4" canshoot="false" />
+	<challenge name="Its In The Cards" id="14" startingitems="251,85,116,63" startingcard="-1" endstage="6" roomfilter="4" />
+	<challenge name="Slow Roll" id="15" startingitems="169,48,5" endstage="6" roomfilter="4" maxdamage="true" minfirerate="60.0" minshotspeed="true" />
+	<challenge name="Computer Savy" id="16" startingitems="68,152,3" endstage="6" roomfilter="4" />
+	<challenge name="WAKA WAKA" id="17" startingitems="315,222" endstage="6" roomfilter="4" />
+	<challenge name="The Host" id="18" startingitems="151,211" startingtrinkets="53" endstage="6" roomfilter="4" />
+	<challenge name="The Family Man" id="19" startingitems="175,67,8,268,247" endstage="10" roomfilter="4" canshoot="false" altpath="true" achievements="34,58" />
+	<challenge name="Purist" id="20" endstage="8" roomfilter="4" achievements="4" />
+	
+	<challenge name="XXXXXXXXL" id="21" endstage="8" achievements="4" />
+	<challenge name="SPEED!" id="22" endstage="8" achievements="4" />
+	<challenge name="Blue Bomber" id="23" endstage="10" altpath="false" startingitems="40,106,223,8" roomfilter="4" playertype="4" canshoot="false" achievements="28,34" />
+	<challenge name="PAY TO PLAY" id="24" endstage="10" altpath="true" startingitems="94,109" roomfilter="4" coins="50" achievements="28,21" />
+	<challenge name="Have a heart" id="25" endstage="8" startingitems="62" maxhp="18" redhp="-4" achievements="4" />
+	<challenge name="I RULE!" id="26" endstage="12" roomfilter="4" startingitems="114,243,338,60" difficulty="1" megasatan="true" achievements="43,78,340" />
+	<challenge name="BRAINS!" id="27" endstage="11" altpath="true" roomfilter="4" startingitems="273,273,273,314" playertype="4" canshoot="false" achievements="57" />
+	<challenge name="PRIDE DAY!" id="28" endstage="8" roomfilter="4" startingitems="174,191" startingtrinkets="64" achievements="4" />
+	<challenge name="Onan's Streak" id="29" endstage="10" altpath="true" startingitems="69" playertype="3" achievements="34,3" adddamage="2" />
+	<challenge name="The Guardian" id="30" endstage="8" roomfilter="4" achievements="4" startingitems="281,276,184,400" canshoot="false"/>
+	
+	<challenge name="Backasswards" id="31" endstage="12" roomfilter="4" cursefilter="2" megasatan="true" maxhp="14" redhp="14" achievements="78,340" />
+	<challenge name="Aprils fool" id="32" endstage="8" achievements="4" />
+	<challenge name="Pokey mans" id="33" endstage="10" roomfilter="4" altpath="true" startingitems="200,382" achievements="34"/>
+	<challenge name="Ultra hard" id="34" endstage="12" megasatan="true" getcurse="102" achievements="78,340" />
+	<challenge name="PONG" id="35" endstage="11" altpath="true" roomfilter="4" startingitems="48,221" maxdamage="true" minfirerate="150" bigrange="true" achievements="57"/>
+	
+	<challenge name="Scat Man" id="36" startingitems="116,9,36,236,209,209,209,247,314,576" startingtrinkets="25" endstage="6" roomfilter="4" canshoot="false" />
+	<challenge name="Bloody Mary" id="37" playertype="18" endstage="10" altpath="false" startingitems="-584,34,119,214,569" startingtrinkets="34" roomfilter="4" achievements="34,147,404" />
+	<challenge name="Baptism by Fire" id="38" playertype="18" endstage="10" altpath="true" startingitems="-584,534,133,640" startingtrinkets="55" roomfilter="4" canshoot="false" achievements="34,71,404,418" />
+	<challenge name="Isaac's Awakening" id="39" endstage="8" altpath="false" startingitems="579,604,243" roomfilter="4" achievements="405" secretpath="true" />
+	<challenge name="Seeing Double" id="40" playertype="19" endstage="8" altpath="false" startingitems="245" startingitems2="245,76" achievements="405" />
+	<challenge name="Pica Run" id="41" achievements="34,386" endstage="10" startingitems="139,538,439" altpath="true" />
+	<challenge name="Hot Potato" id="42" achievements="488" endstage="10" altpath="false" roomfilter="4" playertype="35" canshoot="false" />
+	<challenge name="Cantripped!" id="43" achievements="476" endstage="6" altpath="false" roomfilter="4" playertype="23" />
+	<challenge name="Red Redemption" id="44" endstage="8" playertype="37" achievements="490 415" startingitems="175" secretpath="true" />
+	<challenge name="" id="45" endstage="11" altpath="true" achievements="483" startingitems="721" />
+</challenges>

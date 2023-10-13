@@ -1,0 +1,935 @@
+<achievements gfxroot="gfx/ui/achievement/">
+	<!-- have 7 or more max red hearts at one time -->
+	<achievement id="1" text='You unlocked "Magdalene"' gfx="Achievement_Magdalene.png" />
+	<!-- hold 55 pennies at one time -->
+	<achievement id="2" text='You unlocked "Cain"' gfx="Achievement_Cain.png" />
+	<!-- kill Satan for the 1st time -->
+	<achievement id="3" text='You unlocked "Judas"' gfx="Achievement_Judas.png" />
+	<!-- beat Mom for the 1st time -->
+	<achievement id="4" text='You unlocked "The Womb" -Chapter 4- Mother sleeps' gfx="Achievement_TheWomb.png" />
+	<!-- beat Mom for the 1st time -->
+	<achievement id="5" text='You unlocked "The Harbingers" The Horsemen are loose' gfx="Achievement_Harbingers.png" />
+	<!-- beat Mom for the 1st time -->
+	<achievement id="6" text='"A Cube of Meat" has appeared in the basement' gfx="Achievement_CubeOfMeat.png" />
+	<!-- beat a horseman for the 1st time -->
+	<achievement id="7" text='"The Book of Revelations" has appeared in the basement' gfx="Achievement_BookOfRevelations.png" />
+	<!-- beat Mom's Heart 3 times (A Noose = Transcendence) -->
+	<achievement id="8" text='"A Noose" has appeared in the basement' gfx="Achievement_Transcendence.png" />
+	<!-- beat Boss Rush with Demon Isaac -->
+	<achievement id="9" text='"The Nail" has appeared in the basement' gfx="Achievement_TheNail.png" />
+	<!-- beat Mom's Heart 8 times -->
+	<achievement id="10" text='"A Quarter" has appeared in the basement' gfx="Achievement_AQuarter.png" />
+	<!-- beat Mom's Heart 9 times (A Fetus in a Jar = Dr. Fetus) -->
+	<achievement id="11" text='"A Fetus in a Jar" has appeared in the basement' gfx="Achievement_AFetusInAJar.png" />
+	<!-- Destroy 100 tinted rocks -->
+	<achievement id="12" text='"A Small Rock" has appeared in the basement' gfx="Achievement_ASmallRock.png" />
+	<!-- beat Basement II for the 1st time -->
+	<achievement id="13" text='"Monstro&apos;s Tooth" has appeared in the basement' gfx="Achievement_MonstrosTooth.png" />
+	<!-- beat Caves II for the 1st time -->
+	<achievement id="14" text='"Lil Chubby" has appeared in the basement' gfx="Achievement_LilChubby.png" />
+	<!-- beat Lokii for the 1st time -->
+	<achievement id="15" text='"Loki&apos;s Horns" has appeared in the basement' gfx="Achievement_LokisHorns.png" />
+	<!-- beat the basement 40 times (Steven) -->
+	<achievement id="16" text='You unlocked "Something From The Future!" in the basement' gfx="Achievement_Steven.png" />
+	<!-- beat the caves 30 times (C.H.A.D.) -->
+	<achievement id="17" text='You unlocked "Something Cute" in the caves' gfx="Achievement_CHAD.png" />
+	<!-- beat the depths 20 times (Gish) -->
+	<achievement id="18" text='You unlocked "Something Sticky" in the depths' gfx="Achievement_Gishy.png" />
+	<!-- make a super bandage girl (A Bandage = Super Bandage) -->
+	<achievement id="19" text='"A Bandage" has appeared in the basement' gfx="Achievement_SuperBandageGirl.png" />
+	<!-- kill Isaac with Maggy (A Cross = Relic) -->
+	<achievement id="20" text='"A Cross" has appeared in the basement' gfx="Achievement_TheRelic.png" />
+	<!-- kill Isaac with Cain -->
+	<achievement id="21" text='"A Bag of Pennies" has appeared in the basement' gfx="Achievement_CoinBag.png" />
+	<!-- kill all 7 sins -->
+	<achievement id="22" text='"The Book of Sin" has appeared in the basement' gfx="Achievement_BookOfSin.png" />
+	<!-- kill Gish -->
+	<achievement id="23" text='"Little Gish" has appeared in the basement' gfx="Achievement_LittleGish.png" />
+	<!-- kill Steven -->
+	<achievement id="24" text='"Little Steven" has appeared in the basement' gfx="Achievement_LittleSteven.png" />
+	<!-- kill C.H.A.D. -->
+	<achievement id="25" text='"Little C.H.A.D." has appeared in the basement' gfx="Achievement_LittleChad.png" />
+	<!-- visit 10 arcades -->
+	<achievement id="26" text='"A Gamekid" has appeared in the basement' gfx="Achievement_GameKid.png" />
+	<!-- kill Mom using the bible -->
+	<achievement id="27" text='"A Halo" has appeared in the basement' gfx="Achievement_TheHalo.png" />
+	<!-- destroy 10 tinted rocks -->
+	<achievement id="28" text='"Mr. Mega!" has appeared in the basement' gfx="Achievement_MrMega.png" />
+	<!-- Kill Isaac with ??? -->
+	<achievement id="29" text='Isaac now holds... "The D6"' gfx="Achievement_D6.png" />
+	<!-- die 100 times -->
+	<achievement id="30" text='"The Scissors" has appeared in the basement' gfx="Achievement_Scissors.png" />
+	<!-- collect 2 of Bob's Rotten Head, Dead Cat, Max's Head, Tammy's Head -->
+	<achievement id="31" text='"The Parasite" has appeared in the basement' gfx="Achievement_TheParasite.png" />
+	<!-- beat Mom's Heart 10 times -->
+	<achievement id="32" text='You unlocked "???"' gfx="Achievement_Bluebaby.png" />
+	<!-- beat Mom's Heart 5 times -->
+	<achievement id="33" text='Everything is Terrible!!! The game just got harder!' gfx="Achievement_EverythingIsTerrible.png" />
+	<!-- beat Mom's Heart 11 times -->
+	<achievement id="34" text='"It Lives!" Your futures past waits' gfx="Achievement_ItLives.png" />
+	<!-- become mom (collect 3 mom items in one playthrough) -->
+	<achievement id="35" text='"Mom&apos;s Contact" has appeared in the basement' gfx="Achievement_MomsContact.png" />
+	<!-- use the Death Card 4 times -->
+	<achievement id="36" text='"The Necronomicon" has appeared in the basement' gfx="Achievement_Necronomicon.png" />
+	<!-- beat the Basement/Cellar without taking damage -->
+	<achievement id="37" text='"Basement Boy" achieved' gfx="Achievement_BasementBoy.png" />
+	<!-- beat the Caves/Catacombs without taking damage -->
+	<achievement id="38" text='"Spelunker Boy" achieved' gfx="Achievement_SpelunkerBoy.png" />
+	<!-- beat the Depths/Necropolis without taking damage -->
+	<achievement id="39" text='"Dark Boy" achieved' gfx="Achievement_DarkBoy.png" />
+	<!-- beat the Womb/Utero without taking damage -->
+	<achievement id="40" text='"Mamas Boy" achieved' gfx="Achievement_MamasBoy.png" />
+	<!-- beat ??? and Lamb -->
+	<achievement id="41" text='"Golden God!" achieved' gfx="Achievement_GoldenGod.png" />
+	<!-- don't pick up any hearts for 2 levels in a row -->
+	<achievement id="42" text='You unlocked "Eve"' gfx="Achievement_Eve.png" />
+	<!-- kill Satan with Isaac -->
+	<achievement id="43" text='"Mom&apos;s Knife" has appeared in the basement' gfx="Achievement_MomsKnife.png" />
+	<!-- kill Satan with Eve -->
+	<achievement id="44" text='"The Razor" has appeared in the basement' gfx="Achievement_TheRazor.png" />
+	<!-- kill Satan with Maggy -->
+	<achievement id="45" text='"Guardian Angel" has appeared in the basement' gfx="Achievement_GuardianAngel.png" />
+	<!-- kill Satan with Cain -->
+	<achievement id="46" text='"A Bag of Bombs" has appeared in the basement' gfx="Achievement_BombBag.png" />
+	<!-- beat Dark Room with Demon Isaac -->
+	<achievement id="47" text='"A Demon Baby!" has appeared in the basement' gfx="Achievement_DemonBaby.png" />
+	<!-- kill Satan with ??? -->
+	<achievement id="48" text='"A Forget Me Now" has appeared in the basement' gfx="Achievement_ForgetMeNow.png" />
+	<!-- beat The Chest with Isaac -->
+	<achievement id="49" text='"The D20" has appeared in the basement' gfx="Achievement_D20.png" />
+	<!-- beat The Chest with Maggy (Crucifix = Celtic Cross) -->
+	<achievement id="50" text='"The Crucifix" has appeared in the basement' gfx="Achievement_CelticCross.png" />
+	<!-- beat Dark Room with Cain -->
+	<achievement id="51" text='"Abel" has appeared in the basement' gfx="Achievement_Abel.png" />
+	<!-- beat Dark Room with Judas -->
+	<achievement id="52" text='"Curved Horn" has appeared in the basement' gfx="Achievement_CurvedHorn.png" />
+	<!-- beat Chest with Eve -->
+	<achievement id="53" text='"Sacrificial Dagger" has appeared in the basement' gfx="Achievement_SacrificialKnife.png" />
+	<!-- kill Isaac with Samson -->
+	<achievement id="54" text='"Blood Lust" has appeared in the basement' gfx="Achievement_BloodyLust.png" />
+	<!-- beat Chest with Samson -->
+	<achievement id="55" text='"Blood Penny" has appeared in the basement' gfx="Achievement_BloodyPenny.png" />
+	<!-- kill Satan with Samson -->
+	<achievement id="56" text='"Blood Rights" has appeared in the basement' gfx="Achievement_BloodRights.png" />
+	<!-- beat the cathedral 5 times -->
+	<achievement id="57" text='"The Polaroid" has appeared in the basement' gfx="Achievement_ThePolaroid.png" />
+	<!-- collect a golden key -->
+	<achievement id="58" text='"Dad&apos;s Key" has appeared in the basement' gfx="Achievement_DadsKey.png" />
+	<!-- donate 900 pennies to the store (blue candle) -->
+	<achievement id="59" text='"The Blue Candle" has appeared in the basement' gfx="Achievement_BlueCandle.png" />
+	<!-- beat Challenge #13 -->
+	<achievement id="60" text='"Burnt Penny" has appeared in the basement' gfx="Achievement_BurntPenny.png" />
+	<!-- Blow up 20 shop keepers -->
+	<achievement id="61" text='"Lucky Toe!" has appeared in the basement' gfx="Achievement_LuckyToe.png" />
+	<!-- Beat Challenge #19 -->
+	<achievement id="62" text='"Epic Fetus" has appeared in the basement' gfx="Achievement_EpicFetus.png" />
+	<!-- Beat Challenge #14 -->
+	<achievement id="63" text='"SMB Super Fan" has appeared in the basement' gfx="Achievement_SuperFan.png" />
+	<!-- Play the shell game 100 times -->
+	<achievement id="64" text='"Counterfeit Coin" has appeared in the basement' gfx="Achievement_CounterfeitPenny.png" />
+	<!-- Become Guppy -->
+	<achievement id="65" text='"Guppy&apos;s Hairball" has appeared in the basement' gfx="Achievement_GuppysHairball.png" />
+	<!-- take 10 items from Angel rooms -->
+	<achievement id="66" text='You unlocked "A Forgotten Horsemen" in the basement' gfx="Achievement_Conquest.png" />
+	<!-- beat 2 levels in a row without taking damage -->
+	<achievement id="67" text='You unlocked "Samson"' gfx="Achievement_Samson.png" />
+	<!-- beat Cathedral 10 times -->
+	<achievement id="68" text='You unlocked "Something Icky!" in the basement' gfx="Achievement_Triachnid.png" />
+	<!-- collect all items in the game and unlock all secrets and endings minus "the soul" and its 5 unlockable items -->
+	<achievement id="69" text='!Platinum God! OMG!' gfx="Achievement_PlatinumGod.png" />
+	<!-- beat Boss Rush with Isaac -->
+	<achievement id="70" text='"Isaac&apos;s Head" has appeared in the basement' gfx="Achievement_IsaacsHead.png" />
+	<!-- beat Dark Room with Maggy -->
+	<achievement id="71" text='"Maggy&apos;s Faith" has appeared in the basement' gfx="Achievement_MaggysFaith.png" />
+	<!-- kill Satan with Judas -->
+	<achievement id="72" text='"Judas&apos; Tongue" has appeared in the basement' gfx="Achievement_JudasTongue.png" />
+	<!-- beat Dark Room with ??? -->
+	<achievement id="73" text='"???&apos;s Soul" has appeared in the basement' gfx="Achievement_BlueBabysSoul.png" />
+	<!-- beat Dark Room with Samson -->
+	<achievement id="74" text='"Samson&apos;s Lock" has appeared in the basement' gfx="Achievement_SamsonsLock.png" />
+	<!-- beat Chest with Cain -->
+	<achievement id="75" text='"Cain&apos;s Eye" has appeared in the basement' gfx="Achievement_CainsEye.png" />
+	<!-- kill Isaac with Eve -->
+	<achievement id="76" text='"Eve&apos;s Bird Foot" has appeared in the basement' gfx="Achievement_EvesBirdFoot.png" />
+	<!-- beat Chest with Judas -->
+	<achievement id="77" text='"The Left Hand" has appeared in the basement' gfx="Achievement_TheLeftHand.png" />
+	<!-- beat Sheol 5 times -->
+	<achievement id="78" text='"The Negative" has appeared in the basement' gfx="Achievement_TheNegative.png" />
+	<!-- make 3 deals with the devil in one run -->
+	<achievement id="79" text='You unlocked "Demon Isaac"' gfx="Achievement_Azazel.png" />
+	<!-- have 4 or more soul hearts at one time -->
+	<achievement id="80" text='You unlocked "Lazarus"' gfx="Achievement_Lazarus.png" />
+	<!-- beat the womb for the 1st time -->
+	<achievement id="81" text='You unlocked "Eden"' gfx="Achievement_Eden.png" />
+	<!-- finish the game's final secret -->
+	<achievement id="82" text='You unlocked "The Soul"' gfx="Achievement_thelost.png" />
+	<!-- beat the Chest or Dark Room without taking damage -->
+	<achievement id="83" text='"Dead Boy" achieved' gfx="Achievement_DeadBoy.png" />
+	<!-- 100% of the game (unlock every item) -->
+	<achievement id="84" text='The Real Platinum God' gfx="Achievement_RealPlatinumGod.png" />
+	<!-- destroy 100 rocks -->
+	<achievement id="85" text='"Lucky Rock" has appeared in the basement' gfx="Achievement_LuckyRock.png" />
+	<!-- Beat all possible bosses in the basement -->
+	<achievement id="86" text='The Cellar' gfx="Achievement_TheCellar.png" />
+	<!-- Beat all possible bosses in the caves -->
+	<achievement id="87" text='The Catacombs' gfx="Achievement_TheCatacombs.png" />
+	<!-- Beat all possible bosses in the depths -->
+	<achievement id="88" text='The Necropolis' gfx="Achievement_Necropolis.png" />
+	<!-- Beat Challenge #1 -->
+	<achievement id="89" text='"Rune of Hagalaz" has appeared in the basement' gfx="Achievement_RuneOfHagalaz.png" />
+	<!-- Beat Challenge #2 -->
+	<achievement id="90" text='"Rune of Jera" has appeared in the basement' gfx="Achievement_RuneOfJera.png" />
+	<!-- Beat Challenge #3 -->
+	<achievement id="91" text='"Rune of Ehwaz" has appeared in the basement' gfx="Achievement_RuneOfEhwaz.png" />
+	<!-- Beat Challenge #4 -->
+	<achievement id="92" text='"Rune of Dagaz" has appeared in the basement' gfx="Achievement_RuneOfDagaz.png" />
+	<!-- Beat Challenge #5 -->
+	<achievement id="93" text='"Rune of Ansuz" has appeared in the basement' gfx="Achievement_RuneOfAnsuz.png" />
+	<!-- Beat Challenge #6 -->
+	<achievement id="94" text='"Rune of Perthro" has appeared in the basement' gfx="Achievement_RuneOfPerthro.png" />
+	<!-- Beat Challenge #7 -->
+	<achievement id="95" text='"Rune of Berkano" has appeared in the basement' gfx="Achievement_RuneOfBerkano.png"/>
+	<!-- Beat Challenge #8 -->
+	<achievement id="96" text='"Rune of Algiz" has appeared in the basement' gfx="Achievement_RuneOfAlgiz.png" />
+	<!-- Beat Challenge #9 -->
+	<achievement id="97" text='"Chaos Card" has appeared in the basement' gfx="Achievement_TheChaosCard.png" />
+	<!-- Beat Challenge #10 -->
+	<achievement id="98" text='"Credit Card" has appeared in the basement' gfx="Achievement_CreditCard.png" />
+	<!-- Beat Challenge #11 -->
+	<achievement id="99" text='"Rules Card" has appeared in the basement' gfx="Achievement_RulesCard.png" />
+	<!-- Beat Challenge #12 -->
+	<achievement id="100" text='"Card Against Humanity" has appeared in the basement' gfx="Achievement_CardAgainstHumanity.png" />
+	<!-- Beat Challenge #15 -->
+	<achievement id="101" text='"Swallowed Penny" has appeared in the basement' gfx="Achievement_SwallowedPenny.png" />
+	<!-- Beat Challenge #16 -->
+	<achievement id="102" text='"Robo Baby 2.0" has appeared in the basement' gfx="Achievement_Robobaby20.png" />
+	<!-- Beat Challenge #17 -->
+	<achievement id="103" text='"Death&apos;s Touch" has appeared in the basement' gfx="Achievement_DeathsTouch.png" />
+	<!-- Beat Challenge #18 -->
+	<achievement id="104" text='"Technology .5" has appeared in the basement' gfx="Achievement_Tech5.png" />
+	<!-- Beat Challenge #20 -->
+	<achievement id="105" text='"Missing No." has appeared in the basement' gfx="Achievement_MissingNo.png" />
+	<!-- Kill Isaac with Isaac -->
+	<achievement id="106" text='"Isaac&apos;s Tears" has appeared in the basement' gfx="Achievement_IsaacsTears.png" />
+	<!-- Kill Isaac with Judas -->
+	<achievement id="107" text='"Guillotine" has appeared in the basement' gfx="Achievement_Guillotine.png" />
+	<!-- beat Boss Rush with Judas -->
+	<achievement id="108" text='"Judas&apos; Shadow" has appeared in the basement' gfx="Achievement_JudasShadow.png" />
+	<!-- beat Boss Rush with Maggy -->
+	<achievement id="109" text='"Maggy&apos;s Bow" has appeared in the basement' gfx="Achievement_MaggysBow.png" />
+	<!-- beat Boss Rush with Cain -->
+	<achievement id="110" text='"Cain&apos;s Other Eye" has appeared in the basement' gfx="Achievement_CainsOtherEye.png" />
+	<!-- beat Dark Room with Eve -->
+	<achievement id="111" text='"Black Lipstick" has appeared in the basement' gfx="Achievement_BlackLipstick.png" />
+	<!-- beat Boss Rush with Eve -->
+	<achievement id="112" text='"Eve&apos;s Mascara" has appeared in the basement' gfx="Achievement_EvesMascara.png" />
+	<!-- beat Chest with ??? -->
+	<achievement id="113" text='"Fate" has appeared in the basement' gfx="Achievement_Fate.png" />
+	<!-- beat Boss Rush with ??? -->
+	<achievement id="114" text='"???&apos;s Only Friend" has appeared in the basement' gfx="Achievement_BlueBabysOnlyFriend.png" />
+	<!-- beat Boss Rush with Samson -->
+	<achievement id="115" text='"Samson&apos;s Chains" has appeared in the basement' gfx="Achievement_SamsonsChains.png" />
+	<!-- kill Isaac with Lazarus -->
+	<achievement id="116" text='"Lazarus&apos; Rags" has appeared in the basement' gfx="Achievement_LazarusRags.png" />
+	<!-- kill Satan with Lazarus -->
+	<achievement id="117" text='"Broken Ankh" has appeared in the basement' gfx="Achievement_BrokenAnkh.png" />
+	<!-- beat Chest with Lazarus -->
+	<achievement id="118" text='"Store Credit" has appeared in the basement' gfx="Achievement_StoreCredit.png" />
+	<!-- beat Dark Room with Lazarus -->
+	<achievement id="119" text='"Pandora&apos;s Box" has appeared in the basement' gfx="Achievement_PandorasBox.png" />
+	<!-- beat Boss Rush with Lazarus -->
+	<achievement id="120" text='"Suicide King" has appeared in the basement' gfx="Achievement_SuicideKing.png" />
+	<!-- kill Isaac with Eden -->
+	<achievement id="121" text='"Blank Card" has appeared in the basement' gfx="Achievement_BlankCard.png" />
+	<!-- kill Satan with Eden -->
+	<achievement id="122" text='"Book of Secrets" has appeared in the basement' gfx="Achievement_BookOfSecrets.png" />
+	<!-- beat Chest with Eden -->
+	<achievement id="123" text='"Mysterious Paper" has appeared in the basement' gfx="Achievement_MysteriousPaper.png" />
+	<!-- beat Dark Room with Eden -->
+	<achievement id="124" text='"Mystery Sack" has appeared in the basement' gfx="Achievement_MysterySack.png" />
+	<!-- beat Boss Rush with Eden -->
+	<achievement id="125" text='"Undefined" has appeared in the basement' gfx="Achievement_Undefined.png" />
+	<!-- kill Isaac with Demon Isaac -->
+	<achievement id="126" text='"Satanic Bible" has appeared in the basement' gfx="Achievement_SatanicBible.png" />
+	<!-- kill Satan with Demon Isaac -->
+	<achievement id="127" text='"Daemon&apos;s Tail" has appeared in the basement' gfx="Achievement_DemonTail.png" />
+	<!-- beat Chest with Demon Isaac -->
+	<achievement id="128" text='"Abaddon" has appeared in the basement' gfx="Achievement_Abaddon.png" />
+	<!-- kill Isaac with The Lost -->
+	<achievement id="129" text='"Isaac&apos;s Heart" has appeared in the basement' gfx="Achievement_IsaacsHeart.png" />
+	<!-- kill Satan with The Lost -->
+	<achievement id="130" text='"The Mind" has appeared in the basement' gfx="Achievement_TheMind.png" />
+	<!-- beat Chest with The Lost -->
+	<achievement id="131" text='"The Body" has appeared in the basement' gfx="Achievement_TheBody.png" />
+	<!-- beat Dark Room with The Lost -->
+	<achievement id="132" text='"The Soul" has appeared in the basement' gfx="Achievement_TheSoul.png" />
+	<!-- beat Boss Rush with The Lost -->
+	<achievement id="133" text='"A D100" has appeared in the basement' gfx="Achievement_D100.png" />
+	<!-- donate 10 pennies to the shop -->
+	<achievement id="134" text='"Blue Map" has appeared in the basement' gfx="Achievement_BlueMap.png" />
+	<!-- donate 50 pennies to the shop -->
+	<achievement id="135" text='"There&apos;s Options" has appeared in the basement' gfx="Achievement_TheresOptions.png" />
+	<!-- donate 150 pennies to the shop -->
+	<achievement id="136" text='"Black Candle" has appeared in the basement' gfx="Achievement_BlackCandle.png" />
+	<!-- donate 400 pennies to the shop -->
+	<achievement id="137" text='"Red Candle" has appeared in the basement' gfx="Achievement_RedCandle.png" />
+	<!-- donate 999 pennies to the shop -->
+	<achievement id="138" text='"Stop Watch" has appeared in the basement' gfx="Achievement_Stopwatch.png" />
+	<!-- beat Mom's Heart 4 times -->
+	<achievement id="139" text='"Wire Coat Hanger" has appeared in the basement' gfx="Achievement_WireCoatHanger.png" />
+	<!-- beat Mom's Heart 6 times -->
+	<achievement id="140" text='"Ipecac" has appeared in the basement' gfx="Achievement_Ipecac.png" />
+	<!-- beat Mom's Heart 7 times -->
+	<achievement id="141" text='"Experimental Treatment" has appeared in the basement' gfx="Achievement_ExperimentalTreatment.png" />
+	<!-- take 20 items from devil rooms -->
+	<achievement id="142" text='Krampus unlocked' gfx="Achievement_Krampus.png" />
+	<!-- kill Krampus -->
+	<achievement id="143" text='"Head of Krampus" has appeared in the basement' gfx="Achievement_HeadOfKrampus.png" />
+	<!-- make a super meat boy -->
+	<achievement id="144" text='You made a Super Meat Boy' gfx="Achievement_SuperMeatBoy.png" />
+	<!-- destroy 100 poops -->
+	<achievement id="145" text='"Butter Bean" has appeared in the basement' gfx="Achievement_ButterBean.png" />
+	<!-- collect 2 of either Roid Rage, The Virus, Growth Hormones, Experimental Treatment or Speed Ball -->
+	<achievement id="146" text='"Little Baggy" has appeared in the basement' gfx="Achievement_LittleBaggy.png" />
+	<!-- use the blood donation machine 30 times -->
+	<achievement id="147" text='"Blood Bag" has appeared in the basement' gfx="Achievement_BloodBag.png" />
+	<!-- blow up 30 arcade machines -->
+	<achievement id="148" text='"A D4" has appeared in the basement' gfx="Achievement_D4.png" />
+	<!-- beat Dark Room with Isaac -->
+	<achievement id="149" text='"The Lost Poster" has appeared in the basement' gfx="Achievement_LostPoster.png" />
+	<!-- beat Mom's Heart 2 times -->
+	<achievement id="150" text='"Rubber Cement" has appeared in the basement' gfx="Achievement_RubberCement.png" />
+	<!-- donate 20 pennies to the shop -->
+	<achievement id="151" text='Store Upgrade lv.1' gfx="Achievement_StoreUpgrade1.png" />
+	<!-- donate 100 pennies to the shop -->
+	<achievement id="152" text='Store Upgrade lv.2' gfx="Achievement_StoreUpgrade2.png" />
+	<!-- donate 200 pennies to the shop -->
+	<achievement id="153" text='Store Upgrade lv.3' gfx="Achievement_StoreUpgrade3.png" />
+	<!-- donate 600 pennies to the shop -->
+	<achievement id="154" text='Store Upgrade lv.4' gfx="Achievement_StoreUpgrade4.png" />
+	<!-- beat Chest or Dark Room -->
+	<achievement id="155" text='You unlocked the Angel bosses' gfx="Achievement_Angels.png" />
+	<!-- beat Satan, Isaac, Mom's Heart, ???, Lamb, and Boss Rush on hard mode with The Lost -->
+	<achievement id="156" text='"Godhead" has appeared in the basement' gfx="Achievement_Godhead.png" />
+
+	<achievement id="157" text="You unlocked Challenge #4 Darkness Falls" gfx="Achievement_Challenge04.png" />
+	<achievement id="158" text="You unlocked Challenge #5 The Tank" gfx="Achievement_Challenge05.png" />
+	<achievement id="159" text="You unlocked Challenge #6 Solar System" gfx="Achievement_Challenge06.png" />
+	<achievement id="160" text="You unlocked Challenge #7 Suicide King" gfx="Achievement_Challenge07.png" />
+	<achievement id="161" text="You unlocked Challenge #8 Cat got your Tongue" gfx="Achievement_Challenge08.png" />
+	<achievement id="162" text="You unlocked Challenge #9 Demo Man" gfx="Achievement_Challenge09.png" />
+	<achievement id="163" text="You unlocked Challenge #10 Cursed!" gfx="Achievement_Challenge10.png" />
+	<achievement id="164" text="You unlocked Challenge #11 Glass Cannon" gfx="Achievement_Challenge11.png" />
+	<achievement id="165" text="You unlocked Challenge #19 The Family Man" gfx="Achievement_Challenge19.png" />
+	<achievement id="166" text="You unlocked Challenge #20 Purist" gfx="Achievement_Challenge20.png" />
+
+	<!-- beat Mom's Heart on hard mode with Isaac -->
+	<achievement id="167" text='You unlocked "Lost Baby"' gfx="Achievement_LostBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Maggy -->
+	<achievement id="168" text='You unlocked "Cute Baby"' gfx="Achievement_CuteBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Eve -->
+	<achievement id="169" text='You unlocked "Crow Baby"' gfx="Achievement_CrowBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Judas -->
+	<achievement id="170" text='You unlocked "Shadow Baby"' gfx="Achievement_ShadowBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Cain -->
+	<achievement id="171" text='You unlocked "Glass Baby"' gfx="Achievement_GlassBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Lazarus -->
+	<achievement id="172" text='You unlocked "Wrapped Baby"' gfx="Achievement_WrappedBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Azazel -->
+	<achievement id="173" text='You unlocked "Begotten Baby"' gfx="Achievement_BegottenBaby.png" />
+	<!-- beat Mom's Heart on hard mode with ??? -->
+	<achievement id="174" text='You unlocked "Dead Baby"' gfx="Achievement_DeadBaby.png" />
+	<!-- beat Mom's Heart on hard mode with The Lost -->
+	<achievement id="175" text='You unlocked "-0- Baby"' gfx="Achievement_0Baby.png" />
+	<!-- beat Mom's Heart on hard mode with Eden -->
+	<achievement id="176" text='You unlocked "Glitch Baby"' gfx="Achievement_GlitchBaby.png" />
+	<!-- beat Mom's Heart on hard mode with Samson -->
+	<achievement id="177" text='You unlocked "Fighting Baby"' gfx="Achievement_FightingBaby.png" />
+	<!-- become Lord of the Flies -->
+	<achievement id="178" text='You became Lord of the Flies' gfx="Achievement_LordOfTheFlies.png" />
+
+	<!-- beat Blue Womb with Isaac -->
+	<achievement id="179" text='"Fart Baby" has appeared in the basement' gfx="Achievement_179_FartBaby.png" steam_name="Fart Baby" steam_description="" steam_icon="Achievement_FartBaby.png"/>
+	<!-- beat Blue Womb with Maggy -->
+	<achievement id="180" text='"Purity" has appeared in the basement' gfx="Achievement_180_Purity.png" steam_name="Purity" steam_description="" steam_icon="Achievement_Purity.png"/>
+	<!-- beat Blue Womb with Cain -->
+	<achievement id="181" text='"D12" has appeared in the basement' gfx="Achievement_181_D12.png" steam_name="D12" steam_description="" steam_icon="Achievement_D12.png"/>
+	<!-- beat Blue Womb with Judas -->
+	<achievement id="182" text='"Betrayal" has appeared in the basement' gfx="Achievement_182_Betrayal.png" steam_name="Betrayal" steam_description="" steam_icon="Achievement_Betrayal.png"/>
+	<!-- beat Blue Womb with ??? -->
+	<achievement id="183" text='"Fate&apos;s Reward" has appeared in the basement' gfx="Achievement_183_FatesReward.png" steam_name="Fate's Reward" steam_description="" steam_icon="Achievement_FatesReward.png"/>
+	<!-- beat Blue Womb with Eve -->
+	<achievement id="184" text='"Athame" has appeared in the basement' gfx="Achievement_184_Athame.png" steam_name="Athame" steam_description="" steam_icon="Achievement_Athame.png"/>
+	<!-- beat Blue Womb with Samson -->
+	<achievement id="185" text='"Blind Rage" has appeared in the basement' gfx="Achievement_185_BlindRage.png" steam_name="Blind Rage" steam_description="" steam_icon="Achievement_BlindRage.png"/>
+	<!-- beat Blue Womb with Azazel -->
+	<achievement id="186" text='"Maw of the Void" has appeared in the basement' gfx="Achievement_186_MawOfTheVoid.png" steam_name="Maw of the Void" steam_description="" steam_icon="Achievement_MawOfTheVoid.png"/>
+	<!-- beat Blue Womb with Lazarus -->
+	<achievement id="187" text='"Empty Vessel" has appeared in the basement' gfx="Achievement_187_EmptyVessel.png" steam_name="Empty Vessel" steam_description="" steam_icon="Achievement_EmptyVessel.png"/>
+	<!-- beat Blue Womb with Eden -->
+	<achievement id="188" text='"Eden&apos;s Blessing" has appeared in the basement' gfx="Achievement_188_EdensBlessing.png" steam_name="Eden's Blessing" steam_description="" steam_icon="Achievement_EdensBlessing.png"/>
+	<!-- beat Blue Womb with The Lost -->
+	<achievement id="189" text='"Sworn Protector" has appeared in the basement' gfx="Achievement_189_SwornProtector.png" steam_name="Sworn Protector" steam_description="" steam_icon="Achievement_SwornProtector.png"/>
+	<!-- beat Blue Womb with Lilith -->
+	<achievement id="190" text='"Incubus" has appeared in the basement' gfx="Achievement_190_Incubus.png" steam_name="Incubus" steam_description="" steam_icon="Achievement_Incubus.png"/>
+	<!-- beat Blue Womb with Keeper -->
+	<achievement id="191" text='Keeper now holds... "A Penny!"' gfx="Achievement_191_APenny.png" steam_name="Keeper's Penny" steam_description="" steam_icon="Achievement_KeeperNowHoldsAPenny.png"/>
+	<!-- beat Greed Mode with Isaac -->
+	<achievement id="192" text='"Lil&apos; Chest" has appeared in the basement' gfx="Achievement_192_LilChest.png" steam_name="Lil' Chest" steam_description="" steam_icon="Achievement_LilChest.png"/>
+	<!-- beat Greed Mode with Maggy -->
+	<achievement id="193" text='"Censer" has appeared in the basement' gfx="Achievement_193_Censer.png" steam_name="Censer" steam_description="" steam_icon="Achievement_Censer.png"/>
+	<!-- beat Greed Mode with Cain -->
+	<achievement id="194" text='"Evil Eye" has appeared in the basement' gfx="Achievement_194_EvilEye.png" steam_name="Evil Eye" steam_description="" steam_icon="Achievement_EvilEye.png"/>
+	<!-- beat Greed Mode with Judas -->
+	<achievement id="195" text='"My Shadow" has appeared in the basement' gfx="Achievement_195_MyShadow.png" steam_name="My Shadow" steam_description="" steam_icon="Achievement_MyShadow.png"/>
+	<!-- beat Greed Mode with ??? -->
+	<achievement id="196" text='"Cracked Dice" has appeared in the basement' gfx="Achievement_196_CrackedDice.png" steam_name="Cracked Dice" steam_description="" steam_icon="Achievement_CrackedDice.png"/>
+	<!-- beat Greed Mode with Eve -->
+	<achievement id="197" text='"Black Feather" has appeared in the basement' gfx="Achievement_197_BlackFeather.png" steam_name="Black Feather" steam_description="" steam_icon="Achievement_BlackFeather.png"/>
+	<!-- beat Greed Mode with Samson -->
+	<achievement id="198" text='"Lusty Blood" has appeared in the basement' gfx="Achievement_198_LustyBlood.png" steam_name="Lusty Blood" steam_description="" steam_icon="Achievement_LustyBlood.png"/>
+	<!-- beat Greed Mode with Azazel -->
+	<achievement id="199" text='You unlocked "Lilith"' gfx="Achievement_199_Lilith.png" steam_name="Lilith" steam_description="" steam_icon="Achievement_Lilith.png"/>
+	<!-- beat Greed Mode with Lazarus -->
+	<achievement id="200" text='"Key Bum" has appeared in the basement' gfx="Achievement_200_KeyBum.png" steam_name="Key Bum" steam_description="" steam_icon="Achievement_KeyBum.png"/>
+	<!-- beat Greed Mode with Eden -->
+	<achievement id="201" text='"GB Bug" has appeared in the basement' gfx="Achievement_201_GBBug.png" steam_name="GB Bug" steam_description="" steam_icon="Achievement_GBBug.png"/>
+	<!-- beat Greed Mode with The Lost -->
+	<achievement id="202" text='"Zodiac" has appeared in the basement' gfx="Achievement_202_Zodiac.png" steam_name="Zodiac" steam_description="" steam_icon="Achievement_Zodiac.png"/>
+	<!-- beat Greed Mode with Lilith -->
+	<achievement id="203" text='"Box of Friends" has appeared in the basement' gfx="Achievement_203_BoxOfFriends.png" steam_name="Box of Friends" steam_description="" steam_icon="Achievement_BoxOfFriends.png"/>
+	<!-- beat Greed Mode with Keeper -->
+	<achievement id="204" text='"Rib of Greed" has appeared in the basement' gfx="Achievement_204_RibOfGreed.png" steam_name="Rib of Greed" steam_description="" steam_icon="Achievement_RibOfGreed.png"/>
+	<!-- beat Mega Satan with Isaac -->
+	<achievement id="205" text='"Cry Baby" has appeared in the basement' gfx="Achievement_205_CryBaby.png" steam_name="Cry Baby" steam_description="" steam_icon="Achievement_CryBaby.png"/>
+	<!-- beat Mega Satan with Maggy -->
+	<achievement id="206" text='"Red Baby" has appeared in the basement' gfx="Achievement_206_RedBaby.png" steam_name="Red Baby" steam_description="" steam_icon="Achievement_RedBaby.png"/>
+	<!-- beat Mega Satan with Cain -->
+	<achievement id="207" text='"Green Baby" has appeared in the basement' gfx="Achievement_207_GreenBaby.png" steam_name="Green Baby" steam_description="" steam_icon="Achievement_GreenBaby.png"/>
+	<!-- beat Mega Satan with Judas -->
+	<achievement id="208" text='"Brown Baby" has appeared in the basement' gfx="Achievement_208_BrownBaby.png" steam_name="Brown Baby" steam_description="" steam_icon="Achievement_BrownBaby.png"/>
+	<!-- beat Mega Satan with ??? -->
+	<achievement id="209" text='"Blue Baby" has appeared in the basement' gfx="Achievement_209_BlueBaby.png" steam_name="Blue Baby" steam_description="" steam_icon="Achievement_BlueBaby.png"/>
+	<!-- beat Mega Satan with Eve -->
+	<achievement id="210" text='"Lil&apos; Baby" has appeared in the basement' gfx="Achievement_210_LilBaby.png" steam_name="Lil' Baby" steam_description="" steam_icon="Achievement_LilBaby.png"/>
+	<!-- beat Mega Satan with Samson -->
+	<achievement id="211" text='"Rage Baby" has appeared in the basement' gfx="Achievement_211_RageBaby.png" steam_name="Rage Baby" steam_description="" steam_icon="Achievement_RageBaby.png"/>
+	<!-- beat Mega Satan with Azazel -->
+	<achievement id="212" text='"Black Baby" has appeared in the basement' gfx="Achievement_212_BlackBaby.png" steam_name="Black Baby" steam_description="" steam_icon="Achievement_BlackBaby.png"/>
+	<!-- beat Mega Satan with Lazarus -->
+	<achievement id="213" text='"Long Baby" has appeared in the basement' gfx="Achievement_213_LongBaby.png" steam_name="Long Baby" steam_description="" steam_icon="Achievement_LongBaby.png"/>
+	<!-- beat Mega Satan with Eden -->
+	<achievement id="214" text='"Yellow Baby" has appeared in the basement' gfx="Achievement_214_YellowBaby.png" steam_name="Yellow Baby" steam_description="" steam_icon="Achievement_YellowBaby.png"/>
+	<!-- beat Mega Satan with The Lost -->
+	<achievement id="215" text='"White Baby" has appeared in the basement' gfx="Achievement_215_WhiteBaby.png" steam_name="White Baby" steam_description="" steam_icon="Achievement_WhiteBaby.png"/>
+	<!-- beat Mega Satan with Lilith -->
+	<achievement id="216" text='"Big Baby" has appeared in the basement' gfx="Achievement_216_BigBaby.png" steam_name="Big Baby" steam_description="" steam_icon="Achievement_BigBaby.png"/>
+	<!-- beat Mega Satan with Keeper -->
+	<achievement id="217" text='"Noose Baby" has appeared in the basement' gfx="Achievement_217_NooseBaby.png" steam_name="Noose Baby" steam_description="" steam_icon="Achievement_NooseBaby.png"/>
+	<!-- beat Isaac with Lilith -->
+	<achievement id="218" text='"Rune Bag" has appeared in the basement' gfx="Achievement_218_RuneBag.png" steam_name="Rune Bag" steam_description="" steam_icon="Achievement_RuneBag.png"/>
+	<!-- beat ??? with Lilith -->
+	<achievement id="219" text='"Cambion Conception" has appeared in the basement' gfx="Achievement_219_CambionConception.png" steam_name="Cambion Conception" steam_description="" steam_icon="Achievement_CambionConception.png"/>
+	<!-- beat Satan with Lilith -->
+	<achievement id="220" text='"Serpent&apos;s Kiss" has appeared in the basement' gfx="Achievement_220_SerpentsKiss.png" steam_name="Serpent's Kiss" steam_description="" steam_icon="Achievement_SerpentsKiss.png"/>
+	<!-- beat The Lamb with Lilith -->
+	<achievement id="221" text='"Succubus" has appeared in the basement' gfx="Achievement_221_Succubus.png" steam_name="Succubus" steam_description="" steam_icon="Achievement_Succubus.png"/>
+	<!-- beat Boss Rush with lilith -->
+	<achievement id="222" text='"Immaculate Conception" has appeared in the basement' gfx="Achievement_222_ImmaculateConception.png" steam_name="Immaculate Conception" steam_description="" steam_icon="Achievement_ImmaculateConception.png"/>
+	<!-- beat Mom's Heart with Lilith on hard mode -->
+	<achievement id="223" text='"Goat Head Baby" has appeared in the basement' gfx="Achievement_223_GoatHeadBaby.png" steam_name="Goat Head Baby" steam_description="" steam_icon="Achievement_GoatHeadBaby.png"/>
+	<!-- beat Challenge 21 (XXXXXXXXL) -->
+	<achievement id="224" text='"Gold Heart" has appeared in the basement' gfx="Achievement_224_GoldHeart.png" steam_name="Gold Heart" steam_description="" steam_icon="Achievement_GoldHeart.png"/>
+	<!-- beat Challenge 22 (Speed) -->
+	<achievement id="225" text='Get out of Jail Free Card has appeared in the basement' gfx="Achievement_225_GetOutOfJailFreeCard.png" steam_name="Get out of Jail Free Card" steam_description="" steam_icon="Achievement_GetOutOfJailFreeCard.png"/>
+	<!-- beat Challenge 23 (Blue Bomber) -->
+	<achievement id="226" text='"Gold Bomb" has appeared in the basement' gfx="Achievement_226_GoldBomb.png" steam_name="Gold Bomb" steam_description="" steam_icon="Achievement_GoldBomb.png"/>
+	<!-- beat Challenge 24 (Pay to Play) unlocks Percs/Overdose -->
+	<achievement id="227" text='2 new pills have appeared' gfx="Achievement_227_2NewPills1.png" steam_name="2 new pills" steam_description="" steam_icon="Achievement_NewPills1.png"/>
+	<!-- beat Challenge 25 (Have a Heart) unlocks Re-Lax/??? -->
+	<achievement id="228" text='2 new pills have appeared' gfx="Achievement_228_2NewPills2.png" steam_name="2 new pills" steam_description="" steam_icon="Achievement_NewPills2.png"/>
+	<!-- beat Challenge 26 (I Rule) -->
+	<achievement id="229" text='"Poker Chip" has appeared in the basement' gfx="Achievement_229_PokerChip.png" steam_name="Poker Chip" steam_description="" steam_icon="Achievement_PokerChip.png"/>
+	<!-- beat Challenge 27 (Brains) -->
+	<achievement id="230" text='"Stud Finder" has appeared in the basement' gfx="Achievement_230_StudFinder.png" steam_name="Stud Finder" steam_description="" steam_icon="Achievement_StudFinder.png"/>
+	<!-- beat Challenge 28 (Pride Day) -->
+	<achievement id="231" text='"D8" has appeared in the basement' gfx="Achievement_231_D8.png" steam_name="D8" steam_description="" steam_icon="Achievement_D8.png"/>
+	<!-- beat Challenge 29 (Onan's Streak) -->
+	<achievement id="232" text='"Kidney Stone" has appeared in the basement' gfx="Achievement_233_KidneyStone.png" steam_name="Kidney Stone" steam_description="" steam_icon="Achievement_KidneyStone.png"/>
+	<!-- beat Challenge 30 (Guardian Angel) -->
+	<achievement id="233" text='"Blank Rune" has appeared in the basement' gfx="Achievement_232_BlankRune.png" steam_name="Blank Rune" steam_description="" steam_icon="Achievement_BlankRune.png"/>
+	<!-- beat Mom's Heart 10 times -->
+	<achievement id="234" text='You unlocked the Blue Womb!' gfx="Achievement_234_BlueWomb.png" steam_name="Blue Womb" steam_description="" steam_icon="Achievement_BlueWomb.png"/>
+	<!-- unlock everything -->
+	<achievement id="235" text='1001% (Nerd x 1000000)' gfx="Achievement_235_1000Percent.png" steam_name="1001%" steam_description="" steam_icon="Achievement_1001.png"/>
+	<!-- beat Isaac with Keeper -->
+	<achievement id="236" text='Keeper now holds... "Wooden Nickel"' gfx="Achievement_236_KeeperWoodenNickel.png" steam_name="Keeper's Wooden Nickel" steam_description="" steam_icon="Achievement_KeeperNowHoldsWoodenNickel.png"/>
+	<!-- beat Satan with Keeper -->
+	<achievement id="237" text='Keeper now holds... "Store Key"' gfx="Achievement_237_KeeperStoreKey.png" steam_name="Keeper's Store Key" steam_description="" steam_icon="Achievement_KeeperNowHoldsStoreKey.png"/>
+	<!-- beat ??? with Keeper -->
+	<achievement id="238" text='"Deep Pockets" has appeared in the basement' gfx="Achievement_238_DeepPockets.png" steam_name="Deep Pockets" steam_description="" steam_icon="Achievement_DeepPockets.png"/>
+	<!-- beat The Lamb with Keeper -->
+	<achievement id="239" text='"Karma" has appeared in the basement' gfx="Achievement_239_Karma.png" steam_name="Karma" steam_description="" steam_icon="Achievement_Karma.png"/>
+	<!-- beat Boss Rush with Keeper -->
+	<achievement id="240" text='Sticky Nickels have appeared in the basement' gfx="Achievement_240_StickyNickels.png" steam_name="Sticky Nickels" steam_description="" steam_icon="Achievement_StickyNickel.png"/>
+	<!-- beat Mom's Heart with Keeper on hard mode -->
+	<achievement id="241" text='"Super Greed Baby" has appeared in the basement' gfx="Achievement_241_SuperGreedBaby.png" steam_name="Super Greed Baby" steam_description="" steam_icon="Achievement_SuperGreedBaby.png"/>
+	<!-- 2 coins in Greed Donation Machine -->
+	<achievement id="242" text='Lucky Pennies have appeared in the basement' gfx="Achievement_242_LuckyPenny.png" steam_name="Lucky Pennies" steam_description="" steam_icon="Achievement_LuckyPennies.png"/>
+	<!-- 14 coins in Greed Donation Machine -->
+	<achievement id="243" text='You unlocked Special Hanging Shopkeepers!' gfx="Achievement_243_SpecialHangingShopkeepers.png" steam_name="Special Hanging Shopkeepers" steam_description="" steam_icon="Achievement_SpecialHangingShopkeepers.png"/>
+	<!-- 33 coins in Greed Donation Machine -->
+	<achievement id="244" text='"Wooden Nickel" has appeared in the basement' gfx="Achievement_244_WoodenNickel.png" steam_name="Wooden Nickel" steam_description="" steam_icon="Achievement_WoodenNickel.png"/>
+	<!-- 68 coins in Greed Donation Machine -->
+	<achievement id="245" text='Cain now holds... "Paperclip"' gfx="Achievement_245_CainPaperClip.png" steam_name="Paperclip" steam_description="" steam_icon="Achievement_Paperclip.png"/>
+	<!-- 111 coins in Greed Donation Machine -->
+	<achievement id="246" text='Everything is terrible 2!!! Greed just got harder!' gfx="Achievement_246_EverythingIsTerrible2.png" steam_name="Everything is terrible 2" steam_description="" steam_icon="Achievement_EverythingIsTerrible2.png"/>
+	<!-- 234 coins in Greed Donation Machine -->
+	<achievement id="247" text='You unlocked Special Shopkeepers!' gfx="Achievement_247_SpecialShopkeepers.png" steam_name="Special Shopkeepers" steam_description="" steam_icon="Achievement_SpecialShopkeepers.png"/>
+	<!-- 439 coins in Greed Donation Machine -->
+	<achievement id="248" text='Eve now holds... "Razor Blade"' gfx="Achievement_248_EveRazorBlade.png" steam_name="Razor Blade" steam_description="" steam_icon="Achievement_EveNowHoldsRazorBlade.png"/>
+	<!-- 666 coins in Greed Donation Machine -->
+	<achievement id="249" text='"Store Key" has appeared in the basement' gfx="Achievement_249_StoreKey.png" steam_name="Store Key" steam_description="" steam_icon="Achievement_StoreKey.png"/>
+	<!-- 879 coins in Greed Donation Machine -->
+	<achievement id="250" text='Lost now holds... "Holy Mantle"' gfx="Achievement_250_LostHolyMantle.png" steam_name="Holy Mantle" steam_description="" steam_icon="Achievement_LostNowHoldsHolyMantle.png"/>
+	<!-- 1000 coins in Greed Donation Machine -->
+	<achievement id="251" text='You unlocked "Keeper"' gfx="Achievement_251_Keeper.png" steam_name="Keeper" steam_description="" steam_icon="Achievement_YouUnlockedKeeper.png"/>
+	<!-- reach all endings with ??? -->
+	<achievement id="252" text='"Hive Baby" has appeared in the basement' gfx="Achievement_252_HiveBaby.png" steam_name="Hive Baby" steam_description="" steam_icon="Achievement_HiveBaby.png"/>
+	<!-- reach all endings with Isaac -->
+	<achievement id="253" text='"Buddy Baby" has appeared in the basement' gfx="Achievement_253_BuddyBaby.png" steam_name="Buddy Baby" steam_description="" steam_icon="Achievement_BuddyBaby.png"/>
+	<!-- reach all endings with Maggy -->
+	<achievement id="254" text='"Colorful Baby" has appeared in the basement' gfx="Achievement_254_ColorfulBaby.png" steam_name="Colorful Baby" steam_description="" steam_icon="Achievement_ColorfulBaby.png"/>
+	<!-- reach all endings with Eve -->
+	<achievement id="255" text='"Whore Baby" has appeared in the basement' gfx="Achievement_255_WhoreBaby.png" steam_name="Whore Baby" steam_description="" steam_icon="Achievement_WhoreBaby.png"/>
+	<!-- reach all endings with Eden -->
+	<achievement id="256" text='"Cracked Baby" has appeared in the basement' gfx="Achievement_256_CrackedBaby.png" steam_name="Cracked Baby" steam_description="" steam_icon="Achievement_CrackedBaby.png"/>
+	<!-- reach all endings with Lazarus -->
+	<achievement id="257" text='"Dripping Baby" has appeared in the basement' gfx="Achievement_257_DrippingBaby.png" steam_name="Dripping Baby" steam_description="" steam_icon="Achievement_DrippingBaby.png"/>
+	<!-- reach all endings with The Lost -->
+	<achievement id="258" text='"Blinding Baby" has appeared in the basement' gfx="Achievement_258_BlindingBaby.png" steam_name="Blinding Baby" steam_description="" steam_icon="Achievement_BlindingBaby.png"/>
+	<!-- reach all endings with Azazel -->
+	<achievement id="259" text='"Sucky Baby" has appeared in the basement' gfx="Achievement_259_SuckyBaby.png" steam_name="Sucky Baby" steam_description="" steam_icon="Achievement_SuckyBaby.png"/>
+	<!-- reach all endings with Lilith -->
+	<achievement id="260" text='"Dark Baby" has appeared in the basement' gfx="Achievement_260_DarkBaby.png" steam_name="Dark Baby" steam_description="" steam_icon="Achievement_DarkBaby.png"/>
+	<!-- reach all endings with Cain -->
+	<achievement id="261" text='"Picky Baby" has appeared in the basement' gfx="Achievement_261_PickyBaby.png" steam_name="Picky Baby" steam_description="" steam_icon="Achievement_PickyBaby.png"/>
+	<!-- reach all endings with Samson -->
+	<achievement id="262" text='"Revenge Baby" has appeared in the basement' gfx="Achievement_262_RevengeBaby.png" steam_name="Revenge Baby" steam_description="" steam_icon="Achievement_RevengeBaby.png"/>
+	<!-- reach all endings with Judas -->
+	<achievement id="263" text='"Belial Baby" has appeared in the basement' gfx="Achievement_263_BelialBaby.png" steam_name="Belial Baby" steam_description="" steam_icon="Achievement_BelialBaby.png"/>
+	<!-- reach all endings with Keeper -->
+	<achievement id="264" text='"Sale Baby" has appeared in the basement' gfx="Achievement_264_SaleBaby.png" steam_name="Sale Baby" steam_description="" steam_icon="Achievement_SaleBaby.png"/>
+
+	<achievement id="265" text="You unlocked Challenge #21 XXXXXXXXL" gfx="Achievement_Challenge21.png" steam_name="XXXXXXXXL" steam_description="" steam_icon="Achievement_XXXXXXXXL.png"/>
+	<achievement id="266" text="You unlocked Challenge #22 SPEED!" gfx="Achievement_Challenge22.png" steam_name="SPEED!" steam_description="" steam_icon="Achievement_Speed.png"/>
+	<achievement id="267" text="You unlocked Challenge #23 Blue Bomber" gfx="Achievement_Challenge23.png" steam_name="Blue Bomber" steam_description="" steam_icon="Achievement_BlueBomber.png"/>
+	<achievement id="268" text="You unlocked Challenge #24 PAY TO PLAY" gfx="Achievement_Challenge24.png" steam_name="PAY TO PLAY" steam_description="" steam_icon="Achievement_PayToPlay.png"/>
+	<achievement id="269" text="You unlocked Challenge #25 Have a heart" gfx="Achievement_Challenge25.png" steam_name="Have a heart" steam_description="" steam_icon="Achievement_HaveAHeart.png"/>
+	<achievement id="270" text="You unlocked Challenge #26 I RULE!" gfx="Achievement_Challenge26.png" steam_name="I RULE!" steam_description="" steam_icon="Achievement_IRule.png"/>
+	<achievement id="271" text="You unlocked Challenge #27 BRAINS!" gfx="Achievement_Challenge27.png" steam_name="BRAINS!" steam_description="" steam_icon="Achievement_Brains.png"/>
+	<achievement id="272" text="You unlocked Challenge #28 PRIDE DAY!" gfx="Achievement_Challenge28.png" steam_name="PRIDE DAY!" steam_description="" steam_icon="Achievement_PrideDay.png"/>
+	<achievement id="273" text="You unlocked Challenge #29 Onan's Streak" gfx="Achievement_Challenge29.png" steam_name="Onan's Streak" steam_description="" steam_icon="Achievement_OnansStreak.png"/>
+	<achievement id="274" text="You unlocked Challenge #30 The Guardian" gfx="Achievement_Challenge30.png" steam_name="The Guardian" steam_description="" steam_icon="Achievement_TheGuardian.png"/>
+	<achievement id="275" text="If only everyone was as generous as you are..." gfx="Achievement_Generosity.png" steam_name="Generosity" steam_description="..." steam_icon="" />
+	<achievement id="276" text='"Mega Blast" has appeared in the basement' gfx="Achievement_MegaBlast.png" steam_name="Mega Blast" steam_description="" steam_icon="Achievement_MegaBlast.png" />
+
+	<!-- Afterbirth+ -->
+	<achievement id="277" text="You unlocked Challenge #31 Backasswards" gfx="Achievement_Challenge31.png" steam_name="Backasswards" steam_description="" steam_icon="Achievement_Backasswards.png" />
+	<achievement id="278" text="You unlocked Challenge #32 Aprils fool" gfx="Achievement_Challenge32.png" steam_name="Aprils fool" steam_description="" steam_icon="Achievement_AprilsFool.png" />
+	<achievement id="279" text="You unlocked Challenge #33 Pokey mans" gfx="Achievement_Challenge33.png" steam_name="Pokey mans" steam_description="" steam_icon="Achievement_PokeyMans.png" />
+	<achievement id="280" text="You unlocked Challenge #34 Ultra hard" gfx="Achievement_Challenge34.png" steam_name="Ultra hard" steam_description="" steam_icon="Achievement_UltraHard.png" />
+	<achievement id="281" text="You unlocked Challenge #35 PONG" gfx="Achievement_Challenge35.png" steam_name="PONG" steam_description="" steam_icon="Achievement_Pong.png" />
+	<achievement id="282" text='"D infinity" has appeared in the basement' gfx="Achievement_Dinf.png" steam_name="D infinity" steam_description="" steam_icon="Achievement_DInfinity.png" />
+	<achievement id="283" text='"Eucharist" has appeared in the basement' gfx="Achievement_Eucharist.png" steam_name="Eucharist" steam_description="" steam_icon="Achievement_Eucharist.png" />
+	<achievement id="284" text='"Silver Dollar" has appeared in the basement' gfx="Achievement_SilverDollar.png" steam_name="Silver Dollar" steam_description="" steam_icon="Achievement_SilverDollar.png" />
+	<achievement id="285" text='"Shade" has appeared in the basement' gfx="Achievement_Shade.png" steam_name="Shade" steam_description="" steam_icon="Achievement_Shade.png" />
+	<achievement id="286" text='"King Baby" has appeared in the basement' gfx="Achievement_KingBaby.png" steam_name="King Baby" steam_description="" steam_icon="Achievement_KingBaby.png" />
+	<achievement id="287" text='"Bloody Crown" has appeared in the basement' gfx="Achievement_BloodyCrown.png" steam_name="Bloody Crown" steam_description="" steam_icon="Achievement_BloodyCrown.png" />
+	<achievement id="288" text='"Dull Razor" has appeared in the basement' gfx="Achievement_DullRazor.png" steam_name="Dull Razor" steam_description="" steam_icon="Achievement_DullRazor.png" />
+	<achievement id="289" text='"Eden&apos;s Soul" has appeared in the basement' gfx="Achievement_EdensSoul.png" steam_name="Eden's Soul" steam_description="" steam_icon="Achievement_EdensSoul.png" />
+	<achievement id="290" text='"Dark Prince&apos;s Crown" has appeared in the basement' gfx="Achievement_DarkPrincesCrown.png" steam_name="Dark Prince's Crown" steam_description="" steam_icon="Achievement_DarkPrincesCrown.png" />
+	<achievement id="291" text='"Compound Fracture" has appeared in the basement' gfx="Achievement_CompoundFracture.png" steam_name="Compound Fracture" steam_description="" steam_icon="Achievement_CompoundFracture.png" />
+	<achievement id="292" text='"Euthanasia" has appeared in the basement' gfx="Achievement_Euthanasia.png" steam_name="Euthanasia" steam_description="" steam_icon="Achievement_Euthanasia.png" />
+	<achievement id="293" text='"Holy Card" has appeared in the basement' gfx="Achievement_HolyCard.png" steam_name="Holy Card" steam_description="" steam_icon="Achievement_HolyCard.png" />
+	<achievement id="294" text='"Crooked Penny" has appeared in the basement' gfx="Achievement_CrookedPenny.png" steam_name="Crooked Penny" steam_description="" steam_icon="Achievement_CrookedPenny.png" />
+	<achievement id="295" text='"Void" has appeared in the basement' gfx="Achievement_Void.png" steam_name="Void" steam_description="" steam_icon="Achievement_Void.png" />
+	<achievement id="296" text='"D1" has appeared in the basement' gfx="Achievement_D1.png" steam_name="D1" steam_description="" steam_icon="Achievement_D1.png" />
+	<achievement id="297" text='"Glyph of Balance" has appeared in the basement' gfx="Achievement_GlyphOfBalance.png" steam_name="Glyph of Balance" steam_description="" steam_icon="Achievement_GlyphOfBalance.png" />
+	<achievement id="298" text='"Sack of Sacks" has appeared in the basement' gfx="Achievement_SackOfSacks.png" steam_name="Sack of Sacks" steam_description="" steam_icon="Achievement_SackOfSacks.png" />
+	<achievement id="299" text='"Eye of Belial" has appeared in the basement' gfx="Achievement_EyeOfBelial.png" steam_name="Eye of Belial" steam_description="" steam_icon="Achievement_EyeOfBelial.png" />
+	<achievement id="300" text='"Meconium" has appeared in the basement' gfx="Achievement_Meconium.png" steam_name="Meconium" steam_description="" steam_icon="Achievement_Meconium.png" />
+	<achievement id="301" text='"Stem Cell" has appeared in the basement' gfx="Achievement_StemCell.png" steam_name="Stem Cell" steam_description="" steam_icon="Achievement_StemCells.png" />
+	<achievement id="302" text='"Crow Heart" has appeared in the basement' gfx="Achievement_CrowHeart.png" steam_name="Crow Heart" steam_description="" steam_icon="Achievement_CrowHeart.png" />
+	<achievement id="303" text='"Metronome" has appeared in the basement' gfx="Achievement_Metronome.png" steam_name="Metronome" steam_description="" steam_icon="Achievement_Metronome.png" />
+	<achievement id="304" text='"Bat Wing" has appeared in the basement' gfx="Achievement_BatWing.png" steam_name="Bat Wing" steam_description="" steam_icon="Achievement_BatWing.png" />
+	<achievement id="305" text='"Plan C" has appeared in the basement' gfx="Achievement_PlanC.png" steam_name="Plan C" steam_description="" steam_icon="Achievement_PlanC.png" />
+	<achievement id="306" text='"Duality" has appeared in the basement' gfx="Achievement_Duality.png" steam_name="Duality" steam_description="" steam_icon="Achievement_Duality.png" />
+	<achievement id="307" text='"Dad&apos;s Lost Coin" has appeared in the basement' gfx="Achievement_DadsLostCoin.png" steam_name="Dad's Lost Coin" steam_description="" steam_icon="Achievement_DadsLostCoin.png" />
+	<achievement id="308" text='"Eye of Greed" has appeared in the basement' gfx="Achievement_EyeOfGreed.png" steam_name="Eye of Greed" steam_description="" steam_icon="Achievement_EyeOfGreed.png" />
+	<achievement id="309" text='"Black Rune" has appeared in the basement' gfx="Achievement_BlackRune.png" steam_name="Black Rune" steam_description="" steam_icon="Achievement_BlackRune.png" />
+	<achievement id="310" text='"Locust of Wrath" has appeared in the basement' gfx="Achievement_LocustOfWrath.png" steam_name="Locust of Wrath" steam_description="" steam_icon="Achievement_LocustOfWrath.png" />
+	<achievement id="311" text='"Locust of Pestilence" has appeared in the basement' gfx="Achievement_LocustOfPestilence.png" steam_name="Locust of Pestilence" steam_description="" steam_icon="Achievement_LocustOfPestilence.png" />
+	<achievement id="312" text='"Locust of Famine" has appeared in the basement' gfx="Achievement_LocustOfFamine.png" steam_name="Locust of Famine" steam_description="" steam_icon="Achievement_LocustOfFamine.png" />
+	<achievement id="313" text='"Locust of Death" has appeared in the basement' gfx="Achievement_LocustOfDeath.png" steam_name="Locust of Death" steam_description="" steam_icon="Achievement_LocustOfDeath.png" />
+	<achievement id="314" text='"Locust of Conquest" has appeared in the basement' gfx="Achievement_LocustOfConquest.png" steam_name="Locust of Conquest" steam_description="" steam_icon="Achievement_LocustOfConquest.png" />
+	<achievement id="315" text='"Hushy" has appeared in the basement' gfx="Achievement_Hushy.png" steam_name="Hushy" steam_description="" steam_icon="Achievement_Hushy.png" />
+	<achievement id="316" text='"Brown Nugget" has appeared in the basement' gfx="Achievement_BrownNugget.png" steam_name="Brown Nugget" steam_description="" steam_icon="Achievement_BrownNugget.png" />
+	<achievement id="317" text='"Mort Baby" has appeared in the basement' gfx="Achievement_MortBaby.png" steam_name="Mort Baby" steam_description="" steam_icon="Achievement_MortBaby.png" />
+	<achievement id="318" text='"Smelter" has appeared in the basement' gfx="Achievement_Smelter.png" steam_name="Smelter" steam_description="" steam_icon="Achievement_Smelter.png" />
+	<achievement id="319" text='"Apollyon Baby" has appeared in the basement' gfx="Achievement_ApollyonBaby.png" steam_name="Apollyon Baby" steam_description="" steam_icon="Achievement_ApollyonBaby.png" />
+	<achievement id="320" text="You unlocked a new area!" gfx="Achievement_TheVoid.png" steam_name="New Area" steam_description="" steam_icon="Achievement_NewArea.png" />
+	<achievement id="321" text="Once more with feeling!" gfx="Achievement_PillGulp.png" steam_name="Once more with feeling!" steam_description="" steam_icon="Achievement_GulpPill.png" />
+	<achievement id="322" text="Hat trick!" gfx="Achievement_AceOfClubs.png" steam_name="Hat trick!" steam_description="" steam_icon="Achievement_AceOfClubs.png" />
+	<achievement id="323" text="5 nights at moms" gfx="Achievement_SuperSpecialRocks.png" steam_name="5 nights at moms" steam_description="" steam_icon="Achievement_SuperSpecialRocks.png" />
+	<achievement id="324" text="Sin collector" gfx="Achievement_PillSunshine.png" steam_name="Sin collector" steam_description="" steam_icon="Achievement_SunshinePill.png" />
+	<achievement id="325" text="Dedication" gfx="Achievement_PillHorf.png" steam_name="Dedication" steam_description="" steam_icon="Achievement_HorfPill.png" />
+	<achievement id="326" text="ZIP!" gfx="Achievement_AceOfDiamonds.png" steam_name="ZIP!" steam_description="" steam_icon="Achievement_AceOfDiamonds.png" />
+	<achievement id="327" text="It's the key" gfx="Achievement_AceOfSpades.png" steam_name="It's the key" steam_description="" steam_icon="Achievement_AceOfSpades.png" />
+	<achievement id="328" text="Mr. Resetter!" gfx="Achievement_ScaredHeart.png" steam_name="Mr. Resetter!" steam_description="" steam_icon="Achievement_ScaredHeart.png" />
+	<achievement id="329" text="Living on the edge" gfx="Achievement_AceOfHearts.png" steam_name="Living on the edge" steam_description="" steam_icon="Achievement_AceOfHearts.png" />
+	<achievement id="330" text="U broke it!" gfx="Achievement_PillVurp.png" steam_name="U broke it!" steam_description="" steam_icon="Achievement_VurpPill.png" />
+	<achievement id="331" text="Laz Bleeds More!" gfx="Achievement_LazBleedsMore.png" steam_name="Laz Bleeds More!" steam_description="" steam_icon="Achievement_LazBleedsMore.png" />
+	<achievement id="332" text="Maggy now hold a pill!" gfx="Achievement_MaggyNowHoldsAPill.png" steam_name="Maggy now hold a pill!" steam_description="" steam_icon="Achievement_MaggyNowHoldsAPill.png" />
+	<achievement id="333" text='"Charged Key" has appeared in the basement' gfx="Achievement_ChargedKey.png" steam_name="Charged Key" steam_description="" steam_icon="Achievement_ChargedKey.png" />
+	<achievement id="334" text="Samson feels healthy!" gfx="Achievement_SamsonFeelsHealthy.png" steam_name="Samson feels healthy!" steam_description="" steam_icon="Achievement_SamsonFeelsHealthy.png" />
+	<achievement id="335" text='"Greed&apos;s Gullet" has appeared in the basement' gfx="Achievement_GreedsGullet.png" steam_name="Greed's Gullet" steam_description="" steam_icon="Achievement_GreedsGullet.png" />
+	<achievement id="336" text='"Cracked Crown" has appeared in the basement' gfx="Achievement_CrackedCrown.png" steam_name="The Marathon" steam_description="" steam_icon="Achievement_CrackedCrown.png" />
+	<achievement id="337" text="You unlocked RERUN!" gfx="Achievement_Rerun.png" steam_name="RERUN" steam_description="" steam_icon="Achievement_Rerun.png" />
+	<achievement id="338" text='"Delirious" has appeared in the basement' gfx="Achievement_Delirious.png" steam_name="Delirious" steam_description="" steam_icon="Achievement_CrackedCrown.png" />
+	<achievement id="339" text="1000000% Just Stop!" gfx="Achievement_1000000Percent.png" steam_name="1000000%" steam_description="" steam_icon="Achievement_JustStop.png" />
+	
+	<!-- kill Mega Satan -->
+	<achievement id="340" text='You unlocked "Apollyon"' gfx="Achievement_Apollyon.png" steam_name="Apollyon" steam_description="" steam_icon="Achievement_Apollyon.png" />
+	<!-- 500 coins in Greed Donation Machine -->
+	<achievement id="341" text="You just got Greedier!" gfx="Achievement_Greedier.png" steam_name="Greedier!" steam_description="" steam_icon="Achievement_Greedier.png" />
+	<!-- beat Mom's Heart 11 times -->
+	<achievement id="342" text="The Basement is burning!" gfx="Achievement_BurningBasement.png" steam_name="Burning Basement" steam_description="" steam_icon="Achievement_BurningBasement.png" />
+	<!-- beat Mom's Heart 16 times -->
+	<achievement id="343" text="The Caves are flooded!" gfx="Achievement_FloodedCaves.png" steam_name="Flooded Caves" steam_description="" steam_icon="Achievement_FloodedCaves.png" />
+	<!-- beat Mom's Heart 21 times -->
+	<achievement id="344" text="The Depths are dank!" gfx="Achievement_DankDepths.png" steam_name="Dank Depths" steam_description="" steam_icon="Achievement_DankDepths.png" />
+	<!-- beat Mom's Heart 30 times -->
+	<achievement id="345" text="The Womb is scarred!" gfx="Achievement_ScarredWomb.png" steam_name="Scarred Womb" steam_description="" steam_icon="Achievement_ScarredWomb.png" />
+	<!-- beat Chest as 3 different characters -->
+	<achievement id="346" text="Something wicked this way comes!" gfx="Achievement_SomethingWicked.png" steam_name="Something wicked this way comes!" steam_description="" steam_icon="Achievement_SomethingWicked.png" />
+	<!-- beat Chest as 6 different characters -->
+	<achievement id="347" text="Something wicked this way comes+!" gfx="Achievement_SomethingWicked+.png" steam_name="Something wicked this way comes+!" steam_description="" steam_icon="Achievement_SomethingWicked+.png" />
+	<!-- kill the Lamb -->
+	<achievement id="348" text="The gate is open!" gfx="Achievement_GateOpen.png" steam_name="The gate is open!" steam_description="" steam_icon="Achievement_GateOpen.png" />
+	
+	<!-- Afterbirth+ Booster #1 -->
+	<achievement id="349" text='"Black Hole" has appeared in the basement' gfx="Achievement_BlackHole.png" steam_name="Black Hole" steam_description="" steam_icon="Achievement_BlackHole.png" />
+	<achievement id="350" text='"Mystery Gift" has appeared in the basement' gfx="Achievement_MysteryGift.png" steam_name="Mystery Gift" steam_description="" steam_icon="Achievement_MysteryGift.png" />
+	<achievement id="351" text='"Sprinkler" has appeared in the basement' gfx="Achievement_Sprinkler.png" steam_name="Sprinkler" steam_description="" steam_icon="Achievement_Sprinkler.png" />
+	<achievement id="352" text='"Angry Fly" has appeared in the basement' gfx="Achievement_AngryFly.png" steam_name="Angry Fly" steam_description="" steam_icon="Achievement_AngryFly.png" />
+	<achievement id="353" text='"Bozo" has appeared in the basement' gfx="Achievement_Bozo.png" steam_name="Bozo" steam_description="" steam_icon="Achievement_Bozo.png" />
+	<achievement id="354" text='"Broken Modem" has appeared in the basement' gfx="Achievement_BrokenModem.png" steam_name="Broken Modem" steam_description="" steam_icon="Achievement_BrokenModem.png" />
+	<achievement id="355" text='"Buddy in a Box" has appeared in the basement' gfx="Achievement_BuddyInABox.png" steam_name="Buddy in a Box" steam_description="" steam_icon="Achievement_BuddyInABox.png" />
+	<achievement id="356" text='"Fast Bombs" has appeared in the basement' gfx="Achievement_FastBombs.png" steam_name="Fast Bombs" steam_description="" steam_icon="Achievement_FastBombs.png" />
+	<achievement id="357" text='"Lil Delirium" has appeared in the basement' gfx="Achievement_LilDelirium.png" steam_name="Lil Delirium" steam_description="" steam_icon="Achievement_LilDelirium.png" />
+	<achievement id="358" text='"Hairpin" has appeared in the basement' gfx="Achievement_Hairpin.png" steam_name="Hairpin" steam_description="" steam_icon="Achievement_Hairpin.png" />
+	<achievement id="359" text='"Wooden Cross" has appeared in the basement' gfx="Achievement_WoodenCross.png" steam_name="Wooden Cross" steam_description="" steam_icon="Achievement_WoodenCross.png" />
+	<achievement id="360" text='"Butter" has appeared in the basement' gfx="Achievement_Butter.png" steam_name="Butter" steam_description="" steam_icon="Achievement_Butter.png" />
+	<achievement id="361" text='"Huge Growth" has appeared in the basement' gfx="Achievement_HugeGrowth.png" steam_name="Huge Growth" steam_description="" steam_icon="Achievement_HugeGrowth.png" />
+	<achievement id="362" text='"Ancient Recall" has appeared in the basement' gfx="Achievement_AncientRecall.png" steam_name="Ancient Recall" steam_description="" steam_icon="Achievement_AncientRecall.png" />
+	<achievement id="363" text='"Era Walk" has appeared in the basement' gfx="Achievement_EraWalk.png" steam_name="Era Walk" steam_description="" steam_icon="Achievement_EraWalk.png" />
+	
+	<!-- Afterbirth+ Booster #2 -->
+	<achievement id="364" text='"Coupon" has appeared in the basement' gfx="Achievement_Coupon.png" steam_name="Coupon" steam_description="" steam_icon="Achievement_Coupon.png" />
+	<achievement id="365" text='"Telekinesis" has appeared in the basement' gfx="Achievement_Telekinesis.png" steam_name="Telekinesis" steam_description="" steam_icon="Achievement_Telekinesis.png" />
+	<achievement id="366" text='"Moving Box" has appeared in the basement' gfx="Achievement_MovingBox.png" steam_name="Moving Box" steam_description="" steam_icon="Achievement_MovingBox.png" />
+	<achievement id="367" text='"Jumper Cables" has appeared in the basement' gfx="Achievement_JumperCables.png" steam_name="Jumper Cables" steam_description="" steam_icon="Achievement_JumperCables.png" />
+	<achievement id="368" text='"Leprosy" has appeared in the basement' gfx="Achievement_Leprosy.png" steam_name="Leprosy" steam_description="" steam_icon="Achievement_Leprosy.png" />
+	<achievement id="369" text='"Technology Zero" has appeared in the basement' gfx="Achievement_TechnologyZero.png" steam_name="Technology Zero" steam_description="" steam_icon="Achievement_TechnologyZero.png" />
+	<achievement id="370" text='"Filigree Feather" has appeared in the basement' gfx="Achievement_FiligreeFeather.png" steam_name="Filigree Feather" steam_description="" steam_icon="Achievement_FiligreeFeather.png" />
+	
+	<!-- Afterbirth+ Booster #3 -->
+	<achievement id="371" text='"Mr. Me" has appeared in the basement' gfx="Achievement_MrMe.png" steam_name="Mr. Me" steam_description="" steam_icon="Achievement_MrMe.png" />
+	<achievement id="372" text='"7 Seals" has appeared in the basement' gfx="Achievement_7Seals.png" steam_name="7 Seals" steam_description="" steam_icon="Achievement_7Seals.png" />
+	<achievement id="373" text='"Angelic Prism" has appeared in the basement' gfx="Achievement_AngelicPrism.png" steam_name="Angelic Prism" steam_description="" steam_icon="Achievement_AngelicPrism.png" />
+	<achievement id="374" text='"Pop!" has appeared in the basement' gfx="Achievement_Pop.png" steam_name="Pop!" steam_description="" steam_icon="Achievement_Pop.png" />
+	<achievement id="375" text='"Door Stop" has appeared in the basement' gfx="Achievement_DoorStop.png" steam_name="Door Stop" steam_description="" steam_icon="Achievement_DoorStop.png" />
+	
+	<!-- Afterbirth+ Booster #4 -->
+	<achievement id="376" text='"Death&apos;s List" has appeared in the basement' gfx="Achievement_DeathsList.png" steam_name="Death's List" steam_description="" steam_icon="Achievement_DeathsList.png" />
+	<achievement id="377" text='"Haemolacria" has appeared in the basement' gfx="Achievement_Haemolacria.png" steam_name="Haemolacria" steam_description="" steam_icon="Achievement_Haemolacria.png" />
+	<achievement id="378" text='"Lachryphagy" has appeared in the basement' gfx="Achievement_Lachryphagy.png" steam_name="Lachryphagy" steam_description="" steam_icon="Achievement_Lachryphagy.png" />
+	<achievement id="379" text='"Schoolbag" has appeared in the basement' gfx="Achievement_Schoolbag.png" steam_name="Schoolbag" steam_description="" steam_icon="Achievement_Schoolbag.png" />
+	<achievement id="380" text='"Trisagion" has appeared in the basement' gfx="Achievement_Trisagion.png" steam_name="Trisagion" steam_description="" steam_icon="Achievement_Trisagion.png" />
+	<achievement id="381" text='"Extension Cord" has appeared in the basement' gfx="Achievement_ExtensionCord.png" steam_name="Extension Cord" steam_description="" steam_icon="Achievement_ExtensionCord.png" />
+	
+	<!-- Afterbirth+ Booster #5 -->
+	<achievement id="382" text='"Flat Stone" has appeared in the basement' gfx="Achievement_FlatStone.png" steam_name="Flat Stone" steam_description="" steam_icon="Achievement_FlatStone.png" />
+	<achievement id="383" text='"Sacrificial Altar" has appeared in the basement' gfx="Achievement_SacrificialAltar.png" steam_name="Sacrificial Altar" steam_description="" steam_icon="Achievement_SacrificialAltar.png" />
+	<achievement id="384" text='"Lil Spewer" has appeared in the basement' gfx="Achievement_LilSpewer.png" steam_name="Lil Spewer" steam_description="" steam_icon="Achievement_LilSpewer.png" />
+	<achievement id="385" text='"Blanket" has appeared in the basement' gfx="Achievement_Blanket.png" steam_name="Blanket" steam_description="" steam_icon="Achievement_Blanket.png" />
+	<achievement id="386" text='"Marbles" has appeared in the basement' gfx="Achievement_Marbles.png" steam_name="Marbles" steam_description="" steam_icon="Achievement_Marbles.png" />
+	<achievement id="387" text='"Mystery Egg" has appeared in the basement' gfx="Achievement_MysteryEgg.png" steam_name="Mystery Egg" steam_description="" steam_icon="Achievement_MysteryEgg.png" />
+	<achievement id="388" text='"Rotten Penny" has appeared in the basement' gfx="Achievement_RottenPenny.png" steam_name="Rotten Penny" steam_description="" steam_icon="Achievement_RottenPenny.png" />
+	<achievement id="389" text='"Baby-Bender" has appeared in the basement' gfx="Achievement_BabyBender.png" steam_name="Baby-Bender" steam_description="" steam_icon="Achievement_BabyBender.png" />
+	
+	<!-- it's a secret... -->
+	<achievement id="390" text='You unlocked "The Forgotten"' gfx="Achievement_TheForgotten.png" steam_name="The Forgotten" steam_description="" steam_icon="Achievement_TheForgotten.png" />
+	<achievement id="391" text='"Bone Heart" has appeared in the basement' gfx="Achievement_BoneHeart.png" steam_name="Bone Heart" steam_description="" steam_icon="Achievement_BoneHeart.png" />
+	<!-- beat Mom's Heart on hard mode with The Forgotten -->
+	<achievement id="392" text='"Marrow" has appeared in the basement' gfx="Achievement_Marrow.png" steam_name="Marrow" steam_description="" steam_icon="Achievement_Marrow.png" />
+	<!-- kill Isaac with The Forgotten -->
+	<achievement id="393" text='"Slipped Rib" has appeared in the basement' gfx="Achievement_SlippedRib.png" steam_name="Slipped Rib" steam_description="" steam_icon="Achievement_SlippedRib.png" />
+	<!-- kill Satan with The Forgotten -->
+	<achievement id="394" text='"Pointy Rib" has appeared in the basement' gfx="Achievement_PointyRib.png" steam_name="Pointy Rib" steam_description="" steam_icon="Achievement_PointyRib.png" />
+	<!-- beat The Chest with The Forgotten -->
+	<achievement id="395" text='"Jaw Bone" has appeared in the basement' gfx="Achievement_JawBone.png" steam_name="Jaw Bone" steam_description="" steam_icon="Achievement_JawBone.png" />
+	<!-- beat Dark Room with The Forgotten -->
+	<achievement id="396" text='"Brittle Bones" has appeared in the basement' gfx="Achievement_BrittleBones.png" steam_name="Brittle Bones" steam_description="" steam_icon="Achievement_BrittleBones.png" />
+	<!-- beat Boss Rush with The Forgotten -->
+	<achievement id="397" text='"Divorce Papers" has appeared in the basement' gfx="Achievement_DivorcePapers.png" steam_name="Divorce Papers" steam_description="" steam_icon="Achievement_DivorcePapers.png" />
+	<!-- beat Blue Womb with The Forgotten -->
+	<achievement id="398" text='"Hallowed Ground" has appeared in the basement' gfx="Achievement_HallowedGround.png" steam_name="Hallowed Ground" steam_description="" steam_icon="Achievement_HallowedGround.png" />
+	<!-- beat Greed Mode with The Forgotten -->
+	<achievement id="399" text='"Finger Bone" has appeared in the basement' gfx="Achievement_FingerBone.png" steam_name="Finger Bone" steam_description="" steam_icon="Achievement_FingerBone.png" />
+	<!-- beat Greedier Mode with The Forgotten -->
+	<achievement id="400" text='"Dad&apos;s Ring" has appeared in the basement' gfx="Achievement_DadsRing.png" steam_name="Dad's Ring" steam_description="" steam_icon="Achievement_DadsRing.png" />
+	<!-- beat The Void with The Forgotten -->
+	<achievement id="401" text='"Book of the Dead" has appeared in the basement' gfx="Achievement_BookOfTheDead.png" steam_name="Book of the Dead" steam_description="" steam_icon="Achievement_BookOfTheDead.png" />
+	<!-- reach all endings with The Forgotten -->
+	<achievement id="402" text='"Bone Baby" has appeared in the basement' gfx="Achievement_BoneBaby.png" steam_name="Bone Baby" steam_description="" steam_icon="Achievement_BoneBaby.png"/>
+	<!-- beat Mega Satan with The Forgotten -->
+	<achievement id="403" text='"Bound Baby" has appeared in the basement' gfx="Achievement_BoundBaby.png" steam_name="Bound Baby" steam_description="" steam_icon="Achievement_BoundBaby.png"/>
+
+	<!-- Repentance -->
+	<achievement id="404" text='You unlocked "Bethany"' gfx="Achievement_Bethany.png" steam_name="Bethany" steam_description="Beat the game as Lazarus without losing a life" steam_icon="Achievement_Bethany.png" />
+	<achievement id="405" text='You unlocked "Jacob&amp;Esau"' gfx="Achievement_JacobEsau.png" steam_name="Jacob and Esau" steam_description="You are just like your father..." steam_icon="Achievement_JacobEsau.png" />
+	<achievement id="406" text="The stars are calling..." gfx="Achievement_Planetarium.png" steam_name="The Planetarium" steam_description="Obtain 3 Zodiac items in a single run" steam_icon="Achievement_Planetarium.png" />
+	<achievement id="407" text='You unlocked "A Secret Exit"' gfx="Achievement_SecretExit.png" steam_name="A Secret Exit" steam_description="Complete ??? 3 times." steam_icon="Achievement_SecretExit.png" />
+	<achievement id="408" text='"Forgotten Lullaby" has appeared in the basement' gfx="Achievement_ForgottenLullaby.png" steam_name="Forgotten Lullaby" steam_description="Get that song out of her head." steam_icon="Achievement_ForgottenLullaby.png" />
+	<achievement id="409" text='"Fruity Plum" has appeared in the basement' gfx="Achievement_FruityPlum.png" steam_name="Fruity Plum" steam_description="Defeat Baby Plum 10 times." steam_icon="Achievement_FruityPlum.png" />
+	<achievement id="410" text='"Plum Flute" has appeared in the basement' gfx="Achievement_PlumFlute.png" steam_name="Plum Flute" steam_description="Have a good time with Baby Plum." steam_icon="Achievement_PlumFlute.png" />
+	<achievement id="411" text='"Rotten Heart" has appeared in the basement' gfx="Achievement_RottenHeart.png" steam_name="Rotten Heart" steam_description="Enter the Corpse..." steam_icon="Achievement_RottenHeart.png" />
+	<achievement id="412" text='You unlocked "Dross"' gfx="Achievement_Dross.png" steam_name="Dross" steam_description="Defeat all bosses in Downpour." steam_icon="Achievement_Dross.png" />
+	<achievement id="413" text='You unlocked "Ashpit"' gfx="Achievement_Ashpit.png" steam_name="Ashpit" steam_description="Defeat all bosses in the Mines." steam_icon="Achievement_Ashpit.png" />
+	<achievement id="414" text='You unlocked "Gehenna"' gfx="Achievement_Gehenna.png" steam_name="Gehenna" steam_description="Defeat all bosses in the Mausoleum." steam_icon="Achievement_Gehenna.png" />
+	<achievement id="415" text='"Red Key" has appeared in the basement' gfx="Achievement_RedKey.png" steam_name="Red Key" steam_description="The other side is calling..." steam_icon="Achievement_RedKey.png" />
+	<achievement id="416" text='You unlocked "Wisp Baby"' gfx="Achievement_WispBaby.png" steam_name="Wisp Baby" steam_description="Beat the game in Hard mode with Bethany." steam_icon="Achievement_WispBaby.png" />
+	<achievement id="417" text='"Book of Virtues" has appeared in the basement' gfx="Achievement_BookOfVirtues.png" steam_name="Book of Virtues" steam_description="Complete the Cathedral with Bethany." steam_icon="Achievement_BookOfVirtues.png" />
+	<achievement id="418" text='"Urn of Souls" has appeared in the basement' gfx="Achievement_UrnOfSouls.png" steam_name="Urn of Souls" steam_description="Complete Sheol with Bethany." steam_icon="Achievement_UrnOfSouls.png" />
+	<achievement id="419" text='"Blessed Penny" has appeared in the basement' gfx="Achievement_BlessedPenny.png" steam_name="Blessed Penny" steam_description="Complete the Chest with Bethany." steam_icon="Achievement_BlessedPenny.png" />
+	<achievement id="420" text='"Alabaster Box" has appeared in the basement' gfx="Achievement_AlabasterBox.png" steam_name="Alabaster Box" steam_description="Complete the Dark Room with Bethany." steam_icon="Achievement_AlabasterBox.png" />
+	<achievement id="421" text='"Beth&apos;s Faith" has appeared in the basement' gfx="Achievement_BethsFaith.png" steam_name="Beth&apos;s Faith" steam_description="Complete Boss Rush with Bethany." steam_icon="Achievement_BethsFaith.png" />
+	<achievement id="422" text='"Soul Locket" has appeared in the basement' gfx="Achievement_SoulLocket.png" steam_name="Soul Locket" steam_description="Beat Greed mode with Bethany." steam_icon="Achievement_SoulLocket.png" />
+	<achievement id="423" text='"Divine Intervention" has appeared in the basement' gfx="Achievement_DivineIntervention.png" steam_name="Divine Intervention" steam_description="Complete ??? with Bethany." steam_icon="Achievement_DivineIntervention.png" />
+	<achievement id="424" text='"Vade Retro" has appeared in the basement' gfx="Achievement_VadeRetro.png" steam_name="Vade Retro" steam_description="Beat Greedier mode with Bethany." steam_icon="Achievement_VadeRetro.png" />
+	<achievement id="425" text='"Star of Bethlehem" has appeared in the basement' gfx="Achievement_StarOfBethlehem.png" steam_name="Star of Bethlehem" steam_description="Beat the Void with Bethany." steam_icon="Achievement_StarOfBethlehem.png" />
+	<achievement id="426" text='You unlocked "Hope Baby"' gfx="Achievement_HopeBaby.png" steam_name="Hope Baby" steam_description="Beat everything in Hard mode with Bethany." steam_icon="Achievement_HopeBaby.png" />
+	<achievement id="427" text='You unlocked "Glowing Baby"' gfx="Achievement_GlowingBaby.png" steam_name="Glowing Baby" steam_description="Defeat Mega Satan with Bethany." steam_icon="Achievement_GlowingBaby.png" />
+	<achievement id="428" text='You unlocked "Double Baby"' gfx="Achievement_DoubleBaby.png" steam_name="Double Baby" steam_description="Beat the game in Hard mode with Jacob and Esau." steam_icon="Achievement_DoubleBaby.png" />
+	<achievement id="429" text='"The Stairway" has appeared in the basement' gfx="Achievement_TheStairway.png" steam_name="The Stairway" steam_description="Complete the Cathedral with Jacob and Esau." steam_icon="Achievement_TheStairway.png" />
+	<achievement id="430" text='"Red Stew" has appeared in the basement' gfx="Achievement_RedStew.png" steam_name="Red Stew" steam_description="Complete Sheol with Jacob and Esau." steam_icon="Achievement_RedStew.png" />
+	<achievement id="431" text='"Birthright" has appeared in the basement' gfx="Achievement_Birthright.png" steam_name="Birthright" steam_description="Complete the Chest with Jacob and Esau." steam_icon="Achievement_Birthright.png" />
+	<achievement id="432" text='"Damocles" has appeared in the basement' gfx="Achievement_Damocles.png" steam_name="Damocles" steam_description="Complete the Dark Room with Jacob and Esau." steam_icon="Achievement_Damocles.png" />
+	<achievement id="433" text='"Rock Bottom" has appeared in the basement' gfx="Achievement_RockBottom.png" steam_name="Rock Bottom" steam_description="Complete Boss Rush with Jacob and Esau." steam_icon="Achievement_RockBottom.png" />
+	<achievement id="434" text='"Inner Child" has appeared in the basement' gfx="Achievement_InnerChild.png" steam_name="Inner Child" steam_description="Beat Greed mode with Jacob and Esau." steam_icon="Achievement_InnerChild.png" />
+	<achievement id="435" text='"Vanishing Twin" has appeared in the basement' gfx="Achievement_VanishingTwin.png" steam_name="Vanishing Twin" steam_description="Complete ??? with Jacob and Esau." steam_icon="Achievement_VanishingTwin.png" />
+	<achievement id="436" text='"Genesis" has appeared in the basement' gfx="Achievement_Genesis.png" steam_name="Genesis" steam_description="Beat Greedier mode with Jacob and Esau." steam_icon="Achievement_Genesis.png" />
+	<achievement id="437" text='"Suplex!" has appeared in the basement' gfx="Achievement_Suplex.png" steam_name="Suplex!" steam_description="Complete the Void with Jacob and Esau." steam_icon="Achievement_Suplex.png" />
+	<achievement id="438" text='You unlocked "Solomon&apos;s Baby"' gfx="Achievement_SolomonsBaby.png" steam_name="Solomon&apos;s Baby" steam_description="Beat everything in Hard mode with Jacob and Esau." steam_icon="Achievement_SolomonsBaby.png" />
+	<achievement id="439" text='You unlocked "Illusion Baby"' gfx="Achievement_IllusionBaby.png" steam_name="Illusion Baby" steam_description="Defeat Mega Satan with Jacob and Esau." steam_icon="Achievement_IllusionBaby.png" />
+	<achievement id="440" text='"Meat Cleaver" has appeared in the basement' gfx="Achievement_MeatCleaver.png" steam_name="Meat Cleaver" steam_description="Complete the Corpse with Isaac." steam_icon="Achievement_MeatCleaver.png" />
+	<achievement id="441" text='"Options?" has appeared in the basement' gfx="Achievement_Options.png" steam_name="Options?" steam_description="Complete the final chapter with Isaac." steam_icon="Achievement_Options.png" />
+	<achievement id="442" text='"Yuck Heart" has appeared in the basement' gfx="Achievement_YuckHeart.png" steam_name="Yuck Heart" steam_description="Complete the Corpse with Magdalene." steam_icon="Achievement_YuckHeart.png" />
+	<achievement id="443" text='"Candy Heart" has appeared in the basement' gfx="Achievement_CandyHeart.png" steam_name="Candy Heart" steam_description="Complete the final chapter with Magdalene." steam_icon="Achievement_CandyHeart.png" />
+	<achievement id="444" text='"Guppy&apos;s Eye" has appeared in the basement' gfx="Achievement_GuppysEye.png" steam_name="Guppy&apos;s Eye" steam_description="Complete the Corpse with Cain." steam_icon="Achievement_GuppysEye.png" />
+	<achievement id="445" text='"A Pound of Flesh" has appeared in the basement' gfx="Achievement_PoundOfFlesh.png" steam_name="A Pound of Flesh" steam_description="Complete the final chapter with Cain." steam_icon="Achievement_PoundOfFlesh.png" />
+	<achievement id="446" text='"Akeldama" has appeared in the basement' gfx="Achievement_Akeldama.png" steam_name="Akeldama" steam_description="Complete the Corpse with Judas." steam_icon="Achievement_Akeldama.png" />
+	<achievement id="447" text='"Redemption" has appeared in the basement' gfx="Achievement_Redemption.png" steam_name="Redemption" steam_description="Complete the final chapter with Judas." steam_icon="Achievement_Redemption.png" />
+	<achievement id="448" text='"Eternal D6" has appeared in the basement' gfx="Achievement_EternalD6.png" steam_name="Eternal D6" steam_description="Complete the Corpse with ???." steam_icon="Achievement_EternalD6.png" />
+	<achievement id="449" text='"Montezuma&apos;s Revenge" has appeared in the basement' gfx="Achievement_MontezumasRevenge.png" steam_name="Montezuma&apos;s Revenge" steam_description="Complete the final chapter with ???." steam_icon="Achievement_MontezumasRevenge.png" />
+	<achievement id="450" text='"Bird Cage" has appeared in the basement' gfx="Achievement_BirdCage.png" steam_name="Bird Cage" steam_description="Complete the Corpse with Eve." steam_icon="Achievement_BirdCage.png" />
+	<achievement id="451" text='"Cracked Orb" has appeared in the basement' gfx="Achievement_CrackedOrb.png" steam_name="Cracked Orb" steam_description="Complete the final chapter with Eve." steam_icon="Achievement_CrackedOrb.png" />
+	<achievement id="452" text='"Bloody Gust" has appeared in the basement' gfx="Achievement_BloodyGust.png" steam_name="Bloody Gust" steam_description="Complete the Corpse with Samson." steam_icon="Achievement_BloodyGust.png" />
+	<achievement id="453" text='"Empty Heart" has appeared in the basement' gfx="Achievement_EmptyHeart.png" steam_name="Empty Heart" steam_description="Complete the final chapter with Samson." steam_icon="Achievement_EmptyHeart.png" />
+	<achievement id="454" text='"Devil&apos;s Crown" has appeared in the basement' gfx="Achievement_DevilsCrown.png" steam_name="Devil&apos;s Crown" steam_description="Complete the Corpse with Azazel." steam_icon="Achievement_DevilsCrown.png" />
+	<achievement id="455" text='"Lil Abaddon" has appeared in the basement' gfx="Achievement_LilAbaddon.png" steam_name="Lil Abaddon" steam_description="Complete the final chapter with Azazel." steam_icon="Achievement_LilAbaddon.png" />
+	<achievement id="456" text='"Tinytoma" has appeared in the basement' gfx="Achievement_Tinytoma.png" steam_name="Tinytoma" steam_description="Complete the Corpse with Lazarus." steam_icon="Achievement_Tinytoma.png" />
+	<achievement id="457" text='"Astral Projection" has appeared in the basement' gfx="Achievement_AstralProjection.png" steam_name="Astral Projection" steam_description="Complete the final chapter with Lazarus." steam_icon="Achievement_AstralProjection.png" />
+	<achievement id="458" text='"&apos;M" has appeared in the basement' gfx="Achievement_M.png" steam_name=" &apos;M" steam_description="Complete the Corpse with Eden." steam_icon="Achievement_M.png" />
+	<achievement id="459" text='"Everything Jar" has appeared in the basement' gfx="Achievement_EverythingJar.png" steam_name="Everything Jar" steam_description="Complete the final chapter with Eden." steam_icon="Achievement_EverythingJar.png" />
+	<achievement id="460" text='"Lost Soul" has appeared in the basement' gfx="Achievement_LostSoul.png" steam_name="Lost Soul" steam_description="Complete the Corpse with the Lost." steam_icon="Achievement_LostSoul.png" />
+	<achievement id="461" text='"Hungry Soul" has appeared in the basement' gfx="Achievement_HungrySoul.png" steam_name="Hungry Soul" steam_description="Complete the final chapter with the Lost." steam_icon="Achievement_HungrySoul.png" />
+	<achievement id="462" text='"Blood Puppy" has appeared in the basement' gfx="Achievement_BloodPuppy.png" steam_name="Blood Puppy" steam_description="Complete the Corpse with Lilith." steam_icon="Achievement_BloodPuppy.png" />
+	<achievement id="463" text='"C Section" has appeared in the basement' gfx="Achievement_CSection.png" steam_name="C Section" steam_description="Complete the final chapter with Lilith." steam_icon="Achievement_CSection.png" />
+	<achievement id="464" text='"Keeper&apos;s Sack" has appeared in the basement' gfx="Achievement_KeepersSack.png" steam_name="Keeper&apos;s Sack" steam_description="Complete the Corpse with Keeper." steam_icon="Achievement_KeepersSack.png" />
+	<achievement id="465" text='"Keeper&apos;s Box" has appeared in the basement' gfx="Achievement_KeepersBox.png" steam_name="Keeper&apos;s Box" steam_description="Complete the final chapter with Keeper." steam_icon="Achievement_KeepersBox.png" />
+	<achievement id="466" text='"Lil Portal" has appeared in the basement' gfx="Achievement_LilPortal.png" steam_name="Lil Portal" steam_description="Complete the Corpse with Apollyon." steam_icon="Achievement_LilPortal.png" />
+	<achievement id="467" text='"Worm Friend" has appeared in the basement' gfx="Achievement_WormFriend.png" steam_name="Worm Friend" steam_description="Complete the final chapter with Apollyon." steam_icon="Achievement_WormFriend.png" />
+	<achievement id="468" text='"Bone Spurs" has appeared in the basement' gfx="Achievement_BoneSpurs.png" steam_name="Bone Spurs" steam_description="Complete the Corpse with the Forgotten." steam_icon="Achievement_BoneSpurs.png" />
+	<achievement id="469" text='"Spirit Shackles" has appeared in the basement' gfx="Achievement_SpiritShackles.png" steam_name="Spirit Shackles" steam_description="Complete the final chapter with the Forgotten." steam_icon="Achievement_SpiritShackles.png" />
+	<achievement id="470" text='"Revelation" has appeared in the basement' gfx="Achievement_Revelation.png" steam_name="Revelation" steam_description="Complete the Corpse with the Forgotten." steam_icon="Achievement_Revelation.png" />
+	<achievement id="471" text='"Jar of Wisps" has appeared in the basement' gfx="Achievement_JarOfWisps.png" steam_name="Jar of Wisps" steam_description="Complete the final chapter with the Forgotten." steam_icon="Achievement_JarOfWisps.png" />
+	<achievement id="472" text='"Magic Skin" has appeared in the basement' gfx="Achievement_MagicSkin.png" steam_name="Magic Skin" steam_description="Complete the Corpse with Jacob and Esau." steam_icon="Achievement_MagicSkin.png" />
+	<achievement id="473" text='"Friend Finder" has appeared in the basement' gfx="Achievement_FriendFinder.png" steam_name="Friend Finder" steam_description="Complete the final chapter with Jacob and Esau." steam_icon="Achievement_FriendFinder.png" />
+	<achievement id="474" text='You unlocked "Isaac"' gfx="Achievement_IsaacB.png" steam_name="The Broken" steam_description="???" steam_icon="Achievement_IsaacB.png" />
+	<achievement id="475" text='You unlocked "Magdalene"' gfx="Achievement_MagdaleneB.png" steam_name="The Dauntless" steam_description="???" steam_icon="Achievement_MagdaleneB.png" />
+	<achievement id="476" text='You unlocked "Cain"' gfx="Achievement_CainB.png" steam_name="The Hoarder" steam_description="???" steam_icon="Achievement_CainB.png" />
+	<achievement id="477" text='You unlocked "Judas"' gfx="Achievement_JudasB.png" steam_name="The Deceiver" steam_description="???" steam_icon="Achievement_JudasB.png" />
+	<achievement id="478" text='You unlocked "???"' gfx="Achievement_BlueBabyB.png" steam_name="The Soiled" steam_description="???" steam_icon="Achievement_BlueBabyB.png" />
+	<achievement id="479" text='You unlocked "Eve"' gfx="Achievement_EveB.png" steam_name="The Curdled" steam_description="???" steam_icon="Achievement_EveB.png" />
+	<achievement id="480" text='You unlocked "Samson"' gfx="Achievement_SamsonB.png" steam_name="The Savage" steam_description="???" steam_icon="Achievement_SamsonB.png" />
+	<achievement id="481" text='You unlocked "Azazel"' gfx="Achievement_AzazelB.png" steam_name="The Benighted" steam_description="???" steam_icon="Achievement_AzazelB.png" />
+	<achievement id="482" text='You unlocked "Lazarus"' gfx="Achievement_LazarusB.png" steam_name="The Enigma" steam_description="???" steam_icon="Achievement_LazarusB.png" />
+	<achievement id="483" text='You unlocked "Eden"' gfx="Achievement_EdenB.png" steam_name="The Capricious" steam_description="???" steam_icon="Achievement_EdenB.png" />
+	<achievement id="484" text='You unlocked "The Lost"' gfx="Achievement_TheLostB.png" steam_name="The Baleful" steam_description="???" steam_icon="Achievement_TheLostB.png" />
+	<achievement id="485" text='You unlocked "Lilith"' gfx="Achievement_LilithB.png" steam_name="The Harlot" steam_description="???" steam_icon="Achievement_LilithB.png" />
+	<achievement id="486" text='You unlocked "Keeper"' gfx="Achievement_KeeperB.png" steam_name="The Miser" steam_description="???" steam_icon="Achievement_KeeperB.png" />
+	<achievement id="487" text='You unlocked "Apollyon"' gfx="Achievement_ApollyonB.png" steam_name="The Empty" steam_description="???" steam_icon="Achievement_ApollyonB.png" />
+	<achievement id="488" text='You unlocked "The Forgotten"' gfx="Achievement_TheForgottenB.png" steam_name="The Fettered" steam_description="???" steam_icon="Achievement_TheForgottenB.png" />
+	<achievement id="489" text='You unlocked "Bethany"' gfx="Achievement_BethanyB.png" steam_name="The Zealot" steam_description="???" steam_icon="Achievement_BethanyB.png" />
+	<achievement id="490" text='You unlocked "Jacob"' gfx="Achievement_JacobB.png" steam_name="The Deserter" steam_description="???" steam_icon="Achievement_JacobB.png" />
+	<achievement id="491" text='"Glitched Crown" has appeared in the basement' gfx="Achievement_GlitchedCrown.png" steam_name="Glitched Crown" steam_description="???" steam_icon="Achievement_GlitchedCrown.png" />
+	<achievement id="492" text='"Belly Jelly" has appeared in the basement' gfx="Achievement_BellyJelly.png" steam_name="Belly Jelly" steam_description="???" steam_icon="Achievement_BellyJelly.png" />
+	<achievement id="493" text='"Blue Key" has appeared in the basement' gfx="Achievement_BlueKey.png" steam_name="Blue Key" steam_description="???" steam_icon="Achievement_BlueKey.png" />
+	<achievement id="494" text='"Sanguine Bond" has appeared in the basement' gfx="Achievement_SanguineBond.png" steam_name="Sanguine Bond" steam_description="???" steam_icon="Achievement_SanguineBond.png" />
+	<achievement id="495" text='"The Swarm" has appeared in the basement' gfx="Achievement_TheSwarm.png" steam_name="The Swarm" steam_description="???" steam_icon="Achievement_TheSwarm.png" />
+	<achievement id="496" text='"Heartbreak" has appeared in the basement' gfx="Achievement_Heartbreak.png" steam_name="Heartbreak" steam_description="???" steam_icon="Achievement_Heartbreak.png" />
+	<achievement id="497" text='"Larynx" has appeared in the basement' gfx="Achievement_Larynx.png" steam_name="Larynx" steam_description="???" steam_icon="Achievement_Larynx.png" />
+	<achievement id="498" text='"Azazel&apos;s Rage" has appeared in the basement' gfx="Achievement_AzazelsRage.png" steam_name="Azazel&apos;s Rage" steam_description="???" steam_icon="Achievement_AzazelsRage.png" />
+	<achievement id="499" text='"Salvation" has appeared in the basement' gfx="Achievement_Salvation.png" steam_name="Salvation" steam_description="???" steam_icon="Achievement_Salvation.png" />
+	<achievement id="500" text='"TMTRAINER" has appeared in the basement' gfx="Achievement_TMTRAINER.png" steam_name="TMTRAINER" steam_description="???" steam_icon="Achievement_TMTRAINER.png" />
+	<achievement id="501" text='"Sacred Orb" has appeared in the basement' gfx="Achievement_SacredOrb.png" steam_name="Sacred Orb" steam_description="???" steam_icon="Achievement_SacredOrb.png" />
+	<achievement id="502" text='"Twisted Pair" has appeared in the basement' gfx="Achievement_TwistedPair.png" steam_name="Twisted Pair" steam_description="???" steam_icon="Achievement_TwistedPair.png" />
+	<achievement id="503" text='"Strawman" has appeared in the basement' gfx="Achievement_Strawman.png" steam_name="Strawman" steam_description="???" steam_icon="Achievement_Strawman.png" />
+	<achievement id="504" text='"Echo Chamber" has appeared in the basement' gfx="Achievement_EchoChamber.png" steam_name="Echo Chamber" steam_description="???" steam_icon="Achievement_EchoChamber.png" />
+	<achievement id="505" text='"Isaac&apos;s Tomb" has appeared in the basement' gfx="Achievement_IsaacsTomb.png" steam_name="Isaac&apos;s Tomb" steam_description="???" steam_icon="Achievement_IsaacsTomb.png" />
+	<achievement id="506" text='"Vengeful Spirit" has appeared in the basement' gfx="Achievement_VengefulSpirit.png" steam_name="Vengeful Spirit" steam_description="???" steam_icon="Achievement_VengefulSpirit.png" />
+	<achievement id="507" text='"Esau Jr." has appeared in the basement' gfx="Achievement_EsauJr.png" steam_name="Esau Jr." steam_description="???" steam_icon="Achievement_EsauJr.png" />
+	<achievement id="508" text="You unlocked Challenge #37 Bloody Mary" gfx="Achievement_Challenge37.png" steam_name="Bloody Mary" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge37.png" />
+	<achievement id="509" text="You unlocked Challenge #38 Baptism by Fire" gfx="Achievement_Challenge38.png" steam_name="Baptism by Fire" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge38.png" />
+	<achievement id="510" text="You unlocked Challenge #39 Isaac&apos;s Awakening" gfx="Achievement_Challenge39.png" steam_name="Isaac&apos;s Awakening" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge39.png" />
+	<achievement id="511" text="You unlocked Challenge #40 Seeing Double" gfx="Achievement_Challenge40.png" steam_name="Seeing Double" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge40.png" />
+	<achievement id="512" text="You unlocked Challenge #41 Pica Run" gfx="Achievement_Challenge41.png" steam_name="Pica Run" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge41.png" />
+	<achievement id="513" text="You unlocked Challenge #42 Hot Potato" gfx="Achievement_Challenge42.png" steam_name="Hot Potato" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge42.png" />
+	<achievement id="514" text="You unlocked Challenge #43 Cantripped!" gfx="Achievement_Challenge43.png" steam_name="Cantripped!" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge43.png" />
+	<achievement id="515" text="You unlocked Challenge #44" gfx="Achievement_Challenge44.png" steam_name="Red Redemption" steam_description="Unlocked a new challenge." steam_icon="Achievement_Challenge44.png" />
+	<achievement id="516" text="You unlocked Challenge #45" gfx="Achievement_Challenge45.png" steam_name="DELETE THIS" steam_description="TODO: remove this achievement" steam_icon="Achievement_Challenge45.png" />
+	<achievement id="517" text='"Dirty Mind" has appeared in the basement' gfx="Achievement_DirtyMind.png" steam_name="Dirty Mind" steam_description="Complete Challenge 36." steam_icon="Achievement_DirtyMind.png" />
+	<achievement id="518" text='"Sigil of Baphomet" has appeared in the basement' gfx="Achievement_SigilOfBaphomet.png" steam_name="Sigil of Baphomet" steam_description="Complete Challenge 37." steam_icon="Achievement_SigilOfBaphomet.png" />
+	<achievement id="519" text='"Purgatory" has appeared in the basement' gfx="Achievement_Purgatory.png" steam_name="Purgatory" steam_description="Complete Challenge 38." steam_icon="Achievement_Purgatory.png" />
+	<achievement id="520" text='"Spirit Sword" has appeared in the basement' gfx="Achievement_SpiritSword.png" steam_name="Spirit Sword" steam_description="Complete Challenge 39." steam_icon="Achievement_SpiritSword.png" />
+	<achievement id="521" text='"Broken Glasses" has appeared in the basement' gfx="Achievement_BrokenGlasses.png" steam_name="Broken Glasses" steam_description="Complete Challenge 40." steam_icon="Achievement_BrokenGlasses.png" />
+	<achievement id="522" text='"Ice Cube" has appeared in the basement' gfx="Achievement_IceCube.png" steam_name="Ice Cube" steam_description="Complete Challenge 41." steam_icon="Achievement_IceCube.png" />
+	<achievement id="523" text=' for a small fee..."' gfx="Achievement_ChargedPenny.png" steam_name="Charged Penny" steam_description="They will charge you u" steam_icon="Achievement_ChargedPenny.png" />
+	<achievement id="524" text='"The Fool" has appeared in the basement' gfx="Achievement_ReverseFool.png" steam_name="The Fool" steam_description="???" steam_icon="Achievement_ReverseFool.png" />
+	<achievement id="525" text='"The Magician" has appeared in the basement' gfx="Achievement_ReverseMagician.png" steam_name="The Magician" steam_description="???" steam_icon="Achievement_ReverseMagician.png" />
+	<achievement id="526" text='"The High Priestess" has appeared in the basement' gfx="Achievement_ReverseHighPriestess.png" steam_name="The High Priestess" steam_description="???" steam_icon="Achievement_ReverseHighPriestess.png" />
+	<achievement id="527" text='"The Empress" has appeared in the basement' gfx="Achievement_ReverseEmpress.png" steam_name="The Empress" steam_description="???" steam_icon="Achievement_ReverseEmpress.png" />
+	<achievement id="528" text='"The Emperor" has appeared in the basement' gfx="Achievement_ReverseEmperor.png" steam_name="The Emperor" steam_description="???" steam_icon="Achievement_ReverseEmperor.png" />
+	<achievement id="529" text='"The Hierophant" has appeared in the basement' gfx="Achievement_ReverseHierophant.png" steam_name="The Hierophant" steam_description="???" steam_icon="Achievement_ReverseHierophant.png" />
+	<achievement id="530" text='"The Lovers" has appeared in the basement' gfx="Achievement_ReverseLovers.png" steam_name="The Lovers" steam_description="???" steam_icon="Achievement_ReverseLovers.png" />
+	<achievement id="531" text='"The Chariot" has appeared in the basement' gfx="Achievement_ReverseChariot.png" steam_name="The Chariot" steam_description="Complete Challenge 42." steam_icon="Achievement_ReverseChariot.png" />
+	<achievement id="532" text='"Justice" has appeared in the basement' gfx="Achievement_ReverseJustice.png" steam_name="Justice" steam_description="Complete Challenge 43." steam_icon="Achievement_ReverseJustice.png" />
+	<achievement id="533" text='"The Hermit" has appeared in the basement' gfx="Achievement_ReverseHermit.png" steam_name="The Hermit" steam_description="Complete Challenge 44." steam_icon="Achievement_ReverseHermit.png" />
+	<achievement id="534" text='"Wheel of Fortune" has appeared in the basement' gfx="Achievement_ReverseWheelOfFortune.png" steam_name="Wheel of Fortune" steam_description="???" steam_icon="Achievement_ReverseWheelOfFortune.png" />
+	<achievement id="535" text='"Strength" has appeared in the basement' gfx="Achievement_ReverseStrength.png" steam_name="Strength" steam_description="???" steam_icon="Achievement_ReverseStrength.png" />
+	<achievement id="536" text='"The Hanged Man" has appeared in the basement' gfx="Achievement_ReverseHangedMan.png" steam_name="The Hanged Man" steam_description="???" steam_icon="Achievement_ReverseHangedMan.png" />
+	<achievement id="537" text='"Death" has appeared in the basement' gfx="Achievement_ReverseDeath.png" steam_name="Death" steam_description="???" steam_icon="Achievement_ReverseDeath.png" />
+	<achievement id="538" text='"Temperance" has appeared in the basement' gfx="Achievement_ReverseTemperance.png" steam_name="Temperance" steam_description="INVALID_DESCRIPTION" steam_icon="Achievement_ReverseTemperance.png" />
+	<achievement id="539" text='"The Devil" has appeared in the basement' gfx="Achievement_ReverseDevil.png" steam_name="The Devil" steam_description="???" steam_icon="Achievement_ReverseDevil.png" />
+	<achievement id="540" text='"The Tower" has appeared in the basement' gfx="Achievement_ReverseTower.png" steam_name="The Tower" steam_description="???" steam_icon="Achievement_ReverseTower.png" />
+	<achievement id="541" text='"The Stars" has appeared in the basement' gfx="Achievement_ReverseStars.png" steam_name="The Stars" steam_description="???" steam_icon="Achievement_ReverseStars.png" />
+	<achievement id="542" text='"The Sun &amp; The Moon" has appeared in the basement' gfx="Achievement_ReverseSunAndMoon.png" steam_name="The Sun and the Moon" steam_description="???" steam_icon="Achievement_ReverseSunAndMoon.png" />
+	<achievement id="543" text='"Judgement" has appeared in the basement' gfx="Achievement_ReverseJudgement.png" steam_name="Judgement" steam_description="???" steam_icon="Achievement_ReverseJudgement.png" />
+	<achievement id="544" text='"The World" has appeared in the basement' gfx="Achievement_ReverseWorld.png" steam_name="The World" steam_description="???" steam_icon="Achievement_ReverseWorld.png" />
+	<achievement id="545" text='"Old Capacitor" has appeared in the basement' gfx="Achievement_OldCapacitor.png" steam_name="Old Capacitor" steam_description="Kill 10 Battery Bums." steam_icon="Achievement_OldCapacitor.png" />
+	<achievement id="546" text='"Brimstone Bombs" has appeared in the basement' gfx="Achievement_BrimstoneBombs.png" steam_name="Brimstone Bombs" steam_description="Kill Hornfel before he escapes!" steam_icon="Achievement_BrimstoneBombs.png" />
+	<achievement id="547" text='"Mega Mush" has appeared in the basement' gfx="Achievement_MegaMush.png" steam_name="Mega Mush" steam_description="Beat everything in Hard Mode as every character." steam_icon="Achievement_MegaMush.png" />
+	<achievement id="548" text='"Mom&apos;s Lock" has appeared in the basement' gfx="Achievement_MomsLock.png" steam_name="Mom&apos;s Lock" steam_description="???" steam_icon="Achievement_MomsLock.png" />
+	<achievement id="549" text='"Dice Bag" has appeared in the basement' gfx="Achievement_DiceBag.png" steam_name="Dice Bag" steam_description="???" steam_icon="Achievement_DiceBag.png" />
+	<achievement id="550" text='"Holy Crown" has appeared in the basement' gfx="Achievement_HolyCrown.png" steam_name="Holy Crown" steam_description="???" steam_icon="Achievement_HolyCrown.png" />
+	<achievement id="551" text='"Mother&apos;s Kiss" has appeared in the basement' gfx="Achievement_MothersKiss.png" steam_name="Mother&apos;s Kiss" steam_description="???" steam_icon="Achievement_MothersKiss.png" />
+	<achievement id="552" text='"Gilded Key" has appeared in the basement' gfx="Achievement_GildedKey.png" steam_name="Gilded Key" steam_description="???" steam_icon="Achievement_GildedKey.png" />
+	<achievement id="553" text='"Lucky Sack" has appeared in the basement' gfx="Achievement_LuckySack.png" steam_name="Lucky Sack" steam_description="???" steam_icon="Achievement_LuckySack.png" />
+	<achievement id="554" text='"Your Soul" has appeared in the basement' gfx="Achievement_YourSoul.png" steam_name="Your Soul" steam_description="???" steam_icon="Achievement_YourSoul.png" />
+	<achievement id="555" text='"Number Magnet" has appeared in the basement' gfx="Achievement_NumberMagnet.png" steam_name="Number Magnet" steam_description="???" steam_icon="Achievement_NumberMagnet.png" />
+	<achievement id="556" text='"Dingle Berry" has appeared in the basement' gfx="Achievement_DingleBerry.png" steam_name="Dingle Berry" steam_description="???" steam_icon="Achievement_DingleBerry.png" />
+	<achievement id="557" text='"Ring Cap" has appeared in the basement' gfx="Achievement_RingCap.png" steam_name="Ring Cap" steam_description="???" steam_icon="Achievement_RingCap.png" />
+	<achievement id="558" text='"Strange Key" has appeared in the basement' gfx="Achievement_StrangeKey.png" steam_name="Strange Key" steam_description="???" steam_icon="Achievement_StrangeKey.png" />
+	<achievement id="559" text='"Lil Clot" has appeared in the basement' gfx="Achievement_LilClot.png" steam_name="Lil Clot" steam_description="???" steam_icon="Achievement_LilClot.png" />
+	<achievement id="560" text='"Temporary Tattoo" has appeared in the basement' gfx="Achievement_TemporaryTattoo.png" steam_name="Temporary Tattoo" steam_description="???" steam_icon="Achievement_TemporaryTattoo.png" />
+	<achievement id="561" text='"Swallowed M80" has appeared in the basement' gfx="Achievement_SwallowedM80.png" steam_name="Swallowed M80" steam_description="???" steam_icon="Achievement_SwallowedM80.png" />
+	<achievement id="562" text='"Wicked Crown" has appeared in the basement' gfx="Achievement_WickedCrown.png" steam_name="Wicked Crown" steam_description="???" steam_icon="Achievement_WickedCrown.png" />
+	<achievement id="563" text='"Azazel&apos;s Stump" has appeared in the basement' gfx="Achievement_AzazelsStump.png" steam_name="Azazel&apos;s Stump" steam_description="???" steam_icon="Achievement_AzazelsStump.png" />
+	<achievement id="564" text='"Torn Pocket" has appeared in the basement' gfx="Achievement_TornPocket.png" steam_name="Torn Pocket" steam_description="???" steam_icon="Achievement_TornPocket.png" />
+	<achievement id="565" text='"Torn Card" has appeared in the basement' gfx="Achievement_TornCard.png" steam_name="Torn Card" steam_description="???" steam_icon="Achievement_TornCard.png" />
+	<achievement id="566" text='"Nuh Uh!" has appeared in the basement' gfx="Achievement_NuhUh.png" steam_name="Nuh Uh!" steam_description="???" steam_icon="Achievement_NuhUh.png" />
+	<achievement id="567" text='"Modeling Clay" has appeared in the basement' gfx="Achievement_ModelingClay.png" steam_name="Modeling Clay" steam_description="???" steam_icon="Achievement_ModelingClay.png" />
+	<achievement id="568" text='"Kid&apos;s Drawing" has appeared in the basement' gfx="Achievement_KidsDrawing.png" steam_name="Kid&apos;s Drawing" steam_description="???" steam_icon="Achievement_KidsDrawing.png" />
+	<achievement id="569" text='"Crystal Key" has appeared in the basement' gfx="Achievement_CrystalKey.png" steam_name="Crystal Key" steam_description="???" steam_icon="Achievement_CrystalKey.png" />
+	<achievement id="570" text='"The Twins" has appeared in the basement' gfx="Achievement_TheTwins.png" steam_name="The Twins" steam_description="???" steam_icon="Achievement_TheTwins.png" />
+	<achievement id="571" text='"Adoption Papers" has appeared in the basement' gfx="Achievement_AdoptionPapers.png" steam_name="Adoption Papers" steam_description="???" steam_icon="Achievement_AdoptionPapers.png" />
+	<achievement id="572" text='"Keeper&apos;s Bargain" has appeared in the basement' gfx="Achievement_KeepersBargain.png" steam_name="Keeper&apos;s Bargain" steam_description="???" steam_icon="Achievement_KeepersBargain.png" />
+	<achievement id="573" text='"Cursed Penny" has appeared in the basement' gfx="Achievement_CursedPenny.png" steam_name="Cursed Penny" steam_description="???" steam_icon="Achievement_CursedPenny.png" />
+	<achievement id="574" text='"Cricket Leg" has appeared in the basement' gfx="Achievement_CricketLeg.png" steam_name="Cricket Leg" steam_description="???" steam_icon="Achievement_CricketLeg.png" />
+	<achievement id="575" text='"Apollyon&apos;s Best Friend" has appeared in the basement' gfx="Achievement_ApollyonsBestFriend.png" steam_name="Apollyon&apos;s Best Friend" steam_description="???" steam_icon="Achievement_ApollyonsBestFriend.png" />
+	<achievement id="576" text='"Polished Bone" has appeared in the basement' gfx="Achievement_PolishedBone.png" steam_name="Polished Bone" steam_description="???" steam_icon="Achievement_PolishedBone.png" />
+	<achievement id="577" text='"Hollow Heart" has appeared in the basement' gfx="Achievement_HollowHeart.png" steam_name="Hollow Heart" steam_description="???" steam_icon="Achievement_HollowHeart.png" />
+	<achievement id="578" text='"Expansion Pack" has appeared in the basement' gfx="Achievement_ExpansionPack.png" steam_name="Expansion Pack" steam_description="???" steam_icon="Achievement_ExpansionPack.png" />
+	<achievement id="579" text='"Beth&apos;s Essence" has appeared in the basement' gfx="Achievement_BethsEssence.png" steam_name="Beth&apos;s Essence" steam_description="???" steam_icon="Achievement_BethsEssence.png" />
+	<achievement id="580" text='"RC Remote" has appeared in the basement' gfx="Achievement_RCRemote.png" steam_name="RC Remote" steam_description="???" steam_icon="Achievement_RCRemote.png" />
+	<achievement id="581" text='"Found Soul" has appeared in the basement' gfx="Achievement_FoundSoul.png" steam_name="Found Soul" steam_description="???" steam_icon="Achievement_FoundSoul.png" />
+	<achievement id="582" text='"Member Card" has appeared in the basement' gfx="Achievement_MemberCard.png" steam_name="Member Card" steam_description="Spend 40+ pennies in a single shop." steam_icon="Achievement_MemberCard.png" />
+	<achievement id="583" text='"Golden Razor" has appeared in the basement' gfx="Achievement_GoldenRazor.png" steam_name="Golden Razor" steam_description="Obtain 99 pennies. Then spend every single one of them." steam_icon="Achievement_GoldenRazor.png" />
+	<achievement id="584" text='"Spindown Dice" has appeared in the basement' gfx="Achievement_SpindownDice.png" steam_name="Spindown Dice" steam_description="???" steam_icon="Achievement_SpindownDice.png" />
+	<achievement id="585" text='"Hypercoagulation" has appeared in the basement' gfx="Achievement_Hypercoagulation.png" steam_name="Hypercoagulation" steam_description="???" steam_icon="Achievement_Hypercoagulation.png" />
+	<achievement id="586" text='"Bag of Crafting" has appeared in the basement' gfx="Achievement_BagOfCrafting.png" steam_name="Bag of Crafting" steam_description="???" steam_icon="Achievement_BagOfCrafting.png" />
+	<achievement id="587" text='"Dark Arts" has appeared in the basement' gfx="Achievement_DarkArts.png" steam_name="Dark Arts" steam_description="???" steam_icon="Achievement_DarkArts.png" />
+	<achievement id="588" text='"IBS" has appeared in the basement' gfx="Achievement_IBS.png" steam_name="IBS" steam_description="???" steam_icon="Achievement_IBS.png" />
+	<achievement id="589" text='"Sumptorium" has appeared in the basement' gfx="Achievement_Sumptorium.png" steam_name="Sumptorium" steam_description="???" steam_icon="Achievement_Sumptorium.png" />
+	<achievement id="590" text='"Berserk!" has appeared in the basement' gfx="Achievement_Berserk.png" steam_name="Berserk!" steam_description="???" steam_icon="Achievement_Berserk.png" />
+	<achievement id="591" text='"Hemoptysis" has appeared in the basement' gfx="Achievement_Hemoptysis.png" steam_name="Hemoptysis" steam_description="???" steam_icon="Achievement_Hemoptysis.png" />
+	<achievement id="592" text='"Flip" has appeared in the basement' gfx="Achievement_Flip.png" steam_name="Flip" steam_description="???" steam_icon="Achievement_Flip.png" />
+	<achievement id="593" text='"Corrupted Data" has appeared in the basement' gfx="Achievement_CorruptedData.png" steam_name="Corrupted Data" steam_description="???" steam_icon="Achievement_CorruptedData.png" />
+	<achievement id="594" text='"Ghost Bombs" has appeared in the basement' gfx="Achievement_GhostBombs.png" steam_name="Ghost Bombs" steam_description="???" steam_icon="Achievement_GhostBombs.png" />
+	<achievement id="595" text='"Gello" has appeared in the basement' gfx="Achievement_Gello.png" steam_name="Gello" steam_description="???" steam_icon="Achievement_Gello.png" />
+	<achievement id="596" text='"Keeper&apos;s Kin" has appeared in the basement' gfx="Achievement_KeepersKin.png" steam_name="Keeper&apos;s Kin" steam_description="???" steam_icon="Achievement_KeepersKin.png" />
+	<achievement id="597" text='"Abyss" has appeared in the basement' gfx="Achievement_Abyss.png" steam_name="Abyss" steam_description="???" steam_icon="Achievement_Abyss.png" />
+	<achievement id="598" text='"Decap Attack" has appeared in the basement' gfx="Achievement_DecapAttack.png" steam_name="Decap Attack" steam_description="???" steam_icon="Achievement_DecapAttack.png" />
+	<achievement id="599" text='"Lemegeton" has appeared in the basement' gfx="Achievement_Lemegeton.png" steam_name="Lemegeton" steam_description="???" steam_icon="Achievement_Lemegeton.png" />
+	<achievement id="600" text='"Anima Sola" has appeared in the basement' gfx="Achievement_AnimaSola.png" steam_name="Anima Sola" steam_description="???" steam_icon="Achievement_AnimaSola.png" />
+	<achievement id="601" text='"Mega Chest" has appeared in the basement' gfx="Achievement_MegaChest.png" steam_name="Mega Chest" steam_description="???" steam_icon="Achievement_MegaChest.png" />
+	<achievement id="602" text='"Queen of Hearts" has appeared in the basement' gfx="Achievement_QueenOfHearts.png" steam_name="Queen of Hearts" steam_description="???" steam_icon="Achievement_QueenOfHearts.png" />
+	<achievement id="603" text='"Gold Pill" has appeared in the basement' gfx="Achievement_GoldPill.png" steam_name="Gold Pill" steam_description="???" steam_icon="Achievement_GoldPill.png" />
+	<achievement id="604" text='"Black Sack" has appeared in the basement' gfx="Achievement_BlackSack.png" steam_name="Black Sack" steam_description="???" steam_icon="Achievement_BlackSack.png" />
+	<achievement id="605" text='"Charming Poop" has appeared in the basement' gfx="Achievement_CharmingPoop.png" steam_name="Charming Poop" steam_description="???" steam_icon="Achievement_CharmingPoop.png" />
+	<achievement id="606" text='"Horse Pill" has appeared in the basement' gfx="Achievement_HorsePill.png" steam_name="Horse Pill" steam_description="???" steam_icon="Achievement_HorsePill.png" />
+	<achievement id="607" text='"Crane Game" has appeared in the basement' gfx="Achievement_CraneGame.png" steam_name="Crane Game" steam_description="???" steam_icon="Achievement_CraneGame.png" />
+	<achievement id="608" text='"Hell Game" has appeared in the basement' gfx="Achievement_HellGame.png" steam_name="Hell Game" steam_description="???" steam_icon="Achievement_HellGame.png" />
+	<achievement id="609" text='"Wooden Chest" has appeared in the basement' gfx="Achievement_WoodenChest.png" steam_name="Wooden Chest" steam_description="???" steam_icon="Achievement_WoodenChest.png" />
+	<achievement id="610" text='"Wild Card" has appeared in the basement' gfx="Achievement_WildCard.png" steam_name="Wild Card" steam_description="???" steam_icon="Achievement_WildCard.png" />
+	<achievement id="611" text='"Haunted Chest" has appeared in the basement' gfx="Achievement_HauntedChest.png" steam_name="Haunted Chest" steam_description="???" steam_icon="Achievement_HauntedChest.png" />
+	<achievement id="612" text='"Fool&apos;s Gold" has appeared in the basement' gfx="Achievement_FoolsGold.png" steam_name="Fool&apos;s Gold" steam_description="???" steam_icon="Achievement_FoolsGold.png" />
+	<achievement id="613" text='"Golden Penny" has appeared in the basement' gfx="Achievement_GoldenPenny.png" steam_name="Golden Penny" steam_description="???" steam_icon="Achievement_GoldenPenny.png" />
+	<achievement id="614" text='"Rotten Beggar" has appeared in the basement' gfx="Achievement_RottenBeggar.png" steam_name="Rotten Beggar" steam_description="???" steam_icon="Achievement_RottenBeggar.png" />
+	<achievement id="615" text='"Golden Battery" has appeared in the basement' gfx="Achievement_GoldenBattery.png" steam_name="Golden Battery" steam_description="???" steam_icon="Achievement_GoldenBattery.png" />
+	<achievement id="616" text='"Confessional" has appeared in the basement' gfx="Achievement_Confessional.png" steam_name="Confessional" steam_description="???" steam_icon="Achievement_Confessional.png" />
+	<achievement id="617" text='"Golden Trinket" has appeared in the basement' gfx="Achievement_GoldenTrinket.png" steam_name="Golden Trinket" steam_description="???" steam_icon="Achievement_GoldenTrinket.png" />
+	<achievement id="618" text='"Soul of Isaac" has appeared in the basement' gfx="Achievement_SoulOfIsaac.png" steam_name="Soul of Isaac" steam_description="???" steam_icon="Achievement_SoulOfIsaac.png" />
+	<achievement id="619" text='"Soul of Magdalene" has appeared in the basement' gfx="Achievement_SoulOfMagdalene.png" steam_name="Soul of Magdalene" steam_description="???" steam_icon="Achievement_SoulOfMagdalene.png" />
+	<achievement id="620" text='"Soul of Cain" has appeared in the basement' gfx="Achievement_SoulOfCain.png" steam_name="Soul of Cain" steam_description="???" steam_icon="Achievement_SoulOfCain.png" />
+	<achievement id="621" text='"Soul of Judas" has appeared in the basement' gfx="Achievement_SoulOfJudas.png" steam_name="Soul of Judas" steam_description="???" steam_icon="Achievement_SoulOfJudas.png" />
+	<achievement id="622" text='"Soul of ???" has appeared in the basement' gfx="Achievement_SoulOfBlueBaby.png" steam_name="Soul of ???" steam_description="???" steam_icon="Achievement_SoulOfBlueBaby.png" />
+	<achievement id="623" text='"Soul of Eve" has appeared in the basement' gfx="Achievement_SoulOfEve.png" steam_name="Soul of Eve" steam_description="???" steam_icon="Achievement_SoulOfEve.png" />
+	<achievement id="624" text='"Soul of Samson" has appeared in the basement' gfx="Achievement_SoulOfSamson.png" steam_name="Soul of Samson" steam_description="???" steam_icon="Achievement_SoulOfSamson.png" />
+	<achievement id="625" text='"Soul of Azazel" has appeared in the basement' gfx="Achievement_SoulOfAzazel.png" steam_name="Soul of Azazel" steam_description="???" steam_icon="Achievement_SoulOfAzazel.png" />
+	<achievement id="626" text='"Soul of Lazarus" has appeared in the basement' gfx="Achievement_SoulOfLazarus.png" steam_name="Soul of Lazarus" steam_description="???" steam_icon="Achievement_SoulOfLazarus.png" />
+	<achievement id="627" text='"Soul of Eden" has appeared in the basement' gfx="Achievement_SoulOfEden.png" steam_name="Soul of Eden" steam_description="???" steam_icon="Achievement_SoulOfEden.png" />
+	<achievement id="628" text='"Soul of the Lost" has appeared in the basement' gfx="Achievement_SoulOftheLost.png" steam_name="Soul of the Lost" steam_description="???" steam_icon="Achievement_SoulOftheLost.png" />
+	<achievement id="629" text='"Soul of Lilith" has appeared in the basement' gfx="Achievement_SoulOfLilith.png" steam_name="Soul of Lilith" steam_description="???" steam_icon="Achievement_SoulOfLilith.png" />
+	<achievement id="630" text='"Soul of the Keeper" has appeared in the basement' gfx="Achievement_SoulOftheKeeper.png" steam_name="Soul of the Keeper" steam_description="???" steam_icon="Achievement_SoulOftheKeeper.png" />
+	<achievement id="631" text='"Soul of Apollyon" has appeared in the basement' gfx="Achievement_SoulOfApollyon.png" steam_name="Soul of Apollyon" steam_description="???" steam_icon="Achievement_SoulOfApollyon.png" />
+	<achievement id="632" text='"Soul of the Forgotten" has appeared in the basement' gfx="Achievement_SoulOftheForgotten.png" steam_name="Soul of the Forgotten" steam_description="???" steam_icon="Achievement_SoulOftheForgotten.png" />
+	<achievement id="633" text='"Soul of Bethany" has appeared in the basement' gfx="Achievement_SoulOfBethany.png" steam_name="Soul of Bethany" steam_description="???" steam_icon="Achievement_SoulOfBethany.png" />
+	<achievement id="634" text='"Soul of Jacob" has appeared in the basement' gfx="Achievement_SoulOfJacob.png" steam_name="Soul of Jacob" steam_description="???" steam_icon="Achievement_SoulOfJacob.png" />
+	<achievement id="635" text='"A Strange Door" has appeared in the depths' gfx="Achievement_StrangeDoor.png" steam_name="A Strange Door" steam_description="Where could it lead to?" steam_icon="Achievement_StrangeDoor.png" />
+	<achievement id="636" text='"Death Certificate" has appeared in the basement' gfx="Achievement_DeathCertificate.png" steam_name="Death Certificate" steam_description="" steam_icon="Achievement_DeathCertificate.png" />
+	<achievement id="637" text="" gfx="Achievement_DeadGod.png" steam_name="Dead God" steam_description="" steam_icon="Achievement_DeadGod.png" />
+</achievements>

@@ -1,0 +1,911 @@
+<items>
+    <item id="1" quality="3" tags="summonable tearsup offensive"/>
+    <item id="2" quality="2" tags="summonable offensive"/>
+    <item id="3" quality="3" tags="summonable offensive"/>
+    <item id="4" quality="4" tags="summonable dead offensive"/>
+    <item id="5" quality="2" tags="summonable offensive"/>
+    <item id="6" quality="2" tags="summonable tearsup offensive"/>
+    <item id="7" quality="3" tags="summonable offensive"/>
+    <item id="8" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="9" quality="0" tags="poop summonable nocantrip fly"/>
+    <item id="10" quality="2" tags="summonable monstermanual fly"/>
+    <item id="11" quality="2" tags="mushroom"/>
+    <item id="12" quality="4" tags="summonable mushroom offensive"/>
+    <item id="13" quality="2" tags="nolostbr summonable syringe"/>
+    <item id="14" quality="2" tags="summonable syringe offensive"/>
+    <item id="15" quality="2" tags="nolostbr"/>
+    <item id="16" quality="2" tags="nolostbr"/>
+    <item id="17" quality="3" tags="offensive nocantrip"/>
+    <item id="18" quality="3" tags="offensive nocantrip"/>
+    <item id="19" quality="0" tags="offensive"/>
+    <item id="20" quality="3" tags="nolostbr summonable"/>
+    <item id="21" quality="2" tags="summonable offensive lazarussharedglobal nogreed"/>
+    <item id="22" quality="1" tags="nolostbr nocantrip food"/>
+    <item id="23" quality="1" tags="nolostbr nocantrip food"/>
+    <item id="24" quality="1" tags="nolostbr nocantrip food"/>
+    <item id="25" quality="1" tags="nolostbr nocantrip food"/>
+    <item id="26" quality="1" tags="nolostbr nocantrip food"/>
+    <item id="27" quality="1" tags="summonable offensive"/>
+    <item id="28" quality="1" tags="summonable offensive"/>
+    <item id="29" quality="1" tags="summonable mom offensive"/>
+    <item id="30" quality="1" tags="summonable mom offensive"/>
+    <item id="31" quality="1" tags="summonable mom offensive"/>
+    <item id="32" quality="3" tags="summonable tearsup offensive"/>
+    <item id="33" quality="1" tags="book offensive angel"/>
+    <item id="34" quality="2" tags="book offensive lazarussharedglobal"/>
+    <item id="35" quality="1" tags="book offensive"/>
+    <item id="36" quality="0" tags="poop"/>
+    <item id="37" quality="1" tags="offensive"/>
+    <item id="38" quality="2" tags="dead offensive"/>
+    <item id="39" quality="1" tags="mom offensive"/>
+    <item id="40" quality="0" tags="nolostbr"/>
+    <item id="41" quality="0" tags="mom offensive"/>
+    <item id="42" quality="1" tags="bob dead offensive"/>
+    <item id="44" quality="0" tags="offensive"/>
+    <item id="45" quality="1" tags="nolostbr"/>
+    <item id="46" quality="2" tags="summonable offensive"/>
+    <item id="47" quality="1" tags="offensive"/>
+    <item id="48" quality="3" tags="summonable offensive"/>
+    <item id="49" quality="2" tags="offensive"/>
+    <item id="50" quality="3" tags="summonable offensive"/>
+    <item id="51" quality="3" tags="devil summonable offensive lazarussharedglobal"/>
+    <item id="52" quality="4" tags="summonable offensive"/>
+    <item id="53" quality="1" tags="summonable"/>
+    <item id="54" quality="2" tags="summonable offensive lazarussharedglobal nogreed"/>
+    <item id="55" quality="1" tags="summonable mom offensive"/>
+    <item id="56" quality="0" tags="offensive"/>
+    <item id="57" quality="2" tags="summonable monstermanual offensive fly"/>
+    <item id="58" quality="3" tags="book offensive"/>
+    <item id="59" quality="0" tags=""/>
+    <item id="60" quality="1" tags="nolostbr summonable"/>
+    <item id="62" quality="1" tags="nolostbr summonable nocantrip"/>
+    <item id="63" quality="2" tags="battery summonable offensive nocantrip"/>
+    <item id="64" quality="2" craftquality="3" tags="summonable offensive"/>
+    <item id="65" quality="1" tags="book offensive"/>
+    <item id="66" quality="1" tags="offensive"/>
+    <item id="67" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="68" quality="3" tags="summonable tech offensive"/>
+    <item id="69" quality="3" tags="summonable offensive"/>
+    <item id="70" quality="3" tags="summonable syringe offensive"/>
+    <item id="71" quality="2" tags="summonable mushroom offensive"/>
+    <item id="72" quality="2" tags="nolostbr nocantrip angel"/>
+    <item id="73" quality="2" tags="summonable monstermanual"/>
+    <item id="74" quality="0" craftquality="1" tags="offensive nocantrip"/>
+    <item id="75" quality="2" tags="summonable offensive nocantrip"/>
+    <item id="76" quality="2" tags="summonable offensive"/>
+    <item id="77" quality="1" tags="offensive"/>
+    <item id="78" quality="3" tags="nolostbr book lazarussharedglobal"/>
+    <item id="79" quality="3" tags="devil summonable offensive"/>
+    <item id="80" quality="3" tags="devil summonable tearsup offensive"/>
+    <item id="81" quality="3" tags="uniquefamiliar dead guppy nocantrip"/>
+    <item id="82" quality="3" tags="devil nolostbr summonable"/>
+    <item id="83" quality="2" tags="devil"/>
+    <item id="84" quality="2" tags="offensive"/>
+    <item id="85" quality="2" tags="offensive nocantrip stars"/>
+    <item id="86" quality="1" tags="offensive"/>
+    <item id="87" quality="1" tags="summonable offensive"/>
+    <item id="88" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="89" quality="2" tags="summonable spider offensive"/>
+    <item id="90" quality="3" tags="summonable tearsup offensive"/>
+    <item id="91" quality="2" tags="summonable offensive"/>
+    <item id="92" quality="2" tags="nolostbr"/>
+    <item id="93" quality="1" tags="offensive"/>
+    <item id="94" quality="1" tags="summonable offensive nocantrip"/>
+    <item id="95" quality="1" tags="summonable baby tech monstermanual offensive"/>
+    <item id="96" quality="2" tags="nolostbr summonable nocantrip"/>
+    <item id="97" quality="2" tags="book offensive"/>
+    <item id="98" quality="3" tags="nolostbr summonable nocantrip"/>
+    <item id="99" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="100" quality="2" tags="summonable baby monstermanual offensive"/>
+    <item id="101" quality="2" tags="summonable tearsup offensive angel"/>
+    <item id="102" quality="1" tags="mom offensive nocantrip"/>
+    <item id="103" quality="1" tags="summonable offensive"/>
+    <item id="104" quality="3" tags="summonable offensive"/>
+    <item id="105" quality="4" tags="offensive nocantrip"/>
+    <item id="106" quality="2" tags="offensive"/>
+    <item id="107" quality="2" tags="offensive"/>
+    <item id="108" quality="4" tags="nolostbr summonable"/>
+    <item id="109" quality="3" tags="summonable offensive"/>
+    <item id="110" quality="3" tags="summonable mom offensive"/>
+    <item id="111" quality="0" tags="offensive"/>
+    <item id="112" quality="2" tags="summonable baby monstermanual"/>
+    <item id="113" quality="2" tags="summonable baby monstermanual offensive"/>
+    <item id="114" quality="4" tags="summonable mom offensive"/>
+    <item id="115" quality="2" tags="nolostbr summonable"/>
+    <item id="116" quality="2" tags="battery summonable offensive nocantrip"/>
+    <item id="117" quality="0" tags="nolostbr summonable dead"/>
+    <item id="118" quality="4" tags="devil summonable offensive"/>
+    <item id="119" quality="2" tags="nolostbr"/>
+    <item id="120" quality="2" tags="summonable mushroom tearsup offensive"/>
+    <item id="121" quality="2" tags="summonable mushroom offensive"/>
+    <item id="122" quality="2" tags="summonable offensive"/>
+    <item id="123" quality="1" tags="book offensive"/>
+    <item id="124" quality="1" tags="offensive"/>
+    <item id="125" quality="2" tags="summonable offensive"/>
+    <item id="126" quality="0" tags="nolostbr"/>
+    <item id="127" quality="3" tags="offensive nocantrip"/>
+    <item id="128" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="129" quality="1" tags="nolostbr"/>
+    <item id="130" quality="2" tags="offensive"/>
+    <item id="131" quality="2" tags="summonable offensive nocantrip"/>
+    <item id="132" quality="3" tags="summonable offensive"/>
+    <item id="133" quality="3" tags="nolostbr dead guppy"/>
+    <item id="134" quality="2" tags="summonable dead guppy offensive"/>
+    <item id="135" quality="1" tags="nolostbr"/>
+    <item id="136" quality="1" tags="offensive"/>
+    <item id="137" quality="1" tags="offensive nocantrip"/>
+    <item id="138" quality="2" tags="summonable"/>
+    <item id="139" quality="2" tags="summonable mom offensive nocantrip"/>
+    <item id="140" quality="1" tags="bob summonable offensive"/>
+    <item id="141" quality="0" tags="offensive"/>
+    <item id="142" quality="2" tags="nolostbr summonable angel"/>
+    <item id="143" quality="2" tags="summonable syringe offensive"/>
+    <item id="144" quality="1" tags="summonable offensive"/>
+    <item id="145" quality="2" tags="dead guppy offensive"/>
+    <item id="146" quality="3" tags="nolostbr"/>
+    <item id="147" quality="1" tags="offensive nocantrip"/>
+    <item id="148" quality="0" tags="nolostbr summonable"/>
+    <item id="149" quality="4" tags="bob summonable offensive"/>
+    <item id="150" quality="3" tags="summonable offensive"/>
+    <item id="151" quality="3" tags="summonable offensive fly"/>
+    <item id="152" quality="2" tags="summonable tech offensive"/>
+    <item id="153" quality="3" tags="summonable spider offensive"/>
+    <item id="154" quality="2" tags="summonable offensive"/>
+    <item id="155" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="156" quality="2" tags="nolostbr summonable nocantrip"/>
+    <item id="157" quality="2" tags="nolostbr summonable"/>
+    <item id="158" quality="3" tags="offensive stars lazarussharedglobal"/>
+    <item id="159" quality="3" tags="devil nolostbr summonable"/>
+    <item id="160" quality="2" tags="offensive"/>
+    <item id="161" quality="1" tags="nolostbr nocantrip nochallenge"/>
+    <item id="162" quality="1" tags="nolostbr summonable angel"/>
+    <item id="163" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="164" quality="2" tags="offensive"/>
+    <item id="165" quality="3" tags="summonable offensive"/>
+    <item id="166" quality="2" tags="offensive"/>
+    <item id="167" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="168" quality="4" tags="summonable offensive"/>
+    <item id="169" quality="4" tags="summonable offensive"/>
+    <item id="170" quality="3" tags="summonable spider offensive"/>
+    <item id="171" quality="1" tags="spider offensive"/>
+    <item id="172" quality="2" tags="summonable"/>
+    <item id="173" quality="3" tags="summonable angel"/>
+    <item id="174" quality="1" tags="summonable baby offensive"/>
+    <item id="175" quality="2" tags="offensive"/>
+    <item id="176" quality="1" tags="nolostbr"/>
+    <item id="177" quality="0" tags="offensive"/>
+    <item id="178" quality="3" tags="summonable offensive"/>
+    <item id="179" quality="3" tags="nolostbr summonable"/>
+    <item id="180" quality="0" tags="nolostbr summonable"/>
+    <item id="181" quality="2" tags="offensive"/>
+    <item id="182" quality="4" tags="summonable offensive angel"/>
+    <item id="183" quality="3" tags="summonable tearsup offensive"/>
+    <item id="184" quality="3" tags="nolostbr summonable angel"/>
+    <item id="185" quality="3" tags="nolostbr summonable angel"/>
+    <item id="186" quality="0" tags="nolostbr"/>
+    <item id="187" quality="1" tags="summonable guppy offensive"/>
+    <item id="188" quality="0" tags="summonable baby offensive"/>
+    <item id="189" quality="3" tags="summonable offensive"/>
+    <item id="190" quality="3" tags="offensive nocantrip"/>
+    <item id="191" quality="2" tags="summonable offensive"/>
+    <item id="192" quality="1" tags="book offensive"/>
+    <item id="193" quality="2" tags="nolostbr summonable"/>
+    <item id="194" quality="1" tags="summonable offensive stars lazarussharedglobal"/>
+    <item id="195" quality="1" tags="mom offensive nocantrip"/>
+    <item id="196" quality="3" tags="summonable tearsup offensive"/>
+    <item id="197" quality="2" tags="summonable offensive"/>
+    <item id="198" quality="0" craftquality="1" tags="offensive"/>
+    <item id="199" quality="3" tags="summonable mom offensive"/>
+    <item id="200" quality="1" tags="summonable mom offensive"/>
+    <item id="201" quality="2" tags="summonable offensive"/>
+    <item id="202" quality="2" tags="nolostbr summonable"/>
+    <item id="203" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="204" quality="1" tags="nolostbr summonable"/>
+    <item id="205" quality="2" tags="nolostbr summonable nocantrip"/>
+    <item id="206" quality="2" tags="summonable tearsup offensive"/>
+    <item id="207" quality="2" tags="summonable monstermanual"/>
+    <item id="208" quality="3" tags="summonable offensive"/>
+    <item id="209" quality="2" tags="poop summonable offensive"/>
+    <item id="210" quality="1" tags="summonable"/>
+    <item id="211" quality="0" tags="nolostbr summonable spider"/>
+    <item id="212" quality="1" tags="guppy"/>
+    <item id="213" quality="2" tags="summonable offensive"/>
+    <item id="214" quality="1" tags="nolostbr summonable"/>
+    <item id="215" quality="3" tags="summonable offensive lazarussharedglobal"/>
+    <item id="216" quality="3" tags="summonable offensive"/>
+    <item id="217" quality="2" tags="summonable mom offensive"/>
+    <item id="218" quality="2" tags="nolostbr"/>
+    <item id="219" quality="2" tags="nolostbr"/>
+    <item id="220" quality="2" tags="summonable offensive"/>
+    <item id="221" quality="3" tags="summonable offensive"/>
+    <item id="222" quality="2" tags="summonable tearsup offensive"/>
+    <item id="223" quality="4" tags="summonable"/>
+    <item id="224" quality="3" tags="summonable dead tearsup offensive"/>
+    <item id="225" quality="2" tags="nolostbr summonable"/>
+    <item id="226" quality="2" tags="nolostbr"/>
+    <item id="227" quality="1" tags="nolostbr summonable"/>
+    <item id="228" quality="2" tags="summonable mom tearsup offensive"/>
+    <item id="229" quality="2" tags="summonable offensive"/>
+    <item id="230" quality="3" tags="devil summonable offensive"/>
+    <item id="231" quality="2" tags="summonable offensive"/>
+    <item id="232" quality="4" tags="summonable"/>
+    <item id="233" quality="0" tags="summonable offensive"/>
+    <item id="234" quality="3" tags="summonable spider offensive"/>
+    <item id="236" quality="1" tags="poop nolostbr summonable"/>
+    <item id="237" quality="3" tags="summonable offensive"/>
+    <item id="238" quality="0" tags="uniquefamiliar offensive lazarusshared noeden nocantrip quest"/>
+    <item id="239" quality="0" tags="uniquefamiliar offensive lazarusshared noeden nocantrip quest"/>
+    <item id="240" quality="1" tags="syringe offensive"/>
+    <item id="241" quality="3" tags="summonable offensive nogreed"/>
+    <item id="242" quality="2" tags="summonable"/>
+    <item id="243" quality="2" tags="summonable"/>
+    <item id="244" quality="3" tags="summonable tech offensive"/>
+    <item id="245" quality="4" tags="summonable offensive"/>
+    <item id="246" quality="2" tags="summonable offensive lazarussharedglobal"/>
+    <item id="247" quality="2" tags="summonable offensive"/>
+    <item id="248" quality="2" tags="summonable spider offensive fly"/>
+    <item id="249" quality="3" tags="summonable offensive nocantrip lazarussharedglobal nogreed"/>
+    <item id="250" quality="1" tags="summonable offensive nocantrip"/>
+    <item id="251" quality="2" tags="summonable offensive nocantrip"/>
+    <item id="252" quality="0" tags="summonable offensive nocantrip"/>
+    <item id="253" quality="2" tags="nolostbr"/>
+    <item id="254" quality="2" tags="summonable offensive"/>
+    <item id="255" quality="3" tags="summonable tearsup offensive"/>
+    <item id="256" quality="1" tags="summonable offensive"/>
+    <item id="257" quality="2" tags="summonable offensive"/>
+    <item id="258" quality="0" tags="summonable offensive nocantrip"/>
+    <item id="259" quality="3" tags="summonable offensive"/>
+    <item id="260" quality="3" tags="summonable offensive lazarussharedglobal"/>
+    <item id="261" quality="3" tags="summonable offensive"/>
+    <item id="262" quality="0" tags="nolostbr summonable"/>
+    <item id="263" quality="2" tags="offensive nocantrip"/>
+    <item id="264" quality="2" tags="summonable monstermanual fly"/>
+    <item id="265" quality="3" tags="summonable baby monstermanual"/>
+    <item id="266" quality="2" tags="summonable spider monstermanual offensive"/>
+    <item id="267" quality="1" tags="summonable baby tech monstermanual offensive"/>
+    <item id="268" quality="3" tags="summonable baby monstermanual offensive"/>
+    <item id="269" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="270" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="271" quality="2" tags="summonable offensive"/>
+    <item id="272" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="273" quality="1" tags="bob summonable monstermanual offensive"/>
+    <item id="274" quality="0" tags="nolostbr summonable fly"/>
+    <item id="275" quality="2" tags="summonable baby monstermanual offensive"/>
+    <item id="276" quality="0" tags="uniquefamiliar nolostbr summonable"/>
+    <item id="277" quality="1" tags="summonable monstermanual offensive"/>
+    <item id="278" quality="3" tags="summonable"/>
+    <item id="279" quality="2" tags="summonable monstermanual fly"/>
+    <item id="280" quality="1" tags="summonable spider monstermanual offensive"/>
+    <item id="281" quality="1" tags="summonable"/>
+    <item id="282" quality="1" tags="book"/>
+    <item id="283" quality="3" tags="offensive nocantrip"/>
+    <item id="284" quality="2" tags="offensive nocantrip"/>
+    <item id="285" quality="1" tags="offensive"/>
+    <item id="286" quality="2" tags="offensive nocantrip"/>
+    <item id="287" quality="1" tags="book offensive"/>
+    <item id="288" quality="1" tags="spider offensive"/>
+    <item id="289" quality="2" tags="offensive"/>
+    <item id="290" quality="0" tags="nolostbr nocantrip"/>
+    <item id="291" quality="1" tags="poop offensive"/>
+    <item id="292" quality="4" tags="nolostbr book"/>
+    <item id="293" quality="2" tags="offensive"/>
+    <item id="294" quality="1" tags="offensive"/>
+    <item id="295" quality="1" tags="offensive"/>
+    <item id="296" quality="2" tags="nolostbr"/>
+    <item id="297" quality="2" tags="offensive"/>
+    <item id="298" quality="1" tags=""/>
+    <item id="299" quality="1" tags="summonable nocantrip stars"/>
+    <item id="300" quality="2" tags="summonable offensive stars"/>
+    <item id="301" quality="3" tags="nolostbr summonable stars"/>
+    <item id="302" quality="1" tags="summonable stars"/>
+    <item id="303" quality="2" tags="summonable stars"/>
+    <item id="304" quality="1" tags="summonable offensive stars"/>
+    <item id="305" quality="3" tags="summonable offensive stars"/>
+    <item id="306" quality="3" tags="summonable offensive stars"/>
+    <item id="307" quality="3" tags="summonable tearsup offensive stars"/>
+    <item id="308" quality="2" tags="summonable offensive stars"/>
+    <item id="309" quality="2" tags="summonable tearsup offensive stars"/>
+    <item id="310" quality="3" tags="summonable offensive"/>
+    <item id="311" quality="3" tags="nolostbr nocantrip nochallenge"/>
+    <item id="312" quality="2" tags="nolostbr summonable"/>
+    <item id="313" quality="4" tags="summonable angel"/>
+    <item id="314" quality="1" tags="nolostbr summonable"/>
+    <item id="315" quality="0" tags="summonable offensive"/>
+    <item id="316" quality="0" tags="summonable offensive"/>
+    <item id="317" quality="3" tags="summonable offensive"/>
+    <item id="318" quality="1" tags="summonable monstermanual offensive stars"/>
+    <item id="319" quality="2" tags="summonable offensive"/>
+    <item id="320" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="321" quality="1" tags="summonable"/>
+    <item id="322" quality="2" tags="summonable baby monstermanual offensive"/>
+    <item id="323" quality="1" tags="offensive"/>
+    <item id="324" quality="2" tags="offensive"/>
+    <item id="325" quality="1" tags="offensive"/>
+    <item id="326" quality="1" tags="nolostbr nocantrip"/>
+    <item id="327" quality="2" tags="offensive lazarusshared noeden quest"/>
+    <item id="328" quality="2" tags="offensive lazarusshared noeden quest"/>
+    <item id="329" quality="2" tags="summonable offensive"/>
+    <item id="330" quality="2" tags="summonable tearsup offensive"/>
+    <item id="331" quality="4" tags="summonable offensive angel"/>
+    <item id="332" quality="1" tags="nolostbr nocantrip nochallenge"/>
+    <item id="333" quality="3" tags="summonable offensive lazarussharedglobal"/>
+    <item id="334" quality="3" tags="nolostbr"/>
+    <item id="335" quality="3" tags="summonable"/>
+    <item id="336" quality="3" tags="summonable dead offensive"/>
+    <item id="337" quality="1" tags="summonable nocantrip"/>
+    <item id="338" quality="1" tags="offensive"/>
+    <item id="339" quality="1" tags="summonable offensive"/>
+    <item id="340" quality="1" tags="summonable offensive"/>
+    <item id="341" quality="3" tags="summonable tearsup offensive"/>
+    <item id="342" quality="3" tags="summonable mushroom tearsup offensive"/>
+    <item id="343" quality="1" craftquality="2" tags="summonable offensive"/>
+    <item id="344" quality="1" tags="offensive"/>
+    <item id="345" quality="3" tags="summonable syringe offensive"/>
+    <item id="346" quality="1" tags="nolostbr food"/>
+    <item id="347" quality="3" tags="offensive"/>
+    <item id="348" quality="2" tags="offensive nocantrip"/>
+    <item id="349" quality="1" tags="offensive"/>
+    <item id="350" quality="3" tags="summonable offensive"/>
+    <item id="351" quality="1" tags="offensive"/>
+    <item id="352" quality="1" tags="offensive"/>
+    <item id="353" quality="2" tags="summonable offensive"/>
+    <item id="354" quality="2" tags="nolostbr"/>
+    <item id="355" quality="2" tags="summonable mom offensive"/>
+    <item id="356" quality="3" tags="battery summonable offensive nocantrip"/>
+    <item id="357" quality="1" tags="offensive"/>
+    <item id="358" quality="0" craftquality="1" tags="summonable offensive"/>
+    <item id="359" quality="3" tags="summonable offensive"/>
+    <item id="360" quality="4" tags="summonable baby monstermanual offensive"/>
+    <item id="361" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="362" quality="2" tags="summonable offensive"/>
+    <item id="363" quality="3" tags="summonable baby monstermanual"/>
+    <item id="364" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="365" quality="2" tags="summonable monstermanual offensive fly"/>
+    <item id="366" quality="1" tags="summonable offensive"/>
+    <item id="367" quality="2" tags="summonable spider offensive"/>
+    <item id="368" quality="2" tags="summonable offensive"/>
+    <item id="369" quality="2" tags="summonable offensive"/>
+    <item id="370" quality="3" tags="summonable tearsup offensive"/>
+    <item id="371" quality="0" tags="nolostbr summonable"/>
+    <item id="372" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="373" quality="3" tags="summonable offensive"/>
+    <item id="374" quality="3" tags="summonable offensive angel"/>
+    <item id="375" quality="3" tags="summonable"/>
+    <item id="376" quality="2" tags="summonable offensive nogreed"/>
+    <item id="377" quality="1" tags="summonable spider offensive"/>
+    <item id="378" quality="2" tags="poop summonable offensive"/>
+    <item id="379" quality="2" tags="summonable offensive"/>
+    <item id="380" quality="2" tags="summonable offensive nocantrip lazarussharedglobal"/>
+    <item id="381" quality="3" tags="summonable tearsup offensive nocantrip"/>
+    <item id="382" quality="1" tags="offensive nocantrip"/>
+    <item id="383" quality="1" tags="offensive"/>
+    <item id="384" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="385" quality="1" tags="summonable offensive"/>
+    <item id="386" quality="1" tags="offensive"/>
+    <item id="387" quality="3" tags="summonable"/>
+    <item id="388" quality="0" tags="summonable offensive"/>
+    <item id="389" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="390" quality="3" tags="summonable baby monstermanual offensive"/>
+    <item id="391" quality="1" tags="summonable offensive"/>
+    <item id="392" quality="1" tags="summonable offensive stars"/>
+    <item id="393" quality="2" tags="summonable offensive"/>
+    <item id="394" quality="1" tags="summonable tearsup offensive"/>
+    <item id="395" quality="4" tags="summonable tech offensive"/>
+    <item id="396" quality="1" tags="offensive nocantrip"/>
+    <item id="397" quality="3" tags="summonable offensive"/>
+    <item id="398" quality="1" tags="summonable mushroom offensive"/>
+    <item id="399" quality="3" tags="devil summonable offensive"/>
+    <item id="400" quality="2" tags="summonable offensive"/>
+    <item id="401" quality="3" tags="summonable offensive"/>
+    <item id="402" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="403" quality="1" tags="summonable spider offensive"/>
+    <item id="404" quality="1" tags="summonable baby monstermanual"/>
+    <item id="405" quality="1" tags="summonable offensive"/>
+    <item id="406" quality="2" tags="offensive"/>
+    <item id="407" quality="3" tags="summonable tearsup offensive"/>
+    <item id="408" quality="3" tags="summonable offensive"/>
+    <item id="409" quality="2" tags="summonable"/>
+    <item id="410" quality="2" tags="summonable offensive"/>
+    <item id="411" quality="3" tags="summonable offensive"/>
+    <item id="412" quality="2" tags="nolostbr summonable"/>
+    <item id="413" quality="1" tags="nolostbr summonable"/>
+    <item id="414" quality="3" tags="summonable offensive nocantrip lazarussharedglobal"/>
+    <item id="415" quality="4" tags="summonable offensive"/>
+    <item id="416" quality="2" tags="summonable offensive nocantrip lazarussharedglobal"/>
+    <item id="417" quality="3" tags="summonable monstermanual offensive"/>
+    <item id="418" quality="2" tags="summonable offensive"/>
+    <item id="419" quality="3" tags="offensive"/>
+    <item id="420" quality="1" tags="summonable offensive"/>
+    <item id="421" quality="1" tags="offensive"/>
+    <item id="422" quality="3" craftquality="-1" tags="offensive nocantrip"/>
+    <item id="423" quality="2" tags="summonable"/>
+    <item id="424" quality="3" tags="summonable offensive"/>
+    <item id="425" quality="1" tags="summonable"/>
+    <item id="426" quality="0" tags="summonable offensive fly"/>
+    <item id="427" quality="1" tags="offensive"/>
+    <item id="428" quality="2" tags="nolostbr"/>
+    <item id="429" quality="2" tags="summonable offensive"/>
+    <item id="430" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="431" quality="2" tags="summonable baby offensive"/>
+    <item id="432" quality="2" tags="summonable offensive"/>
+    <item id="433" quality="2" tags="summonable offensive"/>
+    <item id="434" quality="2" tags="offensive nocantrip fly"/>
+    <item id="435" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="436" quality="1" tags="uniquefamiliar nolostbr summonable"/>
+    <item id="437" quality="1" tags="offensive"/>
+    <item id="438" quality="3" tags="summonable tearsup offensive"/>
+    <item id="439" quality="2" tags="mom offensive"/>
+    <item id="440" quality="2" tags="summonable offensive"/>
+    <item id="441" quality="4" tags="offensive"/>
+    <item id="442" quality="1" tags="nolostbr summonable tearsup"/>
+    <item id="443" quality="3" tags="summonable tearsup offensive"/>
+    <item id="444" quality="3" tags="summonable offensive"/>
+    <item id="445" quality="2" tags="summonable offensive"/>
+    <item id="446" quality="1" tags="summonable offensive"/>
+    <item id="447" quality="0" tags="summonable offensive"/>
+    <item id="448" quality="1" tags="nolostbr summonable"/>
+    <item id="449" quality="1" tags="summonable"/>
+    <item id="450" quality="2" tags="summonable offensive"/>
+    <item id="451" quality="2" tags="summonable offensive stars"/>
+    <item id="452" quality="1" tags="nolostbr summonable"/>
+    <item id="453" quality="3" tags="summonable offensive"/>
+    <item id="454" quality="2" tags="summonable offensive"/>
+    <item id="455" quality="1" craftquality="2" tags="summonable offensive"/>
+    <item id="456" quality="1" tags="nolostbr food"/>
+    <item id="457" quality="2" tags="summonable"/>
+    <item id="458" quality="2" tags="summonable offensive"/>
+    <item id="459" quality="3" tags="summonable offensive"/>
+    <item id="460" quality="1" tags="summonable offensive"/>
+    <item id="461" quality="3" tags="summonable spider offensive fly"/>
+    <item id="462" quality="3" tags="summonable offensive"/>
+    <item id="463" quality="2" tags="summonable offensive"/>
+    <item id="464" quality="2" tags="summonable offensive"/>
+    <item id="465" quality="2" tags="summonable tearsup offensive"/>
+    <item id="466" quality="2" tags="summonable offensive"/>
+    <item id="467" quality="1" tags="summonable offensive"/>
+    <item id="468" quality="0" tags="summonable monstermanual offensive"/>
+    <item id="469" quality="1" tags="summonable offensive"/>
+    <item id="470" quality="0" tags="summonable monstermanual offensive"/>
+    <item id="471" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="472" quality="1" tags="summonable baby offensive"/>
+    <item id="473" quality="1" tags="summonable monstermanual offensive"/>
+    <item id="474" quality="0" tags=""/>
+    <item id="475" quality="0" tags="offensive"/>
+    <item id="476" quality="2" tags="offensive"/>
+    <item id="477" quality="4" tags="offensive nocantrip"/>
+    <item id="478" quality="1" tags="offensive"/>
+    <item id="479" quality="2" tags="offensive"/>
+    <item id="480" quality="1" tags="offensive"/>
+    <item id="481" quality="0" tags="offensive"/>
+    <item id="482" quality="0" tags="nolostbr nochallenge nodaily"/>
+    <item id="483" quality="3" tags="offensive"/>
+    <item id="484" quality="1" tags="offensive"/>
+    <item id="485" quality="2" tags="offensive"/>
+    <item id="486" quality="1" tags=""/>
+    <item id="487" quality="2" tags="nolostbr"/>
+    <item id="488" quality="1" tags="offensive"/>
+    <item id="489" quality="4" tags="offensive"/>
+    <item id="490" quality="3" tags="offensive"/>
+    <item id="491" quality="2" tags="summonable baby offensive"/>
+    <item id="492" quality="2" tags="summonable offensive fly"/>
+    <item id="493" quality="2" tags="nolostbr summonable syringe"/>
+    <item id="494" quality="3" tags="summonable offensive"/>
+    <item id="495" quality="3" tags="summonable offensive"/>
+    <item id="496" quality="3" tags="summonable syringe offensive"/>
+    <item id="497" quality="3" tags="summonable offensive"/>
+    <item id="498" quality="1" tags="summonable offensive lazarussharedglobal"/>
+    <item id="499" quality="3" tags="summonable offensive lazarussharedglobal"/>
+    <item id="500" quality="3" tags="summonable offensive"/>
+    <item id="501" quality="1" tags="nolostbr summonable"/>
+    <item id="502" quality="1" tags="summonable offensive"/>
+    <item id="503" quality="3" tags="summonable offensive"/>
+    <item id="504" quality="0" tags="poop offensive"/>
+    <item id="505" quality="2" tags="offensive nocantrip"/>
+    <item id="506" quality="3" tags="summonable offensive"/>
+    <item id="507" quality="2" tags="offensive"/>
+    <item id="508" quality="2" tags="summonable mom"/>
+    <item id="509" quality="1" tags="summonable monstermanual"/>
+    <item id="510" quality="1" tags="offensive"/>
+    <item id="511" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="512" quality="1" tags="offensive"/>
+    <item id="513" quality="2" tags="nolostbr summonable"/>
+    <item id="514" quality="3" tags="summonable"/>
+    <item id="515" quality="3" tags="offensive nocantrip"/>
+    <item id="516" quality="2" tags="offensive"/>
+    <item id="517" quality="1" tags="summonable offensive"/>
+    <item id="518" quality="2" tags="summonable baby offensive"/>
+    <item id="519" quality="2" tags="summonable monstermanual offensive"/>
+    <item id="520" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="521" quality="2" tags="offensive nocantrip"/>
+    <item id="522" quality="1" tags="offensive"/>
+    <item id="523" quality="1" tags="offensive nocantrip"/>
+    <item id="524" quality="3" tags="summonable tech offensive"/>
+    <item id="525" quality="1" tags="nolostbr summonable"/>
+    <item id="526" quality="2" tags="summonable offensive"/>
+    <item id="527" quality="3" tags="offensive"/>
+    <item id="528" quality="3" tags="summonable offensive"/>
+    <item id="529" quality="1" tags="summonable offensive"/>
+    <item id="530" quality="2" tags="summonable offensive"/>
+    <item id="531" quality="4" tags="summonable offensive"/>
+    <item id="532" quality="2" tags="summonable offensive"/>
+    <item id="533" quality="3" tags="summonable offensive"/>
+    <item id="534" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="535" quality="2" tags="summonable"/>
+    <item id="536" quality="2" tags="offensive nocantrip"/>
+    <item id="537" quality="1" tags="summonable monstermanual offensive"/>
+    <item id="538" quality="2" tags="summonable"/>
+    <item id="539" quality="1" tags="nolostbr summonable"/>
+    <item id="540" quality="2" tags="summonable offensive"/>
+    <item id="541" quality="1" tags="nolostbr"/>
+    <item id="542" quality="2" tags="summonable"/>
+    <item id="543" quality="1" tags="poop nolostbr summonable"/>
+    <item id="544" quality="2" tags="summonable offensive"/>
+    <item id="545" quality="3" tags="book offensive"/>
+    <item id="546" quality="3" tags="summonable"/>
+    <item id="547" quality="3" tags="summonable offensive"/>
+    <item id="548" quality="1" tags="summonable offensive"/>
+    <item id="549" quality="3" tags="nolostbr"/>
+    <item id="550" quality="4" tags="offensive noeden lazarussharedglobal quest"/>
+    <item id="551" quality="4" tags="offensive noeden lazarussharedglobal quest"/>
+    <item id="552" quality="4" tags="mom offensive noeden lazarussharedglobal quest"/>
+    <item id="553" quality="3" tags="mushroom offensive"/>
+    <item id="554" quality="1" tags="summonable"/>
+    <item id="555" quality="1" tags="offensive"/>
+    <item id="556" quality="3" tags="devil offensive"/>
+    <item id="557" quality="2" tags="offensive"/>
+    <item id="558" quality="1" tags="summonable offensive"/>
+    <item id="559" quality="2" tags="summonable offensive"/>
+    <item id="560" quality="1" tags="nolostbr summonable"/>
+    <item id="561" quality="1" tags="summonable tearsup offensive"/>
+    <item id="562" quality="3" tags="summonable offensive"/>
+    <item id="563" quality="2" tags="summonable offensive"/>
+    <item id="564" quality="3" tags="summonable tearsup offensive"/>
+    <item id="565" quality="1" tags="offensive"/>
+    <item id="566" quality="2" tags="summonable offensive nocantrip lazarussharedglobal"/>
+    <item id="567" quality="3" tags="uniquefamiliar summonable tearsup offensive nocantrip"/>
+    <item id="568" quality="2" tags="angel"/>
+    <item id="569" quality="1" tags="uniquefamiliar nolostbr summonable"/>
+    <item id="570" quality="2" tags="summonable offensive"/>
+    <item id="571" quality="2" tags="nolostbr summonable"/>
+    <item id="572" quality="3" tags="devil summonable offensive"/>
+    <item id="573" quality="3" tags="summonable offensive angel"/>
+    <item id="574" quality="2" tags="summonable offensive"/>
+    <item id="575" quality="3" tags="summonable spider offensive"/>
+    <item id="576" quality="1" tags="poop summonable offensive"/>
+    <item id="577" quality="2" tags="offensive nocantrip"/>
+    <item id="578" quality="1" tags="offensive"/>
+    <item id="579" quality="3" tags="summonable offensive"/>
+    <item id="580" quality="3" tags="offensive nogreed"/>
+    <item id="581" quality="4" tags="summonable monstermanual fly"/>
+    <item id="582" quality="1" tags="mushroom offensive"/>
+    <item id="583" quality="2" tags="summonable offensive"/>
+    <item id="584" quality="3" tags="book offensive lazarussharedglobal"/>
+    <item id="585" quality="2" tags="offensive nocantrip"/>
+    <item id="586" quality="3" tags="offensive nocantrip lazarussharedglobal"/>
+    <item id="588" quality="2" tags="summonable offensive stars"/>
+    <item id="589" quality="2" tags="summonable offensive nocantrip stars lazarussharedglobal"/>
+    <item id="590" quality="3" tags="summonable offensive stars"/>
+    <item id="591" quality="2" tags="summonable offensive stars"/>
+    <item id="592" quality="3" tags="summonable offensive stars"/>
+    <item id="593" quality="2" tags="summonable offensive stars"/>
+    <item id="594" quality="2" tags="summonable offensive stars"/>
+    <item id="595" quality="2" tags="summonable offensive stars"/>
+    <item id="596" quality="3" tags="summonable offensive stars"/>
+    <item id="597" quality="3" tags="summonable offensive stars"/>
+    <item id="598" quality="3" tags="summonable tearsup offensive stars"/>
+    <item id="599" quality="2" tags="summonable offensive nocantrip lazarussharedglobal"/>
+    <item id="600" quality="3" tags="summonable tearsup offensive"/>
+    <item id="601" quality="3" tags="summonable tearsup offensive lazarussharedglobal"/>
+    <item id="602" quality="2" tags="summonable offensive"/>
+    <item id="603" quality="0" craftquality="1" tags="battery offensive"/>
+    <item id="604" quality="1" tags="mom offensive"/>
+    <item id="605" quality="1" tags="offensive"/>
+    <item id="606" quality="3" tags="summonable offensive"/>
+    <item id="607" quality="1" tags="summonable baby monstermanual offensive"/>
+    <item id="608" quality="2" tags="summonable baby monstermanual offensive"/>
+    <item id="609" quality="3" tags="offensive nocantrip"/>
+    <item id="610" quality="1" tags="nolostbr summonable dead"/>
+    <item id="611" quality="2" tags="offensive"/>
+    <item id="612" quality="2" tags="summonable nocantrip"/>
+    <item id="614" quality="2" tags="nolostbr summonable"/>
+    <item id="615" quality="3" tags="summonable"/>
+    <item id="616" quality="3" tags="offensive"/>
+    <item id="617" quality="3" tags="summonable offensive"/>
+    <item id="618" quality="2" tags="summonable offensive"/>
+    <item id="619" quality="3" tags="summonable offensive nocantrip"/>
+    <item id="621" quality="2" tags="offensive"/>
+    <item id="622" quality="3" tags="offensive nocantrip"/>
+    <item id="623" quality="1" tags="offensive"/>
+    <item id="624" quality="1" tags="offensive"/>
+    <item id="625" quality="4" tags="mushroom offensive"/>
+    <item id="626" quality="0" tags="uniquefamiliar lazarusshared noeden quest"/>
+    <item id="627" quality="0" tags="uniquefamiliar lazarusshared noeden quest"/>
+    <item id="628" quality="4" tags="offensive nocantrip"/>
+    <item id="629" quality="3" tags="summonable monstermanual fly"/>
+    <item id="631" quality="1" tags="offensive"/>
+    <item id="632" quality="2" tags="summonable offensive"/>
+    <item id="633" quality="3" tags="lazarusshared noeden quest"/>
+    <item id="634" quality="2" tags="offensive"/>
+    <item id="635" quality="1" tags="uniquefamiliar offensive nocantrip"/>
+    <item id="636" quality="4" tags="offensive nocantrip nochallenge nodaily"/>
+    <item id="637" quality="3" tags="summonable offensive"/>
+    <item id="638" quality="2" tags="offensive"/>
+    <item id="639" quality="1" tags="nolostbr"/>
+    <item id="640" quality="3" tags="offensive nocantrip"/>
+    <item id="641" quality="2" tags="summonable offensive"/>
+    <item id="642" quality="2" tags="offensive nocantrip"/>
+    <item id="643" quality="4" tags="summonable offensive angel"/>
+    <item id="644" quality="1" tags="tearsup offensive"/>
+    <item id="645" quality="1" tags="summonable monstermanual"/>
+    <item id="646" quality="2" tags="summonable offensive"/>
+    <item id="647" quality="2" tags="battery summonable offensive nocantrip"/>
+    <item id="649" quality="1" tags="summonable monstermanual offensive fly"/>
+    <item id="650" quality="1" tags="offensive fly"/>
+    <item id="651" quality="3" tags="summonable offensive nocantrip stars"/>
+    <item id="652" quality="1" tags="baby"/>
+    <item id="653" quality="2" tags="offensive nocantrip"/>
+    <item id="654" quality="2" tags="summonable offensive nocantrip"/>
+    <item id="655" quality="1" tags="nocantrip"/>
+    <item id="656" quality="2" tags="offensive nocantrip"/>
+    <item id="657" quality="1" tags="summonable offensive"/>
+    <item id="658" quality="1" tags="nolostbr summonable"/>
+    <item id="659" quality="1" tags="summonable offensive"/>
+    <item id="660" quality="3" tags="summonable offensive nocantrip stars lazarussharedglobal nogreed"/>
+    <item id="661" quality="2" tags="summonable baby offensive"/>
+    <item id="663" quality="2" tags="summonable offensive"/>
+    <item id="664" quality="4" tags="nolostbr"/>
+    <item id="665" quality="2" tags="guppy offensive"/>
+    <item id="667" quality="2" tags="dead offensive"/>
+    <item id="668" quality="0" tags="lazarusshared noeden quest"/>
+    <item id="669" quality="3" tags="summonable offensive lazarussharedglobal"/>
+    <item id="670" quality="2" tags="summonable offensive nogreed"/>
+    <item id="671" quality="1" tags="nolostbr summonable"/>
+    <item id="672" quality="1" tags="summonable nokeeper nogreed"/>
+    <item id="673" quality="2" tags="summonable offensive lazarusshared"/>
+    <item id="674" quality="2" tags=""/>
+    <item id="675" quality="1" tags="nolostbr summonable"/>
+    <item id="676" quality="1" tags="nolostbr summonable"/>
+    <item id="677" quality="2" tags="nolostbr summonable"/>
+    <item id="678" quality="4" tags="summonable offensive"/>
+    <item id="679" quality="2" tags="summonable baby monstermanual offensive"/>
+    <item id="680" quality="2" tags="poop summonable offensive"/>
+    <item id="681" quality="1" tags="summonable offensive"/>
+    <item id="682" quality="3" tags="summonable offensive"/>
+    <item id="683" quality="2" tags="summonable offensive"/>
+    <item id="684" quality="2" tags="summonable offensive"/>
+    <item id="685" quality="2" tags="offensive"/>
+    <item id="686" quality="1" tags="summonable offensive"/>
+    <item id="687" quality="3" tags="offensive"/>
+    <item id="688" quality="2" tags=""/>
+    <item id="689" quality="4" tags="summonable offensive nocantrip"/>
+    <item id="690" quality="3" tags="summonable"/>
+    <item id="691" quality="4" tags="summonable offensive nocantrip angel"/>
+    <item id="692" quality="1" tags="nolostbr summonable"/>
+    <item id="693" quality="2" tags="summonable fly"/>
+    <item id="694" quality="3" tags="summonable"/>
+    <item id="695" quality="2" tags="nolostbr summonable"/>
+    <item id="696" quality="3" tags="summonable offensive angel"/>
+    <item id="697" quality="2" tags="uniquefamiliar offensive lazarusshared nogreed"/>
+    <item id="698" quality="4" tags="summonable baby monstermanual offensive"/>
+    <item id="699" quality="2" tags="summonable offensive"/>
+    <item id="700" quality="3" tags="summonable offensive nocantrip stars"/>
+    <item id="701" quality="3" tags="summonable offensive"/>
+    <item id="702" quality="1" tags="nolostbr summonable"/>
+    <item id="703" quality="2" tags="offensive nocantrip"/>
+    <item id="704" quality="2" tags="offensive"/>
+    <item id="705" quality="2" tags="offensive"/>
+    <item id="706" quality="4" tags="offensive nocantrip"/>
+    <item id="707" quality="1" tags="nolostbr food"/>
+    <item id="708" quality="3" tags="summonable offensive"/>
+    <item id="709" quality="2" tags="offensive"/>
+    <item id="710" quality="3" craftquality="-1" tags="offensive"/>
+    <item id="711" quality="4" tags="offensive nocantrip"/>
+    <item id="712" quality="3" tags="book offensive"/>
+    <item id="713" quality="3" tags="nolostbr"/>
+    <item id="714" quality="0" tags="noeden"/>
+    <item id="715" quality="0" tags="noeden nocantrip"/>
+    <item id="716" quality="3" tags="summonable offensive"/>
+    <item id="717" quality="2" tags="summonable spider offensive"/>
+    <item id="719" quality="2" tags="offensive"/>
+    <item id="720" quality="3" tags="offensive"/>
+    <item id="721" quality="0" tags="offensive nocantrip"/>
+    <item id="722" quality="3" tags="offensive"/>
+    <item id="723" quality="4" tags="offensive nocantrip"/>
+    <item id="724" quality="2" tags="nolostbr summonable"/>
+    <item id="725" quality="0" tags="summonable offensive"/>
+    <item id="726" quality="1" tags="summonable offensive"/>
+    <item id="727" quality="2" tags="summonable offensive"/>
+    <item id="728" quality="3" tags="offensive"/>
+    <item id="729" quality="2" tags="offensive"/>
+    <item id="730" quality="3" tags="offensive"/>
+    <item id="731" quality="2" tags="offensive"/>
+    <item id="732" quality="3" tags="mom offensive"/>
+    <trinket id="1" quality="0" tags=""/>
+    <trinket id="2" quality="0" tags=""/>
+    <trinket id="3" quality="0" tags="battery"/>
+    <trinket id="4" quality="0" tags=""/>
+    <trinket id="5" quality="0" tags=""/>
+    <trinket id="6" quality="0" tags=""/>
+    <trinket id="7" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="8" quality="0" tags=""/>
+    <trinket id="9" quality="0" tags=""/>
+    <trinket id="10" quality="0" tags=""/>
+    <trinket id="11" quality="0" tags=""/>
+    <trinket id="12" quality="0" tags=""/>
+    <trinket id="13" quality="0" tags=""/>
+    <trinket id="14" quality="0" tags=""/>
+    <trinket id="15" quality="0" tags=""/>
+    <trinket id="16" quality="0" tags="mom"/>
+    <trinket id="17" quality="0" tags=""/>
+    <trinket id="18" quality="0" tags=""/>
+    <trinket id="19" quality="0" tags=""/>
+    <trinket id="20" quality="0" tags=""/>
+    <trinket id="21" quality="0" tags=""/>
+    <trinket id="22" quality="0" tags=""/>
+    <trinket id="23" quality="0" tags=""/>
+    <trinket id="24" quality="0" tags=""/>
+    <trinket id="25" quality="0" tags=""/>
+    <trinket id="26" quality="0" tags=""/>
+    <trinket id="27" quality="0" tags=""/>
+    <trinket id="28" quality="0" tags=""/>
+    <trinket id="29" quality="0" tags=""/>
+    <trinket id="30" quality="0" tags=""/>
+    <trinket id="31" quality="0" tags=""/>
+    <trinket id="32" quality="0" tags=""/>
+    <trinket id="33" quality="0" tags=""/>
+    <trinket id="34" quality="0" tags=""/>
+    <trinket id="35" quality="0" tags=""/>
+    <trinket id="36" quality="0" tags="nogreed"/>
+    <trinket id="37" quality="0" tags=""/>
+    <trinket id="38" quality="0" tags="mom"/>
+    <trinket id="39" quality="0" tags=""/>
+    <trinket id="40" quality="0" tags=""/>
+    <trinket id="41" quality="0" tags="nogreed"/>
+    <trinket id="42" quality="0" tags=""/>
+    <trinket id="43" quality="0" tags=""/>
+    <trinket id="44" quality="0" tags="nogreed"/>
+    <trinket id="45" quality="0" tags="nogreed"/>
+    <trinket id="46" quality="0" tags=""/>
+    <trinket id="48" quality="0" tags=""/>
+    <trinket id="49" quality="0" tags=""/>
+    <trinket id="50" quality="0" tags=""/>
+    <trinket id="51" quality="0" tags=""/>
+    <trinket id="52" quality="0" tags=""/>
+    <trinket id="53" quality="0" tags=""/>
+    <trinket id="54" quality="0" tags=""/>
+    <trinket id="55" quality="0" tags=""/>
+    <trinket id="56" quality="0" tags=""/>
+    <trinket id="57" quality="0" tags=""/>
+    <trinket id="58" quality="0" tags=""/>
+    <trinket id="59" quality="0" tags="nogreed"/>
+    <trinket id="60" quality="0" tags=""/>
+    <trinket id="61" quality="0" tags=""/>
+    <trinket id="62" quality="0" tags=""/>
+    <trinket id="63" quality="0" tags=""/>
+    <trinket id="64" quality="0" tags=""/>
+    <trinket id="65" quality="0" tags=""/>
+    <trinket id="66" quality="0" tags=""/>
+    <trinket id="67" quality="0" tags=""/>
+    <trinket id="68" quality="0" tags=""/>
+    <trinket id="69" quality="0" tags=""/>
+    <trinket id="70" quality="0" tags=""/>
+    <trinket id="71" quality="0" tags="bob"/>
+    <trinket id="72" quality="0" tags="battery nogreed"/>
+    <trinket id="73" quality="0" tags=""/>
+    <trinket id="74" quality="0" tags=""/>
+    <trinket id="75" quality="0" tags=""/>
+    <trinket id="76" quality="0" tags=""/>
+    <trinket id="77" quality="0" tags=""/>
+    <trinket id="78" quality="0" tags=""/>
+    <trinket id="79" quality="0" tags=""/>
+    <trinket id="80" quality="0" tags=""/>
+    <trinket id="81" quality="0" tags=""/>
+    <trinket id="82" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="83" quality="0" tags="nogreed"/>
+    <trinket id="84" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="85" quality="0" tags="nogreed"/>
+    <trinket id="86" quality="0" tags=""/>
+    <trinket id="87" quality="0" tags="mom"/>
+    <trinket id="88" quality="0" tags=""/>
+    <trinket id="89" quality="0" tags=""/>
+    <trinket id="90" quality="0" tags=""/>
+    <trinket id="91" quality="0" tags=""/>
+    <trinket id="92" quality="0" tags=""/>
+    <trinket id="93" quality="0" tags=""/>
+    <trinket id="94" quality="0" tags=""/>
+    <trinket id="95" quality="0" tags=""/>
+    <trinket id="96" quality="0" tags=""/>
+    <trinket id="97" quality="0" tags=""/>
+    <trinket id="98" quality="0" tags=""/>
+    <trinket id="99" quality="0" tags=""/>
+    <trinket id="100" quality="0" tags=""/>
+    <trinket id="101" quality="0" tags=""/>
+    <trinket id="102" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="103" quality="0" tags=""/>
+    <trinket id="104" quality="0" tags=""/>
+    <trinket id="105" quality="0" tags=""/>
+    <trinket id="106" quality="0" tags=""/>
+    <trinket id="107" quality="0" tags=""/>
+    <trinket id="108" quality="0" tags=""/>
+    <trinket id="109" quality="0" tags=""/>
+    <trinket id="110" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="111" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="112" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="113" quality="0" tags=""/>
+    <trinket id="114" quality="0" tags=""/>
+    <trinket id="115" quality="0" tags=""/>
+    <trinket id="116" quality="0" tags=""/>
+    <trinket id="117" quality="0" tags=""/>
+    <trinket id="118" quality="0" tags=""/>
+    <trinket id="119" quality="0" tags=""/>
+    <trinket id="120" quality="0" tags="nogreed"/>
+    <trinket id="121" quality="0" tags=""/>
+    <trinket id="122" quality="0" tags=""/>
+    <trinket id="123" quality="0" tags=""/>
+    <trinket id="124" quality="0" tags="nogreed"/>
+    <trinket id="125" quality="0" tags=""/>
+    <trinket id="126" quality="0" tags=""/>
+    <trinket id="127" quality="0" tags=""/>
+    <trinket id="128" quality="0" tags=""/>
+    <trinket id="129" quality="0" tags=""/>
+    <trinket id="130" quality="0" tags=""/>
+    <trinket id="131" quality="0" tags=""/>
+    <trinket id="132" quality="0" tags=""/>
+    <trinket id="133" quality="0" tags=""/>
+    <trinket id="134" quality="0" tags=""/>
+    <trinket id="135" quality="0" tags="nogreed"/>
+    <trinket id="136" quality="0" tags=""/>
+    <trinket id="137" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="138" quality="0" tags=""/>
+    <trinket id="139" quality="0" tags=""/>
+    <trinket id="140" quality="0" tags=""/>
+    <trinket id="141" quality="0" tags=""/>
+    <trinket id="142" quality="0" tags=""/>
+    <trinket id="143" quality="0" tags="nogreed"/>
+    <trinket id="144" quality="0" tags=""/>
+    <trinket id="145" quality="0" tags=""/>
+    <trinket id="146" quality="0" tags=""/>
+    <trinket id="147" quality="0" tags=""/>
+    <trinket id="148" quality="0" tags=""/>
+    <trinket id="149" quality="0" tags=""/>
+    <trinket id="150" quality="0" tags=""/>
+    <trinket id="151" quality="0" tags=""/>
+    <trinket id="152" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="153" quality="0" tags=""/>
+    <trinket id="154" quality="0" tags=""/>
+    <trinket id="155" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="156" quality="0" tags=""/>
+    <trinket id="157" quality="0" tags=""/>
+    <trinket id="158" quality="0" tags=""/>
+    <trinket id="159" quality="0" tags=""/>
+    <trinket id="160" quality="0" tags=""/>
+    <trinket id="161" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="162" quality="0" tags=""/>
+    <trinket id="163" quality="0" tags=""/>
+    <trinket id="164" quality="0" tags=""/>
+    <trinket id="165" quality="0" tags="nogreed"/>
+    <trinket id="166" quality="0" tags=""/>
+    <trinket id="167" quality="0" tags=""/>
+    <trinket id="168" quality="0" tags=""/>
+    <trinket id="169" quality="0" tags=""/>
+    <trinket id="170" quality="0" tags="nogreed"/>
+    <trinket id="171" quality="0" tags=""/>
+    <trinket id="172" quality="0" tags=""/>
+    <trinket id="173" quality="0" tags=""/>
+    <trinket id="174" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="175" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="176" quality="0" tags=""/>
+    <trinket id="177" quality="0" tags="lazarussharedglobal nogreed"/>
+    <trinket id="178" quality="0" tags=""/>
+    <trinket id="179" quality="0" tags=""/>
+    <trinket id="180" quality="0" tags=""/>
+    <trinket id="181" quality="0" tags=""/>
+    <trinket id="182" quality="0" tags=""/>
+    <trinket id="183" quality="0" tags=""/>
+    <trinket id="184" quality="0" tags=""/>
+    <trinket id="185" quality="0" tags=""/>
+    <trinket id="186" quality="0" tags=""/>
+    <trinket id="187" quality="0" tags="lazarussharedglobal"/>
+    <trinket id="188" quality="0" tags="nogreed"/>
+    <trinket id="189" quality="0" tags=""/>
+</items>

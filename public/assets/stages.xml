@@ -1,0 +1,45 @@
+<stages root="rooms/" greedroot="rooms/greed/" bossgfxroot="gfx/ui/boss/">
+    <stage id="0" name="#SPECIAL_ROOMS_NAME" path="00.Special Rooms.xml"/>
+    <stage id="1" name="#BASEMENT_NAME" path="01.Basement.xml" playerspot="playerspot_01_basement.png" bossspot="bossspot_01_basement.png" music="1" backdrop="1" />
+    <stage id="2" name="#CELLAR_NAME" path="02.Cellar.xml" playerspot="playerspot_02_cellar.png" bossspot="bossspot_02_cellar.png" music="4" backdrop="2" />
+	<stage id="3" name="#BURNING_BASEMENT_NAME" path="03.Burning Basement.xml" playerspot="playerspot_13_burning_basement.png" bossspot="bossspot_13_burning_basement.png" music="14" backdrop="3" />
+    <stage id="4" name="#CAVES_NAME" path="04.Caves.xml" playerspot="playerspot_03_caves.png" bossspot="bossspot_03_caves.png" music="2" backdrop="4" />
+    <stage id="5" name="#CATACOMBS_NAME" path="05.Catacombs.xml" playerspot="playerspot_04_catacombs.png" bossspot="bossspot_04_catacombs.png" music="5" backdrop="5" />
+	<stage id="6" name="#FLOODED_CAVES_NAME" path="06.Flooded Caves.xml" playerspot="playerspot_14_drowned_caves.png" bossspot="bossspot_14_drowned_caves.png" music="15" backdrop="6" suffix="_downpour" />
+    <stage id="7" name="#DEPTHS_NAME" path="07.Depths.xml" playerspot="playerspot_05_depths.png" bossspot="bossspot_05_depths.png" music="3" backdrop="7" />
+    <stage id="8" name="#NECROPOLIS_NAME" path="08.Necropolis.xml" playerspot="playerspot_06_necropolis.png" bossspot="bossspot_06_necropolis.png" music="6" backdrop="8" />
+	<stage id="9" name="#DANK_DEPTHS_NAME" path="09.Dank Depths.xml" playerspot="playerspot_15_dank_depths.png" bossspot="bossspot_15_dank_depths.png" music="16" backdrop="9" />
+    <stage id="10" name="#WOMB_NAME" path="10.Womb.xml" playerspot="playerspot_07_womb.png" bossspot="bossspot_07_womb.png" music="7" backdrop="10" />
+    <stage id="11" name="#UTERO_NAME" path="11.Utero.xml" playerspot="playerspot_08_utero.png" bossspot="bossspot_08_utero.png" music="19" backdrop="11" />
+	<stage id="12" name="#SCARRED_WOMB_NAME" path="12.Scarred Womb.xml" playerspot="playerspot_16_scarred_womb.png" bossspot="bossspot_16_scarred_womb.png" music="17" backdrop="12" />
+    <stage id="13" name="#BLUE_WOMB_NAME" path="13.Blue Womb.xml" playerspot="playerspot_17_blue_womb.png" bossspot="bossspot_17_blue_womb.png" music="18" backdrop="13" />
+    <stage id="14" name="#SHEOL_NAME" path="14.Sheol.xml" playerspot="playerspot_09_sheol.png" bossspot="bossspot_09_sheol.png" music="11" backdrop="14" />
+    <stage id="15" name="#CATHEDRAL_NAME" path="15.Cathedral.xml" playerspot="playerspot_10_cathedral.png" bossspot="bossspot_10_cathedral.png" music="10" backdrop="15" />
+    <stage id="16" name="#DARK_ROOM_NAME" path="16.Dark Room.xml" playerspot="playerspot_11_darkroom.png" bossspot="bossspot_11_darkroom.png" music="12" backdrop="16" />
+    <stage id="17" name="#CHEST_NAME" path="17.Chest.xml" playerspot="playerspot_12_chest.png" bossspot="bossspot_12_chest.png" music="13" backdrop="17" />
+<!--
+	<stage id="18" name="#SPECIAL_ROOMS_GREED_NAME" path="18.Greed Special.xml" />
+	<stage id="19" name="#BASEMENT_NAME" path="19.Greed Basement.xml" playerspot="playerspot_01_basement.png" bossspot="bossspot_01_basement.png" music="1" backdrop="1" />
+	<stage id="20" name="#CAVES_NAME" path="20.Greed Caves.xml" playerspot="playerspot_03_caves.png" bossspot="bossspot_03_caves.png" music="2" backdrop="4" />
+	<stage id="21" name="#DEPTHS_NAME" path="21.Greed Depths.xml" playerspot="playerspot_05_depths.png" bossspot="bossspot_05_depths.png" music="3" backdrop="7" />
+	<stage id="22" name="#WOMB_NAME" path="22.Greed Womb.xml" playerspot="playerspot_07_womb.png" bossspot="bossspot_07_womb.png" music="7" backdrop="10" />
+	<stage id="23" name="#SHEOL_NAME" path="23.Greed Sheol.xml" playerspot="playerspot_09_sheol.png" bossspot="bossspot_09_sheol.png" music="11" backdrop="14" />
+-->
+	<stage id="24" name="#THE_SHOP_NAME" path="24.The Shop.xml" playerspot="playerspot_18_shop.png" bossspot="bossspot_18_shop.png" music="35" backdrop="20" />
+	<stage id="25" name="#ULTRA_GREED_NAME" path="25.Ultra Greed.xml" playerspot="playerspot_18_shop.png" bossspot="bossspot_18_shop.png" music="35" backdrop="20" />
+	<stage id="26" name="#THE_VOID_NAME" path="01.Basement.xml" playerspot="playerspot_19_void.png" bossspot="bossspot_19_void.png" music="102" />
+	
+<!-- REPENTANCE BEGIN -->
+    <stage id="27" name="#DOWNPOUR_NAME" path="27.Downpour.xml" playerspot="playerspot_01x_downpour.png" bossspot="bossspot_01x_downpour.png" music="104" backdrop="31" suffix="_downpour" />
+    <stage id="28" name="#DROSS_NAME" path="28.Dross.xml" playerspot="playerspot_02x_dross.png" bossspot="bossspot_02x_dross.png" music="108" backdrop="45" suffix="_dross" />
+    <stage id="29" name="#MINES_NAME" path="29.Mines.xml" playerspot="playerspot_03x_mines.png" bossspot="bossspot_03x_mines.png" music="105" backdrop="32" />
+    <stage id="30" name="#ASHPIT_NAME" path="30.Ashpit.xml" playerspot="playerspot_04x_ashpit.png" bossspot="bossspot_04x_ashpit.png" music="109" backdrop="46" suffix="_ashpit" />
+    <stage id="31" name="#MAUSOLEUM_NAME" path="31.Mausoleum.xml" playerspot="playerspot_05x_mausoleum.png" bossspot="bossspot_05x_mausoleum.png" music="106" backdrop="33" suffix="_mausoleum" />
+    <stage id="32" name="#GEHENNA_NAME" path="32.Gehenna.xml" playerspot="playerspot_06x_gehenna.png" bossspot="bossspot_06x_gehenna.png" music="110" backdrop="47" suffix="_gehenna" />
+    <stage id="33" name="#CORPSE_NAME" path="33.Corpse.xml" playerspot="playerspot_07x_corpse.png" bossspot="bossspot_07x_corpse.png" music="107" backdrop="34" />
+   
+    <stage id="35" name="#HOME_NAME" path="35.Home.xml" playerspot="playerspot_02_cellar.png" bossspot="bossspot_02_cellar.png" music="112" backdrop="50" />
+    <stage id="36" name="#BACKWARDS_NAME" path="36.Backwards.xml" playerspot="playerspot_01_basement.png" bossspot="bossspot_01_basement.png" music="102" backdrop="1" />
+<!-- REPENTANCE END -->
+</stages>
+ 
