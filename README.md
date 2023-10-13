@@ -26,6 +26,12 @@ https://github.com/LanbingIce/IsaacSocket-Utility
 + 更换梯子,确保electron正确安装
 + 或者提issue
 
+## 项目使用
++ 首先安装相关依赖(推荐yarn) 命令为:yarn
++ yarn dev:网页开发调试 调试界面和基础功能用这个
++ yarn build:生成静态网页
++ yarn start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
++ yarn make:打包生成用户可以一键运行的安装包
 ## 待开发功能
 + 全局搜索
 + DEBUG MODE SWITCH
