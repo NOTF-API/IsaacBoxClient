@@ -1,16 +1,18 @@
 <template>
-  <div class="pills-list no-scrollbar" :class="{ active: props.open }">
-    <div class="item" v-for="item, index in arr" @click="handleGive(item.id)">
-      <div class="number">{{ item.id }}</div>
-      <div class="effect" :class="getPillEffectClass(item.type)"></div>
-      <div class="name">{{ item.name }}</div>
-      <div class="image"></div>
-    </div>
-    <div class="large item" v-for="item, index in arr" @click="handleGiveBig(item.id)">
-      <div class="number">{{ item.id }}</div>
-      <div class="effect" :class="getPillEffectClass(item.type)"></div>
-      <div class="name">{{ item.name }}</div>
-      <div class="image"></div>
+  <div class="view-container">
+    <div class="view-content pills-list no-scrollbar">
+      <div class="item" v-for="item, index in arr" @click="handleGive(item.id)">
+        <div class="number">#{{ item.id }}</div>
+        <div class="effect" :class="getPillEffectClass(item.type)"></div>
+        <div class="name">{{ item.name }}</div>
+        <div class="image"></div>
+      </div>
+      <div class="large item" v-for="item, index in arr" @click="handleGiveBig(item.id)">
+        <div class="number">#{{ item.id }}</div>
+        <div class="effect" :class="getPillEffectClass(item.type)"></div>
+        <div class="name">{{ item.name }}</div>
+        <div class="image"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -39,7 +41,6 @@ const getPillEffectClass = (effect) => {
     
 <style lang="less">
 .pills-list {
-  transform: translate(120%, 0);
   position: absolute;
   padding: 2rem;
   background-color: #dfd1d5;
@@ -58,10 +59,10 @@ const getPillEffectClass = (effect) => {
   }
 
   .item {
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: upheavtt;
     cursor: pointer;
     width: 100%;
     height: 32px;
@@ -94,8 +95,13 @@ const getPillEffectClass = (effect) => {
       margin-right: .5rem;
     }
 
-    &.large .image {
-      background-position: -192px 0;
+    &.large {
+      width: 100%;
+      height: auto;
+
+      .image {
+        background-position: -192px 0;
+      }
     }
 
     .name {
@@ -115,7 +121,7 @@ const getPillEffectClass = (effect) => {
       margin-right: .25rem;
       font-size: 2rem;
       height: 1.5rem;
-      width: 3rem;
+      width: 4rem;
       text-align: center;
       line-height: 1.5rem;
       padding: 0 .25rem;

@@ -1,12 +1,14 @@
 <template>
-  <div class="list no-scrollbar" :class="{ active: props.open }">
-    <CoinItems />
-    <BoomItems />
-    <KeyItems />
-    <BatteryItems />
-    <ChestItems />
-    <GrabBagItems />
-    <OtherItems />
+  <div class="view-container">
+    <div class="view-content no-scrollbar">
+      <CoinItems />
+      <BoomItems />
+      <KeyItems />
+      <BatteryItems />
+      <ChestItems />
+      <GrabBagItems />
+      <OtherItems />
+    </div>
   </div>
 </template>
     
@@ -24,9 +26,5 @@ const props = defineProps(["open"])
     
 <style lang="less">
 @import url("../list.less");
-
-.list {
-  transform: translate(0, 120%);
-}
 </style>
     

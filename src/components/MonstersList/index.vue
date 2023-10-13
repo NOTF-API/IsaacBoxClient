@@ -1,9 +1,11 @@
 <template>
-  <div class="list no-scrollbar" :class="{ active: props.open }">
-    <div class="items" v-for="itemGroup in itemGroups">
-      <div class="item monster" v-for="id in itemGroup" @click="handleSpawn(id)">
-        <div class="image">
-          <img :src="`./assets/entity/Entity_${id}.png`" alt="" :onerror="handleSuffixReplace">
+  <div class="view-container" v-if="false">
+    <div class="view-content no-scrollbar">
+      <div class="items" v-for="itemGroup in itemGroups">
+        <div class="item monster" v-for="id in itemGroup" @click="handleSpawn(id)">
+          <div class="image">
+            <img :src="`./assets/entity/Entity_${id}.png`" alt="" :onerror="handleSuffixReplace">
+          </div>
         </div>
       </div>
     </div>
@@ -31,10 +33,6 @@ function handleSuffixReplace() {
 
 <style lang="less" scoped>
 @import url("../list.less");
-
-.list {
-  transform: translate(0, 24 0%);
-}
 
 .item.monster {
   width: auto;

@@ -1,11 +1,13 @@
 <template>
-  <div class="list card-list no-scrollbar" :class="{ active: props.open }">
-    <div class="item card" v-for="item, index in arr" @click="handleSpawn(item.id)">
-      <div class="number">#{{ item.id.split(".")[2] }}</div>
-      <div class="image">
-        <div class="sprite" :style="{ backgroundPosition: `${-item.left * 32}px ${-item.top * 32}px` }"></div>
+  <div class="view-container">
+    <div class="view-content card-list no-scrollbar" :class="{ active: props.open }">
+      <div class="item card" v-for="item, index in arr" @click="handleSpawn(item.id)">
+        <div class="number">#{{ item.id.split(".")[2] }}</div>
+        <div class="image">
+          <div class="sprite" :style="{ backgroundPosition: `${-item.left * 32}px ${-item.top * 32}px` }"></div>
+        </div>
+        <div class="name">{{ getCardOrRuneName(item.id.split(".")[2]) }}</div>
       </div>
-      <div class="name">{{ getCardOrRuneName(item.id.split(".")[2]) }}</div>
     </div>
   </div>
 </template>
@@ -24,18 +26,14 @@ const { pocketItems } = storeToRefs(store);
 const getCardOrRuneName = (id) => {
   return pocketItems.value.find((item) => {
     return (item.type === "rune" || item.type === "card") && item.id === id;
-  })?.name.replaceAll("_"," ").replaceAll("NAME","").replaceAll("#","")
+  })?.name.replaceAll("_", " ").replaceAll("NAME", "").replaceAll("#", "")
 }
 </script>
   
 <style lang="less" scoped>
 @import url("../list.less");
-
 .card-list {
-  transform: translate(-120%, 0);
-
   .card.item {
-    font-family: upheavtt;
     width: 100%;
     display: flex;
     align-items: center;

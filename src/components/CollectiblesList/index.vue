@@ -1,30 +1,33 @@
 <template>
-  <div class="list no-scrollbar" :class="{ active: props.open }">
-    <div class="item" :id="i" :class="collectibles[i - 1] ? 'active' : null" v-for="i, index in   indexArr  "
-      @click="handleSpawn(i)">
-      <!-- <div class="number">#{{ i }}</div> -->
-      <div class="quality" :class="getItemQualityClass(i)"></div>
-      <div class="image" :style="getComputedStyle(index + 1)"></div>
-      <div class="remove" v-show="collectibles[i - 1]" @click.self.stop="handleRemove(i)">x</div>
-      <div class="count" v-if="collectibles[i - 1]">{{ collectibles[i - 1] }}</div>
+  <div class="collectibles view-container">
+    <div class="view-content no-scrollbar">
+      <div class="item" :id="i" :class="collectibles[i - 1] ? 'active' : null" v-for="i, index in   indexArr  "
+        @click="handleSpawn(i)">
+        <!-- <div class="number">#{{ i }}</div> -->
+        <div class="quality" :class="getItemQualityClass(i)"></div>
+        <div class="image" :style="getComputedStyle(index + 1)"></div>
+        <div class="remove" v-show="collectibles[i - 1]" @click.self.stop="handleRemove(i)">x</div>
+        <div class="count" v-if="collectibles[i - 1]">{{ collectibles[i - 1] }}</div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
 import { collectibles, emit } from "@/utils/ws"
-
 import { useItemsStore } from "@/store"
 import { storeToRefs } from 'pinia'
+import { computed } from "vue";
 const store = useItemsStore();
 const { itemsMetaData, items } = storeToRefs(store);
-// console.log(items.value)
 
-const getItemQualityClass = (id) => {
-  return "level" + itemsMetaData.value.find((item) => {
-    return (item.type === "item") && item.id === String(id);
-  })?.quality
-}
+const getItemQualityClass = computed(() => {
+  return (id) => {
+    return "level" + itemsMetaData.value.find((item) => {
+      return (item.type === "item") && (item.id === String(id));
+    })?.quality
+  }
+})
 
 const handleSpawn = (id) => {
   emit("COMMAND", `spawn 5.100.${id}`);
@@ -33,8 +36,6 @@ const handleSpawn = (id) => {
 const handleRemove = (id) => {
   emit("COMMAND", `r c${id}`);
 }
-
-const props = defineProps(["open"])
 
 const indexArr = [];
 const excludeIndex = [43, 61, 235, 587, 613, 620, 630, 648, 662, 666, 718]
@@ -59,18 +60,9 @@ const getComputedStyle = (i) => {
 <style lang="less" scoped>
 @import url("../list.less");
 
-.list {
-  transform: translate(-120%, 120%);
-
+.view-content {
   .item {
-    &:hover {
-      .number {
-        visibility: visible;
-      }
-    }
-
     .number {
-      font-family: upheavtt;
       font-size: 1.25rem;
       visibility: hidden;
       position: absolute;
@@ -141,7 +133,6 @@ const getComputedStyle = (i) => {
 
     .remove {
       cursor: pointer;
-      font-family: upheavtt;
       position: absolute;
       right: 0;
       top: 0;

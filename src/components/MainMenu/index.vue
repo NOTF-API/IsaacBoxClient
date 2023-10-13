@@ -1,80 +1,94 @@
 <template>
-  <div class="main-menu" :class="{ active: subMenuArray.every((s) => !s.value) }">
-    <div class="title">Isaac's Box</div>
-    <div class="fly">
-      <div class="sprite"></div>
-      <div class="shadow"></div>
+  <div class="view" :style="getTransformedStyle">
+    <div class="menu view-container" :class="{ active: isActive }">
+      <div class="title">Isaac's Box</div>
+      <div class="fly">
+        <div class="sprite"></div>
+        <div class="shadow"></div>
+      </div>
+      <div class="menu-content">
+        <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
+          @click="handleActiveSubmenu(submenu)"></button>
+      </div>
     </div>
-    <div class="menu">
-      <button class="menu-item" @click="isCollectiblesVisible = true">Collectibles</button>
-      <button class="menu-item" @click="isTrinketVisible = true">Trinkets</button>
-      <button class="menu-item" @click="isCardsVisible = true">Cards/Runes</button>
-      <button class="menu-item" @click="isPillsVisible = true">Pills</button>
-      <button class="menu-item" @click="isOthersVisible = true">Others</button>
-      <button class="menu-item" @click="isMonstersVisible = true">Monsters</button>
-    </div>
+    <!-- TODO:为什么这里不加v-memo="[submenu]"会导致卡顿 -->
+    <component v-for="submenu in submenus" v-memo="[submenu]" :is="submenu.component" :style="getViewStyle(submenu)" />
   </div>
-  <CollectiblesList :open="isCollectiblesVisible" @close="isCollectiblesVisible = false" />
-  <TrinketsList :open="isTrinketVisible" @close="isTrinketVisible = false" />
-  <CardsList :open="isCardsVisible" @close="isCardsVisible = false" />
-  <PillsList :open="isPillsVisible" @close="isPillsVisible = false" />
-  <OthersList :open="isOthersVisible" @close="isOthersVisible = false" />
-  <MonstersList :open="isMonstersVisible" @close="isMonstersVisible = false" />
+  <GlobalSearch :searchInput="searchInput" />
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
-import CollectiblesList from '@/components/CollectiblesList/index.vue';
-import TrinketsList from '@/components/TrinketsList/index.vue';
-import CardsList from '@/components/CardsList/index.vue'
-import OthersList from '@/components/OthersList/index.vue'
-import PillsList from '@/components/PillsList/index.vue'
-import MonstersList from '@/components/MonstersList/index.vue'
-const isCollectiblesVisible = ref(false);
-const isTrinketVisible = ref(false);
-const isCardsVisible = ref(false)
-const isOthersVisible = ref(false);
-const isPillsVisible = ref(false);
-const isMonstersVisible = ref(false);
-const subMenuArray = [isCollectiblesVisible, isTrinketVisible, isCardsVisible, isOthersVisible, isPillsVisible, isMonstersVisible];
+import { ref, reactive, computed } from 'vue'
+import { submenus, getViewStyle } from './submenus'
+
+import GlobalSearch from '@/components/GlobalSearch/index.vue'
+const searchInput = ref("")
+
 window.addEventListener("keydown", (event) => {
+  console.log(event.key)
   if (event.key === "Escape") {
-    subMenuArray.forEach((submenu) => {
-      submenu.value = false;
-    })
+    submenus.forEach((submenu) => {
+      if (submenu.active.value) {
+        submenu.active.value === false
+      }
+    });
+    isActive.value = true;
+    transform.x = 0;
+    transform.y = 0;
+  }
+  else if (/^[a-zA-Z0-9\x20\.]{1}$$/.test(event.key)) {
+    searchInput.value += event.key;
+  } else if (event.key === "Backspace") {
+    if (searchInput.value.length === 0) {
+      return;
+    } else {
+      searchInput.value = searchInput.value.substring(0, searchInput.value.length - 1)
+    }
   }
 });
 
-onMounted(() => {
-  console.log("mounted")
+const isActive = ref(true);
+const transform = reactive({
+  x: 0,
+  y: 0
 })
+
+const handleActiveSubmenu = (submenu) => {
+  isActive.value = false;
+  submenu.active.value = true;
+  transform.x = submenu.layout.x
+  transform.y = submenu.layout.y
+}
+
+const getTransformedStyle = computed(() => {
+  return {
+    transform: `translate(${-100 * transform.x}%,${-100 * transform.y}%)`
+  }
+})
+
+
 
 </script>
 
 <style scoped lang="less">
-.main-menu {
+.menu {
   width: 100%;
   height: 100%;
+  inset: 0;
   position: absolute;
-  top: 0;
   display: flex;
   column-gap: 4rem;
   justify-content: center;
   align-items: flex-start;
-  transition: transform .5s ease;
-  transform: translate(0, -120%);
 
   &.active {
-    transform: translate(0, 0);
-
     .fly {
-      transform: translate(193px, -50px);
-      animation: fly-in .5s ease-out forwards;
+      transform: translate(240px, -50px);
+      animation: fly-in .5s ease-out .5s forwards;
     }
   }
 
   .title {
-    font-family: upheavtt;
     position: absolute;
     top: 3rem;
     -webkit-backdrop-filter: drop-shadow(8px 8px 10px blue);
@@ -86,7 +100,7 @@ onMounted(() => {
 
   @keyframes fly-in {
     from {
-      transform: translate(193px, -50px);
+      transform: translate(240px, -50px);
     }
 
     to {
@@ -100,7 +114,7 @@ onMounted(() => {
     }
 
     to {
-      transform: translate(193px, -50px);
+      transform: translate(240px, -50px);
     }
   }
 
@@ -111,7 +125,9 @@ onMounted(() => {
     width: 96px;
     height: 80px;
     transform: translate(0, 0);
-    animation: fly-out .5s ease-in forwards;
+    // visibility: hidden;
+
+    // animation: fly-out .5s ease-in .5s forwards;
 
     @keyframes fly-sprite {
 
@@ -162,8 +178,7 @@ onMounted(() => {
   }
 }
 
-.menu {
-  font-family: upheavtt;
+.menu-content {
   margin-top: 12rem;
   width: 363px;
   padding: 2rem 0;

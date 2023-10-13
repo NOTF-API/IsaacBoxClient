@@ -1,18 +1,20 @@
 <template>
-  <div class="list no-scrollbar" :class="{ active: props.open }">
-    <div class="items">
-      <template v-for="i in 189">
-        <div class="item" @click="handleSpawn(i)" v-if="i !== 47">
-          <div class="image" :style="getComputedStyle(i - 1)"></div>
-        </div>
-      </template>
-    </div>
-    <div class="items">
-      <template v-for="i in 189">
-        <div class="golden item" @click="handleSpawn(i + 32768)" v-if="i !== 47">
-          <div class="image" :style="getComputedStyle(i - 1)"></div>
-        </div>
-      </template>
+  <div class="view-container">
+    <div class="view-content no-scrollbar">
+      <div class="items">
+        <template v-for="i in 189">
+          <div class="item" @click="handleSpawn(i)" v-if="i !== 47">
+            <div class="image" :style="getComputedStyle(i - 1)"></div>
+          </div>
+        </template>
+      </div>
+      <div class="items">
+        <template v-for="i in 189">
+          <div class="golden item" @click="handleSpawn(i + 32768)" v-if="i !== 47">
+            <div class="image" :style="getComputedStyle(i - 1)"></div>
+          </div>
+        </template>
+      </div>
     </div>
   </div>
 </template>
@@ -39,9 +41,7 @@ const getComputedStyle = (i) => {
   
 <style lang="less" scoped>
 @import url("../list.less");
-.list{
-  transform: translate(120%, 120%);
-}
+
 .item {
   cursor: pointer;
   width: 64px;

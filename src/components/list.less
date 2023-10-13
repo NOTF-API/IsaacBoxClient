@@ -1,4 +1,4 @@
-.list {
+.view-content {
   position: absolute;
   background-color: #dfd1d5;
   box-shadow: 6px 6px 0px -2px #00000013;
@@ -10,11 +10,10 @@
   flex-wrap: wrap;
   align-content: flex-start;
   overflow-y: scroll;
-  transition: transform .5s ease;
-  transform: translate(-120%, 120%);
 
-  &.active {
-    transform: translate(0, 0);
+  &::-webkit-scrollbar {
+    width: 0;
+    opacity: 0;
   }
 
   .items {
@@ -55,7 +54,7 @@
 
     img {
       height: 100%;
-      image-rendering: pixelated;
+      //   image-rendering: pixelated;
     }
   }
 }
