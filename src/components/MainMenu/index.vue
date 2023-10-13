@@ -12,7 +12,8 @@
       </div>
     </div>
     <!-- TODO:为什么这里不加v-memo="[submenu]"会导致卡顿 -->
-    <component v-for="submenu in submenus" v-memo="[submenu]" :is="submenu.component" :style="getViewStyle(submenu)" />
+    <!-- <component v-for="submenu in submenus" v-memo="[submenu]" :is="submenu.component" :style="getViewStyle(submenu)" /> -->
+    <component v-for="submenu in submenus" :is="submenu.component" :style="getViewStyle(submenu)" />
   </div>
   <GlobalSearch :searchInput="searchInput" />
 </template>
