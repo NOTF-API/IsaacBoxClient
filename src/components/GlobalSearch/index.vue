@@ -1,5 +1,5 @@
 <template>
-  <transition name="search">
+  <transition name="search" v-if="false">
     <div class="search" v-show="props.searchInput.length !== 0">
       <div class="shadowed search-bar">{{ props.searchInput }}</div>
       <div class="search-result view-content"></div>
