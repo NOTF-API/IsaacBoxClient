@@ -19,7 +19,7 @@ https://github.com/LanbingIce/IsaacSocket-Utility
 3. TODO:在[release](https://github.com/NOTF-API/IsaacBoxClient/releases/tag/v0.0.1)页面下载最新版本的IsaacBox Client 或者自己使用本项目 build
 4. TODO:在[IsaacBoxMod](https://github.com/NOTF-API/IsaacBoxMod)下载IsaacBox Mod并存放Mod于游戏安装目录的mod目录下
 5. 启动以撒的结合-忏悔 启用2个Mod
-6. 新游戏/继续游戏 待界面显示IsaacBox Ready即可使用外置控制台。
+6. 新游戏/继续游戏 待界面显示IsaacBox V?.?.?(版本号)即可使用外置控制台。
 
 ## 遇到问题
 + 参考https://github.com/LanbingIce/IsaacSocket-Mod 文档
