@@ -7,18 +7,18 @@ import MonstersList from '@/components/MonstersList/index.vue'
 
 import { ref } from 'vue'
 
-export const getViewStyle = (submenu) => {
-  const { layout } = submenu;
+const getViewStyle = (submenu) => {
+  const { gridOffset } = submenu;
   return {
-    transform: `translate(${100 * layout.x}%,${100 * layout.y}%)`
+    transform: `translate(${100 * gridOffset.x}%,${100 * gridOffset.y}%)`
   }
 }
 
-export const submenus = [
+const submenusMetaData = [
   {
     name: "Collectibles",
     component: CollectiblesList,
-    layout: {
+    gridOffset: {
       x: -1,
       y: 0
     },
@@ -27,7 +27,7 @@ export const submenus = [
   {
     name: "Trinkets",
     component: TrinketsList,
-    layout: {
+    gridOffset: {
       x: 1,
       y: 0
     },
@@ -36,7 +36,7 @@ export const submenus = [
   {
     name: "Cards/Runes",
     component: CardsList,
-    layout: {
+    gridOffset: {
       x: -1,
       y: 1
     },
@@ -45,7 +45,7 @@ export const submenus = [
   {
     name: "Pills",
     component: PillsList,
-    layout: {
+    gridOffset: {
       x: 1,
       y: 1
     },
@@ -54,7 +54,7 @@ export const submenus = [
   {
     name: "Others",
     component: OthersList,
-    layout: {
+    gridOffset: {
       x: 0,
       y: 1
     },
@@ -63,10 +63,17 @@ export const submenus = [
   {
     name: "Monsters",
     component: MonstersList,
-    layout: {
+    gridOffset: {
       x: 0,
       y: 2
     },
     active: ref(false),
   }
 ]
+
+export const submenus = submenusMetaData.map((submenu) => {
+  return {
+    ...submenu,
+    style:getViewStyle(submenu)
+  }
+})

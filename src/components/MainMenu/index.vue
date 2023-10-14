@@ -11,9 +11,9 @@
           @click="handleActiveSubmenu(submenu)"></button>
       </div>
     </div>
-    <component v-for="submenu in submenus" :is="submenu.component" :style="getViewStyle(submenu)" />
+    <component v-for="submenu in submenus" :is="submenu.component" :style="submenu.style" />
   </div>
-  <GlobalSearch @close="handleGlobalSearchClose" />
+  <GlobalSearch :searchInput="searchInput" />
 </template>
 
 <script>
@@ -24,30 +24,13 @@ export default {
 
 <script setup>
 import { ref, reactive, computed } from 'vue'
-import { submenus, getViewStyle } from './submenus'
+import { submenus } from './submenus'
 
 import GlobalSearch from '@/components/GlobalSearch/index.vue'
-
-const isActive = ref(true);
-const transform = reactive({
-  x: 0,
-  y: 0
-})
-
-const handleActiveSubmenu = (submenu) => {
-  isActive.value = false;
-  submenu.active.value = true;
-  transform.x = submenu.layout.x
-  transform.y = submenu.layout.y
-}
-
-const getTransformedStyle = computed(() => {
-  return {
-    transform: `translate(${-100 * transform.x}%,${-100 * transform.y}%)`
-  }
-})
+const searchInput = ref("")
 
 window.addEventListener("keydown", (event) => {
+  console.log(event.key)
   if (event.key === "Escape") {
     submenus.forEach((submenu) => {
       if (submenu.active.value) {
@@ -58,11 +41,37 @@ window.addEventListener("keydown", (event) => {
     transform.x = 0;
     transform.y = 0;
   }
+  else if (/^[a-zA-Z0-9\x20\.]{1}$$/.test(event.key)) {
+    searchInput.value += event.key;
+  } else if (event.key === "Backspace") {
+    if (searchInput.value.length === 0) {
+      return;
+    } else {
+      searchInput.value = searchInput.value.substring(0, searchInput.value.length - 1)
+    }
+  }
 });
 
-const handleGlobalSearchClose = () => {
- 
+const isActive = ref(true);
+const transform = reactive({
+  x: 0,
+  y: 0
+})
+
+const handleActiveSubmenu = (submenu) => {
+  isActive.value = false;
+  submenu.active.value = true;
+  transform.x = submenu.gridOffset.x
+  transform.y = submenu.gridOffset.y
 }
+
+const getTransformedStyle = computed(() => {
+  return {
+    transform: `translate(${-100 * transform.x}%,${-100 * transform.y}%)`
+  }
+})
+
+
 
 </script>
 

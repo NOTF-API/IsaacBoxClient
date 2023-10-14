@@ -1,7 +1,7 @@
 <template>
   <transition name="search">
-    <div class="search" v-show="searchInput.length !== 0">
-      <div class="shadowed search-bar">{{ searchInput }}</div>
+    <div class="search" v-show="props.searchInput.length !== 0">
+      <div class="shadowed search-bar">{{ props.searchInput }}</div>
       <div class="search-result view-content"></div>
     </div>
   </transition>
@@ -14,23 +14,7 @@ export default {
 </script>
 
 <script setup>
-import { ref } from 'vue'
-
-const searchInput = ref("")
-
-window.addEventListener("keydown", (event) => {
-  if (/^[a-zA-Z0-9\x20\.]{1}$$/.test(event.key)) {
-    searchInput.value += event.key;
-  } else if (event.key === "Backspace") {
-    if (searchInput.value.length === 0) {
-      return;
-    } else {
-      searchInput.value = searchInput.value.substring(0, searchInput.value.length - 1)
-    }
-  }else if(event.key==="Escape"){
-    searchInput.value = ""
-  }
-});
+const props = defineProps(["searchInput"])
 </script>
 
 <style scoped lang="less">
