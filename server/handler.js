@@ -54,18 +54,20 @@ const handler = {
     });
   }
 }
-const emitToConsole = (topic, message) => {
-  context.consoleSocket.send(JSON.stringify({
+
+const emit = (ws, topic, message) => {
+  ws?.send(JSON.stringify({
     topic,
     message
   }))
 }
 
+const emitToConsole = (topic, message) => {
+  emit(context.consoleSocket, topic, message);
+}
+
 const emitToGame = (topic, message) => {
-  context.gameSocket.send(JSON.stringify({
-    topic,
-    message
-  }))
+  emit(context.gameSocket, topic, message);
 }
 
 handler.on("JOIN_AS_GAME", (ws, message) => {
@@ -80,13 +82,13 @@ handler.on("JOIN_AS_GAME", (ws, message) => {
 handler.on("JOIN_AS_CONSOLE", (ws, message) => {
   if (context.consoleSocket !== null) {
     debugConsole("console is already in use");
-    ws.send("CONSOLE_ALREADY_IN_USE");
+    emit(ws, "CONSOLE_ALREADY_IN_USE");
     return;
   }
   context.consoleSocket = ws;
   if (context.gameSocket == null) {
     debugConsole("console is ready,waiting for game");
-    ws.send("GAME_NOT_READY");
+    emit(ws, "GAME_NOT_READY");
   } else {
     debugConsole("console is ready and game is ready too");
     emitToConsole("GAME_READY")
