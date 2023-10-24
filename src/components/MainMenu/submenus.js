@@ -4,7 +4,10 @@ import CardsList from '@/components/CardsList/index.vue'
 import OthersList from '@/components/OthersList/index.vue'
 import PillsList from '@/components/PillsList/index.vue'
 import MonstersList from '@/components/MonstersList/index.vue'
+import LanguageSelect from '@/components/LanguageSelect/index.vue'
+import { getUITranslatedText } from '@/utils/i18n'
 
+import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'
 
 const getViewStyle = (submenu) => {
@@ -16,7 +19,7 @@ const getViewStyle = (submenu) => {
 
 const submenusMetaData = [
   {
-    name: "Collectibles",
+    name: ("Collectibles"),
     component: CollectiblesList,
     gridOffset: {
       x: -1,
@@ -25,7 +28,7 @@ const submenusMetaData = [
     active: ref(false),
   },
   {
-    name: "Trinkets",
+    name: ("Trinkets"),
     component: TrinketsList,
     gridOffset: {
       x: 1,
@@ -52,28 +55,41 @@ const submenusMetaData = [
     active: ref(false),
   },
   {
-    name: "Others",
-    component: OthersList,
+    name: "Language",
+    component: LanguageSelect,
     gridOffset: {
       x: 0,
-      y: 1
+      y: -1
     },
     active: ref(false),
   },
-  {
-    name: "Monsters",
-    component: MonstersList,
-    gridOffset: {
-      x: 0,
-      y: 2
-    },
-    active: ref(false),
-  }
+  //   {
+  //     name: "Others",
+  //     component: OthersList,
+  //     gridOffset: {
+  //       x: 0,
+  //       y: 1
+  //     },
+  //     active: ref(false),
+  //   },
+  //   {
+  //     name: "Monsters",
+  //     component: MonstersList,
+  //     gridOffset: {
+  //       x: 0,
+  //       y: 2
+  //     },
+  //     active: ref(false),
+  //   }
 ]
 
-export const submenus = submenusMetaData.map((submenu) => {
-  return {
-    ...submenu,
-    style:getViewStyle(submenu)
-  }
-})
+export const getSubmenus = ()=>{
+  return submenusMetaData.map((submenu) => {
+    const { t } = useI18n()
+    return {
+      ...submenu,
+      name: t(submenu.name),
+      style: getViewStyle(submenu)
+    }
+  })
+}

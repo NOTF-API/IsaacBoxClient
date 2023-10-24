@@ -13,6 +13,7 @@ export const collectibles = ref([]);
  * @param {boolean} checkGame if set true,while game is not ready,do nothing
  */
 export const emit = (topic, message, checkGame = true) => {
+//   console.log(message)
 //   console.log(socket !== null, socket.readyState === 1, isConsoleReady.value, (!checkGame || isGameReady.value))
   if (socket !== null && socket.readyState === 1 && isConsoleReady.value && (!checkGame || isGameReady.value)) {
     socket.send(JSON.stringify({
@@ -110,9 +111,9 @@ export const init = () => {
     statusText.value = "与服务器连接成功"
     isConsoleReady.value = true
     emit("JOIN_AS_CONSOLE", "", false);
-    itemQueryInterval = setInterval(() => {
-      emit("GET_ITEMS")
-    }, 1000)
+    // itemQueryInterval = setInterval(() => {
+    //   emit("GET_ITEMS")
+    // }, 1000)
   }
   socket.onclose = () => {
     statusText.value = "与服务器断开连接"

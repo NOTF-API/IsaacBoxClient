@@ -11,9 +11,9 @@ export const useItemsStore = defineStore('items', {
   },
   actions: {
     async init() {
-      this.initItems()
-      this.initItemsMetaData();
-      this.initPocketItems();
+    //   this.initItems()
+    //   this.initItemsMetaData();
+    //   this.initPocketItems();
     },
     async initItems() {
       const header = await fetch("./assets/items.xml")
@@ -21,7 +21,9 @@ export const useItemsStore = defineStore('items', {
       const parser = new DOMParser();
       const doc = parser.parseFromString(data, "application/xml");
       const itemsXML = doc.querySelector("items").children;
+      console.dir(doc.children[0].children);
       [...itemsXML].forEach((xml) => {
+        // console.log(xml.getAttributeNames())
         const item = {
           type: xml.localName,
           id: xml.getAttribute("id"),

@@ -1,0 +1,156 @@
+<template>
+  <div v-if="!props.isGolden" class="item" :class="{ 'list-styled': props.isListStyled }"
+    @click="handleSpawn(props.item.id)">
+    <div class="shadowed id" v-show="showId">{{ props.item._gid }}</div>
+    <div class="name">{{ props.item.name }}</div>
+    <div class="description">{{ props.item.description }}</div>
+    <div class="image" :style="getImageSource(props.item.gfx)"></div>
+  </div>
+  <div v-else class="golden item" :class="{ 'list-styled': props.isListStyled }"
+    @click="handleSpawn(parseInt(props.item.id) + 32768)">
+    <div class="shadowed id" v-show="showId">T{{ parseInt(props.item._gid.substring(1,props.item._gid.length)) + 32768 }}</div>
+    <div class="name">{{ props.item.name }}</div>
+    <div class="description">{{ props.item.description }}</div>
+    <div class="image" :style="getImageSource(props.item.gfx)"></div>
+  </div>
+</template>
+
+<script setup>
+import { emit } from "@/utils/ws"
+
+const props = defineProps(['item', 'isGolden', 'showId', 'isListStyled'])
+
+const handleSpawn = (id) => {
+  emit("COMMAND", `spawn 5.350.${id}`);
+}
+
+const handleRemove = (id) => {
+  emit("COMMAND", `r c${id}`);
+}
+
+const getImageSource = (gfx) => {
+  return {
+    backgroundImage: `url('${gfx}')`
+  }
+}
+</script>
+
+<style lang="less" scoped>
+.item {
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  border-radius: 8px;
+  margin-top: 0;
+
+  &.list-styled {
+    width: 100% !important;
+    margin-bottom: .25rem;
+
+    .name {
+      padding: 0 .75rem;
+      display: block;
+      position: absolute;
+      left: 64px;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      right: 0;
+      top: .5rem;
+      font-size: 1.5rem;
+    }
+
+    .description {
+      padding: 0 .75rem;
+      display: block;
+      position: absolute;
+      left: 64px;
+      line-height: 32px;
+      right: 0;
+      top: 32px;
+      bottom: 0;
+      font-size: 1rem;
+      color: #191919;
+    }
+
+    .image {
+      transform-origin: left top;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+    }
+
+    .id {
+      position: absolute;
+      right: 0;
+      right: .25rem;
+      bottom: .25rem;
+      display: block;
+      width: auto;
+      padding: .5rem;
+      height: 16px;
+      line-height: 16px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .remove {}
+
+    .count {}
+
+
+  }
+
+  &:hover {
+    background-color: #00000021;
+  }
+
+//   @keyframes golden_blink {
+
+//     0%,
+//     100% {
+//       filter: sepia(1) saturate(10) brightness(2) hue-rotate(0deg);
+//     }
+
+//     50% {
+//       filter: sepia(1) saturate(10) brightness(3) hue-rotate(-10deg);
+//     }
+//   }
+
+  &.golden {
+    .image {
+      //   animation: golden_blink 1s linear infinite;
+      filter: sepia(1) saturate(10) brightness(2);
+    }
+  }
+
+  .image {
+    width: 32px;
+    height: 32px;
+    scale: 2;
+    background-repeat: no-repeat;
+  }
+
+  .id {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 0 .25rem;
+    border-radius: 4px;
+    right: 0;
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    z-index: 1000;
+  }
+
+  .description,
+  .name {
+    display: none;
+  }
+}
+</style>

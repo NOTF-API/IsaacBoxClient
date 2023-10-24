@@ -1,10 +1,14 @@
 <template>
   <div class="view" :style="getTransformedStyle">
     <div class="menu view-container" :class="{ active: isActive }">
-      <div class="title">Isaac's Box</div>
+      <div class="title">{{ $t("Isaac's Box") }}</div>
+      <div class="version">{{ $t("$version") }}</div>
       <div class="fly">
         <div class="sprite"></div>
         <div class="shadow"></div>
+      </div>
+      <div class="idea">
+        {{ $t("type some word to begin search") }}
       </div>
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
@@ -16,22 +20,20 @@
   <GlobalSearch :searchInput="searchInput" />
 </template>
 
-<script>
-export default {
-  name: "MainMenu"
-}
-</script>
-
 <script setup>
 import { ref, reactive, computed } from 'vue'
-import { submenus } from './submenus'
-
+import { getSubmenus } from './submenus'
 import GlobalSearch from '@/components/GlobalSearch/index.vue'
 const searchInput = ref("")
 
+const submenus = getSubmenus();
+
 window.addEventListener("keydown", (event) => {
-  console.log(event.key)
   if (event.key === "Escape") {
+    if (searchInput.value.length !== 0) {
+      searchInput.value = ""
+      return;
+    }
     submenus.forEach((submenu) => {
       if (submenu.active.value) {
         submenu.active.value === false
@@ -96,11 +98,27 @@ const getTransformedStyle = computed(() => {
   .title {
     position: absolute;
     top: 3rem;
-    -webkit-backdrop-filter: drop-shadow(8px 8px 10px blue);
-    backdrop-filter: drop-shadow(8px 8px 10px blue);
     font-size: 7rem;
     color: #c50500;
     text-shadow: #430000 0px 4px;
+  }
+
+  .idea {
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    text-shadow: #9e0b0b 0 2px;
+  }
+
+  .version {
+    position: absolute;
+    right: 4.875rem;
+    top: 10rem;
+    font-size: 2rem;
+    color: #c50500;
+    text-shadow: #430000 0px 2px;
   }
 
   @keyframes fly-in {
@@ -184,7 +202,7 @@ const getTransformedStyle = computed(() => {
 }
 
 .menu-content {
-  margin-top: 12rem;
+  margin-top: 14rem;
   width: 363px;
   padding: 2rem 0;
   background-color: #e9dadf;

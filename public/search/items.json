@@ -1,0 +1,6278 @@
+{
+  "c1": [
+    "1",
+    "c1",
+    "l3",
+    "onion",
+    "luobo",
+    "cry",
+    "sad",
+    "beishangyangcong",
+    "beishangcongtou",
+    "beishangluobo",
+    "green",
+    "yangcong",
+    "congtou",
+    "cong",
+    "lv",
+    "thesadonion",
+    "the",
+    "luobo"
+  ],
+  "c2": [
+    "2",
+    "c2",
+    "3yan",
+    "eyes",
+    "sanyan",
+    "neiyan",
+    "dianzhangyan",
+    "dianzhuyan",
+    "yan",
+    "theinnereye",
+    "the",
+    "inner",
+    "eye"
+  ],
+  "c3": [
+    "3",
+    "c3",
+    "wanshaomoshu",
+    "spoonbender",
+    "bender",
+    "zhuizong",
+    "genzong",
+    "wanshimoshu",
+    "shaozi",
+    "spoon"
+  ],
+  "c4": [
+    "c4",
+    "4",
+    "cricketshead",
+    "crickets",
+    "head",
+    "maotou",
+    "kejimaotou",
+    "kejimaodetou",
+    "goutou","cat"
+  ],
+  "c5": [
+    "c5",
+    "5",
+    "myreflection",
+    "my",
+    "jingzi",
+    "jingxiang",
+    "tiancheng",
+    "huixuan",
+    "reflection"
+  ],
+  "c6": [
+    "c6",
+    "6",
+    "numberone",
+    "number",
+    "one",
+    "xiaohao",
+    "niaoniao",
+    "xuxu"
+  ],
+  "c7": [
+    "c7",
+    "7",
+    "bloodofthemartyr",
+    "blood",
+    "of",
+    "the",
+    "martyr",
+    "huahuan",
+    "caomao",
+    "caohuan",
+    "xundaozhezhixue",
+    "xundaozhezhixie"
+  ],
+  "c8": [
+    "c8",
+    "8",
+    "brotherbobby",
+    "brother",
+    "bobixiongdi",
+    "genban",
+    "baobaotao",
+    "bobby"
+  ],
+  "c9": [
+    "c9",
+    "9",
+    "skatole",
+    "fenchousu",
+    "dobofang",
+    "qigai",
+    "cangying",
+    "fly"
+  ],
+  "c10": [
+    "c10",
+    "10",
+    "haloofflies",
+    "halo",
+    "of",
+    "flies",
+    "cangyingguanghuan",
+    "cangyingtao"
+  ],
+  "c11": [
+    "c11",
+    "11",
+    "1up",
+    "jiayitiaoming",
+    "fuhuo",
+    "lvmogu",
+    "mogutao",
+    "mushroom"
+  ],
+  "c12": [
+    "c12",
+    "12",
+    "magicmushroom",
+    "magic",
+    "mushroom",
+    "hongmogu",
+    "damogu",
+    "mogutao",
+    "mofamogu"
+  ],
+  "c13": [
+    "c13",
+    "13",
+    "thevirus",
+    "the",
+    "virus",
+    "bingdu",
+    "bindu",
+    "zhentao",
+    "hongzhen",
+    "zhen",
+    "red"
+  ],
+  "c14": [
+    "c14",
+    "14",
+    "roidrage",
+    "roid",
+    "rage",
+    "guoliangleiguchu",
+    "leiguchun",
+    "lvzhen",
+    "zhentao",
+    "zhen",
+    "green"
+  ],
+  "c15": [
+    "c15",
+    "15",
+    "heart",
+    "xiaoyusan",
+    "3",
+    "hongxin",
+    "xin",
+    "tilishangxian",
+    "tilishangsheng"
+  ],
+  "c16": [
+    "c16",
+    "16",
+    "rawliver",
+    "raw",
+    "liver",
+    "shenggan",
+    "gan",
+    "hongxin",
+    "xin",
+    "tilishangxian",
+    "tilishangsheng"
+  ],
+  "c17": [
+    "c17",
+    "17",
+    "skeletonkey",
+    "skeleton",
+    "key",
+    "kulouyaoshi",
+    "99yaoshi",
+    "jiushijiuyaoshi",
+    "yaoshi"
+  ],
+  "c18": [
+    "c18",
+    "18",
+    "adollar",
+    "a",
+    "dollar",
+    "yimeiyuan",
+    "texiao",
+    "chaopiao",
+    "qian"
+  ],
+  "c19": [
+    "c19",
+    "19",
+    "boom",
+    "hong",
+    "shigezhadan",
+    "zhadan",
+    "10"
+  ],
+  "c20": [
+    "c20",
+    "20",
+    "transcendence",
+    "chaofanshengtian",
+    "fly",
+    "fei",
+    "shangdiaosheng"
+  ],
+  "c21": [
+    "c21",
+    "21",
+    "thecompass",
+    "the",
+    "compass",
+    "zhinanzhen",
+    "kaitu"
+  ],
+  "c22": [
+    "c22",
+    "22",
+    "lunch",
+    "wucan",
+    "jiaxue",
+    "xueshangxian",
+    "jiaxie",
+    "xueshangxina",
+    "gouliang",
+    "heart"
+  ],
+  "c23": [
+    "c23",
+    "23",
+    "dinner",
+    "wancan",
+    "jiaxue",
+    "xueshangxian",
+    "jiaxie",
+    "xueshangxina",
+    "gouliang",
+    "heart"
+  ],
+  "c24": [
+    "c24",
+    "24",
+    "dessert",
+    "tiandian",
+    "tianshi",
+    "jiaxue",
+    "xueshangxian",
+    "jiaxie",
+    "xueshangxina",
+    "gouliang",
+    "heart"
+  ],
+  "c25": [
+    "c25",
+    "25",
+    "breakfast",
+    "zaocan",
+    "jiaxue",
+    "xueshangxian",
+    "jiaxie",
+    "xueshangxina",
+    "gouliang",
+    "heart"
+  ],
+  "c26": [
+    "c26",
+    "26",
+    "rottenmeat",
+    "rotten",
+    "meat",
+    "lanrou",
+    "rou",
+    "jiaxue",
+    "xueshangxian",
+    "jiaxie",
+    "xueshangxina",
+    "gouliang",
+    "heart"
+  ],
+  "c27": [
+    "c27",
+    "27",
+    "woodenspoon",
+    "wooden",
+    "spoon",
+    "mutoushaozi",
+    "shaozi",
+    "mushaozi",
+    "yisu",
+    "speed",
+    "jiatui"
+  ],
+  "c28": [
+    "c28",
+    "28",
+    "thebelt",
+    "the",
+    "belt",
+    "pidai",
+    "yisu",
+    "jiatui",
+    "speed"
+  ],
+  "c29": [
+    "c29",
+    "29",
+    "momsunderwear",
+    "moms",
+    "underwear",
+    "mamadeneiku",
+    "mamadekuchazi",
+    "kuchazi",
+    "matao"
+  ],
+  "c30": [
+    "c30",
+    "30",
+    "momsheels",
+    "moms",
+    "heels",
+    "mamadegaogenxie",
+    "gaogeixie",
+    "haizi",
+    "xiezi",
+    "red",
+    "matao"
+  ],
+  "c31": [
+    "c31",
+    "31",
+    "momslipstick",
+    "moms",
+    "lipstick"
+  ],
+  "c32": [
+    "c32",
+    "32",
+    "wirecoathanger",
+    "wire",
+    "coat",
+    "hanger"
+  ],
+  "c33": [
+    "c33",
+    "33",
+    "thebible",
+    "the",
+    "bible"
+  ],
+  "c34": [
+    "c34",
+    "34",
+    "thebookofbelial",
+    "the",
+    "book",
+    "of",
+    "belial"
+  ],
+  "c35": [
+    "c35",
+    "35",
+    "thenecronomicon",
+    "the",
+    "necronomicon"
+  ],
+  "c36": [
+    "c36",
+    "36",
+    "thepoop",
+    "the",
+    "poop"
+  ],
+  "c37": [
+    "c37",
+    "37",
+    "mrboom",
+    "mr",
+    "boom"
+  ],
+  "c38": [
+    "c38",
+    "38",
+    "tammyshead",
+    "tammys",
+    "head"
+  ],
+  "c39": [
+    "c39",
+    "39",
+    "momsbra",
+    "moms",
+    "bra"
+  ],
+  "c40": [
+    "c40",
+    "40",
+    "kamikaze"
+  ],
+  "c41": [
+    "c41",
+    "41",
+    "momspad",
+    "moms",
+    "pad"
+  ],
+  "c42": [
+    "c42",
+    "42",
+    "bobsrottenhead",
+    "bobs",
+    "rotten",
+    "head"
+  ],
+  "c43": [
+    "c43",
+    "43"
+  ],
+  "c44": [
+    "c44",
+    "44",
+    "teleport"
+  ],
+  "c45": [
+    "c45",
+    "45",
+    "yumheart",
+    "yum",
+    "heart"
+  ],
+  "c46": [
+    "c46",
+    "46",
+    "luckyfoot",
+    "lucky",
+    "foot"
+  ],
+  "c47": [
+    "c47",
+    "47",
+    "doctorsremote",
+    "doctors",
+    "remote"
+  ],
+  "c48": [
+    "c48",
+    "48",
+    "cupidsarrow",
+    "cupids",
+    "arrow"
+  ],
+  "c49": [
+    "c49",
+    "49",
+    "shoopdawhoop",
+    "shoop",
+    "da",
+    "whoop"
+  ],
+  "c50": [
+    "c50",
+    "50",
+    "steven"
+  ],
+  "c51": [
+    "c51",
+    "51",
+    "pentagram"
+  ],
+  "c52": [
+    "c52",
+    "52",
+    "drfetus",
+    "dr",
+    "fetus"
+  ],
+  "c53": [
+    "c53",
+    "53",
+    "magneto"
+  ],
+  "c54": [
+    "c54",
+    "54",
+    "treasuremap",
+    "treasure",
+    "map"
+  ],
+  "c55": [
+    "c55",
+    "55",
+    "momseye",
+    "moms",
+    "eye"
+  ],
+  "c56": [
+    "c56",
+    "56",
+    "lemonmishap",
+    "lemon",
+    "mishap"
+  ],
+  "c57": [
+    "c57",
+    "57",
+    "distantadmiration",
+    "distant",
+    "admiration"
+  ],
+  "c58": [
+    "c58",
+    "58",
+    "bookofshadows",
+    "book",
+    "of",
+    "shadows"
+  ],
+  "c59": [
+    "c59",
+    "59",
+    "thebookofbelial",
+    "the",
+    "book",
+    "of",
+    "belial"
+  ],
+  "c60": [
+    "c60",
+    "60",
+    "theladder",
+    "the",
+    "ladder"
+  ],
+  "c61": [
+    "c61",
+    "61"
+  ],
+  "c62": [
+    "c62",
+    "62",
+    "charmofthevampire",
+    "charm",
+    "of",
+    "the",
+    "vampire"
+  ],
+  "c63": [
+    "c63",
+    "63",
+    "thebattery",
+    "the",
+    "battery"
+  ],
+  "c64": [
+    "c64",
+    "64",
+    "steamsale",
+    "steam",
+    "sale"
+  ],
+  "c65": [
+    "c65",
+    "65",
+    "anarchistcookbook",
+    "anarchist",
+    "cookbook"
+  ],
+  "c66": [
+    "c66",
+    "66",
+    "thehourglass",
+    "the",
+    "hourglass"
+  ],
+  "c67": [
+    "c67",
+    "67",
+    "sistermaggy",
+    "sister",
+    "maggy"
+  ],
+  "c68": [
+    "c68",
+    "68",
+    "technology"
+  ],
+  "c69": [
+    "c69",
+    "69",
+    "chocolatemilk",
+    "chocolate",
+    "milk"
+  ],
+  "c70": [
+    "c70",
+    "70",
+    "growthhormones",
+    "growth",
+    "hormones"
+  ],
+  "c71": [
+    "c71",
+    "71",
+    "minimush",
+    "mini",
+    "mush"
+  ],
+  "c72": [
+    "c72",
+    "72",
+    "rosary"
+  ],
+  "c73": [
+    "c73",
+    "73",
+    "cubeofmeat",
+    "cube",
+    "of",
+    "meat"
+  ],
+  "c74": [
+    "c74",
+    "74",
+    "aquarter",
+    "a",
+    "quarter"
+  ],
+  "c75": [
+    "c75",
+    "75",
+    "phd"
+  ],
+  "c76": [
+    "c76",
+    "76",
+    "xrayvision",
+    "xray",
+    "vision"
+  ],
+  "c77": [
+    "c77",
+    "77",
+    "mylittleunicorn",
+    "my",
+    "little",
+    "unicorn"
+  ],
+  "c78": [
+    "c78",
+    "78",
+    "bookofrevelations",
+    "book",
+    "of",
+    "revelations"
+  ],
+  "c79": [
+    "c79",
+    "79",
+    "themark",
+    "the",
+    "mark"
+  ],
+  "c80": [
+    "c80",
+    "80",
+    "thepact",
+    "the",
+    "pact"
+  ],
+  "c81": [
+    "c81",
+    "81",
+    "deadcat",
+    "dead",
+    "cat"
+  ],
+  "c82": [
+    "c82",
+    "82",
+    "lordofthepit",
+    "lord",
+    "of",
+    "the",
+    "pit"
+  ],
+  "c83": [
+    "c83",
+    "83",
+    "thenail",
+    "the",
+    "nail"
+  ],
+  "c84": [
+    "c84",
+    "84",
+    "weneedtogodeeper",
+    "we",
+    "need",
+    "to",
+    "go",
+    "deeper"
+  ],
+  "c85": [
+    "c85",
+    "85",
+    "deckofcards",
+    "deck",
+    "of",
+    "cards"
+  ],
+  "c86": [
+    "c86",
+    "86",
+    "monstrostooth",
+    "monstros",
+    "tooth"
+  ],
+  "c87": [
+    "c87",
+    "87",
+    "lokishorns",
+    "lokis",
+    "horns"
+  ],
+  "c88": [
+    "c88",
+    "88",
+    "littlechubby",
+    "little",
+    "chubby"
+  ],
+  "c89": [
+    "c89",
+    "89",
+    "spiderbite",
+    "spider",
+    "bite"
+  ],
+  "c90": [
+    "c90",
+    "90",
+    "thesmallrock",
+    "the",
+    "small",
+    "rock"
+  ],
+  "c91": [
+    "c91",
+    "91",
+    "spelunkerhat",
+    "spelunker",
+    "hat"
+  ],
+  "c92": [
+    "c92",
+    "92",
+    "superbandage",
+    "super",
+    "bandage"
+  ],
+  "c93": [
+    "c93",
+    "93",
+    "thegamekid",
+    "the",
+    "gamekid"
+  ],
+  "c94": [
+    "c94",
+    "94",
+    "sackofpennies",
+    "sack",
+    "of",
+    "pennies"
+  ],
+  "c95": [
+    "c95",
+    "95",
+    "robobaby"
+  ],
+  "c96": [
+    "c96",
+    "96",
+    "littlechad",
+    "little",
+    "chad"
+  ],
+  "c97": [
+    "c97",
+    "97",
+    "thebookofsin",
+    "the",
+    "book",
+    "of",
+    "sin"
+  ],
+  "c98": [
+    "c98",
+    "98",
+    "therelic",
+    "the",
+    "relic"
+  ],
+  "c99": [
+    "c99",
+    "99",
+    "littlegish",
+    "little",
+    "gish"
+  ],
+  "c100": [
+    "c100",
+    "100",
+    "littlesteven",
+    "little",
+    "steven"
+  ],
+  "c101": [
+    "c101",
+    "101",
+    "thehalo",
+    "the",
+    "halo"
+  ],
+  "c102": [
+    "c102",
+    "102",
+    "momsbottleofpills",
+    "moms",
+    "bottle",
+    "of",
+    "pills"
+  ],
+  "c103": [
+    "c103",
+    "103",
+    "thecommoncold",
+    "the",
+    "common",
+    "cold"
+  ],
+  "c104": [
+    "c104",
+    "104",
+    "theparasite",
+    "the",
+    "parasite"
+  ],
+  "c105": [
+    "c105",
+    "105",
+    "thed6",
+    "the",
+    "d6"
+  ],
+  "c106": [
+    "c106",
+    "106",
+    "mrmega",
+    "mr",
+    "mega"
+  ],
+  "c107": [
+    "c107",
+    "107",
+    "thepinkingshears",
+    "the",
+    "pinking",
+    "shears"
+  ],
+  "c108": [
+    "c108",
+    "108",
+    "thewafer",
+    "the",
+    "wafer"
+  ],
+  "c109": [
+    "c109",
+    "109",
+    "moneypower",
+    "money",
+    "power"
+  ],
+  "c110": [
+    "c110",
+    "110",
+    "momscontacts",
+    "moms",
+    "contacts"
+  ],
+  "c111": [
+    "c111",
+    "111",
+    "thebean",
+    "the",
+    "bean"
+  ],
+  "c112": [
+    "c112",
+    "112",
+    "guardianangel",
+    "guardian",
+    "angel"
+  ],
+  "c113": [
+    "c113",
+    "113",
+    "demonbaby",
+    "demon",
+    "baby"
+  ],
+  "c114": [
+    "c114",
+    "114",
+    "momsknife",
+    "moms",
+    "knife"
+  ],
+  "c115": [
+    "c115",
+    "115",
+    "ouijaboard",
+    "ouija",
+    "board"
+  ],
+  "c116": [
+    "c116",
+    "116",
+    "9volt",
+    "9",
+    "volt"
+  ],
+  "c117": [
+    "c117",
+    "117",
+    "deadbird",
+    "dead",
+    "bird"
+  ],
+  "c118": [
+    "c118",
+    "118",
+    "brimstone"
+  ],
+  "c119": [
+    "c119",
+    "119",
+    "bloodbag",
+    "blood",
+    "bag"
+  ],
+  "c120": [
+    "c120",
+    "120",
+    "oddmushroomthin",
+    "odd",
+    "mushroom",
+    "thin"
+  ],
+  "c121": [
+    "c121",
+    "121",
+    "oddmushroomlarge",
+    "odd",
+    "mushroom",
+    "large"
+  ],
+  "c122": [
+    "c122",
+    "122",
+    "whoreofbabylon",
+    "whore",
+    "of",
+    "babylon"
+  ],
+  "c123": [
+    "c123",
+    "123",
+    "monstermanual",
+    "monster",
+    "manual"
+  ],
+  "c124": [
+    "c124",
+    "124",
+    "deadseascrolls",
+    "dead",
+    "sea",
+    "scrolls"
+  ],
+  "c125": [
+    "c125",
+    "125",
+    "bobbybomb"
+  ],
+  "c126": [
+    "c126",
+    "126",
+    "razorblade",
+    "razor",
+    "blade"
+  ],
+  "c127": [
+    "c127",
+    "127",
+    "forgetmenow",
+    "forget",
+    "me",
+    "now"
+  ],
+  "c128": [
+    "c128",
+    "128",
+    "foreveralone",
+    "forever",
+    "alone"
+  ],
+  "c129": [
+    "c129",
+    "129",
+    "bucketoflard",
+    "bucket",
+    "of",
+    "lard"
+  ],
+  "c130": [
+    "c130",
+    "130",
+    "apony",
+    "a",
+    "pony"
+  ],
+  "c131": [
+    "c131",
+    "131",
+    "bombbag",
+    "bomb",
+    "bag"
+  ],
+  "c132": [
+    "c132",
+    "132",
+    "alumpofcoal",
+    "a",
+    "lump",
+    "of",
+    "coal"
+  ],
+  "c133": [
+    "c133",
+    "133",
+    "guppyspaw",
+    "guppys",
+    "paw"
+  ],
+  "c134": [
+    "c134",
+    "134",
+    "guppystail",
+    "guppys",
+    "tail"
+  ],
+  "c135": [
+    "c135",
+    "135",
+    "ivbag",
+    "iv",
+    "bag"
+  ],
+  "c136": [
+    "c136",
+    "136",
+    "bestfriend",
+    "best",
+    "friend"
+  ],
+  "c137": [
+    "c137",
+    "137",
+    "remotedetonator",
+    "remote",
+    "detonator"
+  ],
+  "c138": [
+    "c138",
+    "138",
+    "stigmata"
+  ],
+  "c139": [
+    "c139",
+    "139",
+    "momspurse",
+    "moms",
+    "purse"
+  ],
+  "c140": [
+    "c140",
+    "140",
+    "bobscurse",
+    "bobs",
+    "curse"
+  ],
+  "c141": [
+    "c141",
+    "141",
+    "pageantboy",
+    "pageant",
+    "boy"
+  ],
+  "c142": [
+    "c142",
+    "142",
+    "scapular"
+  ],
+  "c143": [
+    "c143",
+    "143",
+    "speedball",
+    "speed",
+    "ball"
+  ],
+  "c144": [
+    "c144",
+    "144",
+    "bumfriend",
+    "bum",
+    "friend"
+  ],
+  "c145": [
+    "c145",
+    "145",
+    "guppyshead",
+    "guppys",
+    "head"
+  ],
+  "c146": [
+    "c146",
+    "146",
+    "prayercard",
+    "prayer",
+    "card"
+  ],
+  "c147": [
+    "c147",
+    "147",
+    "notchedaxe",
+    "notched",
+    "axe"
+  ],
+  "c148": [
+    "c148",
+    "148",
+    "infestation"
+  ],
+  "c149": [
+    "c149",
+    "149",
+    "ipecac"
+  ],
+  "c150": [
+    "c150",
+    "150",
+    "toughlove",
+    "tough",
+    "love"
+  ],
+  "c151": [
+    "c151",
+    "151",
+    "themulligan",
+    "the",
+    "mulligan"
+  ],
+  "c152": [
+    "c152",
+    "152",
+    "technology2",
+    "technology",
+    "2"
+  ],
+  "c153": [
+    "c153",
+    "153",
+    "mutantspider",
+    "mutant",
+    "spider"
+  ],
+  "c154": [
+    "c154",
+    "154",
+    "chemicalpeel",
+    "chemical",
+    "peel"
+  ],
+  "c155": [
+    "c155",
+    "155",
+    "thepeeper",
+    "the",
+    "peeper"
+  ],
+  "c156": [
+    "c156",
+    "156",
+    "habit"
+  ],
+  "c157": [
+    "c157",
+    "157",
+    "bloodylust",
+    "bloody",
+    "lust"
+  ],
+  "c158": [
+    "c158",
+    "158",
+    "crystalball",
+    "crystal",
+    "ball"
+  ],
+  "c159": [
+    "c159",
+    "159",
+    "spiritofthenight",
+    "spirit",
+    "of",
+    "the",
+    "night"
+  ],
+  "c160": [
+    "c160",
+    "160",
+    "crackthesky",
+    "crack",
+    "the",
+    "sky"
+  ],
+  "c161": [
+    "c161",
+    "161",
+    "ankh"
+  ],
+  "c162": [
+    "c162",
+    "162",
+    "celticcross",
+    "celtic",
+    "cross"
+  ],
+  "c163": [
+    "c163",
+    "163",
+    "ghostbaby",
+    "ghost",
+    "baby"
+  ],
+  "c164": [
+    "c164",
+    "164",
+    "thecandle",
+    "the",
+    "candle"
+  ],
+  "c165": [
+    "c165",
+    "165",
+    "catoninetails"
+  ],
+  "c166": [
+    "c166",
+    "166",
+    "d20"
+  ],
+  "c167": [
+    "c167",
+    "167",
+    "harlequinbaby",
+    "harlequin",
+    "baby"
+  ],
+  "c168": [
+    "c168",
+    "168",
+    "epicfetus",
+    "epic",
+    "fetus"
+  ],
+  "c169": [
+    "c169",
+    "169",
+    "polyphemus"
+  ],
+  "c170": [
+    "c170",
+    "170",
+    "daddylonglegs",
+    "daddy",
+    "longlegs"
+  ],
+  "c171": [
+    "c171",
+    "171",
+    "spiderbutt",
+    "spider",
+    "butt"
+  ],
+  "c172": [
+    "c172",
+    "172",
+    "sacrificialdagger",
+    "sacrificial",
+    "dagger"
+  ],
+  "c173": [
+    "c173",
+    "173",
+    "mitre"
+  ],
+  "c174": [
+    "c174",
+    "174",
+    "rainbowbaby",
+    "rainbow",
+    "baby"
+  ],
+  "c175": [
+    "c175",
+    "175",
+    "dadskey",
+    "dads",
+    "key"
+  ],
+  "c176": [
+    "c176",
+    "176",
+    "stemcells",
+    "stem",
+    "cells"
+  ],
+  "c177": [
+    "c177",
+    "177",
+    "portableslot",
+    "portable",
+    "slot"
+  ],
+  "c178": [
+    "c178",
+    "178",
+    "holywater",
+    "holy",
+    "water"
+  ],
+  "c179": [
+    "c179",
+    "179",
+    "fate"
+  ],
+  "c180": [
+    "c180",
+    "180",
+    "theblackbean",
+    "the",
+    "black",
+    "bean"
+  ],
+  "c181": [
+    "c181",
+    "181",
+    "whitepony",
+    "white",
+    "pony"
+  ],
+  "c182": [
+    "c182",
+    "182",
+    "sacredheart",
+    "sacred",
+    "heart"
+  ],
+  "c183": [
+    "c183",
+    "183",
+    "toothpicks",
+    "tooth",
+    "picks"
+  ],
+  "c184": [
+    "c184",
+    "184",
+    "holygrail",
+    "holy",
+    "grail"
+  ],
+  "c185": [
+    "c185",
+    "185",
+    "deaddove",
+    "dead",
+    "dove"
+  ],
+  "c186": [
+    "c186",
+    "186",
+    "bloodrights",
+    "blood",
+    "rights"
+  ],
+  "c187": [
+    "c187",
+    "187",
+    "guppyshairball",
+    "guppys",
+    "hairball"
+  ],
+  "c188": [
+    "c188",
+    "188",
+    "abel"
+  ],
+  "c189": [
+    "c189",
+    "189",
+    "smbsuperfan",
+    "smb",
+    "super",
+    "fan"
+  ],
+  "c190": [
+    "c190",
+    "190",
+    "pyro"
+  ],
+  "c191": [
+    "c191",
+    "191",
+    "3dollarbill",
+    "3",
+    "dollar",
+    "bill"
+  ],
+  "c192": [
+    "c192",
+    "192",
+    "telepathyfordummies",
+    "telepathy",
+    "for",
+    "dummies"
+  ],
+  "c193": [
+    "c193",
+    "193",
+    "meat"
+  ],
+  "c194": [
+    "c194",
+    "194",
+    "magic8ball",
+    "magic",
+    "8",
+    "ball"
+  ],
+  "c195": [
+    "c195",
+    "195",
+    "momscoinpurse",
+    "moms",
+    "coin",
+    "purse"
+  ],
+  "c196": [
+    "c196",
+    "196",
+    "squeezy"
+  ],
+  "c197": [
+    "c197",
+    "197",
+    "jesusjuice",
+    "jesus",
+    "juice"
+  ],
+  "c198": [
+    "c198",
+    "198",
+    "box"
+  ],
+  "c199": [
+    "c199",
+    "199",
+    "momskey",
+    "moms",
+    "key"
+  ],
+  "c200": [
+    "c200",
+    "200",
+    "momseyeshadow",
+    "moms",
+    "eyeshadow"
+  ],
+  "c201": [
+    "c201",
+    "201",
+    "ironbar",
+    "iron",
+    "bar"
+  ],
+  "c202": [
+    "c202",
+    "202",
+    "midastouch",
+    "midas",
+    "touch"
+  ],
+  "c203": [
+    "c203",
+    "203",
+    "humbleingbundle",
+    "humbleing",
+    "bundle"
+  ],
+  "c204": [
+    "c204",
+    "204",
+    "fannypack",
+    "fanny",
+    "pack"
+  ],
+  "c205": [
+    "c205",
+    "205",
+    "sharpplug",
+    "sharp",
+    "plug"
+  ],
+  "c206": [
+    "c206",
+    "206",
+    "guillotine"
+  ],
+  "c207": [
+    "c207",
+    "207",
+    "ballofbandages",
+    "ball",
+    "of",
+    "bandages"
+  ],
+  "c208": [
+    "c208",
+    "208",
+    "championbelt",
+    "champion",
+    "belt"
+  ],
+  "c209": [
+    "c209",
+    "209",
+    "buttbombs",
+    "butt",
+    "bombs"
+  ],
+  "c210": [
+    "c210",
+    "210",
+    "gnawedleaf",
+    "gnawed",
+    "leaf"
+  ],
+  "c211": [
+    "c211",
+    "211",
+    "spiderbaby"
+  ],
+  "c212": [
+    "c212",
+    "212",
+    "guppyscollar",
+    "guppys",
+    "collar"
+  ],
+  "c213": [
+    "c213",
+    "213",
+    "lostcontact",
+    "lost",
+    "contact"
+  ],
+  "c214": [
+    "c214",
+    "214",
+    "anemic"
+  ],
+  "c215": [
+    "c215",
+    "215",
+    "goathead",
+    "goat",
+    "head"
+  ],
+  "c216": [
+    "c216",
+    "216",
+    "ceremonialrobes",
+    "ceremonial",
+    "robes"
+  ],
+  "c217": [
+    "c217",
+    "217",
+    "momswig",
+    "moms",
+    "wig"
+  ],
+  "c218": [
+    "c218",
+    "218",
+    "placenta"
+  ],
+  "c219": [
+    "c219",
+    "219",
+    "oldbandage",
+    "old",
+    "bandage"
+  ],
+  "c220": [
+    "c220",
+    "220",
+    "sadbombs",
+    "sad",
+    "bombs"
+  ],
+  "c221": [
+    "c221",
+    "221",
+    "rubbercement",
+    "rubber",
+    "cement"
+  ],
+  "c222": [
+    "c222",
+    "222",
+    "antigravity"
+  ],
+  "c223": [
+    "c223",
+    "223",
+    "pyromaniac"
+  ],
+  "c224": [
+    "c224",
+    "224",
+    "cricketsbody",
+    "crickets",
+    "body"
+  ],
+  "c225": [
+    "c225",
+    "225",
+    "gimpy"
+  ],
+  "c226": [
+    "c226",
+    "226",
+    "blacklotus",
+    "black",
+    "lotus"
+  ],
+  "c227": [
+    "c227",
+    "227",
+    "piggybank",
+    "piggy",
+    "bank"
+  ],
+  "c228": [
+    "c228",
+    "228",
+    "momsperfume",
+    "moms",
+    "perfume"
+  ],
+  "c229": [
+    "c229",
+    "229",
+    "monstroslung",
+    "monstros",
+    "lung"
+  ],
+  "c230": [
+    "c230",
+    "230",
+    "abaddon"
+  ],
+  "c231": [
+    "c231",
+    "231",
+    "balloftar",
+    "ball",
+    "of",
+    "tar"
+  ],
+  "c232": [
+    "c232",
+    "232",
+    "stopwatch",
+    "stop",
+    "watch"
+  ],
+  "c233": [
+    "c233",
+    "233",
+    "tinyplanet",
+    "tiny",
+    "planet"
+  ],
+  "c234": [
+    "c234",
+    "234",
+    "infestation2",
+    "infestation",
+    "2"
+  ],
+  "c235": [
+    "c235",
+    "235"
+  ],
+  "c236": [
+    "c236",
+    "236",
+    "ecoli",
+    "e",
+    "coli"
+  ],
+  "c237": [
+    "c237",
+    "237",
+    "deathstouch",
+    "deaths",
+    "touch"
+  ],
+  "c238": [
+    "c238",
+    "238",
+    "keypiece1",
+    "key",
+    "piece",
+    "1"
+  ],
+  "c239": [
+    "c239",
+    "239",
+    "keypiece2",
+    "key",
+    "piece",
+    "2"
+  ],
+  "c240": [
+    "c240",
+    "240",
+    "experimentaltreatment",
+    "experimental",
+    "treatment"
+  ],
+  "c241": [
+    "c241",
+    "241",
+    "contractfrombelow",
+    "contract",
+    "from",
+    "below"
+  ],
+  "c242": [
+    "c242",
+    "242",
+    "infamy"
+  ],
+  "c243": [
+    "c243",
+    "243",
+    "trinityshield",
+    "trinity",
+    "shield"
+  ],
+  "c244": [
+    "c244",
+    "244",
+    "tech5"
+  ],
+  "c245": [
+    "c245",
+    "245",
+    "2020"
+  ],
+  "c246": [
+    "c246",
+    "246",
+    "bluemap",
+    "blue",
+    "map"
+  ],
+  "c247": [
+    "c247",
+    "247",
+    "bffs"
+  ],
+  "c248": [
+    "c248",
+    "248",
+    "hivemind",
+    "hive",
+    "mind"
+  ],
+  "c249": [
+    "c249",
+    "249",
+    "theresoptions",
+    "theres",
+    "options"
+  ],
+  "c250": [
+    "c250",
+    "250",
+    "bogobombs",
+    "bogo",
+    "bombs"
+  ],
+  "c251": [
+    "c251",
+    "251",
+    "starterdeck",
+    "starter",
+    "deck"
+  ],
+  "c252": [
+    "c252",
+    "252",
+    "littlebaggy",
+    "little",
+    "baggy"
+  ],
+  "c253": [
+    "c253",
+    "253",
+    "magicscab",
+    "magic",
+    "scab"
+  ],
+  "c254": [
+    "c254",
+    "254",
+    "bloodclot",
+    "blood",
+    "clot"
+  ],
+  "c255": [
+    "c255",
+    "255",
+    "screw"
+  ],
+  "c256": [
+    "c256",
+    "256",
+    "hotbombs",
+    "hot",
+    "bombs"
+  ],
+  "c257": [
+    "c257",
+    "257",
+    "firemind",
+    "fire",
+    "mind"
+  ],
+  "c258": [
+    "c258",
+    "258",
+    "missingno",
+    "missing",
+    "no"
+  ],
+  "c259": [
+    "c259",
+    "259",
+    "darkmatter",
+    "dark",
+    "matter"
+  ],
+  "c260": [
+    "c260",
+    "260",
+    "blackcandle",
+    "black",
+    "candle"
+  ],
+  "c261": [
+    "c261",
+    "261",
+    "proptosis"
+  ],
+  "c262": [
+    "c262",
+    "262",
+    "missingpage2",
+    "missing",
+    "page",
+    "2"
+  ],
+  "c263": [
+    "c263",
+    "263",
+    "clearrune",
+    "clear",
+    "rune"
+  ],
+  "c264": [
+    "c264",
+    "264",
+    "smartfly",
+    "smart",
+    "fly"
+  ],
+  "c265": [
+    "c265",
+    "265",
+    "drybaby",
+    "dry",
+    "baby"
+  ],
+  "c266": [
+    "c266",
+    "266",
+    "juicysack",
+    "juicy",
+    "sack"
+  ],
+  "c267": [
+    "c267",
+    "267",
+    "robobaby20",
+    "robobaby",
+    "20"
+  ],
+  "c268": [
+    "c268",
+    "268",
+    "rottenbaby",
+    "rotten",
+    "baby"
+  ],
+  "c269": [
+    "c269",
+    "269",
+    "headlessbaby",
+    "headless",
+    "baby"
+  ],
+  "c270": [
+    "c270",
+    "270",
+    "leech"
+  ],
+  "c271": [
+    "c271",
+    "271",
+    "mysterysack",
+    "mystery",
+    "sack"
+  ],
+  "c272": [
+    "c272",
+    "272",
+    "bbf"
+  ],
+  "c273": [
+    "c273",
+    "273",
+    "bobsbrain",
+    "bobs",
+    "brain"
+  ],
+  "c274": [
+    "c274",
+    "274",
+    "bestbud",
+    "best",
+    "bud"
+  ],
+  "c275": [
+    "c275",
+    "275",
+    "lilbrimstone",
+    "lil",
+    "brimstone"
+  ],
+  "c276": [
+    "c276",
+    "276",
+    "isaacsheart",
+    "isaacs",
+    "heart"
+  ],
+  "c277": [
+    "c277",
+    "277",
+    "lilhaunt",
+    "lil",
+    "haunt"
+  ],
+  "c278": [
+    "c278",
+    "278",
+    "darkbum",
+    "dark",
+    "bum"
+  ],
+  "c279": [
+    "c279",
+    "279",
+    "bigfan",
+    "big",
+    "fan"
+  ],
+  "c280": [
+    "c280",
+    "280",
+    "sissylonglegs",
+    "sissy",
+    "longlegs"
+  ],
+  "c281": [
+    "c281",
+    "281",
+    "punchingbag",
+    "punching",
+    "bag"
+  ],
+  "c282": [
+    "c282",
+    "282",
+    "howtojump",
+    "how",
+    "to",
+    "jump"
+  ],
+  "c283": [
+    "c283",
+    "283",
+    "d100"
+  ],
+  "c284": [
+    "c284",
+    "284",
+    "d4"
+  ],
+  "c285": [
+    "c285",
+    "285",
+    "d10"
+  ],
+  "c286": [
+    "c286",
+    "286",
+    "blankcard",
+    "blank",
+    "card"
+  ],
+  "c287": [
+    "c287",
+    "287",
+    "bookofsecrets",
+    "book",
+    "of",
+    "secrets"
+  ],
+  "c288": [
+    "c288",
+    "288",
+    "boxofspiders",
+    "box",
+    "of",
+    "spiders"
+  ],
+  "c289": [
+    "c289",
+    "289",
+    "redcandle",
+    "red",
+    "candle"
+  ],
+  "c290": [
+    "c290",
+    "290",
+    "thejar",
+    "the",
+    "jar"
+  ],
+  "c291": [
+    "c291",
+    "291",
+    "flush"
+  ],
+  "c292": [
+    "c292",
+    "292",
+    "satanicbible",
+    "satanic",
+    "bible"
+  ],
+  "c293": [
+    "c293",
+    "293",
+    "headofkrampus",
+    "head",
+    "of",
+    "krampus"
+  ],
+  "c294": [
+    "c294",
+    "294",
+    "butterbean",
+    "butter",
+    "bean"
+  ],
+  "c295": [
+    "c295",
+    "295",
+    "magicfingers",
+    "magic",
+    "fingers"
+  ],
+  "c296": [
+    "c296",
+    "296",
+    "converter"
+  ],
+  "c297": [
+    "c297",
+    "297",
+    "pandorasbox",
+    "pandoras",
+    "box"
+  ],
+  "c298": [
+    "c298",
+    "298",
+    "unicornstump",
+    "unicorn",
+    "stump"
+  ],
+  "c299": [
+    "c299",
+    "299",
+    "taurus"
+  ],
+  "c300": [
+    "c300",
+    "300",
+    "aries"
+  ],
+  "c301": [
+    "c301",
+    "301",
+    "cancer"
+  ],
+  "c302": [
+    "c302",
+    "302",
+    "leo"
+  ],
+  "c303": [
+    "c303",
+    "303",
+    "virgo"
+  ],
+  "c304": [
+    "c304",
+    "304",
+    "libra"
+  ],
+  "c305": [
+    "c305",
+    "305",
+    "scorpio"
+  ],
+  "c306": [
+    "c306",
+    "306",
+    "sagittarius"
+  ],
+  "c307": [
+    "c307",
+    "307",
+    "capricorn"
+  ],
+  "c308": [
+    "c308",
+    "308",
+    "aquarius"
+  ],
+  "c309": [
+    "c309",
+    "309",
+    "pisces"
+  ],
+  "c310": [
+    "c310",
+    "310",
+    "evesmascara",
+    "eves",
+    "mascara"
+  ],
+  "c311": [
+    "c311",
+    "311",
+    "judasshadow",
+    "judas",
+    "shadow"
+  ],
+  "c312": [
+    "c312",
+    "312",
+    "maggysbow",
+    "maggys",
+    "bow"
+  ],
+  "c313": [
+    "c313",
+    "313",
+    "holymantle",
+    "holy",
+    "mantle"
+  ],
+  "c314": [
+    "c314",
+    "314",
+    "thunderthighs",
+    "thunder",
+    "thighs"
+  ],
+  "c315": [
+    "c315",
+    "315",
+    "strangeattractor",
+    "strange",
+    "attractor"
+  ],
+  "c316": [
+    "c316",
+    "316",
+    "cursedeye",
+    "cursed",
+    "eye"
+  ],
+  "c317": [
+    "c317",
+    "317",
+    "mysteriousliquid",
+    "mysterious",
+    "liquid"
+  ],
+  "c318": [
+    "c318",
+    "318",
+    "gemini"
+  ],
+  "c319": [
+    "c319",
+    "319",
+    "cainsothereye",
+    "cains",
+    "other",
+    "eye"
+  ],
+  "c320": [
+    "c320",
+    "320",
+    "sonlyfriend",
+    "s",
+    "only",
+    "friend"
+  ],
+  "c321": [
+    "c321",
+    "321",
+    "samsonschains",
+    "samsons",
+    "chains"
+  ],
+  "c322": [
+    "c322",
+    "322",
+    "mongobaby",
+    "mongo",
+    "baby"
+  ],
+  "c323": [
+    "c323",
+    "323",
+    "isaacstears",
+    "isaacs",
+    "tears"
+  ],
+  "c324": [
+    "c324",
+    "324",
+    "undefined"
+  ],
+  "c325": [
+    "c325",
+    "325",
+    "scissors"
+  ],
+  "c326": [
+    "c326",
+    "326",
+    "breathoflife",
+    "breath",
+    "of",
+    "life"
+  ],
+  "c327": [
+    "c327",
+    "327",
+    "thepolaroid",
+    "the",
+    "polaroid"
+  ],
+  "c328": [
+    "c328",
+    "328",
+    "thenegative",
+    "the",
+    "negative"
+  ],
+  "c329": [
+    "c329",
+    "329",
+    "theludovicotechnique",
+    "the",
+    "ludovico",
+    "technique"
+  ],
+  "c330": [
+    "c330",
+    "330",
+    "soymilk",
+    "soy",
+    "milk"
+  ],
+  "c331": [
+    "c331",
+    "331",
+    "godhead"
+  ],
+  "c332": [
+    "c332",
+    "332",
+    "lazarusrags",
+    "lazarus",
+    "rags"
+  ],
+  "c333": [
+    "c333",
+    "333",
+    "themind",
+    "the",
+    "mind"
+  ],
+  "c334": [
+    "c334",
+    "334",
+    "thebody",
+    "the",
+    "body"
+  ],
+  "c335": [
+    "c335",
+    "335",
+    "thesoul",
+    "the",
+    "soul"
+  ],
+  "c336": [
+    "c336",
+    "336",
+    "deadonion",
+    "dead",
+    "onion"
+  ],
+  "c337": [
+    "c337",
+    "337",
+    "brokenwatch",
+    "broken",
+    "watch"
+  ],
+  "c338": [
+    "c338",
+    "338",
+    "theboomerang",
+    "the",
+    "boomerang"
+  ],
+  "c339": [
+    "c339",
+    "339",
+    "safetypin",
+    "safety",
+    "pin"
+  ],
+  "c340": [
+    "c340",
+    "340",
+    "caffeinepill",
+    "caffeine",
+    "pill"
+  ],
+  "c341": [
+    "c341",
+    "341",
+    "tornphoto",
+    "torn",
+    "photo"
+  ],
+  "c342": [
+    "c342",
+    "342",
+    "bluecap",
+    "blue",
+    "cap"
+  ],
+  "c343": [
+    "c343",
+    "343",
+    "latchkey",
+    "latch",
+    "key"
+  ],
+  "c344": [
+    "c344",
+    "344",
+    "matchbook",
+    "match",
+    "book"
+  ],
+  "c345": [
+    "c345",
+    "345",
+    "synthoil"
+  ],
+  "c346": [
+    "c346",
+    "346",
+    "asnack",
+    "a",
+    "snack"
+  ],
+  "c347": [
+    "c347",
+    "347",
+    "diplopia"
+  ],
+  "c348": [
+    "c348",
+    "348",
+    "placebo"
+  ],
+  "c349": [
+    "c349",
+    "349",
+    "woodennickel",
+    "wooden",
+    "nickel"
+  ],
+  "c350": [
+    "c350",
+    "350",
+    "toxicshock",
+    "toxic",
+    "shock"
+  ],
+  "c351": [
+    "c351",
+    "351",
+    "megabean",
+    "mega",
+    "bean"
+  ],
+  "c352": [
+    "c352",
+    "352",
+    "glasscannon",
+    "glass",
+    "cannon"
+  ],
+  "c353": [
+    "c353",
+    "353",
+    "bomberboy",
+    "bomber",
+    "boy"
+  ],
+  "c354": [
+    "c354",
+    "354",
+    "crackjacks",
+    "crack",
+    "jacks"
+  ],
+  "c355": [
+    "c355",
+    "355",
+    "momspearls",
+    "moms",
+    "pearls"
+  ],
+  "c356": [
+    "c356",
+    "356",
+    "carbattery",
+    "car",
+    "battery"
+  ],
+  "c357": [
+    "c357",
+    "357",
+    "boxoffriends",
+    "box",
+    "of",
+    "friends"
+  ],
+  "c358": [
+    "c358",
+    "358",
+    "thewiz",
+    "the",
+    "wiz"
+  ],
+  "c359": [
+    "c359",
+    "359",
+    "8inchnails",
+    "8",
+    "inch",
+    "nails"
+  ],
+  "c360": [
+    "c360",
+    "360",
+    "incubus"
+  ],
+  "c361": [
+    "c361",
+    "361",
+    "fatesreward",
+    "fates",
+    "reward"
+  ],
+  "c362": [
+    "c362",
+    "362",
+    "lilchest",
+    "lil",
+    "chest"
+  ],
+  "c363": [
+    "c363",
+    "363",
+    "swornprotector",
+    "sworn",
+    "protector"
+  ],
+  "c364": [
+    "c364",
+    "364",
+    "friendzone",
+    "friend",
+    "zone"
+  ],
+  "c365": [
+    "c365",
+    "365",
+    "lostfly",
+    "lost",
+    "fly"
+  ],
+  "c366": [
+    "c366",
+    "366",
+    "scatterbombs",
+    "scatter",
+    "bombs"
+  ],
+  "c367": [
+    "c367",
+    "367",
+    "stickybombs",
+    "sticky",
+    "bombs"
+  ],
+  "c368": [
+    "c368",
+    "368",
+    "epiphora"
+  ],
+  "c369": [
+    "c369",
+    "369",
+    "continuum"
+  ],
+  "c370": [
+    "c370",
+    "370",
+    "mrdolly",
+    "mr",
+    "dolly"
+  ],
+  "c371": [
+    "c371",
+    "371",
+    "curseofthetower",
+    "curse",
+    "of",
+    "the",
+    "tower"
+  ],
+  "c372": [
+    "c372",
+    "372",
+    "chargedbaby",
+    "charged",
+    "baby"
+  ],
+  "c373": [
+    "c373",
+    "373",
+    "deadeye",
+    "dead",
+    "eye"
+  ],
+  "c374": [
+    "c374",
+    "374",
+    "holylight",
+    "holy",
+    "light"
+  ],
+  "c375": [
+    "c375",
+    "375",
+    "hosthat",
+    "host",
+    "hat"
+  ],
+  "c376": [
+    "c376",
+    "376",
+    "restock"
+  ],
+  "c377": [
+    "c377",
+    "377",
+    "burstingsack",
+    "bursting",
+    "sack"
+  ],
+  "c378": [
+    "c378",
+    "378",
+    "numbertwo",
+    "number",
+    "two"
+  ],
+  "c379": [
+    "c379",
+    "379",
+    "pupuladuplex",
+    "pupula",
+    "duplex"
+  ],
+  "c380": [
+    "c380",
+    "380",
+    "paytoplay",
+    "pay",
+    "to",
+    "play"
+  ],
+  "c381": [
+    "c381",
+    "381",
+    "edensblessing",
+    "edens",
+    "blessing"
+  ],
+  "c382": [
+    "c382",
+    "382",
+    "friendlyball",
+    "friendly",
+    "ball"
+  ],
+  "c383": [
+    "c383",
+    "383",
+    "teardetonator",
+    "tear",
+    "detonator"
+  ],
+  "c384": [
+    "c384",
+    "384",
+    "lilgurdy",
+    "lil",
+    "gurdy"
+  ],
+  "c385": [
+    "c385",
+    "385",
+    "bumbo"
+  ],
+  "c386": [
+    "c386",
+    "386",
+    "d12"
+  ],
+  "c387": [
+    "c387",
+    "387",
+    "censer"
+  ],
+  "c388": [
+    "c388",
+    "388",
+    "keybum",
+    "key",
+    "bum"
+  ],
+  "c389": [
+    "c389",
+    "389",
+    "runebag",
+    "rune",
+    "bag"
+  ],
+  "c390": [
+    "c390",
+    "390",
+    "seraphim"
+  ],
+  "c391": [
+    "c391",
+    "391",
+    "betrayal"
+  ],
+  "c392": [
+    "c392",
+    "392",
+    "zodiac"
+  ],
+  "c393": [
+    "c393",
+    "393",
+    "serpentskiss",
+    "serpents",
+    "kiss"
+  ],
+  "c394": [
+    "c394",
+    "394",
+    "marked"
+  ],
+  "c395": [
+    "c395",
+    "395",
+    "techx",
+    "tech",
+    "x"
+  ],
+  "c396": [
+    "c396",
+    "396",
+    "ventriclerazor",
+    "ventricle",
+    "razor"
+  ],
+  "c397": [
+    "c397",
+    "397",
+    "tractorbeam",
+    "tractor",
+    "beam"
+  ],
+  "c398": [
+    "c398",
+    "398",
+    "godsflesh",
+    "gods",
+    "flesh"
+  ],
+  "c399": [
+    "c399",
+    "399",
+    "mawofthevoid",
+    "maw",
+    "of",
+    "the",
+    "void"
+  ],
+  "c400": [
+    "c400",
+    "400",
+    "spearofdestiny",
+    "spear",
+    "of",
+    "destiny"
+  ],
+  "c401": [
+    "c401",
+    "401",
+    "explosivo"
+  ],
+  "c402": [
+    "c402",
+    "402",
+    "chaos"
+  ],
+  "c403": [
+    "c403",
+    "403",
+    "spidermod",
+    "spider",
+    "mod"
+  ],
+  "c404": [
+    "c404",
+    "404",
+    "fartingbaby",
+    "farting",
+    "baby"
+  ],
+  "c405": [
+    "c405",
+    "405",
+    "gbbug",
+    "gb",
+    "bug"
+  ],
+  "c406": [
+    "c406",
+    "406",
+    "d8"
+  ],
+  "c407": [
+    "c407",
+    "407",
+    "purity"
+  ],
+  "c408": [
+    "c408",
+    "408",
+    "athame"
+  ],
+  "c409": [
+    "c409",
+    "409",
+    "emptyvessel",
+    "empty",
+    "vessel"
+  ],
+  "c410": [
+    "c410",
+    "410",
+    "evileye",
+    "evil",
+    "eye"
+  ],
+  "c411": [
+    "c411",
+    "411",
+    "lustyblood",
+    "lusty",
+    "blood"
+  ],
+  "c412": [
+    "c412",
+    "412",
+    "cambionconception",
+    "cambion",
+    "conception"
+  ],
+  "c413": [
+    "c413",
+    "413",
+    "immaculateconception",
+    "immaculate",
+    "conception"
+  ],
+  "c414": [
+    "c414",
+    "414",
+    "moreoptions",
+    "more",
+    "options"
+  ],
+  "c415": [
+    "c415",
+    "415",
+    "crownoflight",
+    "crown",
+    "of",
+    "light"
+  ],
+  "c416": [
+    "c416",
+    "416",
+    "deeppockets",
+    "deep",
+    "pockets"
+  ],
+  "c417": [
+    "c417",
+    "417",
+    "succubus"
+  ],
+  "c418": [
+    "c418",
+    "418",
+    "fruitcake",
+    "fruit",
+    "cake"
+  ],
+  "c419": [
+    "c419",
+    "419",
+    "teleport20",
+    "teleport",
+    "20"
+  ],
+  "c420": [
+    "c420",
+    "420",
+    "blackpowder",
+    "black",
+    "powder"
+  ],
+  "c421": [
+    "c421",
+    "421",
+    "kidneybean",
+    "kidney",
+    "bean"
+  ],
+  "c422": [
+    "c422",
+    "422",
+    "glowinghourglass",
+    "glowing",
+    "hour",
+    "glass"
+  ],
+  "c423": [
+    "c423",
+    "423",
+    "circleofprotection",
+    "circle",
+    "of",
+    "protection"
+  ],
+  "c424": [
+    "c424",
+    "424",
+    "sackhead",
+    "sack",
+    "head"
+  ],
+  "c425": [
+    "c425",
+    "425",
+    "nightlight",
+    "night",
+    "light"
+  ],
+  "c426": [
+    "c426",
+    "426",
+    "obsessedfan",
+    "obsessed",
+    "fan"
+  ],
+  "c427": [
+    "c427",
+    "427",
+    "minecrafter",
+    "mine",
+    "crafter"
+  ],
+  "c428": [
+    "c428",
+    "428",
+    "pjs"
+  ],
+  "c429": [
+    "c429",
+    "429",
+    "headofthekeeper",
+    "head",
+    "of",
+    "the",
+    "keeper"
+  ],
+  "c430": [
+    "c430",
+    "430",
+    "papafly",
+    "papa",
+    "fly"
+  ],
+  "c431": [
+    "c431",
+    "431",
+    "multidimensionalbaby",
+    "multidimensional",
+    "baby"
+  ],
+  "c432": [
+    "c432",
+    "432",
+    "glitterbombs",
+    "glitter",
+    "bombs"
+  ],
+  "c433": [
+    "c433",
+    "433",
+    "myshadow",
+    "my",
+    "shadow"
+  ],
+  "c434": [
+    "c434",
+    "434",
+    "jarofflies",
+    "jar",
+    "of",
+    "flies"
+  ],
+  "c435": [
+    "c435",
+    "435",
+    "lilloki",
+    "lil",
+    "loki"
+  ],
+  "c436": [
+    "c436",
+    "436",
+    "milk"
+  ],
+  "c437": [
+    "c437",
+    "437",
+    "d7"
+  ],
+  "c438": [
+    "c438",
+    "438",
+    "binky"
+  ],
+  "c439": [
+    "c439",
+    "439",
+    "momsbox",
+    "moms",
+    "box"
+  ],
+  "c440": [
+    "c440",
+    "440",
+    "kidneystone",
+    "kidney",
+    "stone"
+  ],
+  "c441": [
+    "c441",
+    "441",
+    "megablast",
+    "mega",
+    "blast"
+  ],
+  "c442": [
+    "c442",
+    "442",
+    "darkprincescrown",
+    "dark",
+    "princes",
+    "crown"
+  ],
+  "c443": [
+    "c443",
+    "443",
+    "apple"
+  ],
+  "c444": [
+    "c444",
+    "444",
+    "leadpencil",
+    "lead",
+    "pencil"
+  ],
+  "c445": [
+    "c445",
+    "445",
+    "dogtooth",
+    "dog",
+    "tooth"
+  ],
+  "c446": [
+    "c446",
+    "446",
+    "deadtooth",
+    "dead",
+    "tooth"
+  ],
+  "c447": [
+    "c447",
+    "447",
+    "lingerbean",
+    "linger",
+    "bean"
+  ],
+  "c448": [
+    "c448",
+    "448",
+    "shardofglass",
+    "shard",
+    "of",
+    "glass"
+  ],
+  "c449": [
+    "c449",
+    "449",
+    "metalplate",
+    "metal",
+    "plate"
+  ],
+  "c450": [
+    "c450",
+    "450",
+    "eyeofgreed",
+    "eye",
+    "of",
+    "greed"
+  ],
+  "c451": [
+    "c451",
+    "451",
+    "tarotcloth",
+    "tarot",
+    "cloth"
+  ],
+  "c452": [
+    "c452",
+    "452",
+    "varicoseveins",
+    "varicose",
+    "veins"
+  ],
+  "c453": [
+    "c453",
+    "453",
+    "compoundfracture",
+    "compound",
+    "fracture"
+  ],
+  "c454": [
+    "c454",
+    "454",
+    "polydactyly"
+  ],
+  "c455": [
+    "c455",
+    "455",
+    "dadslostcoin",
+    "dads",
+    "lost",
+    "coin"
+  ],
+  "c456": [
+    "c456",
+    "456",
+    "midnightsnack",
+    "midnight",
+    "snack"
+  ],
+  "c457": [
+    "c457",
+    "457",
+    "conehead",
+    "cone",
+    "head"
+  ],
+  "c458": [
+    "c458",
+    "458",
+    "bellybutton",
+    "belly",
+    "button"
+  ],
+  "c459": [
+    "c459",
+    "459",
+    "sinusinfection",
+    "sinus",
+    "infection"
+  ],
+  "c460": [
+    "c460",
+    "460",
+    "glaucoma"
+  ],
+  "c461": [
+    "c461",
+    "461",
+    "parasitoid"
+  ],
+  "c462": [
+    "c462",
+    "462",
+    "eyeofbelial",
+    "eye",
+    "of",
+    "belial"
+  ],
+  "c463": [
+    "c463",
+    "463",
+    "sulfuricacid",
+    "sulfuric",
+    "acid"
+  ],
+  "c464": [
+    "c464",
+    "464",
+    "glyphofbalance",
+    "glyph",
+    "of",
+    "balance"
+  ],
+  "c465": [
+    "c465",
+    "465",
+    "analogstick",
+    "analog",
+    "stick"
+  ],
+  "c466": [
+    "c466",
+    "466",
+    "contagion"
+  ],
+  "c467": [
+    "c467",
+    "467",
+    "finger"
+  ],
+  "c468": [
+    "c468",
+    "468",
+    "shade"
+  ],
+  "c469": [
+    "c469",
+    "469",
+    "depression"
+  ],
+  "c470": [
+    "c470",
+    "470",
+    "hushy"
+  ],
+  "c471": [
+    "c471",
+    "471",
+    "lilmonstro",
+    "lil",
+    "monstro"
+  ],
+  "c472": [
+    "c472",
+    "472",
+    "kingbaby",
+    "king",
+    "baby"
+  ],
+  "c473": [
+    "c473",
+    "473",
+    "bigchubby",
+    "big",
+    "chubby"
+  ],
+  "c474": [
+    "c474",
+    "474",
+    "brokenglasscannon",
+    "broken",
+    "glass",
+    "cannon"
+  ],
+  "c475": [
+    "c475",
+    "475",
+    "planc",
+    "plan",
+    "c"
+  ],
+  "c476": [
+    "c476",
+    "476",
+    "d1"
+  ],
+  "c477": [
+    "c477",
+    "477",
+    "void"
+  ],
+  "c478": [
+    "c478",
+    "478",
+    "pause"
+  ],
+  "c479": [
+    "c479",
+    "479",
+    "smelter"
+  ],
+  "c480": [
+    "c480",
+    "480",
+    "compost"
+  ],
+  "c481": [
+    "c481",
+    "481",
+    "dataminer"
+  ],
+  "c482": [
+    "c482",
+    "482",
+    "clicker"
+  ],
+  "c483": [
+    "c483",
+    "483",
+    "mamamega",
+    "mama",
+    "mega"
+  ],
+  "c484": [
+    "c484",
+    "484",
+    "waitwhat",
+    "wait",
+    "what"
+  ],
+  "c485": [
+    "c485",
+    "485",
+    "crookedpenny",
+    "crooked",
+    "penny"
+  ],
+  "c486": [
+    "c486",
+    "486",
+    "dullrazor",
+    "dull",
+    "razor"
+  ],
+  "c487": [
+    "c487",
+    "487",
+    "potatopeeler",
+    "potato",
+    "peeler"
+  ],
+  "c488": [
+    "c488",
+    "488",
+    "metronome"
+  ],
+  "c489": [
+    "c489",
+    "489",
+    "dinfinity",
+    "d",
+    "infinity"
+  ],
+  "c490": [
+    "c490",
+    "490",
+    "edenssoul",
+    "edens",
+    "soul"
+  ],
+  "c491": [
+    "c491",
+    "491",
+    "acidbaby",
+    "acid",
+    "baby"
+  ],
+  "c492": [
+    "c492",
+    "492",
+    "yolisten",
+    "yo",
+    "listen"
+  ],
+  "c493": [
+    "c493",
+    "493",
+    "adrenaline"
+  ],
+  "c494": [
+    "c494",
+    "494",
+    "jacobsladder",
+    "jacobs",
+    "ladder"
+  ],
+  "c495": [
+    "c495",
+    "495",
+    "ghostpepper",
+    "ghost",
+    "pepper"
+  ],
+  "c496": [
+    "c496",
+    "496",
+    "euthanasia"
+  ],
+  "c497": [
+    "c497",
+    "497",
+    "camoundies",
+    "camo",
+    "undies"
+  ],
+  "c498": [
+    "c498",
+    "498",
+    "duality"
+  ],
+  "c499": [
+    "c499",
+    "499",
+    "eucharist"
+  ],
+  "c500": [
+    "c500",
+    "500",
+    "sackofsacks",
+    "sack",
+    "of",
+    "sacks"
+  ],
+  "c501": [
+    "c501",
+    "501",
+    "greedsgullet",
+    "greeds",
+    "gullet"
+  ],
+  "c502": [
+    "c502",
+    "502",
+    "largezit",
+    "large",
+    "zit"
+  ],
+  "c503": [
+    "c503",
+    "503",
+    "littlehorn",
+    "little",
+    "horn"
+  ],
+  "c504": [
+    "c504",
+    "504",
+    "brownnugget",
+    "brown",
+    "nugget"
+  ],
+  "c505": [
+    "c505",
+    "505",
+    "pokego",
+    "poke",
+    "go"
+  ],
+  "c506": [
+    "c506",
+    "506",
+    "backstabber"
+  ],
+  "c507": [
+    "c507",
+    "507",
+    "sharpstraw",
+    "sharp",
+    "straw"
+  ],
+  "c508": [
+    "c508",
+    "508",
+    "momsrazor",
+    "moms",
+    "razor"
+  ],
+  "c509": [
+    "c509",
+    "509",
+    "bloodshoteye",
+    "bloodshot",
+    "eye"
+  ],
+  "c510": [
+    "c510",
+    "510",
+    "delirious"
+  ],
+  "c511": [
+    "c511",
+    "511",
+    "angryfly",
+    "angry",
+    "fly"
+  ],
+  "c512": [
+    "c512",
+    "512",
+    "blackhole",
+    "black",
+    "hole"
+  ],
+  "c513": [
+    "c513",
+    "513",
+    "bozo"
+  ],
+  "c514": [
+    "c514",
+    "514",
+    "brokenmodem",
+    "broken",
+    "modem"
+  ],
+  "c515": [
+    "c515",
+    "515",
+    "mysterygift",
+    "mystery",
+    "gift"
+  ],
+  "c516": [
+    "c516",
+    "516",
+    "sprinkler"
+  ],
+  "c517": [
+    "c517",
+    "517",
+    "fastbombs",
+    "fast",
+    "bombs"
+  ],
+  "c518": [
+    "c518",
+    "518",
+    "buddyinabox",
+    "buddy",
+    "in",
+    "a",
+    "box"
+  ],
+  "c519": [
+    "c519",
+    "519",
+    "lildelirium",
+    "lil",
+    "delirium"
+  ],
+  "c520": [
+    "c520",
+    "520",
+    "jumpercables",
+    "jumper",
+    "cables"
+  ],
+  "c521": [
+    "c521",
+    "521",
+    "coupon"
+  ],
+  "c522": [
+    "c522",
+    "522",
+    "telekinesis"
+  ],
+  "c523": [
+    "c523",
+    "523",
+    "movingbox",
+    "moving",
+    "box"
+  ],
+  "c524": [
+    "c524",
+    "524",
+    "technologyzero",
+    "technology",
+    "zero"
+  ],
+  "c525": [
+    "c525",
+    "525",
+    "leprosy"
+  ],
+  "c526": [
+    "c526",
+    "526",
+    "7seals",
+    "7",
+    "seals"
+  ],
+  "c527": [
+    "c527",
+    "527",
+    "mrme",
+    "mr",
+    "me"
+  ],
+  "c528": [
+    "c528",
+    "528",
+    "angelicprism",
+    "angelic",
+    "prism"
+  ],
+  "c529": [
+    "c529",
+    "529",
+    "pop"
+  ],
+  "c530": [
+    "c530",
+    "530",
+    "deathslist",
+    "deaths",
+    "list"
+  ],
+  "c531": [
+    "c531",
+    "531",
+    "haemolacria"
+  ],
+  "c532": [
+    "c532",
+    "532",
+    "lachryphagy"
+  ],
+  "c533": [
+    "c533",
+    "533",
+    "trisagion"
+  ],
+  "c534": [
+    "c534",
+    "534",
+    "schoolbag"
+  ],
+  "c535": [
+    "c535",
+    "535",
+    "blanket"
+  ],
+  "c536": [
+    "c536",
+    "536",
+    "sacrificialaltar",
+    "sacrificial",
+    "altar"
+  ],
+  "c537": [
+    "c537",
+    "537",
+    "lilspewer",
+    "lil",
+    "spewer"
+  ],
+  "c538": [
+    "c538",
+    "538",
+    "marbles"
+  ],
+  "c539": [
+    "c539",
+    "539",
+    "mysteryegg",
+    "mystery",
+    "egg"
+  ],
+  "c540": [
+    "c540",
+    "540",
+    "flatstone",
+    "flat",
+    "stone"
+  ],
+  "c541": [
+    "c541",
+    "541",
+    "marrow"
+  ],
+  "c542": [
+    "c542",
+    "542",
+    "slippedrib",
+    "slipped",
+    "rib"
+  ],
+  "c543": [
+    "c543",
+    "543",
+    "hallowedground",
+    "hallowed",
+    "ground"
+  ],
+  "c544": [
+    "c544",
+    "544",
+    "pointyrib",
+    "pointy",
+    "rib"
+  ],
+  "c545": [
+    "c545",
+    "545",
+    "bookofthedead",
+    "book",
+    "of",
+    "the",
+    "dead"
+  ],
+  "c546": [
+    "c546",
+    "546",
+    "dadsring",
+    "dads",
+    "ring"
+  ],
+  "c547": [
+    "c547",
+    "547",
+    "divorcepapers",
+    "divorce",
+    "papers"
+  ],
+  "c548": [
+    "c548",
+    "548",
+    "jawbone",
+    "jaw",
+    "bone"
+  ],
+  "c549": [
+    "c549",
+    "549",
+    "brittlebones",
+    "brittle",
+    "bones"
+  ],
+  "c550": [
+    "c550",
+    "550",
+    "brokenshovel",
+    "broken",
+    "shovel"
+  ],
+  "c551": [
+    "c551",
+    "551",
+    "brokenshovel2",
+    "broken",
+    "shovel2"
+  ],
+  "c552": [
+    "c552",
+    "552",
+    "momsshovel",
+    "moms",
+    "shovel"
+  ],
+  "c553": [
+    "c553",
+    "553",
+    "mucormycosis"
+  ],
+  "c554": [
+    "c554",
+    "554",
+    "2spooky"
+  ],
+  "c555": [
+    "c555",
+    "555",
+    "goldenrazor",
+    "golden",
+    "razor"
+  ],
+  "c556": [
+    "c556",
+    "556",
+    "sulfur"
+  ],
+  "c557": [
+    "c557",
+    "557",
+    "fortunecookie",
+    "fortune",
+    "cookie"
+  ],
+  "c558": [
+    "c558",
+    "558",
+    "eyesore",
+    "eye",
+    "sore"
+  ],
+  "c559": [
+    "c559",
+    "559",
+    "120volt",
+    "120",
+    "volt"
+  ],
+  "c560": [
+    "c560",
+    "560",
+    "ithurts",
+    "it",
+    "hurts"
+  ],
+  "c561": [
+    "c561",
+    "561",
+    "almondmilk",
+    "almond",
+    "milk"
+  ],
+  "c562": [
+    "c562",
+    "562",
+    "rockbottom",
+    "rock",
+    "bottom"
+  ],
+  "c563": [
+    "c563",
+    "563",
+    "nancybombs",
+    "nancy",
+    "bombs"
+  ],
+  "c564": [
+    "c564",
+    "564",
+    "abarofsoap",
+    "a",
+    "bar",
+    "of",
+    "soap"
+  ],
+  "c565": [
+    "c565",
+    "565",
+    "bloodpuppy",
+    "blood",
+    "puppy"
+  ],
+  "c566": [
+    "c566",
+    "566",
+    "dreamcatcher",
+    "dream",
+    "catcher"
+  ],
+  "c567": [
+    "c567",
+    "567",
+    "paschalcandle",
+    "paschal",
+    "candle"
+  ],
+  "c568": [
+    "c568",
+    "568",
+    "divineintervention",
+    "divine",
+    "intervention"
+  ],
+  "c569": [
+    "c569",
+    "569",
+    "bloodoath",
+    "blood",
+    "oath"
+  ],
+  "c570": [
+    "c570",
+    "570",
+    "playdoughcookie",
+    "playdough",
+    "cookie"
+  ],
+  "c571": [
+    "c571",
+    "571",
+    "orphansocks",
+    "orphan",
+    "socks"
+  ],
+  "c572": [
+    "c572",
+    "572",
+    "eyeoftheoccult",
+    "eye",
+    "of",
+    "the",
+    "occult"
+  ],
+  "c573": [
+    "c573",
+    "573",
+    "immaculateheart",
+    "immaculate",
+    "heart"
+  ],
+  "c574": [
+    "c574",
+    "574",
+    "monstrance"
+  ],
+  "c575": [
+    "c575",
+    "575",
+    "theintruder",
+    "the",
+    "intruder"
+  ],
+  "c576": [
+    "c576",
+    "576",
+    "dirtymind",
+    "dirty",
+    "mind"
+  ],
+  "c577": [
+    "c577",
+    "577",
+    "damocles"
+  ],
+  "c578": [
+    "c578",
+    "578",
+    "freelemonade",
+    "free",
+    "lemonade"
+  ],
+  "c579": [
+    "c579",
+    "579",
+    "spiritsword",
+    "spirit",
+    "sword"
+  ],
+  "c580": [
+    "c580",
+    "580",
+    "redkey",
+    "red",
+    "key"
+  ],
+  "c581": [
+    "c581",
+    "581",
+    "psyfly",
+    "psy",
+    "fly"
+  ],
+  "c582": [
+    "c582",
+    "582",
+    "wavycap",
+    "wavy",
+    "cap"
+  ],
+  "c583": [
+    "c583",
+    "583",
+    "rocketinajar",
+    "rocket",
+    "in",
+    "a",
+    "jar"
+  ],
+  "c584": [
+    "c584",
+    "584",
+    "bookofvirtues",
+    "book",
+    "of",
+    "virtues"
+  ],
+  "c585": [
+    "c585",
+    "585",
+    "alabasterbox",
+    "alabaster",
+    "box"
+  ],
+  "c586": [
+    "c586",
+    "586",
+    "thestairway",
+    "the",
+    "stairway"
+  ],
+  "c587": [
+    "c587",
+    "587"
+  ],
+  "c588": [
+    "c588",
+    "588",
+    "sol"
+  ],
+  "c589": [
+    "c589",
+    "589",
+    "luna"
+  ],
+  "c590": [
+    "c590",
+    "590",
+    "mercurius"
+  ],
+  "c591": [
+    "c591",
+    "591",
+    "venus"
+  ],
+  "c592": [
+    "c592",
+    "592",
+    "terra"
+  ],
+  "c593": [
+    "c593",
+    "593",
+    "mars"
+  ],
+  "c594": [
+    "c594",
+    "594",
+    "jupiter"
+  ],
+  "c595": [
+    "c595",
+    "595",
+    "saturnus"
+  ],
+  "c596": [
+    "c596",
+    "596",
+    "uranus"
+  ],
+  "c597": [
+    "c597",
+    "597",
+    "neptunus"
+  ],
+  "c598": [
+    "c598",
+    "598",
+    "pluto"
+  ],
+  "c599": [
+    "c599",
+    "599",
+    "voodoohead",
+    "voodoo",
+    "head"
+  ],
+  "c600": [
+    "c600",
+    "600",
+    "eyedrops",
+    "eye",
+    "drops"
+  ],
+  "c601": [
+    "c601",
+    "601",
+    "actofcontrition",
+    "act",
+    "of",
+    "contrition"
+  ],
+  "c602": [
+    "c602",
+    "602",
+    "membercard",
+    "member",
+    "card"
+  ],
+  "c603": [
+    "c603",
+    "603",
+    "batterypack",
+    "battery",
+    "pack"
+  ],
+  "c604": [
+    "c604",
+    "604",
+    "momsbracelet",
+    "moms",
+    "bracelet"
+  ],
+  "c605": [
+    "c605",
+    "605",
+    "thescooper",
+    "the",
+    "scooper"
+  ],
+  "c606": [
+    "c606",
+    "606",
+    "ocularrift",
+    "ocular",
+    "rift"
+  ],
+  "c607": [
+    "c607",
+    "607",
+    "boiledbaby",
+    "boiled",
+    "baby"
+  ],
+  "c608": [
+    "c608",
+    "608",
+    "freezerbaby",
+    "freezer",
+    "baby"
+  ],
+  "c609": [
+    "c609",
+    "609",
+    "eternald6",
+    "eternal",
+    "d6"
+  ],
+  "c610": [
+    "c610",
+    "610",
+    "birdcage",
+    "bird",
+    "cage"
+  ],
+  "c611": [
+    "c611",
+    "611",
+    "larynx"
+  ],
+  "c612": [
+    "c612",
+    "612",
+    "lostsoul",
+    "lost",
+    "soul"
+  ],
+  "c613": [
+    "c613",
+    "613"
+  ],
+  "c614": [
+    "c614",
+    "614",
+    "bloodbombs",
+    "blood",
+    "bombs"
+  ],
+  "c615": [
+    "c615",
+    "615",
+    "lildumpy",
+    "lil",
+    "dumpy"
+  ],
+  "c616": [
+    "c616",
+    "616",
+    "birdseye",
+    "birds",
+    "eye"
+  ],
+  "c617": [
+    "c617",
+    "617",
+    "lodestone"
+  ],
+  "c618": [
+    "c618",
+    "618",
+    "rottentomato",
+    "rotten",
+    "tomato"
+  ],
+  "c619": [
+    "c619",
+    "619",
+    "birthright"
+  ],
+  "c620": [
+    "c620",
+    "620"
+  ],
+  "c621": [
+    "c621",
+    "621",
+    "redstew",
+    "red",
+    "stew"
+  ],
+  "c622": [
+    "c622",
+    "622",
+    "genesis"
+  ],
+  "c623": [
+    "c623",
+    "623",
+    "sharpkey",
+    "sharp",
+    "key"
+  ],
+  "c624": [
+    "c624",
+    "624",
+    "boosterpack",
+    "booster",
+    "pack"
+  ],
+  "c625": [
+    "c625",
+    "625",
+    "megamush",
+    "mega",
+    "mush"
+  ],
+  "c626": [
+    "c626",
+    "626",
+    "knifepiece1",
+    "knife",
+    "piece",
+    "1"
+  ],
+  "c627": [
+    "c627",
+    "627",
+    "knifepiece2",
+    "knife",
+    "piece",
+    "2"
+  ],
+  "c628": [
+    "c628",
+    "628",
+    "deathcertificate",
+    "death",
+    "certificate"
+  ],
+  "c629": [
+    "c629",
+    "629",
+    "botfly",
+    "bot",
+    "fly"
+  ],
+  "c630": [
+    "c630",
+    "630"
+  ],
+  "c631": [
+    "c631",
+    "631",
+    "meatcleaver",
+    "meat",
+    "cleaver"
+  ],
+  "c632": [
+    "c632",
+    "632",
+    "evilcharm",
+    "evil",
+    "charm"
+  ],
+  "c633": [
+    "c633",
+    "633",
+    "dogma"
+  ],
+  "c634": [
+    "c634",
+    "634",
+    "purgatory"
+  ],
+  "c635": [
+    "c635",
+    "635",
+    "stitches"
+  ],
+  "c636": [
+    "c636",
+    "636",
+    "rkey",
+    "r",
+    "key"
+  ],
+  "c637": [
+    "c637",
+    "637",
+    "knockoutdrops",
+    "knockout",
+    "drops"
+  ],
+  "c638": [
+    "c638",
+    "638",
+    "eraser"
+  ],
+  "c639": [
+    "c639",
+    "639",
+    "yuckheart",
+    "yuck",
+    "heart"
+  ],
+  "c640": [
+    "c640",
+    "640",
+    "urnofsouls",
+    "urn",
+    "of",
+    "souls"
+  ],
+  "c641": [
+    "c641",
+    "641",
+    "akeldama"
+  ],
+  "c642": [
+    "c642",
+    "642",
+    "magicskin",
+    "magic",
+    "skin"
+  ],
+  "c643": [
+    "c643",
+    "643",
+    "revelation"
+  ],
+  "c644": [
+    "c644",
+    "644",
+    "consolationprize",
+    "consolation",
+    "prize"
+  ],
+  "c645": [
+    "c645",
+    "645",
+    "tinytoma"
+  ],
+  "c646": [
+    "c646",
+    "646",
+    "brimstonebombs",
+    "brimstone",
+    "bombs"
+  ],
+  "c647": [
+    "c647",
+    "647",
+    "45volt",
+    "4",
+    "5",
+    "volt"
+  ],
+  "c648": [
+    "c648",
+    "648"
+  ],
+  "c649": [
+    "c649",
+    "649",
+    "fruityplum",
+    "fruity",
+    "plum"
+  ],
+  "c650": [
+    "c650",
+    "650",
+    "plumflute",
+    "plum",
+    "flute"
+  ],
+  "c651": [
+    "c651",
+    "651",
+    "starofbethlehem",
+    "star",
+    "of",
+    "bethlehem"
+  ],
+  "c652": [
+    "c652",
+    "652",
+    "cubebaby",
+    "cube",
+    "baby"
+  ],
+  "c653": [
+    "c653",
+    "653",
+    "vaderetro",
+    "vade",
+    "retro"
+  ],
+  "c654": [
+    "c654",
+    "654",
+    "falsephd",
+    "false",
+    "phd"
+  ],
+  "c655": [
+    "c655",
+    "655",
+    "spintowin",
+    "spin",
+    "to",
+    "win"
+  ],
+  "c656": [
+    "c656",
+    "656",
+    "damocles"
+  ],
+  "c657": [
+    "c657",
+    "657",
+    "vasculitis"
+  ],
+  "c658": [
+    "c658",
+    "658",
+    "giantcell",
+    "giant",
+    "cell"
+  ],
+  "c659": [
+    "c659",
+    "659",
+    "tropicamide"
+  ],
+  "c660": [
+    "c660",
+    "660",
+    "cardreading",
+    "card",
+    "reading"
+  ],
+  "c661": [
+    "c661",
+    "661",
+    "quints"
+  ],
+  "c662": [
+    "c662",
+    "662"
+  ],
+  "c663": [
+    "c663",
+    "663",
+    "toothandnail",
+    "tooth",
+    "and",
+    "nail"
+  ],
+  "c664": [
+    "c664",
+    "664",
+    "bingeeater",
+    "binge",
+    "eater"
+  ],
+  "c665": [
+    "c665",
+    "665",
+    "guppyseye",
+    "guppys",
+    "eye"
+  ],
+  "c666": [
+    "c666",
+    "666"
+  ],
+  "c667": [
+    "c667",
+    "667",
+    "strawman"
+  ],
+  "c668": [
+    "c668",
+    "668",
+    "dadsnote",
+    "dads",
+    "note"
+  ],
+  "c669": [
+    "c669",
+    "669",
+    "sausage"
+  ],
+  "c670": [
+    "c670",
+    "670",
+    "options"
+  ],
+  "c671": [
+    "c671",
+    "671",
+    "candyheart",
+    "candy",
+    "heart"
+  ],
+  "c672": [
+    "c672",
+    "672",
+    "apoundofflesh",
+    "a",
+    "pound",
+    "of",
+    "flesh"
+  ],
+  "c673": [
+    "c673",
+    "673",
+    "redemption"
+  ],
+  "c674": [
+    "c674",
+    "674",
+    "spiritshackles",
+    "spirit",
+    "shackles"
+  ],
+  "c675": [
+    "c675",
+    "675",
+    "crackedorb",
+    "cracked",
+    "orb"
+  ],
+  "c676": [
+    "c676",
+    "676",
+    "emptyheart",
+    "empty",
+    "heart"
+  ],
+  "c677": [
+    "c677",
+    "677",
+    "astralprojection",
+    "astral",
+    "projection"
+  ],
+  "c678": [
+    "c678",
+    "678",
+    "csection",
+    "c",
+    "section"
+  ],
+  "c679": [
+    "c679",
+    "679",
+    "lilabaddon",
+    "lil",
+    "abaddon"
+  ],
+  "c680": [
+    "c680",
+    "680",
+    "montezumasrevenge",
+    "montezumas",
+    "revenge"
+  ],
+  "c681": [
+    "c681",
+    "681",
+    "lilportal",
+    "lil",
+    "portal"
+  ],
+  "c682": [
+    "c682",
+    "682",
+    "wormfriend",
+    "worm",
+    "friend"
+  ],
+  "c683": [
+    "c683",
+    "683",
+    "bonespurs",
+    "bone",
+    "spurs"
+  ],
+  "c684": [
+    "c684",
+    "684",
+    "hungrysoul",
+    "hungry",
+    "soul"
+  ],
+  "c685": [
+    "c685",
+    "685",
+    "jarofwisps",
+    "jar",
+    "of",
+    "wisps"
+  ],
+  "c686": [
+    "c686",
+    "686",
+    "soullocket",
+    "soul",
+    "locket"
+  ],
+  "c687": [
+    "c687",
+    "687",
+    "friendfinder",
+    "friend",
+    "finder"
+  ],
+  "c688": [
+    "c688",
+    "688",
+    "innerchild",
+    "inner",
+    "child"
+  ],
+  "c689": [
+    "c689",
+    "689",
+    "glitchedcrown",
+    "glitched",
+    "crown"
+  ],
+  "c690": [
+    "c690",
+    "690",
+    "bellyjelly",
+    "belly",
+    "jelly"
+  ],
+  "c691": [
+    "c691",
+    "691",
+    "sacredorb",
+    "sacred",
+    "orb"
+  ],
+  "c692": [
+    "c692",
+    "692",
+    "sanguinebond",
+    "sanguine",
+    "bond"
+  ],
+  "c693": [
+    "c693",
+    "693",
+    "theswarm",
+    "the",
+    "swarm"
+  ],
+  "c694": [
+    "c694",
+    "694",
+    "heartbreak"
+  ],
+  "c695": [
+    "c695",
+    "695",
+    "bloodygust",
+    "bloody",
+    "gust"
+  ],
+  "c696": [
+    "c696",
+    "696",
+    "salvation"
+  ],
+  "c697": [
+    "c697",
+    "697",
+    "vanishingtwin",
+    "vanishing",
+    "twin"
+  ],
+  "c698": [
+    "c698",
+    "698",
+    "twistedpair",
+    "twisted",
+    "pair"
+  ],
+  "c699": [
+    "c699",
+    "699",
+    "azazelsrage",
+    "azazels",
+    "rage"
+  ],
+  "c700": [
+    "c700",
+    "700",
+    "echochamber",
+    "echo",
+    "chamber"
+  ],
+  "c701": [
+    "c701",
+    "701",
+    "isaacstomb",
+    "isaacs",
+    "tomb"
+  ],
+  "c702": [
+    "c702",
+    "702",
+    "vengefulspirit",
+    "vengeful",
+    "spirit"
+  ],
+  "c703": [
+    "c703",
+    "703",
+    "esaujr",
+    "esau",
+    "jr"
+  ],
+  "c704": [
+    "c704",
+    "704",
+    "berserk"
+  ],
+  "c705": [
+    "c705",
+    "705",
+    "darkarts",
+    "dark",
+    "arts"
+  ],
+  "c706": [
+    "c706",
+    "706",
+    "abyss"
+  ],
+  "c707": [
+    "c707",
+    "707",
+    "supper"
+  ],
+  "c708": [
+    "c708",
+    "708",
+    "stapler"
+  ],
+  "c709": [
+    "c709",
+    "709",
+    "suplex"
+  ],
+  "c710": [
+    "c710",
+    "710",
+    "bagofcrafting",
+    "bag",
+    "of",
+    "crafting"
+  ],
+  "c711": [
+    "c711",
+    "711",
+    "flip"
+  ],
+  "c712": [
+    "c712",
+    "712",
+    "lemegeton"
+  ],
+  "c713": [
+    "c713",
+    "713",
+    "sumptorium"
+  ],
+  "c714": [
+    "c714",
+    "714",
+    "recall"
+  ],
+  "c715": [
+    "c715",
+    "715",
+    "hold"
+  ],
+  "c716": [
+    "c716",
+    "716",
+    "keeperssack",
+    "keepers",
+    "sack"
+  ],
+  "c717": [
+    "c717",
+    "717",
+    "keeperskin",
+    "keepers",
+    "kin"
+  ],
+  "c718": [
+    "c718",
+    "718"
+  ],
+  "c719": [
+    "c719",
+    "719",
+    "keepersbox",
+    "keepers",
+    "box"
+  ],
+  "c720": [
+    "c720",
+    "720",
+    "everythingjar",
+    "everything",
+    "jar"
+  ],
+  "c721": [
+    "c721",
+    "721",
+    "tmtrainer"
+  ],
+  "c722": [
+    "c722",
+    "722",
+    "animasola",
+    "anima",
+    "sola"
+  ],
+  "c723": [
+    "c723",
+    "723",
+    "spindowndice",
+    "spindown",
+    "dice"
+  ],
+  "c724": [
+    "c724",
+    "724",
+    "hypercoagulation"
+  ],
+  "c725": [
+    "c725",
+    "725",
+    "ibs"
+  ],
+  "c726": [
+    "c726",
+    "726",
+    "hemoptysis"
+  ],
+  "c727": [
+    "c727",
+    "727",
+    "ghostbombs",
+    "ghost",
+    "bombs"
+  ],
+  "c728": [
+    "c728",
+    "728",
+    "gello"
+  ],
+  "c729": [
+    "c729",
+    "729",
+    "decapattack",
+    "decap",
+    "attack"
+  ],
+  "c730": [
+    "c730",
+    "730",
+    "glasseye",
+    "glass",
+    "eye"
+  ],
+  "c731": [
+    "c731",
+    "731",
+    "stye"
+  ],
+  "c732": [
+    "c732",
+    "732",
+    "momsring",
+    "moms",
+    "ring"
+  ],
+  "t1": [
+    "1",
+    "t1",
+    "swallowedpenny",
+    "swallowed",
+    "penny"
+  ],
+  "t2": [
+    "2",
+    "t2",
+    "petrifiedpoop",
+    "petrified",
+    "poop"
+  ],
+  "t3": [
+    "3",
+    "t3",
+    "aaabattery",
+    "aaa",
+    "battery"
+  ],
+  "t4": [
+    "4",
+    "t4",
+    "brokenremote",
+    "broken",
+    "remote"
+  ],
+  "t5": [
+    "5",
+    "t5",
+    "purpleheart",
+    "purple",
+    "heart"
+  ],
+  "t6": [
+    "6",
+    "t6",
+    "brokenmagnet",
+    "broken",
+    "magnet"
+  ],
+  "t7": [
+    "7",
+    "t7",
+    "rosarybead",
+    "rosary",
+    "bead"
+  ],
+  "t8": [
+    "8",
+    "t8",
+    "cartridge"
+  ],
+  "t9": [
+    "9",
+    "t9",
+    "pulseworm",
+    "pulse",
+    "worm"
+  ],
+  "t10": [
+    "10",
+    "t10",
+    "wiggleworm",
+    "wiggle",
+    "worm"
+  ],
+  "t11": [
+    "11",
+    "t11",
+    "ringworm",
+    "ring",
+    "worm"
+  ],
+  "t12": [
+    "12",
+    "t12",
+    "flatworm",
+    "flat",
+    "worm"
+  ],
+  "t13": [
+    "13",
+    "t13",
+    "storecredit",
+    "store",
+    "credit"
+  ],
+  "t14": [
+    "14",
+    "t14",
+    "callus"
+  ],
+  "t15": [
+    "15",
+    "t15",
+    "luckyrock",
+    "lucky",
+    "rock"
+  ],
+  "t16": [
+    "16",
+    "t16",
+    "momstoenail",
+    "moms",
+    "toenail"
+  ],
+  "t17": [
+    "17",
+    "t17",
+    "blacklipstick",
+    "black",
+    "lipstick"
+  ],
+  "t18": [
+    "18",
+    "t18",
+    "bibletract",
+    "bible",
+    "tract"
+  ],
+  "t19": [
+    "19",
+    "t19",
+    "paperclip",
+    "paper",
+    "clip"
+  ],
+  "t20": [
+    "20",
+    "t20",
+    "monkeypaw",
+    "monkey",
+    "paw"
+  ],
+  "t21": [
+    "21",
+    "t21",
+    "mysteriouspaper",
+    "mysterious",
+    "paper"
+  ],
+  "t22": [
+    "22",
+    "t22",
+    "daemonstail",
+    "daemons",
+    "tail"
+  ],
+  "t23": [
+    "23",
+    "t23",
+    "missingposter",
+    "missing",
+    "poster"
+  ],
+  "t24": [
+    "24",
+    "t24",
+    "buttpenny",
+    "butt",
+    "penny"
+  ],
+  "t25": [
+    "25",
+    "t25",
+    "mysteriouscandy",
+    "mysterious",
+    "candy"
+  ],
+  "t26": [
+    "26",
+    "t26",
+    "hookworm",
+    "hook",
+    "worm"
+  ],
+  "t27": [
+    "27",
+    "t27",
+    "whipworm",
+    "whip",
+    "worm"
+  ],
+  "t28": [
+    "28",
+    "t28",
+    "brokenankh",
+    "broken",
+    "ankh"
+  ],
+  "t29": [
+    "29",
+    "t29",
+    "fishhead",
+    "fish",
+    "head"
+  ],
+  "t30": [
+    "30",
+    "t30",
+    "pinkyeye",
+    "pinky",
+    "eye"
+  ],
+  "t31": [
+    "31",
+    "t31",
+    "pushpin",
+    "push",
+    "pin"
+  ],
+  "t32": [
+    "32",
+    "t32",
+    "libertycap",
+    "liberty",
+    "cap"
+  ],
+  "t33": [
+    "33",
+    "t33",
+    "umbilicalcord",
+    "umbilical",
+    "cord"
+  ],
+  "t34": [
+    "34",
+    "t34",
+    "childsheart",
+    "childs",
+    "heart"
+  ],
+  "t35": [
+    "35",
+    "t35",
+    "curvedhorn",
+    "curved",
+    "horn"
+  ],
+  "t36": [
+    "36",
+    "t36",
+    "rustedkey",
+    "rusted",
+    "key"
+  ],
+  "t37": [
+    "37",
+    "t37",
+    "goathoof",
+    "goat",
+    "hoof"
+  ],
+  "t38": [
+    "38",
+    "t38",
+    "momspearl",
+    "moms",
+    "pearl"
+  ],
+  "t39": [
+    "39",
+    "t39",
+    "cancertrinket",
+    "cancer",
+    "trinket"
+  ],
+  "t40": [
+    "40",
+    "t40",
+    "redpatch",
+    "red",
+    "patch"
+  ],
+  "t41": [
+    "41",
+    "t41",
+    "matchstick",
+    "match",
+    "stick"
+  ],
+  "t42": [
+    "42",
+    "t42",
+    "luckytoe",
+    "lucky",
+    "toe"
+  ],
+  "t43": [
+    "43",
+    "t43",
+    "cursedskull",
+    "cursed",
+    "skull"
+  ],
+  "t44": [
+    "44",
+    "t44",
+    "safetycap",
+    "safety",
+    "cap"
+  ],
+  "t45": [
+    "45",
+    "t45",
+    "aceofspades",
+    "ace",
+    "of",
+    "spades"
+  ],
+  "t46": [
+    "46",
+    "t46",
+    "isaacsfork",
+    "isaacs",
+    "fork"
+  ],
+  "t47": [
+    "47",
+    "t47"
+  ],
+  "t48": [
+    "48",
+    "t48",
+    "amissingpage",
+    "a",
+    "missing",
+    "page"
+  ],
+  "t49": [
+    "49",
+    "t49",
+    "bloodypenny",
+    "bloody",
+    "penny"
+  ],
+  "t50": [
+    "50",
+    "t50",
+    "burntpenny",
+    "burnt",
+    "penny"
+  ],
+  "t51": [
+    "51",
+    "t51",
+    "flatpenny",
+    "flat",
+    "penny"
+  ],
+  "t52": [
+    "52",
+    "t52",
+    "counterfeitpenny",
+    "counterfeit",
+    "penny"
+  ],
+  "t53": [
+    "53",
+    "t53",
+    "tick"
+  ],
+  "t54": [
+    "54",
+    "t54",
+    "isaacshead",
+    "isaacs",
+    "head"
+  ],
+  "t55": [
+    "55",
+    "t55",
+    "maggysfaith",
+    "maggys",
+    "faith"
+  ],
+  "t56": [
+    "56",
+    "t56",
+    "judastongue",
+    "judas",
+    "tongue"
+  ],
+  "t57": [
+    "57",
+    "t57",
+    "ssoul",
+    "s",
+    "soul"
+  ],
+  "t58": [
+    "58",
+    "t58",
+    "samsonslock",
+    "samsons",
+    "lock"
+  ],
+  "t59": [
+    "59",
+    "t59",
+    "cainseye",
+    "cains",
+    "eye"
+  ],
+  "t60": [
+    "60",
+    "t60",
+    "evesbirdfoot",
+    "eves",
+    "bird",
+    "foot"
+  ],
+  "t61": [
+    "61",
+    "t61",
+    "thelefthand",
+    "the",
+    "left",
+    "hand"
+  ],
+  "t62": [
+    "62",
+    "t62",
+    "shinyrock",
+    "shiny",
+    "rock"
+  ],
+  "t63": [
+    "63",
+    "t63",
+    "safetyscissors",
+    "safety",
+    "scissors"
+  ],
+  "t64": [
+    "64",
+    "t64",
+    "rainbowworm",
+    "rainbow",
+    "worm"
+  ],
+  "t65": [
+    "65",
+    "t65",
+    "tapeworm",
+    "tape",
+    "worm"
+  ],
+  "t66": [
+    "66",
+    "t66",
+    "lazyworm",
+    "lazy",
+    "worm"
+  ],
+  "t67": [
+    "67",
+    "t67",
+    "crackeddice",
+    "cracked",
+    "dice"
+  ],
+  "t68": [
+    "68",
+    "t68",
+    "supermagnet",
+    "super",
+    "magnet"
+  ],
+  "t69": [
+    "69",
+    "t69",
+    "fadedpolaroid",
+    "faded",
+    "polaroid"
+  ],
+  "t70": [
+    "70",
+    "t70",
+    "louse"
+  ],
+  "t71": [
+    "71",
+    "t71",
+    "bobsbladder",
+    "bobs",
+    "bladder"
+  ],
+  "t72": [
+    "72",
+    "t72",
+    "watchbattery",
+    "watch",
+    "battery"
+  ],
+  "t73": [
+    "73",
+    "t73",
+    "blastingcap",
+    "blasting",
+    "cap"
+  ],
+  "t74": [
+    "74",
+    "t74",
+    "studfinder",
+    "stud",
+    "finder"
+  ],
+  "t75": [
+    "75",
+    "t75",
+    "error"
+  ],
+  "t76": [
+    "76",
+    "t76",
+    "pokerchip",
+    "poker",
+    "chip"
+  ],
+  "t77": [
+    "77",
+    "t77",
+    "blister"
+  ],
+  "t78": [
+    "78",
+    "t78",
+    "secondhand",
+    "second",
+    "hand"
+  ],
+  "t79": [
+    "79",
+    "t79",
+    "endlessless",
+    "endless",
+    "nameless"
+  ],
+  "t80": [
+    "80",
+    "t80",
+    "blackfeather",
+    "black",
+    "feather"
+  ],
+  "t81": [
+    "81",
+    "t81",
+    "blindrage",
+    "blind",
+    "rage"
+  ],
+  "t82": [
+    "82",
+    "t82",
+    "goldenhorseshoe",
+    "golden",
+    "horse",
+    "shoe"
+  ],
+  "t83": [
+    "83",
+    "t83",
+    "storekey",
+    "store",
+    "key"
+  ],
+  "t84": [
+    "84",
+    "t84",
+    "ribofgreed",
+    "rib",
+    "of",
+    "greed"
+  ],
+  "t85": [
+    "85",
+    "t85",
+    "karma"
+  ],
+  "t86": [
+    "86",
+    "t86",
+    "lillarva",
+    "lil",
+    "larva"
+  ],
+  "t87": [
+    "87",
+    "t87",
+    "momslocket",
+    "moms",
+    "locket"
+  ],
+  "t88": [
+    "88",
+    "t88",
+    "no"
+  ],
+  "t89": [
+    "89",
+    "t89",
+    "childleash",
+    "child",
+    "leash"
+  ],
+  "t90": [
+    "90",
+    "t90",
+    "browncap",
+    "brown",
+    "cap"
+  ],
+  "t91": [
+    "91",
+    "t91",
+    "meconium"
+  ],
+  "t92": [
+    "92",
+    "t92",
+    "crackedcrown",
+    "cracked",
+    "crown"
+  ],
+  "t93": [
+    "93",
+    "t93",
+    "useddiaper",
+    "used",
+    "diaper"
+  ],
+  "t94": [
+    "94",
+    "t94",
+    "fishtail",
+    "fish",
+    "tail"
+  ],
+  "t95": [
+    "95",
+    "t95",
+    "blacktooth",
+    "black",
+    "tooth"
+  ],
+  "t96": [
+    "96",
+    "t96",
+    "ouroborosworm",
+    "ouroboros",
+    "worm"
+  ],
+  "t97": [
+    "97",
+    "t97",
+    "tonsil"
+  ],
+  "t98": [
+    "98",
+    "t98",
+    "nosegoblin",
+    "nose",
+    "goblin"
+  ],
+  "t99": [
+    "99",
+    "t99",
+    "superball",
+    "super",
+    "ball"
+  ],
+  "t100": [
+    "100",
+    "t100",
+    "vibrantbulb",
+    "vibrant",
+    "bulb"
+  ],
+  "t101": [
+    "101",
+    "t101",
+    "dimbulb",
+    "dim",
+    "bulb"
+  ],
+  "t102": [
+    "102",
+    "t102",
+    "fragmentedcard",
+    "fragmented",
+    "card"
+  ],
+  "t103": [
+    "103",
+    "t103",
+    "equality"
+  ],
+  "t104": [
+    "104",
+    "t104",
+    "wishbone",
+    "wish",
+    "bone"
+  ],
+  "t105": [
+    "105",
+    "t105",
+    "baglunch",
+    "bag",
+    "lunch"
+  ],
+  "t106": [
+    "106",
+    "t106",
+    "lostcork",
+    "lost",
+    "cork"
+  ],
+  "t107": [
+    "107",
+    "t107",
+    "crowheart",
+    "crow",
+    "heart"
+  ],
+  "t108": [
+    "108",
+    "t108",
+    "walnut"
+  ],
+  "t109": [
+    "109",
+    "t109",
+    "ducttape",
+    "duct",
+    "tape"
+  ],
+  "t110": [
+    "110",
+    "t110",
+    "silverdollar",
+    "silver",
+    "dollar"
+  ],
+  "t111": [
+    "111",
+    "t111",
+    "bloodycrown",
+    "bloody",
+    "crown"
+  ],
+  "t112": [
+    "112",
+    "t112",
+    "paytowin",
+    "pay",
+    "to",
+    "win"
+  ],
+  "t113": [
+    "113",
+    "t113",
+    "locustofwar",
+    "locust",
+    "of",
+    "war"
+  ],
+  "t114": [
+    "114",
+    "t114",
+    "locustofpestilence",
+    "locust",
+    "of",
+    "pestilence"
+  ],
+  "t115": [
+    "115",
+    "t115",
+    "locustoffamine",
+    "locust",
+    "of",
+    "famine"
+  ],
+  "t116": [
+    "116",
+    "t116",
+    "locustofdeath",
+    "locust",
+    "of",
+    "death"
+  ],
+  "t117": [
+    "117",
+    "t117",
+    "locustofconquest",
+    "locust",
+    "of",
+    "conquest"
+  ],
+  "t118": [
+    "118",
+    "t118",
+    "batwing",
+    "bat",
+    "wing"
+  ],
+  "t119": [
+    "119",
+    "t119",
+    "stemcell",
+    "stem",
+    "cell"
+  ],
+  "t120": [
+    "120",
+    "t120",
+    "hairpin"
+  ],
+  "t121": [
+    "121",
+    "t121",
+    "woodencross",
+    "wooden",
+    "cross"
+  ],
+  "t122": [
+    "122",
+    "t122",
+    "butter"
+  ],
+  "t123": [
+    "123",
+    "t123",
+    "filigreefeather",
+    "filigree",
+    "feather"
+  ],
+  "t124": [
+    "124",
+    "t124",
+    "doorstop",
+    "door",
+    "stop"
+  ],
+  "t125": [
+    "125",
+    "t125",
+    "extensioncord",
+    "extension",
+    "cord"
+  ],
+  "t126": [
+    "126",
+    "t126",
+    "rottenpenny",
+    "rotten",
+    "penny"
+  ],
+  "t127": [
+    "127",
+    "t127",
+    "babybender"
+  ],
+  "t128": [
+    "128",
+    "t128",
+    "fingerbone",
+    "finger",
+    "bone"
+  ],
+  "t129": [
+    "129",
+    "t129",
+    "jawbreaker"
+  ],
+  "t130": [
+    "130",
+    "t130",
+    "chewedpen",
+    "chewed",
+    "pen"
+  ],
+  "t131": [
+    "131",
+    "t131",
+    "blessedpenny",
+    "blessed",
+    "penny"
+  ],
+  "t132": [
+    "132",
+    "t132",
+    "brokensyringe",
+    "broken",
+    "syringe"
+  ],
+  "t133": [
+    "133",
+    "t133",
+    "shortfuse",
+    "short",
+    "fuse"
+  ],
+  "t134": [
+    "134",
+    "t134",
+    "gigantebean",
+    "gigante",
+    "bean"
+  ],
+  "t135": [
+    "135",
+    "t135",
+    "alighter",
+    "a",
+    "lighter"
+  ],
+  "t136": [
+    "136",
+    "t136",
+    "brokenpadlock",
+    "broken",
+    "padlock"
+  ],
+  "t137": [
+    "137",
+    "t137",
+    "myosotis"
+  ],
+  "t138": [
+    "138",
+    "t138",
+    "m"
+  ],
+  "t139": [
+    "139",
+    "t139",
+    "teardropcharm",
+    "teardrop",
+    "charm"
+  ],
+  "t140": [
+    "140",
+    "t140",
+    "appleofsodom",
+    "apple",
+    "of",
+    "sodom"
+  ],
+  "t141": [
+    "141",
+    "t141",
+    "forgottenlullaby",
+    "forgotten",
+    "lullaby"
+  ],
+  "t142": [
+    "142",
+    "t142",
+    "bethsfaith",
+    "beths",
+    "faith"
+  ],
+  "t143": [
+    "143",
+    "t143",
+    "oldcapacitor",
+    "old",
+    "capacitor"
+  ],
+  "t144": [
+    "144",
+    "t144",
+    "brainworm",
+    "brain",
+    "worm"
+  ],
+  "t145": [
+    "145",
+    "t145",
+    "perfection"
+  ],
+  "t146": [
+    "146",
+    "t146",
+    "devilscrown",
+    "devils",
+    "crown"
+  ],
+  "t147": [
+    "147",
+    "t147",
+    "chargedpenny",
+    "charged",
+    "penny"
+  ],
+  "t148": [
+    "148",
+    "t148",
+    "friendshipnecklace",
+    "friendship",
+    "necklace"
+  ],
+  "t149": [
+    "149",
+    "t149",
+    "panicbutton",
+    "panic",
+    "button"
+  ],
+  "t150": [
+    "150",
+    "t150",
+    "bluekey",
+    "blue",
+    "key"
+  ],
+  "t151": [
+    "151",
+    "t151",
+    "flatfile",
+    "flat",
+    "file"
+  ],
+  "t152": [
+    "152",
+    "t152",
+    "telescopelens",
+    "telescope",
+    "lens"
+  ],
+  "t153": [
+    "153",
+    "t153",
+    "momslock",
+    "moms",
+    "lock"
+  ],
+  "t154": [
+    "154",
+    "t154",
+    "dicebag",
+    "dice",
+    "bag"
+  ],
+  "t155": [
+    "155",
+    "t155",
+    "holycrown",
+    "holy",
+    "crown"
+  ],
+  "t156": [
+    "156",
+    "t156",
+    "motherskiss",
+    "mothers",
+    "kiss"
+  ],
+  "t157": [
+    "157",
+    "t157",
+    "torncard",
+    "torn",
+    "card"
+  ],
+  "t158": [
+    "158",
+    "t158",
+    "tornpocket",
+    "torn",
+    "pocket"
+  ],
+  "t159": [
+    "159",
+    "t159",
+    "gildedkey",
+    "gilded",
+    "key"
+  ],
+  "t160": [
+    "160",
+    "t160",
+    "luckysack",
+    "lucky",
+    "sack"
+  ],
+  "t161": [
+    "161",
+    "t161",
+    "wickedcrown",
+    "wicked",
+    "crown"
+  ],
+  "t162": [
+    "162",
+    "t162",
+    "azazelsstump",
+    "azazels",
+    "stump"
+  ],
+  "t163": [
+    "163",
+    "t163",
+    "dingleberry",
+    "dingle",
+    "berry"
+  ],
+  "t164": [
+    "164",
+    "t164",
+    "ringcap",
+    "ring",
+    "cap"
+  ],
+  "t165": [
+    "165",
+    "t165",
+    "nuhuh",
+    "nuh",
+    "uh"
+  ],
+  "t166": [
+    "166",
+    "t166",
+    "modelingclay",
+    "modeling",
+    "clay"
+  ],
+  "t167": [
+    "167",
+    "t167",
+    "polishedbone",
+    "polished",
+    "bone"
+  ],
+  "t168": [
+    "168",
+    "t168",
+    "hollowheart",
+    "hollow",
+    "heart"
+  ],
+  "t169": [
+    "169",
+    "t169",
+    "kidsdrawing",
+    "kids",
+    "drawing"
+  ],
+  "t170": [
+    "170",
+    "t170",
+    "crystalkey",
+    "crystal",
+    "key"
+  ],
+  "t171": [
+    "171",
+    "t171",
+    "keepersbargain",
+    "keepers",
+    "bargain"
+  ],
+  "t172": [
+    "172",
+    "t172",
+    "cursedpenny",
+    "cursed",
+    "penny"
+  ],
+  "t173": [
+    "173",
+    "t173",
+    "yoursoul",
+    "your",
+    "soul"
+  ],
+  "t174": [
+    "174",
+    "t174",
+    "numbermagnet",
+    "number",
+    "magnet"
+  ],
+  "t175": [
+    "175",
+    "t175",
+    "strangekey",
+    "strange",
+    "key"
+  ],
+  "t176": [
+    "176",
+    "t176",
+    "lilclot",
+    "lil",
+    "clot"
+  ],
+  "t177": [
+    "177",
+    "t177",
+    "temporarytattoo",
+    "temporary",
+    "tattoo"
+  ],
+  "t178": [
+    "178",
+    "t178",
+    "swallowedm80",
+    "swallowed",
+    "m80"
+  ],
+  "t179": [
+    "179",
+    "t179",
+    "rcremote",
+    "rc",
+    "remote"
+  ],
+  "t180": [
+    "180",
+    "t180",
+    "foundsoul",
+    "found",
+    "soul"
+  ],
+  "t181": [
+    "181",
+    "t181",
+    "expansionpack",
+    "expansion",
+    "pack"
+  ],
+  "t182": [
+    "182",
+    "t182",
+    "bethsessence",
+    "beths",
+    "essence"
+  ],
+  "t183": [
+    "183",
+    "t183",
+    "thetwins",
+    "the",
+    "twins"
+  ],
+  "t184": [
+    "184",
+    "t184",
+    "adoptionpapers",
+    "adoption",
+    "papers"
+  ],
+  "t185": [
+    "185",
+    "t185",
+    "cricketleg",
+    "cricket",
+    "leg"
+  ],
+  "t186": [
+    "186",
+    "t186",
+    "apollyonsbestfriend",
+    "apollyons",
+    "best",
+    "friend"
+  ],
+  "t187": [
+    "187",
+    "t187",
+    "brokenglasses",
+    "broken",
+    "glasses"
+  ],
+  "t188": [
+    "188",
+    "t188",
+    "icecube",
+    "ice",
+    "cube"
+  ]
+}

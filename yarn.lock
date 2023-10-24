@@ -288,6 +288,27 @@
   resolved "https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
+"@intlify/core-base@9.5.0":
+  version "9.5.0"
+  resolved "https://registry.npmmirror.com/@intlify/core-base/-/core-base-9.5.0.tgz"
+  integrity sha512-y3ufM1RJbI/DSmJf3lYs9ACq3S/iRvaSsE3rPIk0MGH7fp+JxU6rdryv/EYcwfcr3Y1aHFlCBir6S391hRZ57w==
+  dependencies:
+    "@intlify/message-compiler" "9.5.0"
+    "@intlify/shared" "9.5.0"
+
+"@intlify/message-compiler@9.5.0":
+  version "9.5.0"
+  resolved "https://registry.npmmirror.com/@intlify/message-compiler/-/message-compiler-9.5.0.tgz"
+  integrity sha512-CAhVNfEZcOVFg0/5MNyt+OFjvs4J/ARjCj2b+54/FvFP0EDJI5lIqMTSDBE7k0atMROSP0SvWCkwu/AZ5xkK1g==
+  dependencies:
+    "@intlify/shared" "9.5.0"
+    source-map-js "^1.0.2"
+
+"@intlify/shared@9.5.0":
+  version "9.5.0"
+  resolved "https://registry.npmmirror.com/@intlify/shared/-/shared-9.5.0.tgz"
+  integrity sha512-tAxV14LMXZDZbu32XzLMTsowNlgJNmLwWHYzvMUl6L8gvQeoYiZONjY7AUsqZW8TOZDX9lfvF6adPkk9FSRdDA==
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.npmmirror.com/@isaacs/cliui/-/cliui-8.0.2.tgz"
@@ -3246,7 +3267,16 @@ vue-demi@>=0.14.5:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.6.tgz"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
 
-"vue@^2.6.14 || ^3.3.0", "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.25, vue@^3.3.4, vue@3.3.4:
+vue-i18n@^9.5.0:
+  version "9.5.0"
+  resolved "https://registry.npmmirror.com/vue-i18n/-/vue-i18n-9.5.0.tgz"
+  integrity sha512-NiI3Ph1qMstNf7uhYh8trQBOBFLxeJgcOxBq51pCcZ28Vs18Y7BDS58r8HGDKCYgXdLUYqPDXdKatIF4bvBVZg==
+  dependencies:
+    "@intlify/core-base" "9.5.0"
+    "@intlify/shared" "9.5.0"
+    "@vue/devtools-api" "^6.5.0"
+
+"vue@^2.6.14 || ^3.3.0", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.25, vue@^3.3.4, vue@3.3.4:
   version "3.3.4"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.3.4.tgz"
   integrity sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==

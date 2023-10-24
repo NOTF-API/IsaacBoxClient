@@ -5,5 +5,6 @@ const ipcRendererSend = (channel) => {
 }
 
 contextBridge.exposeInMainWorld("app", {
-  quit: () => ipcRendererSend('app-quit'),
+//   quit: () => ipcRendererSend('app-quit'),
+//   hide: () => ipcRendererSend('app-hide'),
 });
