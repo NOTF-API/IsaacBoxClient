@@ -15,6 +15,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "normalize.css": "^8.0.1",
     "pinia": "^2.1.6",
+    "pinyin": "2.0",
     "vue": "^3.3.4",
     "vue-i18n": "^9.5.0",
     "ws": "^8.14.2"

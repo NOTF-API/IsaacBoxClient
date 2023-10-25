@@ -65,6 +65,8 @@ const getItemsData = async (itemsMeta, i18nData) => {
     items[gid] = item
     Object.assign(item, itemsMeta[gid])
   })
+//   console.log(items)
+  delete items["c577"]//remove error damokelisizhijian
   return items;
 }
 
@@ -79,7 +81,6 @@ const getItemsMetaData = async () => {
       itemsMeta[`t${item.id}`] = item;
     }
   })
-
   return itemsMeta
 }
 
@@ -113,7 +114,7 @@ const getPocketItemsData = async (i18nData) => {
     const descriptionKey = item.description?.substring(1, item.description.length);
     item.description = i18nData.PocketItems[descriptionKey][i18nType]._value || item.description;
   })
-  console.log(pocketItems)
+//   console.log(pocketItems)
   return (pocketItems)
 }
 
@@ -213,7 +214,7 @@ const search = (keyword) => {
       return;
     }
     if (p._gtype === "k") {
-      console.log(p)
+    //   console.log(p)
       result[p._gtype]?.push(p._gid)
     } else {
       result[p._gtype]?.push(p)
