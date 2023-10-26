@@ -8,8 +8,7 @@
 + 饰品生成(包含金色饰品)
 + 卡牌/符文生成
 + 给予药丸/大药丸
-+ 生成其他实体
-+ 生成怪物
++ 全局搜索
 
 ## 使用方法
 1. 于github上或创意工坊下载IsaacSocket Mod 并存放Mod于游戏安装目录的mod目录下
@@ -23,7 +22,7 @@ https://github.com/LanbingIce/IsaacSocket-Utility
 
 ## 遇到问题
 + 参考https://github.com/LanbingIce/IsaacSocket-Mod 文档
-+ 更换梯子,确保electron正确安装
++ 更换梯子,开发环境则确保electron正确安装
 + 或者提issue
 
 ## 项目使用
@@ -33,5 +32,4 @@ https://github.com/LanbingIce/IsaacSocket-Utility
 + yarn start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
 + yarn make:打包生成用户可以一键运行的安装包
 ## 待开发功能
-+ 全局搜索
 + DEBUG MODE SWITCH
