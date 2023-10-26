@@ -18,7 +18,6 @@
     "thesadonion",
     "the",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -39,11 +38,11 @@
     "inner",
     "eye",
     "sanxiangsheji",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "sanyan$"
   ],
   "c3": [
     "3",
@@ -59,7 +58,6 @@
     "spoon",
     "zhuizongleidan",
     "genzongleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -78,11 +76,11 @@
     "cat",
     "kejimaodetou",
     "shanghaishangsheng",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "goutou$"
   ],
   "c5": [
     "c5",
@@ -98,11 +96,11 @@
     "huixuanleidan",
     "shanghaishangsheng",
     "yunqixiajiang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jingzi$"
   ],
   "c6": [
     "c6",
@@ -115,11 +113,13 @@
     "xuxu",
     "shesushangsheng",
     "shechengxiajiang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaobian$",
+    "diyiming$",
+    "no1$"
   ],
   "c7": [
     "c7",
@@ -135,11 +135,12 @@
     "xundaozhezhixue",
     "xundaozhezhixie",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "jingjiguanghuan$",
+    "jingjitouhuan$"
   ],
   "c8": [
     "c8",
@@ -151,11 +152,11 @@
     "baobaotao",
     "bobby",
     "haopengyouyibeizi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "bobididi$"
   ],
   "c9": [
     "c9",
@@ -167,7 +168,6 @@
     "cangying",
     "fly",
     "cangyingdezuiai",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -183,7 +183,6 @@
     "cangyingguanghuan",
     "cangyingtao",
     "dedangzidan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -200,11 +199,12 @@
     "mogutao",
     "mushroom",
     "1up",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "1minggu$",
+    "yiminggu$"
   ],
   "c12": [
     "c12",
@@ -218,11 +218,12 @@
     "mogutao",
     "mofamogu",
     "suoyoushuxingshangsheng",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "damogu$",
+    "du$"
   ],
   "c13": [
     "c13",
@@ -238,11 +239,11 @@
     "red",
     "juduzhichu",
     "yisushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "hongzhen$"
   ],
   "c14": [
     "c14",
@@ -258,11 +259,11 @@
     "green",
     "guoliangleiguchun",
     "yisuheshechengshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "lvzhen$"
   ],
   "c15": [
     "c15",
@@ -270,17 +271,17 @@
     "heart",
     "xin",
     "xiaoyusan",
-    "3",
     "hongxin",
     "xin",
     "tilishangxian",
     "tilishangsheng",
     "<3",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaoyu3$",
+    "xiaoyusan$"
   ],
   "c16": [
     "c16",
@@ -294,7 +295,6 @@
     "xin",
     "tilishangxian",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -312,11 +312,12 @@
     "jiushijiuyaoshi",
     "yaoshi",
     "99bayaoshi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "99yaoshi$",
+    "guyaoshi$"
   ],
   "c18": [
     "c18",
@@ -328,12 +329,11 @@
     "texiao",
     "chaopiao",
     "qian",
-    "$$$",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yimeidao$"
   ],
   "c19": [
     "c19",
@@ -346,11 +346,14 @@
     "10",
     "hong",
     "10gezhadan",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "shigelei$",
+    "10gelei$",
+    "shikelei$",
+    "10kelei$"
   ],
   "c20": [
     "c20",
@@ -361,11 +364,11 @@
     "fei",
     "shangdeaosheng",
     "womenzaizhedouhuifeiqilai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shangdiaosheng$"
   ],
   "c21": [
     "c21",
@@ -376,7 +379,6 @@
     "zhinanzhen",
     "kaitu",
     "zhongdeanjinzaiyanqian",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -396,11 +398,11 @@
     "heart",
     "xin",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c23": [
     "c23",
@@ -417,11 +419,11 @@
     "xin",
     "zhengcan",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c24": [
     "c24",
@@ -438,11 +440,11 @@
     "heart",
     "xin",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c25": [
     "c25",
@@ -458,11 +460,12 @@
     "heart",
     "xin",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$",
+    "niunai$"
   ],
   "c26": [
     "c26",
@@ -481,11 +484,11 @@
     "heart",
     "xin",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c27": [
     "c27",
@@ -500,11 +503,11 @@
     "speed",
     "jiatui",
     "yisushangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "mushao$"
   ],
   "c28": [
     "c28",
@@ -517,7 +520,6 @@
     "jiatui",
     "speed",
     "yisushangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -535,7 +537,6 @@
     "matao",
     "mamadeneiku",
     "shechengshangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -555,7 +556,6 @@
     "matao",
     "mamadegaogenxie",
     "shechengshangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -569,7 +569,6 @@
     "lipstick",
     "mamadekouhong",
     "shechengshangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -584,11 +583,11 @@
     "hanger",
     "tiesiyijia",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yajia$"
   ],
   "c33": [
     "c33",
@@ -598,7 +597,6 @@
     "bible",
     "shengjing",
     "zanshixingfeixing",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -614,11 +612,16 @@
     "belial",
     "biliezhishu",
     "zanshixingshanghaishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "bilieshu$",
+    "emoshu$",
+    "biliezhishu$",
+    "bilieshu$",
+    "beilieerzhishu$",
+    "beilierzhishu$"
   ],
   "c35": [
     "c35",
@@ -628,11 +631,11 @@
     "necronomicon",
     "silingzhishu",
     "quntishanghai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "silingshu$"
   ],
   "c36": [
     "c36",
@@ -642,11 +645,13 @@
     "poop",
     "dabian",
     "pu",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "zuiqiangzhudong$",
+    "xiang$",
+    "shi$"
   ],
   "c37": [
     "c37",
@@ -656,11 +661,11 @@
     "boom",
     "zhadanxiansheng",
     "chongnengxingzhadanhuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "dazhadan$"
   ],
   "c38": [
     "c38",
@@ -670,11 +675,11 @@
     "head",
     "tamimaodetou",
     "chongnengxingleidanpenshe",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baimaotou$"
   ],
   "c39": [
     "c39",
@@ -684,11 +689,11 @@
     "bra",
     "mamadexiongzhao",
     "quntimabi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "fuli$"
   ],
   "c40": [
     "c40",
@@ -696,11 +701,11 @@
     "kamikaze",
     "shenfeng",
     "bianchengzhadan",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "shenfengtegongdui$"
   ],
   "c41": [
     "c41",
@@ -710,7 +715,6 @@
     "pad",
     "mamadeweishengjin",
     "quntikongju",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -725,11 +729,11 @@
     "head",
     "baobodelantou",
     "chongnengxingtouzhizhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baobotou$"
   ],
   "c43": [
     "c43",
@@ -739,12 +743,13 @@
     "c44",
     "44",
     "teleport",
+    "tp",
     "chuansong",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "lanchuan$"
   ],
   "c45": [
     "c45",
@@ -755,7 +760,6 @@
     "xin",
     "meiweidexin",
     "chongnengxingtilihuifu",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -769,7 +773,6 @@
     "foot",
     "xingyunjiao",
     "yunqishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -783,11 +786,12 @@
     "remote",
     "taierboshideyaokongqi",
     "chongnengxingkongxi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "boshiyaokongqi$",
+    "shishiyaokongqi$"
   ],
   "c48": [
     "c48",
@@ -797,7 +801,6 @@
     "arrow",
     "qiubitezhijian",
     "chuancileidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -812,11 +815,12 @@
     "whoop",
     "soudawu",
     "walalalala",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "penzi$",
+    "dapen$"
   ],
   "c50": [
     "c50",
@@ -824,11 +828,11 @@
     "steven",
     "shidiwen",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "heitou$"
   ],
   "c51": [
     "c51",
@@ -836,7 +840,6 @@
     "pentagram",
     "wumangxing",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -849,11 +852,11 @@
     "dr",
     "fetus",
     "taierboshi",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "taierzhadan$"
   ],
   "c53": [
     "c53",
@@ -861,11 +864,11 @@
     "magneto",
     "wanciwang",
     "xiqudeaolawu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "hongcitie$"
   ],
   "c54": [
     "c54",
@@ -875,11 +878,11 @@
     "map",
     "cangbaotu",
     "wanquankeshiditu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baiditu$"
   ],
   "c55": [
     "c55",
@@ -889,11 +892,12 @@
     "eye",
     "mamadeyanjing",
     "hounaoshaoshangdeyanjing",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "mayan$",
+    "houyan$"
   ],
   "c56": [
     "c56",
@@ -904,11 +908,12 @@
     "fanshiningmeng",
     "ningmeng",
     "aiya",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "xiaohaoningmengshui$",
+    "xiaoningmengshui$"
   ],
   "c57": [
     "c57",
@@ -918,11 +923,12 @@
     "admiration",
     "yangmuzhijiao",
     "gongjixingcangying",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "yuanjiaojingong$",
+    "hongcangying$"
   ],
   "c58": [
     "c58",
@@ -933,11 +939,12 @@
     "shadows",
     "yingzhishu",
     "zanshixingwude",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "baohushu$",
+    "wudishu$"
   ],
   "c59": [
     "c59",
@@ -949,7 +956,6 @@
     "belial",
     "biliezhishu",
     "zanshixingshanghaishangsheng",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -963,7 +969,6 @@
     "ladder",
     "tizi",
     "zaoqiao",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -985,11 +990,12 @@
     "xixieguizhimei",
     "shanghaishangsheng",
     "shaguaihuixie",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xixueguibianfu$",
+    "xixieguibianfu$"
   ],
   "c63": [
     "c63",
@@ -1001,11 +1007,11 @@
     "v",
     "xudianchi",
     "chucunchongneng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shuangchongneng$"
   ],
   "c64": [
     "c64",
@@ -1015,11 +1021,12 @@
     "sale",
     "steamdacu",
     "wuzheyouhui",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dazhequan$",
+    "dazhejuan$"
   ],
   "c65": [
     "c65",
@@ -1029,11 +1036,12 @@
     "cookbook",
     "wuzhengfuzhuyizheshipu",
     "zhaohuanzhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "book",
+    "ashu$"
   ],
   "c66": [
     "c66",
@@ -1043,7 +1051,6 @@
     "hourglass",
     "shalou",
     "zanshixingjiansudiren",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1057,11 +1064,11 @@
     "maggy",
     "majijiemei",
     "haopengyouyibeizi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "majimeimei$"
   ],
   "c68": [
     "c68",
@@ -1069,11 +1076,12 @@
     "technology",
     "keji",
     "jiguangsheji",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "kejiyi$",
+    "keji1$"
   ],
   "c69": [
     "c69",
@@ -1083,11 +1091,11 @@
     "milk",
     "qiaokeliniunai",
     "xulisheji",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "qiaokelinai$"
   ],
   "c70": [
     "c70",
@@ -1098,11 +1106,11 @@
     "shengzhangjisu",
     "yisu",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "zizhen$"
   ],
   "c71": [
     "c71",
@@ -1114,11 +1122,11 @@
     "mogu",
     "yisu",
     "shechengshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaodu$"
   ],
   "c72": [
     "c72",
@@ -1127,11 +1135,11 @@
     "nianzhu",
     "shesu",
     "xinyangshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shengjingzuzhou$"
   ],
   "c73": [
     "c73",
@@ -1142,11 +1150,11 @@
     "meat",
     "roukuai",
     "shoufusuoyouroukuaiba",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "rouge$"
   ],
   "c74": [
     "c74",
@@ -1156,11 +1164,13 @@
     "quarter",
     "25meifen",
     "25meiyingbi",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "25kuai$",
+    "25dao$",
+    "25dollar$"
   ],
   "c75": [
     "c75",
@@ -1168,11 +1178,11 @@
     "phd",
     "yaoxueboshizheng",
     "genghaodejiaonang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "phd$"
   ],
   "c76": [
     "c76",
@@ -1182,11 +1192,11 @@
     "vision",
     "xguangtoushi",
     "woyikanqingyiqie",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xguangyanjing$"
   ],
   "c77": [
     "c77",
@@ -1197,7 +1207,6 @@
     "unicorn",
     "caihongdujiaoshou",
     "zanshixinghengchongzhizhuang",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1212,7 +1221,6 @@
     "revelations",
     "qishilu",
     "chongnengxinghunxinbaohu",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -1227,11 +1235,11 @@
     "zhouyin",
     "shanghai",
     "yisushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "666$"
   ],
   "c80": [
     "c80",
@@ -1242,7 +1250,6 @@
     "qiyue",
     "shanghai",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -1257,11 +1264,11 @@
     "gepimao",
     "gerpimao",
     "9tiaoming",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "jiumingmao$"
   ],
   "c82": [
     "c82",
@@ -1273,11 +1280,12 @@
     "pit",
     "shenyuanlingzhu",
     "emozhiyi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yeshizi$",
+    "shizijia$"
   ],
   "c83": [
     "c83",
@@ -1287,11 +1295,11 @@
     "nail",
     "dingzi",
     "zanshixingemoxingtai",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "emoding$"
   ],
   "c84": [
     "c84",
@@ -1305,11 +1313,11 @@
     "chanzi",
     "womenxuyaoshenruwajue",
     "chongnengxingtiaoguan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "chanzi$"
   ],
   "c85": [
     "c85",
@@ -1320,11 +1328,12 @@
     "cards",
     "kapaihe",
     "chongnengxingshengchengkapai",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "choukaji$",
+    "choukaqi$"
   ],
   "c86": [
     "c86",
@@ -1334,7 +1343,6 @@
     "tooth",
     "mengsichuodeya",
     "zhaohuanmengsichuo",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1348,11 +1356,11 @@
     "horns",
     "luojidejiao",
     "shizisheji",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "luojijiao$"
   ],
   "c88": [
     "c88",
@@ -1362,11 +1370,12 @@
     "chubby",
     "xiaopangqu",
     "gongjixinghuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaoqiubi$",
+    "xiaomadao$"
   ],
   "c89": [
     "c89",
@@ -1376,7 +1385,6 @@
     "bite",
     "zhizhuzhiyao",
     "jiansuxiaoguo",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -1392,7 +1400,6 @@
     "xiaoshitou",
     "shanghaishangsheng",
     "yisuxiajiang",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -1406,11 +1413,11 @@
     "hat",
     "tankumao",
     "kanchuansuoyoumen",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "kuanggongmao$"
   ],
   "c92": [
     "c92",
@@ -1420,7 +1427,6 @@
     "bandage",
     "chaojibengdai",
     "2kexin",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -1434,11 +1440,12 @@
     "gamekid",
     "youxizhangji",
     "zanshixingchidouren",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "chidouren$",
+    "youxiji$"
   ],
   "c94": [
     "c94",
@@ -1449,11 +1456,11 @@
     "pennies",
     "yingbidai",
     "jiyujinqian",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "qiandaizi$"
   ],
   "c95": [
     "c95",
@@ -1461,11 +1468,12 @@
     "robobaby",
     "jiqibaobao",
     "haopengyouyibeizizizi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "jibao$",
+    "jixiebaobao$"
   ],
   "c96": [
     "c96",
@@ -1475,11 +1483,11 @@
     "chad",
     "chadebaobao",
     "jiyuqinwen",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaochade$"
   ],
   "c97": [
     "c97",
@@ -1491,11 +1499,12 @@
     "sin",
     "qiyuanzuizhishu",
     "chongnengxingdeaolawushengcheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "qishu$",
+    "7shu$"
   ],
   "c98": [
     "c98",
@@ -1505,7 +1514,6 @@
     "relic",
     "shengyiwu",
     "shengchenghunxin",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -1519,11 +1527,12 @@
     "gish",
     "jishibaobao",
     "zhanzhanhuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaojishi$",
+    "xiaojishi$"
   ],
   "c100": [
     "c100",
@@ -1533,11 +1542,11 @@
     "steven",
     "shidiwenbaobao",
     "lingnenghuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaoshidiwen$"
   ],
   "c101": [
     "c101",
@@ -1547,11 +1556,11 @@
     "halo",
     "guanghuan",
     "suoyoushuxingshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "guanghuan$"
   ],
   "c102": [
     "c102",
@@ -1563,11 +1572,11 @@
     "pills",
     "mamadeyaoping",
     "chongnengxingshengchengjiaonang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "mamadeyaoguan$"
   ],
   "c103": [
     "c103",
@@ -1578,7 +1587,6 @@
     "cold",
     "putongganmao",
     "duxingshanghai",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1592,7 +1600,6 @@
     "parasite",
     "jishengchong",
     "fenliesheji",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -1608,11 +1615,11 @@
     "shaizi",
     "liumiantou",
     "chongzhinidemingyun",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "hongd6$"
   ],
   "c106": [
     "c106",
@@ -1622,11 +1629,11 @@
     "mega",
     "dabaodanxiansheng",
     "gengdadebaozha",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dazhadan$"
   ],
   "c107": [
     "c107",
@@ -1637,11 +1644,11 @@
     "shears",
     "juchijian",
     "duantoutaosheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jiandao$"
   ],
   "c108": [
     "c108",
@@ -1651,7 +1658,6 @@
     "wafer",
     "shengbing",
     "shanghaikangxing",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -1666,11 +1672,11 @@
     "jinqiandengyuliliang",
     "liliang",
     "shanghai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "qianli$"
   ],
   "c110": [
     "c110",
@@ -1680,11 +1686,11 @@
     "contacts",
     "mamademeitong",
     "shihuaxiaoguo",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shihuayan$"
   ],
   "c111": [
     "c111",
@@ -1694,11 +1700,11 @@
     "bean",
     "douzi",
     "chongnengxingfangpi",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "pidou$"
   ],
   "c112": [
     "c112",
@@ -1708,11 +1714,11 @@
     "angel",
     "shouhutianshi",
     "ewaibaohu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "tianshibaobao$"
   ],
   "c113": [
     "c113",
@@ -1722,7 +1728,6 @@
     "baby",
     "emobaobao",
     "zidongpaotaihuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -1736,11 +1741,11 @@
     "knife",
     "mamadecaidao",
     "chuochuochuo",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "madao$"
   ],
   "c115": [
     "c115",
@@ -1751,7 +1756,6 @@
     "tonglingban",
     "lingtileidan",
     "shesushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -1765,11 +1769,11 @@
     "volt",
     "9fute",
     "gengkuaichongneng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jiufute$"
   ],
   "c117": [
     "c117",
@@ -1779,7 +1783,6 @@
     "bird",
     "siniao",
     "baohuxinghuoban",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -1792,7 +1795,6 @@
     "liuhuanghuo",
     "xianxiejiguangzhu",
     "xianxuejiguangzhu",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -1806,7 +1808,6 @@
     "bag",
     "xiedai",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -1823,11 +1824,13 @@
     "mogu",
     "shesushangsheng",
     "shanghaixiajiang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "ximogu$",
+    "xiaotoumogu$",
+    "xiaotougu$"
   ],
   "c121": [
     "c121",
@@ -1840,11 +1843,13 @@
     "guaiyimogu",
     "tili",
     "shanghaishangshengyisuxiajiang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "bianmogu$",
+    "datoumogu$",
+    "datougu$"
   ],
   "c122": [
     "c122",
@@ -1855,11 +1860,12 @@
     "babylon",
     "babilundayinfu",
     "zuzhoushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "babilunchangfu$",
+    "dabiaozi$"
   ],
   "c123": [
     "c123",
@@ -1869,7 +1875,6 @@
     "manual",
     "guaiwushouce",
     "zanshixingshengchenghuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1884,7 +1889,6 @@
     "scrolls",
     "sihaigujuan",
     "zheshigemi",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1900,11 +1904,13 @@
     "bobizhadan",
     "zhuizongzhadan",
     "genzongzhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "genzongzhadan$",
+    "genzonglei$",
+    "bobilei$"
   ],
   "c126": [
     "c126",
@@ -1914,7 +1920,6 @@
     "blade",
     "tidaopian",
     "ganshouwodetongku",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -1929,11 +1934,11 @@
     "now",
     "yiwangyao",
     "wobujidele",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "zaishuang$"
   ],
   "c128": [
     "c128",
@@ -1943,11 +1948,11 @@
     "alone",
     "guduyisheng",
     "gongjixingcangying",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "lancangying$"
   ],
   "c129": [
     "c129",
@@ -1958,7 +1963,6 @@
     "lard",
     "tongzhuangzhuyou",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -1974,7 +1978,6 @@
     "heima",
     "feixing",
     "chongcigongji",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -1990,11 +1993,11 @@
     "bag",
     "zhadandai",
     "jiyuzhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "leidai$"
   ],
   "c132": [
     "c132",
@@ -2006,7 +2009,6 @@
     "coal",
     "meikuai",
     "wodeshengdanliwu",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2021,11 +2023,11 @@
     "gepimaodezhuazi",
     "gerpimaodezhuazi",
     "hunxinzhuanhuanqi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "maozhao$"
   ],
   "c134": [
     "c134",
@@ -2036,11 +2038,11 @@
     "gepimaodeweiba",
     "gerpimaodeweiba",
     "zuzhou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "maowei$"
   ],
   "c135": [
     "c135",
@@ -2052,11 +2054,11 @@
     "xianxiedai",
     "bianxieshixianxueji",
     "bianxieshixianxieji",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "maixiedai$"
   ],
   "c136": [
     "c136",
@@ -2066,11 +2068,11 @@
     "friend",
     "zuihaodepengyou",
     "haopengyouyibeizi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "wanouzhadan$"
   ],
   "c137": [
     "c137",
@@ -2080,7 +2082,6 @@
     "detonator",
     "qibaoqi",
     "yaokongyinbaozhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -2093,11 +2094,11 @@
     "shenghen",
     "shanghai",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shenghen$"
   ],
   "c139": [
     "c139",
@@ -2107,11 +2108,11 @@
     "purse",
     "mamadeqianbao",
     "ewaishipincao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "mabao$"
   ],
   "c140": [
     "c140",
@@ -2122,11 +2123,11 @@
     "baobodezuzhou",
     "duxingzhadan",
     "5gezhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baobolei$"
   ],
   "c141": [
     "c141",
@@ -2136,11 +2137,11 @@
     "boy",
     "shengzhuangnanhai",
     "zhongjihaohuazhizunban",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "qikuaiqian$"
   ],
   "c142": [
     "c142",
@@ -2148,7 +2149,6 @@
     "scapular",
     "jianyi",
     "qidaoqiji",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2163,11 +2163,11 @@
     "hunhemayao",
     "yisu",
     "dansushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baizhen$"
   ],
   "c144": [
     "c144",
@@ -2177,11 +2177,12 @@
     "friend",
     "qigaipengyou",
     "tahentanlan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baiqigai$",
+    "baixiaohai$"
   ],
   "c145": [
     "c145",
@@ -2192,11 +2193,11 @@
     "gepimaodetou",
     "gerpimaodetou",
     "chongnengxingcangyingchao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "maotou$"
   ],
   "c146": [
     "c146",
@@ -2206,11 +2207,11 @@
     "card",
     "qidaoka",
     "chongnengxingyongheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "baixinka$"
   ],
   "c147": [
     "c147",
@@ -2220,11 +2221,11 @@
     "axe",
     "cansuntiegao",
     "yanshiwucongzhaojia",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gaozi$"
   ],
   "c148": [
     "c148",
@@ -2232,7 +2233,6 @@
     "infestation",
     "haichonghengxing",
     "cangyingfuchou",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -2244,7 +2244,6 @@
     "ipecac",
     "tugending",
     "baozhasheji",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -2258,11 +2257,11 @@
     "love",
     "yanlideai",
     "yachisheji",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yachi$"
   ],
   "c151": [
     "c151",
@@ -2272,25 +2271,26 @@
     "mulligan",
     "chongqunfuji",
     "tamenzailimianshengzhang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "jiaji$",
+    "xiaomaotao$"
   ],
   "c152": [
     "c152",
     "152",
     "technology2",
     "technology",
-    "2",
     "kejiii",
     "ewaijiguang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "keji2$",
+    "kejier$"
   ],
   "c153": [
     "c153",
@@ -2300,11 +2300,11 @@
     "spider",
     "bianyizhizhu",
     "sixiangsheji",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "siyanzhizhu$"
   ],
   "c154": [
     "c154",
@@ -2315,11 +2315,11 @@
     "huaxuebaopifa",
     "huaxuebopifa",
     "shanghaishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "huaxueyaoji$"
   ],
   "c155": [
     "c155",
@@ -2329,7 +2329,6 @@
     "peeper",
     "kuiyan",
     "pu",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2341,7 +2340,6 @@
     "habit",
     "xiunvfu",
     "xundaochongnengdaoju",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2356,7 +2354,6 @@
     "shixue",
     "shixie",
     "kuangnu",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2370,7 +2367,6 @@
     "ball",
     "shuijingqiu",
     "wokanjianlewodeweilai",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2386,11 +2382,11 @@
     "night",
     "yezhiyouhun",
     "haoxiaren",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "wuyeyouhun$"
   ],
   "c160": [
     "c160",
@@ -2401,11 +2397,11 @@
     "sky",
     "siliecangqiong",
     "shenshengjiebaisiguang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shengguangyumao$"
   ],
   "c161": [
     "c161",
@@ -2413,11 +2409,11 @@
     "ankh",
     "ankashizi",
     "yongsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xiaolanrenshizijia$"
   ],
   "c162": [
     "c162",
@@ -2427,11 +2423,11 @@
     "cross",
     "kaierteshizi",
     "baohudezhufu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "kaierteshizijia$"
   ],
   "c163": [
     "c163",
@@ -2441,7 +2437,6 @@
     "baby",
     "youlingbaobao",
     "lingtihuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -2455,7 +2450,6 @@
     "candle",
     "lanlazhu",
     "chongnengxinghuoyan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2468,7 +2462,6 @@
     "jiuweibian",
     "dansu",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2482,11 +2475,11 @@
     "shaizi",
     "ershimiantou",
     "chongzhideaolawu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "d20$"
   ],
   "c167": [
     "c167",
@@ -2496,11 +2489,11 @@
     "baby",
     "xiaochoubaobao",
     "shuangxiangshejihuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "choujuebao$"
   ],
   "c168": [
     "c168",
@@ -2510,7 +2503,6 @@
     "fetus",
     "shishitaierboshi",
     "dengdeankongxi",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -2522,11 +2514,11 @@
     "polyphemus",
     "jurenduyan",
     "chaojuleidan",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "dayan$"
   ],
   "c170": [
     "c170",
@@ -2536,11 +2528,12 @@
     "longlegs",
     "changtuizhufu",
     "babadeai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "batui$",
+    "zhizhutui$"
   ],
   "c171": [
     "c171",
@@ -2551,11 +2544,11 @@
     "zhizhupigu",
     "quntidirenjiansu",
     "shanghai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhizhuchao$"
   ],
   "c172": [
     "c172",
@@ -2565,11 +2558,11 @@
     "dagger",
     "xianjibishou",
     "wodesuminghuibaohuwo",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xianjidao$"
   ],
   "c173": [
     "c173",
@@ -2577,11 +2570,11 @@
     "mitre",
     "zhujiaoguan",
     "chunjiedezhufu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "jiaohuangmao$"
   ],
   "c174": [
     "c174",
@@ -2591,7 +2584,6 @@
     "baby",
     "caihongbaobao",
     "suijihuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -2606,11 +2598,11 @@
     "yaoshi",
     "babadeyaoshi",
     "dakaisuoyoumen",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "bayue$"
   ],
   "c176": [
     "c176",
@@ -2620,7 +2612,6 @@
     "cells",
     "ganxibao",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -2634,11 +2625,11 @@
     "slot",
     "bianxieshilaohuji",
     "suishikaidu",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "yaojiangji$"
   ],
   "c178": [
     "c178",
@@ -2648,7 +2639,6 @@
     "water",
     "shengshui",
     "wopo",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2660,11 +2650,12 @@
     "fate",
     "suming",
     "yonghengfeixing",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "feite$",
+    "feite$"
   ],
   "c180": [
     "c180",
@@ -2675,7 +2666,6 @@
     "bean",
     "heidou",
     "yipengjiufangpi",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -2691,7 +2681,6 @@
     "baima",
     "feixing",
     "shenshengsiguang",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2708,7 +2697,6 @@
     "zhuizongleidan",
     "genzongleidan",
     "shanghaishangsheng",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -2723,7 +2711,6 @@
     "yaqian",
     "shesu",
     "dansushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2738,7 +2725,6 @@
     "shengbei",
     "feixing",
     "tilishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2753,7 +2739,6 @@
     "sige",
     "feixing",
     "lingtileidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -2767,11 +2752,11 @@
     "rights",
     "xiezhiquanli",
     "xiechangquntishanghai",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "xiequan$"
   ],
   "c187": [
     "c187",
@@ -2782,11 +2767,11 @@
     "gepimaodemaoqiu",
     "gerpimaodemaoqiu",
     "shuaiqilai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "maoqiu$"
   ],
   "c188": [
     "c188",
@@ -2794,11 +2779,12 @@
     "abel",
     "yabo",
     "jingxianghuoban",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "yabo$",
+    "yabo$"
   ],
   "c189": [
     "c189",
@@ -2809,11 +2795,11 @@
     "fan",
     "chaojishirounanhaisizhongfen",
     "suoyoushuxingshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "chaojiroushinanhaisizhongfen$"
   ],
   "c190": [
     "c190",
@@ -2821,27 +2807,28 @@
     "pyro",
     "yanhuoshengyan",
     "99gezhadan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "99lei$",
+    "99zhadan$"
   ],
   "c191": [
     "c191",
     "191",
     "3dollarbill",
-    "3",
     "dollar",
     "bill",
     "3meiyuanzhibi",
     "sanmeiyuanzhibi",
     "caihongleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "sanmeidaozhibi$",
+    "3meidaozhibi$"
   ],
   "c192": [
     "c192",
@@ -2853,11 +2840,11 @@
     "xinlingganyingshaguashijiaocheng",
     "zanshixingzhuizongleidan",
     "zanshixinggenzongleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xiaohuangshu$"
   ],
   "c193": [
     "c193",
@@ -2866,7 +2853,6 @@
     "shengrou",
     "shanghai",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2881,11 +2867,11 @@
     "ball",
     "molibahaoqiu",
     "dansushangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "8haoqiu$"
   ],
   "c195": [
     "c195",
@@ -2899,11 +2885,11 @@
     "purse",
     "mamadelingqianbao",
     "zhedushixieshenme",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yaobao$"
   ],
   "c196": [
     "c196",
@@ -2911,11 +2897,11 @@
     "squeezy",
     "jiyawanju",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yazhawu$"
   ],
   "c197": [
     "c197",
@@ -2926,7 +2912,6 @@
     "yesuguozhi",
     "shanghai",
     "shechengshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2938,7 +2923,6 @@
     "box",
     "hezi",
     "haoduodongxi",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -2954,11 +2938,11 @@
     "mamadeyaoshi",
     "genghaodexiangzideaolawu",
     "2bayaoshi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "mayue$"
   ],
   "c200": [
     "c200",
@@ -2968,11 +2952,11 @@
     "eyeshadow",
     "mamadeyanying",
     "meihuoleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "meihuoyan$"
   ],
   "c201": [
     "c201",
@@ -2983,7 +2967,6 @@
     "tiekuai",
     "shanghaishangsheng",
     "xuanyunleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -2998,11 +2981,13 @@
     "golden",
     "midasizhichu",
     "deanjinshu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dianjinshu$",
+    "jinkuai$",
+    "dianshichengjin$"
   ],
   "c203": [
     "c203",
@@ -3012,11 +2997,15 @@
     "bundle",
     "cishankunbangbao",
     "yongyuanmaiyisongyi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "cishankunbangbao$",
+    "1jia1$",
+    "1jia1$",
+    "yijiayi$",
+    "yijiayi$"
   ],
   "c204": [
     "c204",
@@ -3026,11 +3015,12 @@
     "pack",
     "kuabao",
     "zhuangmanlehaodongxi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yaobao$",
+    "babao$"
   ],
   "c205": [
     "c205",
@@ -3040,11 +3030,11 @@
     "plug",
     "fenglichatou",
     "xiechangchongneng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dianchatou$"
   ],
   "c206": [
     "c206",
@@ -3053,7 +3043,6 @@
     "duantoutai",
     "shanghai",
     "shesushangsheng。lititiyan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3068,11 +3057,11 @@
     "bandages",
     "bengdaiqiu",
     "shoufusuoyoubengdaiba",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "roumei$"
   ],
   "c208": [
     "c208",
@@ -3083,7 +3072,6 @@
     "guanjunyaodai",
     "shanghai",
     "tiaozhanshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -3100,11 +3088,12 @@
     "piguzhadan",
     "duqibaozha",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiangzhadan$",
+    "xianglei$"
   ],
   "c210": [
     "c210",
@@ -3114,11 +3103,11 @@
     "leaf",
     "limaoshuye",
     "jianbukecui",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yezi$"
   ],
   "c211": [
     "c211",
@@ -3126,7 +3115,6 @@
     "spiderbaby",
     "zhizhubaobao",
     "zhizhufuchou",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -3141,11 +3129,11 @@
     "gepimaodexiangquan",
     "gerpimaodexiangquan",
     "yongsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "maoquan$"
   ],
   "c213": [
     "c213",
@@ -3155,11 +3143,11 @@
     "contact",
     "diushideyinxingyanjing",
     "hudunleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "leidun$"
   ],
   "c214": [
     "c214",
@@ -3168,7 +3156,6 @@
     "pinxue",
     "pinxie",
     "duxingxueye",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -3182,7 +3169,6 @@
     "head",
     "shanyangtou",
     "tajieshoulenidexianji",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -3197,11 +3183,12 @@
     "yishifapao",
     "shanghai",
     "xieeshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yanzhidoupeng$",
+    "heidoupeng$"
   ],
   "c217": [
     "c217",
@@ -3211,7 +3198,6 @@
     "wig",
     "mamadejiafa",
     "touyangdeganjue",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3224,7 +3210,6 @@
     "taipan",
     "zaisheng",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3238,7 +3223,6 @@
     "bandage",
     "jiubengdai",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3255,11 +3239,11 @@
     "beishangzhadan",
     "leidanbaozha",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "leidan$"
   ],
   "c221": [
     "c221",
@@ -3269,7 +3253,6 @@
     "cement",
     "xiangjiaojiaoshui",
     "dantiaoleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -3282,7 +3265,6 @@
     "fanzhongli",
     "fanzhonglileidan",
     "shesushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3295,7 +3277,6 @@
     "zonghuokuang",
     "beizhahaoshuang",
     "5gezhadan",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -3310,11 +3291,11 @@
     "kejimaodeshenti",
     "baolieleidan",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "goushen$"
   ],
   "c225": [
     "c225",
@@ -3322,11 +3303,11 @@
     "gimpy",
     "shouxingmianju",
     "tianmidetongku",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "quezi$"
   ],
   "c226": [
     "c226",
@@ -3336,7 +3317,6 @@
     "lotus",
     "heilianhua",
     "tilishangshengx3",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3350,11 +3330,12 @@
     "bank",
     "xiaozhucunqianguan",
     "wodebishengjixu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhuge$",
+    "xiaozhuguan$"
   ],
   "c228": [
     "c228",
@@ -3365,7 +3346,6 @@
     "mamadexiangshui",
     "kongjuleidan",
     "shesushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3379,7 +3359,6 @@
     "lung",
     "mengsichuodefei",
     "xulipenshegongji",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3393,7 +3372,6 @@
     "xiee",
     "shanghaishangsheng",
     "kongjuleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -3408,7 +3386,6 @@
     "tar",
     "jiaoyouqiu",
     "zhanjiao",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3422,11 +3399,12 @@
     "watch",
     "huaibiao",
     "shaoweitiaomanyidian",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "haobiao$",
+    "miaobiao$"
   ],
   "c233": [
     "c233",
@@ -3437,25 +3415,25 @@
     "xiaoxiaoxingqiu",
     "huanraoleidan",
     "shechengshangsheng",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "xiaoxiaoxingqiu$"
   ],
   "c234": [
     "c234",
     "234",
     "infestation2",
     "infestation",
-    "2",
     "haichonghengxingii",
     "chonghaisheji",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "haichonghengxing2$",
+    "haichonghengxinger$"
   ],
   "c235": [
     "c235",
@@ -3469,7 +3447,6 @@
     "coli",
     "dachangganjun",
     "deandabianshu",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -3484,11 +3461,11 @@
     "sishenzhichu",
     "chuancileidan",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "liandao$"
   ],
   "c238": [
     "c238",
@@ -3497,13 +3474,13 @@
     "key",
     "yaoshi",
     "piece",
-    "1",
     "yaoshisuipian1",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "yaoshisuipian1$",
+    "yaoshisuipianyi$"
   ],
   "c239": [
     "c239",
@@ -3512,13 +3489,13 @@
     "key",
     "yaoshi",
     "piece",
-    "2",
     "yaoshisuipian2",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "yaoshisuipian2$",
+    "yaoshisuipianer$"
   ],
   "c240": [
     "c240",
@@ -3528,11 +3505,11 @@
     "treatment",
     "shiyanxinglefa",
     "bufenshuxingshangshengbufenshuxingxiajiang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "huangzhen$"
   ],
   "c241": [
     "c241",
@@ -3543,11 +3520,11 @@
     "below",
     "diyuqiyue",
     "caifudandaijiashishiyaoni",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shuangdiao$"
   ],
   "c242": [
     "c242",
@@ -3555,11 +3532,11 @@
     "infamy",
     "chirujiamian",
     "zudangshanghaiyoushiyouxiao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "mianju$"
   ],
   "c243": [
     "c243",
@@ -3569,11 +3546,11 @@
     "shield",
     "sanweiyitidun",
     "niganshoudaobaohu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dunpai$"
   ],
   "c244": [
     "c244",
@@ -3581,11 +3558,13 @@
     "tech5",
     "keji05",
     "huanzaiceshizhong",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "kejidian5$",
+    "kejidianwu$",
+    "keji.5$"
   ],
   "c245": [
     "c245",
@@ -3593,11 +3572,12 @@
     "2020",
     "wanmeishili",
     "shuangfasheji",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "2020$",
+    "shuangfa$"
   ],
   "c246": [
     "c246",
@@ -3607,7 +3587,6 @@
     "map",
     "landitu",
     "mimi",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3619,11 +3598,11 @@
     "bffs",
     "haopengyouyibeizi",
     "youjundangdao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dabao$"
   ],
   "c248": [
     "c248",
@@ -3633,11 +3612,12 @@
     "mind",
     "chongqunzhixin",
     "juxingzhizhuhecangying",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dacangying$",
+    "lancangying$"
   ],
   "c249": [
     "c249",
@@ -3647,11 +3627,11 @@
     "options",
     "ewaixuanze",
     "gengduoxuanze",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "baixuan$"
   ],
   "c250": [
     "c250",
@@ -3662,13 +3642,13 @@
     "boom",
     "zhadan",
     "zhadanmaiyisongyi",
-    "1",
     "1zhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhadan1jia1$",
+    "zhadan11$"
   ],
   "c251": [
     "c251",
@@ -3678,11 +3658,13 @@
     "deck",
     "xinshoupaizu",
     "ewaikapaicao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "kacao$",
+    "shuangkashuangdai$",
+    "shuangkashuangdai$"
   ],
   "c252": [
     "c252",
@@ -3692,11 +3674,12 @@
     "baggy",
     "xiaoyaodai",
     "ewaijiaonangcao",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "jiaonangdai$",
+    "yaowandai$"
   ],
   "c253": [
     "c253",
@@ -3707,11 +3690,11 @@
     "mofaxiejia",
     "tili",
     "yunqishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "gouliang$"
   ],
   "c254": [
     "c254",
@@ -3723,7 +3706,6 @@
     "xiekuai",
     "shanghai",
     "shechengshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3736,11 +3718,11 @@
     "luosi",
     "shesu",
     "dansushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "luosiding$"
   ],
   "c256": [
     "c256",
@@ -3753,11 +3735,13 @@
     "zhirezhadan",
     "ranshaobaozha",
     "5gezhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "liehuozhadan$",
+    "liehuolei$",
+    "zhirelei$"
   ],
   "c257": [
     "c257",
@@ -3767,11 +3751,11 @@
     "mind",
     "huoyanyizhi",
     "huoyanleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "huozhiyizhi$"
   ],
   "c258": [
     "c258",
@@ -3781,11 +3765,11 @@
     "no",
     "bianhaodiushi",
     "daimacuowu",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "qiqiaoban$"
   ],
   "c259": [
     "c259",
@@ -3796,11 +3780,12 @@
     "anwuzhi",
     "shanghaishangsheng",
     "kongjuleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "heiquantou$",
+    "heiyunshi$"
   ],
   "c260": [
     "c260",
@@ -3811,7 +3796,6 @@
     "heilazhu",
     "mianyizuzhou",
     "xieeshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -3823,11 +3807,11 @@
     "proptosis",
     "yanqiutuchu",
     "duanchengchaojuleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "tuyan$"
   ],
   "c262": [
     "c262",
@@ -3835,10 +3819,8 @@
     "missingpage2",
     "missing",
     "page",
-    "2",
     "yishideshuye2",
     "xieeshangsheng。rangnidedirenchangming",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -3852,11 +3834,11 @@
     "rune",
     "toumingfuwen",
     "fuwenfuzhi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "kongbaifuwen$"
   ],
   "c264": [
     "c264",
@@ -3866,11 +3848,11 @@
     "fly",
     "zhinengcangying",
     "fuchoucangying",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "huangcangying$"
   ],
   "c265": [
     "c265",
@@ -3880,11 +3862,12 @@
     "baby",
     "kugubaobao",
     "busihuoban",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "ganzaobaobao$",
+    "ganbiebaobao$"
   ],
   "c266": [
     "c266",
@@ -3894,11 +3877,15 @@
     "sack",
     "zhanyeluannang",
     "zhanzhanbaobao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "nianyeluannang$",
+    "zhanyenuannan$",
+    "nianyenuannan$",
+    "zhizhuluanchao$",
+    "zhizhunangdai$"
   ],
   "c267": [
     "c267",
@@ -3908,11 +3895,12 @@
     "20",
     "jiqibaobao2.0",
     "womenjiejuelesuoyouwenti",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "jibao2.0$",
+    "jixiebaobao2.0$"
   ],
   "c268": [
     "c268",
@@ -3922,11 +3910,11 @@
     "baby",
     "fulanbaobao",
     "jishenghuoban",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "cangyingbaobao$"
   ],
   "c269": [
     "c269",
@@ -3937,7 +3925,6 @@
     "wutoubaobao",
     "xuexinghuoban",
     "xiexinghuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -3950,7 +3937,6 @@
     "shuizhi",
     "xiquxianxie",
     "xiquxianxue",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -3963,11 +3949,12 @@
     "mystery",
     "sack",
     "shenmidedaizi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "wenhaodai$",
+    "shenmidai$"
   ],
   "c272": [
     "c272",
@@ -3975,11 +3962,12 @@
     "bbf",
     "dameiying",
     "meilidedacangying",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baozhacangying$",
+    "baozhaheicangying$"
   ],
   "c273": [
     "c273",
@@ -3989,11 +3977,12 @@
     "brain",
     "baobodenaojiangzi",
     "baozhaxingsiwei",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baobonaozi$",
+    "baobodenaozi$"
   ],
   "c274": [
     "c274",
@@ -4003,11 +3992,11 @@
     "bud",
     "shengsizhijiao",
     "xuanshishouhuzhe",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "beidongbaicangying$"
   ],
   "c275": [
     "c275",
@@ -4017,11 +4006,11 @@
     "brimstone",
     "liuhuanghuobaobao",
     "xieehuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "liuhuangbao$"
   ],
   "c276": [
     "c276",
@@ -4032,7 +4021,6 @@
     "xin",
     "yisadexinzang",
     "baohuta",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -4046,11 +4034,11 @@
     "haunt",
     "elingbaobao",
     "haipataba",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xiaoyoulingbao$"
   ],
   "c278": [
     "c278",
@@ -4060,11 +4048,13 @@
     "bum",
     "heianqigai",
     "taxiangyaonideming",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "heipigu$",
+    "heidie$",
+    "heixiaohai$"
   ],
   "c279": [
     "c279",
@@ -4074,11 +4064,12 @@
     "fan",
     "dafensi",
     "panpanshouhuzhe",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dacangying$",
+    "pancangying$"
   ],
   "c280": [
     "c280",
@@ -4088,11 +4079,12 @@
     "longlegs",
     "changtuizhumeimei",
     "taaini",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "changtuiqianqian$",
+    "changtuilanzhizhu$"
   ],
   "c281": [
     "c281",
@@ -4102,11 +4094,11 @@
     "bag",
     "shouqibao",
     "tizuiyang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "chuqitong$"
   ],
   "c282": [
     "c282",
@@ -4117,11 +4109,11 @@
     "jump",
     "tiaoyuejiaocheng",
     "niyegaixuexuele",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "tiaoshu$"
   ],
   "c283": [
     "c283",
@@ -4132,7 +4124,6 @@
     "yibaimiantou",
     "100miantou",
     "chongzhiyiqie",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -4147,7 +4138,6 @@
     "simiantou",
     "4miantou",
     "chongzhiziji",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4162,7 +4152,6 @@
     "shimiantou",
     "10miantou",
     "chongzhidiren",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4176,7 +4165,6 @@
     "card",
     "kongbaikapai",
     "kapaifuzhi",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4191,11 +4179,12 @@
     "secrets",
     "mimizhishu",
     "zhishizhijuan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "wenhaoshu$",
+    "mimishu$"
   ],
   "c288": [
     "c288",
@@ -4206,11 +4195,11 @@
     "spiders",
     "zhizhuhe",
     "zheshiyihezhizhu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhizhuhezi$"
   ],
   "c289": [
     "c289",
@@ -4220,7 +4209,6 @@
     "candle",
     "honglazhu",
     "deanhuo",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4234,22 +4222,22 @@
     "jar",
     "guanzi",
     "chucunnideshengming",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "hongxinguanzi$"
   ],
   "c291": [
     "c291",
     "291",
     "flush",
     "chongshui",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "matongsai$"
   ],
   "c292": [
     "c292",
@@ -4259,11 +4247,12 @@
     "bible",
     "sadanshengjing",
     "chongnengxingxieedandaijiashishiyao",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "heishu$",
+    "sadanshengjing$"
   ],
   "c293": [
     "c293",
@@ -4276,11 +4265,13 @@
     "kanbosidetou",
     "kanbusidenuhuo",
     "kanbosidenuhuo",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "kanputou$",
+    "kanpusiditou$",
+    "kanbutou$"
   ],
   "c294": [
     "c294",
@@ -4290,11 +4281,12 @@
     "bean",
     "miandou",
     "chongnengxingjitui",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "pidou$",
+    "miandou$"
   ],
   "c295": [
     "c295",
@@ -4304,11 +4296,11 @@
     "fingers",
     "moshushouzhi",
     "chongqianzhisheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "jinshouzhi$"
   ],
   "c296": [
     "c296",
@@ -4316,7 +4308,6 @@
     "converter",
     "zhuanhuanqi",
     "zhuanhuanhunxin",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4329,11 +4320,11 @@
     "pandoras",
     "box",
     "panduolamohe",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "panduolahezi$"
   ],
   "c298": [
     "c298",
@@ -4343,11 +4334,11 @@
     "stump",
     "dujiaoshoudecanjiao",
     "niganshoudaojiaobuchenzhong",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "duanjiao$"
   ],
   "c299": [
     "c299",
@@ -4356,7 +4347,6 @@
     "jinniuzuo",
     "yisuxiajiang",
     "jizannuhuo",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4368,7 +4358,6 @@
     "aries",
     "baiyangzuo",
     "gaosumengchong",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4381,11 +4370,12 @@
     "juxiezuo",
     "tilishangsheng",
     "nigandaoshoubaohu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "69$",
+    "liujiu$"
   ],
   "c302": [
     "c302",
@@ -4393,7 +4383,6 @@
     "leo",
     "shizizuo",
     "siyijianta",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4405,11 +4394,11 @@
     "virgo",
     "shinvzuo",
     "nigandaojingshenhuanfaheshoubaohu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "chunvzuo$"
   ],
   "c304": [
     "c304",
@@ -4417,11 +4406,12 @@
     "libra",
     "tianchengzuo",
     "niganshoudaopingheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "kanbishengxin$",
+    "tianpingzuo$"
   ],
   "c305": [
     "c305",
@@ -4429,7 +4419,6 @@
     "scorpio",
     "tianxiezuo",
     "duxingleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -4442,11 +4431,11 @@
     "renmazuo",
     "chuancileidan",
     "yisushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "sheshouzuo$"
   ],
   "c307": [
     "c307",
@@ -4454,7 +4443,6 @@
     "capricorn",
     "mojiezuo",
     "suoyoushuxingshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -4466,11 +4454,11 @@
     "aquarius",
     "baopingzuo",
     "leiliumande",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shuipingzuo$"
   ],
   "c309": [
     "c309",
@@ -4479,7 +4467,6 @@
     "shuangyuzuo",
     "shesushangsheng",
     "jituileidan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4494,7 +4481,6 @@
     "xiawadejiemaogao",
     "shanghaishangshengshesu",
     "dansuxiajiang",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -4508,11 +4494,12 @@
     "shadow",
     "youdadeyingzi",
     "tianmifuchou",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "youdazhiying$",
+    "youdayingzi$"
   ],
   "c312": [
     "c312",
@@ -4523,11 +4510,11 @@
     "modaladehudiejie",
     "tilishangsheng",
     "nigandaojiankang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "modalahudiejie$"
   ],
   "c313": [
     "c313",
@@ -4537,11 +4524,11 @@
     "mantle",
     "shenshengpingzhang",
     "shenshenghudun",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "shenshengdoupeng$"
   ],
   "c314": [
     "c314",
@@ -4553,11 +4540,12 @@
     "tilishangsheng",
     "yisuxiajiang",
     "siyijianta",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "leitingdatui$",
+    "leitingduantui$"
   ],
   "c315": [
     "c315",
@@ -4567,11 +4555,11 @@
     "attractor",
     "guaiyicitie",
     "cixingleidan",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "heicitie$"
   ],
   "c316": [
     "c316",
@@ -4581,11 +4569,11 @@
     "eye",
     "zuzhouzhiyan",
     "zuzhouxulisheji",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "zuzhouyan$"
   ],
   "c317": [
     "c317",
@@ -4595,11 +4583,12 @@
     "liquid",
     "shenmiyeti",
     "duxingfeijianshanghai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shenmideyeti$",
+    "mizhiyeti$"
   ],
   "c318": [
     "c318",
@@ -4607,7 +4596,6 @@
     "gemini",
     "shuangzizuo",
     "liantihuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4622,11 +4610,11 @@
     "eye",
     "gaiyindelingyizhiyan",
     "jinshihuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "gaiyinyan$"
   ],
   "c320": [
     "c320",
@@ -4637,11 +4625,14 @@
     "friend",
     "weiyidepengyou",
     "kekonghuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "lancangying$",
+    "xiaolanrendeweiyipengyou$",
+    "xiaolanrenweiyidepengyou$",
+    "xiaolanrenweiyipengyou$"
   ],
   "c321": [
     "c321",
@@ -4651,11 +4642,11 @@
     "chains",
     "cansundejiaole",
     "jingdeankuanlianqiu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "cansundelianqiu$"
   ],
   "c322": [
     "c322",
@@ -4665,11 +4656,12 @@
     "baby",
     "menggebaobao",
     "menggehuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "menggebaobao$",
+    "mangguobaobao$"
   ],
   "c323": [
     "c323",
@@ -4679,7 +4671,6 @@
     "tears",
     "yisadeleipen",
     "shoujiyanlei",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4690,7 +4681,6 @@
     "324",
     "undefined",
     "weidingyi",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4702,11 +4692,11 @@
     "scissors",
     "jiandao",
     "deuxianidetou",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "duantoujian$"
   ],
   "c326": [
     "c326",
@@ -4717,11 +4707,12 @@
     "life",
     "shengmingzhixi",
     "xiechangwude",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "nongtan$",
+    "shengmingdeqixi$"
   ],
   "c327": [
     "c327",
@@ -4731,7 +4722,6 @@
     "polaroid",
     "quanjiafu",
     "sumingyideng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -4745,11 +4735,12 @@
     "negative",
     "dipian",
     "sumingyideng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "heisequanjiafu$",
+    "heiquanjiafu$"
   ],
   "c329": [
     "c329",
@@ -4760,11 +4751,11 @@
     "technique",
     "luduoweikekeji",
     "kekongleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xuanfukeji$"
   ],
   "c330": [
     "c330",
@@ -4775,11 +4766,11 @@
     "dounai",
     "shanghaixiajiang",
     "shesudafushangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "doujiang$"
   ],
   "c331": [
     "c331",
@@ -4787,11 +4778,11 @@
     "godhead",
     "shenxing",
     "shenzhileidan",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "shentou$"
   ],
   "c332": [
     "c332",
@@ -4801,11 +4792,11 @@
     "rags",
     "lasaludebengdai",
     "yongsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "lasaludebengdai$"
   ],
   "c333": [
     "c333",
@@ -4815,11 +4806,12 @@
     "mind",
     "sixiang",
     "wuzhiwanwu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "333$",
+    "kaitu$"
   ],
   "c334": [
     "c334",
@@ -4829,11 +4821,11 @@
     "body",
     "routi",
     "wuganwanwu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "dagouliang$"
   ],
   "c335": [
     "c335",
@@ -4843,7 +4835,6 @@
     "soul",
     "linghun",
     "wuweiwanwu",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -4857,7 +4848,6 @@
     "onion",
     "lanyangcong",
     "chuantouleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -4871,11 +4861,11 @@
     "watch",
     "sunhuaidehuaibiao",
     "haoxianghuaile",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "huaibiao$"
   ],
   "c338": [
     "c338",
@@ -4885,7 +4875,6 @@
     "boomerang",
     "huixuanbiao",
     "juebulishou",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4901,11 +4890,11 @@
     "xiee",
     "shecheng",
     "dansushangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "heibiezhen$"
   ],
   "c340": [
     "c340",
@@ -4916,7 +4905,6 @@
     "kafeiyinpian",
     "yisushangsheng",
     "tixingsuoxiao",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -4931,11 +4919,13 @@
     "sisuidezhaopian",
     "shesu",
     "dansushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "sisuidequanjiafu$",
+    "suiliedequanjiafu$",
+    "suiliequanjiafu$"
   ],
   "c342": [
     "c342",
@@ -4948,11 +4938,12 @@
     "tili",
     "shesushangsheng",
     "dansuxiajiang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "lanshouxianggu$",
+    "lanmaogu$"
   ],
   "c343": [
     "c343",
@@ -4963,11 +4954,11 @@
     "yaoshi",
     "tanhuangsuoyaoshi",
     "yunqishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xingyunyaoshi$"
   ],
   "c344": [
     "c344",
@@ -4977,11 +4968,11 @@
     "book",
     "huochaihe",
     "xieeshangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhibanhuochai$"
   ],
   "c345": [
     "c345",
@@ -4990,11 +4981,12 @@
     "hechengyouzhi",
     "shanghai",
     "shechengshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "huizhen$",
+    "hechengzhen$"
   ],
   "c346": [
     "c346",
@@ -5004,11 +4996,11 @@
     "snack",
     "lingshi",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c347": [
     "c347",
@@ -5016,11 +5008,11 @@
     "deplopia",
     "fushi",
     "daojuchongying",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "fuyan$"
   ],
   "c348": [
     "c348",
@@ -5028,11 +5020,12 @@
     "placebo",
     "anweiji",
     "jiaonangfuzhi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baiyaowan$",
+    "baijiaonang$"
   ],
   "c349": [
     "c349",
@@ -5042,11 +5035,11 @@
     "nickel",
     "muzhiniebi",
     "zhiyingbi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "mubi$"
   ],
   "c350": [
     "c350",
@@ -5056,11 +5049,11 @@
     "shock",
     "duxingxiuke",
     "quntizhongdu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "lvdu$"
   ],
   "c351": [
     "c351",
@@ -5070,11 +5063,12 @@
     "bean",
     "chaojidouzi",
     "chaodadepi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shihuadouzi$",
+    "liedidouzi$"
   ],
   "c352": [
     "c352",
@@ -5084,7 +5078,6 @@
     "cannon",
     "bolidapao",
     "qingnaqingfang",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -5101,11 +5094,12 @@
     "zhadanren",
     "shizibaozha",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shizilei$",
+    "shizizhadan$"
   ],
   "c354": [
     "c354",
@@ -5115,11 +5109,11 @@
     "jacks",
     "hupobaomihua",
     "tilishangsheng。biebazengpintunle",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "gouliang$"
   ],
   "c355": [
     "c355",
@@ -5130,11 +5124,11 @@
     "mamadezhenzhuxianglian",
     "shecheng",
     "yunqishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "mamadexianglian$"
   ],
   "c356": [
     "c356",
@@ -5146,11 +5140,11 @@
     "v",
     "chezaidianchi",
     "zhudongqianghua",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "chedianchi$"
   ],
   "c357": [
     "c357",
@@ -5161,11 +5155,11 @@
     "friends",
     "pengyouhe",
     "pengyoufanbei",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baobaohe$"
   ],
   "c358": [
     "c358",
@@ -5175,11 +5169,12 @@
     "wiz",
     "chunwumao",
     "shuangxiangwushisheji",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "huajimao$",
+    "wushimao$"
   ],
   "c359": [
     "c359",
@@ -5190,11 +5185,13 @@
     "nails",
     "bacundeng",
     "dengsitamen",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "emoding$",
+    "dingzi$",
+    "8cunding$"
   ],
   "c360": [
     "c360",
@@ -5202,11 +5199,11 @@
     "incubus",
     "yinmo",
     "heianhuoban",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "lilibao$"
   ],
   "c361": [
     "c361",
@@ -5216,11 +5213,11 @@
     "reward",
     "sumingdebaoda",
     "nidesumingbannizuoyou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "lantou$"
   ],
   "c362": [
     "c362",
@@ -5230,7 +5227,6 @@
     "chest",
     "xiaoxiangzi",
     "xiangziliyoushenme",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -5244,11 +5240,12 @@
     "protector",
     "xuanshishouhuzhe",
     "baohuxinghuoban",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shouhutianshi$",
+    "tianshibaobao$"
   ],
   "c364": [
     "c364",
@@ -5258,11 +5255,12 @@
     "zone",
     "qianjiaopengyou",
     "youhaocangying",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baicangying$",
+    "pengyouqu$"
   ],
   "c365": [
     "c365",
@@ -5272,11 +5270,12 @@
     "fly",
     "milucangying",
     "milushouhuzhe",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baicangying$",
+    "tieqiangcangying$"
   ],
   "c366": [
     "c366",
@@ -5288,11 +5287,13 @@
     "zhadan",
     "fenliezhadan",
     "danliyoudan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "fenlielei$",
+    "zimulei$",
+    "zimuzhadan$"
   ],
   "c367": [
     "c367",
@@ -5305,11 +5306,19 @@
     "zhanxingzhadan",
     "nianxingzhadan",
     "chongluanzhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "zhizhuzhadan$",
+    "zhizhulei$",
+    "zhanxinglei$",
+    "zhanlei$",
+    "nianxinglei$",
+    "nianlei$",
+    "nianxingzhadan$",
+    "niannianzhadan$",
+    "zhanzhanzhadan$"
   ],
   "c368": [
     "c368",
@@ -5317,11 +5326,12 @@
     "epiphora",
     "yileizheng",
     "zengqiangshesu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "sandianshui$",
+    "sandishui$"
   ],
   "c369": [
     "c369",
@@ -5329,11 +5339,13 @@
     "continuum",
     "lianxutong",
     "xunhuanleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "wanhuatong$",
+    "chuanqiangdan$",
+    "lianxuchong$"
   ],
   "c370": [
     "c370",
@@ -5344,11 +5356,16 @@
     "wanouxiansheng",
     "shecheng",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "modaladiwawa$",
+    "moxiaojie$",
+    "modaladeshouban$",
+    "modalawanou$",
+    "modalawawa$",
+    "modaladewanou$"
   ],
   "c371": [
     "c371",
@@ -5360,11 +5377,14 @@
     "tower",
     "tazhizuzhou",
     "yongbaohunluan",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "tazhou$",
+    "zhouta$",
+    "zuzhouzhita$",
+    "zuzhouzhixue$"
   ],
   "c372": [
     "c372",
@@ -5376,11 +5396,12 @@
     "baby",
     "chongdeanbaobao",
     "zizizizizi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "dianchibaobao$",
+    "chongdianbao$"
   ],
   "c373": [
     "c373",
@@ -5390,11 +5411,11 @@
     "eye",
     "siwangzhiyan",
     "jingdudailaililiang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "siyan$"
   ],
   "c374": [
     "c374",
@@ -5404,7 +5425,6 @@
     "light",
     "shengguang",
     "shenshengsiguangsheji",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -5418,11 +5438,14 @@
     "hat",
     "jijukuloumao",
     "baozhakangxing",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "fangbaotou$",
+    "jishengmao$",
+    "fangbaomao$",
+    "fangbaokuloumao$"
   ],
   "c376": [
     "c376",
@@ -5430,11 +5453,11 @@
     "restock",
     "buhuo",
     "shangdeanyongbushouqing",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shuaxin$"
   ],
   "c377": [
     "c377",
@@ -5444,11 +5467,13 @@
     "sack",
     "baoliechongluan",
     "zhizhudeai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhizhuluanchao$",
+    "zhizhuchao$",
+    "baoliezhizhu$"
   ],
   "c378": [
     "c378",
@@ -5458,11 +5483,13 @@
     "two",
     "dahao",
     "zaogao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dierming$",
+    "no2$",
+    "dabian$"
   ],
   "c379": [
     "c379",
@@ -5472,11 +5499,11 @@
     "duplex",
     "shuangtong",
     "kuanxingleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shuangmu$"
   ],
   "c380": [
     "c380",
@@ -5487,11 +5514,11 @@
     "play",
     "chongqianyouxi",
     "youqianzoutianxia",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "qianmen$"
   ],
   "c381": [
     "c381",
@@ -5502,11 +5529,12 @@
     "yidiandezhufu",
     "shesushangsheng",
     "nideweilaigengjiaguangming",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yidiandemeigui$",
+    "yidianmeigui$"
   ],
   "c382": [
     "c382",
@@ -5516,11 +5544,12 @@
     "ball",
     "youhaoqiu",
     "shoufusuoyouguaiwuba",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "jinglingqiu$",
+    "dashiqiu$"
   ],
   "c383": [
     "c383",
@@ -5530,11 +5559,12 @@
     "detonator",
     "yanleiyinbaoqi",
     "yaokongyinbaoleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "lanseqibaoqi$",
+    "lanqibaoqi$"
   ],
   "c384": [
     "c384",
@@ -5544,11 +5574,11 @@
     "gurdy",
     "roushanbaobao",
     "nidezhuanshuroushan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "huashuibaobao$"
   ],
   "c385": [
     "c385",
@@ -5556,11 +5586,13 @@
     "bumbo",
     "qigaibao",
     "qigaibaoyaoqian",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "aben$",
+    "qigaibaobao$",
+    "benben$"
   ],
   "c386": [
     "c386",
@@ -5571,7 +5603,6 @@
     "shiermiantou",
     "12miantou",
     "chongzhiyanshi",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -5583,7 +5614,6 @@
     "censer",
     "xianglu",
     "yuannimenpingan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -5598,11 +5628,11 @@
     "bum",
     "yaoshiqigai",
     "taxiangyaonideyaoshi",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "yaoshixiaohai$"
   ],
   "c389": [
     "c389",
@@ -5612,7 +5642,6 @@
     "bag",
     "fuwendai",
     "shengchengfuwen",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -5624,11 +5653,11 @@
     "seraphim",
     "salafu",
     "zhiyou",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shengxinbao$"
   ],
   "c391": [
     "c391",
@@ -5636,11 +5665,11 @@
     "betrayal",
     "beipan",
     "cefannidediren",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "beici$"
   ],
   "c392": [
     "c392",
@@ -5648,11 +5677,11 @@
     "zodeac",
     "huangdaoshiergong",
     "xingkonghuigaibianni",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shierxingzuo$"
   ],
   "c393": [
     "c393",
@@ -5662,11 +5691,11 @@
     "kiss",
     "shexiezhiwen",
     "siwangzhiwen",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "lvzui$"
   ],
   "c394": [
     "c394",
@@ -5674,7 +5703,6 @@
     "marked",
     "shizizhunxing",
     "zhidaoleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -5688,11 +5716,12 @@
     "x",
     "kejix",
     "jiguanghuansheji",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "kex$",
+    "kecha$"
   ],
   "c396": [
     "c396",
@@ -5702,11 +5731,11 @@
     "razor",
     "xinshishoushudao",
     "qierujiejing",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "chuansongmen$"
   ],
   "c397": [
     "c397",
@@ -5716,11 +5745,11 @@
     "beam",
     "qianyinguangshu",
     "kekongleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shoushuqi$"
   ],
   "c398": [
     "c398",
@@ -5731,11 +5760,13 @@
     "flesh",
     "shentimogu",
     "suoxiaoleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "suoxiaogu$",
+    "lingzhimogu$",
+    "lingzhigu$"
   ],
   "c399": [
     "c399",
@@ -5747,11 +5778,11 @@
     "void",
     "xukongzhihou",
     "tunshirude",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "heiquan$"
   ],
   "c400": [
     "c400",
@@ -5762,11 +5793,12 @@
     "destiny",
     "mingyunzhimao",
     "nidemingyun",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dabaojian$",
+    "mabaojian$"
   ],
   "c401": [
     "c401",
@@ -5775,18 +5807,18 @@
     "baozhawu",
     "zhanxingzhadanleidan",
     "nianxingzhadanleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "niandan$",
+    "zhandan$"
   ],
   "c402": [
     "c402",
     "402",
     "chaos",
     "hundun",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -5800,11 +5832,13 @@
     "mod",
     "zhizhumozu",
     "mozuhuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "jixiezhizhu$",
+    "zhizhumod$",
+    "dianzizhizhu$"
   ],
   "c404": [
     "c404",
@@ -5814,7 +5848,6 @@
     "baby",
     "fangpibaobao",
     "tafangpi",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -5828,11 +5861,12 @@
     "bug",
     "exingloudong",
     "shuangjiguzhang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "bugbao$",
+    "cuowubao$"
   ],
   "c406": [
     "c406",
@@ -5843,7 +5877,6 @@
     "bamiantou",
     "8miantou",
     "chongzhishuxing",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -5855,11 +5888,11 @@
     "purity",
     "chunjie",
     "shuxingqianghuaguanghuan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "bailianhua$"
   ],
   "c408": [
     "c408",
@@ -5867,11 +5900,12 @@
     "athame",
     "jisizhiren",
     "zhaohuanxukong",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "beidongheiquan$",
+    "beihei$"
   ],
   "c409": [
     "c409",
@@ -5881,11 +5915,11 @@
     "vessel",
     "kongrongqi",
     "woweikongxuzhejiyubaoda",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jiafei$"
   ],
   "c410": [
     "c410",
@@ -5895,11 +5929,12 @@
     "eye",
     "xieezhiyan",
     "xieyanleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xieyan$",
+    "xiewangzhenyan$"
   ],
   "c411": [
     "c411",
@@ -5910,11 +5945,14 @@
     "xieshi",
     "xueshi",
     "tamendexiehuidailainuhuo",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "xienu$",
+    "shixue$",
+    "shixie$",
+    "xieshi$"
   ],
   "c412": [
     "c412",
@@ -5924,11 +5962,12 @@
     "conception",
     "emoshoutai",
     "yihenjiaoguan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "heihuai$",
+    "emohuaiyun$"
   ],
   "c413": [
     "c413",
@@ -5938,11 +5977,12 @@
     "conception",
     "shenglingshoutai",
     "yiaifuyu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baihuai$",
+    "tianshihuaiyun$"
   ],
   "c414": [
     "c414",
@@ -5952,11 +5992,11 @@
     "options",
     "gengduoxuanze",
     "ewaixuanze",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "jinxuan$"
   ],
   "c415": [
     "c415",
@@ -5967,11 +6007,12 @@
     "light",
     "guangmingzhiguan",
     "wuxiadailaililiang",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "lanhuangguan$",
+    "lanwangguan$"
   ],
   "c416": [
     "c416",
@@ -5981,7 +6022,6 @@
     "pockets",
     "shenkoudai",
     "gengduojinqian",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -5993,11 +6033,11 @@
     "succubus",
     "meimo",
     "shanghaiqianghua",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yemo$"
   ],
   "c418": [
     "c418",
@@ -6007,7 +6047,6 @@
     "cake",
     "shuiguodangao",
     "caihongxiaoguo",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6018,14 +6057,15 @@
     "419",
     "teleport20",
     "teleport",
+    "tp20",
     "20",
     "chuansong2.0",
     "zhinengchuansong",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "jinchuan$"
   ],
   "c420": [
     "c420",
@@ -6035,11 +6075,11 @@
     "powder",
     "heisefenmo",
     "huagemofazhen",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "heifen$"
   ],
   "c421": [
     "c421",
@@ -6049,11 +6089,11 @@
     "bean",
     "yaodou",
     "meihuopi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "meihuodou$"
   ],
   "c422": [
     "c422",
@@ -6064,11 +6104,11 @@
     "glass",
     "faguangshalou",
     "nizhuanshijian",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "houhuiyao$"
   ],
   "c423": [
     "c423",
@@ -6079,11 +6119,11 @@
     "protection",
     "baohuzhihuan",
     "baohuwobushoushang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baihuan$"
   ],
   "c424": [
     "c424",
@@ -6093,11 +6133,11 @@
     "head",
     "fudaitou",
     "gengduofudai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "madaitou$"
   ],
   "c425": [
     "c425",
@@ -6107,11 +6147,11 @@
     "light",
     "xiaoyedeng",
     "paheima",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shoudiantong$"
   ],
   "c426": [
     "c426",
@@ -6121,11 +6161,11 @@
     "fan",
     "kuangrefensi",
     "youyangxueyang",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "zicangying$"
   ],
   "c427": [
     "c427",
@@ -6135,11 +6175,14 @@
     "crafter",
     "gongkuangzhayaobao",
     "hong",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "tnt$",
+    "zhayaotong$",
+    "baozhatong$",
+    "baotong$"
   ],
   "c428": [
     "c428",
@@ -6147,11 +6190,12 @@
     "pjs",
     "shuiyi",
     "nigandaoshushi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaolanyi$",
+    "pajinsen$"
   ],
   "c429": [
     "c429",
@@ -6163,11 +6207,14 @@
     "keeper",
     "dianzhudetou",
     "yingbileidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dianchangtou$",
+    "dianzhutou$",
+    "tanlantou$",
+    "qiantou$"
   ],
   "c430": [
     "c430",
@@ -6177,11 +6224,11 @@
     "fly",
     "jujiyinglaodee",
     "paotagenban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "lancangying$"
   ],
   "c431": [
     "c431",
@@ -6191,11 +6238,11 @@
     "baby",
     "duoweibaobao",
     "mofanghuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jingxiangbaobao$"
   ],
   "c432": [
     "c432",
@@ -6207,11 +6254,15 @@
     "zhadan",
     "shanguangzhadan",
     "jiangpinzhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "fenhonglei$",
+    "liwulei$",
+    "fenhongzhadan$",
+    "liwuzhadan$",
+    "shanguanglei$"
   ],
   "c433": [
     "c433",
@@ -6221,11 +6272,11 @@
     "shadow",
     "wodeyingzi",
     "wohewodeyingzi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "yingzhidayou$"
   ],
   "c434": [
     "c434",
@@ -6236,7 +6287,6 @@
     "flies",
     "cangyingguan",
     "buchongqi",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6250,7 +6300,6 @@
     "loki",
     "luojibaobao",
     "4xianghuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6262,7 +6311,6 @@
     "milk",
     "niunai",
     "bieweitakuqi",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6275,7 +6323,6 @@
     "qimiantou",
     "7miantou",
     "chongzhifangjian",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6287,7 +6334,6 @@
     "binky",
     "naizui",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -6301,11 +6347,12 @@
     "box",
     "mamadehezi",
     "limianyoushenme",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "mahe$",
+    "shipinhe$"
   ],
   "c440": [
     "c440",
@@ -6315,7 +6362,6 @@
     "stone",
     "shenjieshi",
     "matedeshenjieshi",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6329,11 +6375,13 @@
     "blast",
     "chaojipenshe",
     "jiguangtuxi",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "sadantou$",
+    "sadantuxi$",
+    "chaojituxi$"
   ],
   "c442": [
     "c442",
@@ -6344,11 +6392,14 @@
     "crown",
     "heiwangzizhiguan",
     "shiqujiushililiang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "heihuangguan$",
+    "heiwangguan$",
+    "honghuangguan$",
+    "hongwangguan$"
   ],
   "c443": [
     "c443",
@@ -6357,7 +6408,6 @@
     "pinguo",
     "pingguo",
     "tangliyoudao",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -6371,7 +6421,6 @@
     "pencil",
     "qianbi",
     "chuxieliangchaoda",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -6385,7 +6434,6 @@
     "tooth",
     "gouya",
     "duizhuoyueliangkuangfei",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6399,11 +6447,13 @@
     "tooth",
     "lanya",
     "duxingtuxi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "siya$",
+    "chouya$",
+    "duya$"
   ],
   "c447": [
     "c447",
@@ -6413,11 +6463,11 @@
     "bean",
     "liuliandou",
     "biankubianfangpi",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "douzi$"
   ],
   "c448": [
     "c448",
@@ -6429,11 +6479,11 @@
     "bolisuipian",
     "xuerouhengfei",
     "xierouhengfei",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "bolizhazi$"
   ],
   "c449": [
     "c449",
@@ -6443,11 +6493,13 @@
     "plate",
     "jinshuban",
     "haoyang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "tieban$",
+    "gangban$",
+    "tiepian$"
   ],
   "c450": [
     "c450",
@@ -6458,11 +6510,12 @@
     "greed",
     "tanlandeyanjing",
     "huangjinleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baijiazhiyan$",
+    "licaizhiyan$"
   ],
   "c451": [
     "c451",
@@ -6472,7 +6525,6 @@
     "cloth",
     "taluopaizhuobu",
     "wokandaoleweilai",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6486,11 +6538,12 @@
     "veins",
     "jingmaiquzhang",
     "woliuxiele",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "beidongbaimaotou$",
+    "beibai$"
   ],
   "c453": [
     "c453",
@@ -6500,11 +6553,12 @@
     "fracture",
     "fuzaxingguzhe",
     "gutouleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "suigu$",
+    "fenliegu$"
   ],
   "c454": [
     "c454",
@@ -6512,7 +6566,6 @@
     "polydactyly",
     "duozhijixing",
     "wojinwo",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6528,13 +6581,14 @@
     "qian",
     "jinbi",
     "money",
-    "babadiushideyingbi",
+    "babadeushideyingbi",
     "zhegewohuanjide",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xingyunbi$",
+    "babadeyingbi$"
   ],
   "c456": [
     "c456",
@@ -6544,11 +6598,12 @@
     "snack",
     "yexiao",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$",
+    "xiaoye$"
   ],
   "c457": [
     "c457",
@@ -6558,7 +6613,6 @@
     "head",
     "dantou",
     "yingnaoke",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6572,7 +6626,6 @@
     "button",
     "duqi",
     "limianshishiyao",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6586,11 +6639,11 @@
     "infection",
     "bidouyan",
     "bishileidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "biti$"
   ],
   "c460": [
     "c460",
@@ -6598,7 +6651,6 @@
     "glaucoma",
     "qingguangyan",
     "zhimangleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6610,11 +6662,11 @@
     "parasitoid",
     "nijishengwu",
     "chongluanleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "xiaomaotao$"
   ],
   "c462": [
     "c462",
@@ -6625,11 +6677,15 @@
     "belial",
     "biliezhiyan",
     "moxingleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "bilieyan$",
+    "bilieyan$",
+    "beilierzhiyan$",
+    "biliezhiyan$",
+    "beilieerzhiyan$"
   ],
   "c463": [
     "c463",
@@ -6639,7 +6695,6 @@
     "acid",
     "liusuan",
     "suanxingleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6654,7 +6709,6 @@
     "balance",
     "pinghengfuhao",
     "shangtiandeenci",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6668,11 +6722,11 @@
     "stick",
     "moniyaogan",
     "360dusheji",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "360duyaogan$"
   ],
   "c466": [
     "c466",
@@ -6680,11 +6734,11 @@
     "contagion",
     "chuanranbing",
     "baofa",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "hongdu$"
   ],
   "c467": [
     "c467",
@@ -6692,7 +6746,6 @@
     "finger",
     "shouzhi",
     "xiaoxinnizhidedefang",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6704,22 +6757,22 @@
     "shade",
     "yinying",
     "zounaergennaer",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "yingzi$"
   ],
   "c469": [
     "c469",
     "469",
     "depression",
     "yiyuzheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shengguangyun$"
   ],
   "c470": [
     "c470",
@@ -6727,11 +6780,12 @@
     "hushy",
     "sijibaobao",
     "minisiji",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "hushbao$",
+    "aotubao$"
   ],
   "c471": [
     "c471",
@@ -6741,11 +6795,11 @@
     "monstro",
     "mengsichuobaobao",
     "tabukeaima",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "feibao$"
   ],
   "c472": [
     "c472",
@@ -6755,7 +6809,6 @@
     "baby",
     "guowangbaobao",
     "wuwangwansui",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6769,11 +6822,12 @@
     "chubby",
     "dapanqu",
     "yuanyuangungun",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "daqiubi$",
+    "damadao$"
   ],
   "c474": [
     "c474",
@@ -6784,7 +6838,6 @@
     "cannon",
     "sunhuaidebolidapao",
     "nibatashuaihuaile",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -6798,11 +6851,11 @@
     "c",
     "jihuac",
     "zuizhongshouduan",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "cjihua$"
   ],
   "c476": [
     "c476",
@@ -6813,7 +6866,6 @@
     "yimiantou",
     "1miantou",
     "huishishiyao",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6825,7 +6877,6 @@
     "void",
     "xukong",
     "tunshi",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -6837,11 +6888,12 @@
     "pause",
     "zanting",
     "deng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zantingqi$",
+    "shitingqi$"
   ],
   "c479": [
     "c479",
@@ -6849,7 +6901,6 @@
     "smelter",
     "ronglu",
     "ronglianshipin",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -6861,7 +6912,6 @@
     "compost",
     "duifei",
     "huodegengduopengyou",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -6873,11 +6923,11 @@
     "dataminer",
     "shujupojie",
     "109",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "honggaozi$"
   ],
   "c482": [
     "c482",
@@ -6885,11 +6935,12 @@
     "clicker",
     "yaokongqi",
     "huantai",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "huanrenqi$",
+    "bianshenqi$"
   ],
   "c483": [
     "c483",
@@ -6902,11 +6953,14 @@
     "mega",
     "mamizhadan",
     "pengpengpengpengpeng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "mamazhadan$",
+    "chaojizhadan$",
+    "mamamega$",
+    "megazhadan$"
   ],
   "c484": [
     "c484",
@@ -6916,11 +6970,13 @@
     "what",
     "dengdengsha",
     "jinglezhedaojujuranbushimiandou",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "liedidou$",
+    "miandou$",
+    "miandou$"
   ],
   "c485": [
     "c485",
@@ -6930,11 +6986,11 @@
     "penny",
     "beibaiwandeyingbi",
     "yibanyiban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "wanbi$"
   ],
   "c486": [
     "c486",
@@ -6944,11 +7000,11 @@
     "razor",
     "duntidaopian",
     "ganjuebutongbuyang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "dundaopian$"
   ],
   "c487": [
     "c487",
@@ -6958,11 +7014,12 @@
     "peeler",
     "tudouxiaopidao",
     "yibangrou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "geroudao$",
+    "guaroudao$"
   ],
   "c488": [
     "c488",
@@ -6970,11 +7027,11 @@
     "metronome",
     "jiepaiqi",
     "yaoshouzhi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xiaoqiche$"
   ],
   "c489": [
     "c489",
@@ -6986,11 +7043,11 @@
     "shaizi",
     "wuxianmiantou",
     "chongzhiyongheng",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "dwuxian$"
   ],
   "c490": [
     "c490",
@@ -6999,11 +7056,11 @@
     "edens",
     "soul",
     "yidiandelinghun",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yidianlinghun$"
   ],
   "c491": [
     "c491",
@@ -7013,11 +7070,13 @@
     "baby",
     "duyinbaobao",
     "jiaonangjiaonangjiaonang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "yaobao$",
+    "yaowanbaobao$",
+    "jiaonangbaobao$"
   ],
   "c492": [
     "c492",
@@ -7027,11 +7086,11 @@
     "listen",
     "heitinghao",
     "tingwoshuo",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaojingling$"
   ],
   "c493": [
     "c493",
@@ -7040,11 +7099,11 @@
     "shenshangxiansu",
     "konghuang",
     "liliang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "fenzhen$"
   ],
   "c494": [
     "c494",
@@ -7054,11 +7113,11 @@
     "ladder",
     "yagebutianti",
     "deanlileidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "dian$"
   ],
   "c495": [
     "c495",
@@ -7068,11 +7127,12 @@
     "pepper",
     "duanhunjiao",
     "huoyanleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "lanjiao$",
+    "guijiao$"
   ],
   "c496": [
     "c496",
@@ -7080,11 +7140,11 @@
     "euthanasia",
     "anlesi",
     "zhentongleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "heizhen$"
   ],
   "c497": [
     "c497",
@@ -7094,7 +7154,6 @@
     "undees",
     "micaineiku",
     "micaixiaozi",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -7106,11 +7165,11 @@
     "duality",
     "eryuanxing",
     "nigandaofeichangpingheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yinyang$"
   ],
   "c499": [
     "c499",
@@ -7118,7 +7177,6 @@
     "eucharist",
     "shengcan",
     "hepingyunitongzai",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -7133,11 +7191,12 @@
     "sacks",
     "daizhongdai",
     "jiyufudai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "fudaibao$",
+    "fudaidaizi$"
   ],
   "c501": [
     "c501",
@@ -7148,11 +7207,11 @@
     "tanlandeweidai",
     "jinqian",
     "tili",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "qianwei$"
   ],
   "c502": [
     "c502",
@@ -7162,7 +7221,6 @@
     "zit",
     "daqingchundou",
     "youzhisheji",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -7176,11 +7234,12 @@
     "horn",
     "xiaomojiao",
     "laodagezaikanzhuoni",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "xiaoheijiao$",
+    "xiaohuoenjiao$"
   ],
   "c504": [
     "c504",
@@ -7190,11 +7249,11 @@
     "nugget",
     "zongsefenkuai",
     "youhaocangying",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "zongfenkuai$"
   ],
   "c505": [
     "c505",
@@ -7205,11 +7264,11 @@
     "baokego",
     "baokemenggo",
     "shoufusuoyou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jinglingbaokemeng$"
   ],
   "c506": [
     "c506",
@@ -7217,7 +7276,6 @@
     "backstabber",
     "beici",
     "xiaoxinnibeihou",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -7231,11 +7289,11 @@
     "straw",
     "jiantouxiguan",
     "gengduodexie",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "hongxinxiguan$"
   ],
   "c508": [
     "c508",
@@ -7245,11 +7303,12 @@
     "razor",
     "mamadetidao",
     "tahenfengli",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "madao$",
+    "mamadetixudao$"
   ],
   "c509": [
     "c509",
@@ -7261,11 +7320,12 @@
     "xiesiyan",
     "xieyanhuoban",
     "xueyanhuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "huanraoyan$",
+    "xuehongzhiyan$"
   ],
   "c510": [
     "c510",
@@ -7273,11 +7333,11 @@
     "delirious",
     "jingshencuoluan",
     "shifangliliang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "baibiantou$"
   ],
   "c511": [
     "c511",
@@ -7287,11 +7347,11 @@
     "fly",
     "fennucangying",
     "tahenbaoli",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "hongcangying$"
   ],
   "c512": [
     "c512",
@@ -7301,7 +7361,6 @@
     "hole",
     "heidong",
     "wurennengtao",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -7313,11 +7372,12 @@
     "bozo",
     "paiduimao",
     "paiduishijian",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shengdanmao$",
+    "xiaochoumao$"
   ],
   "c514": [
     "c514",
@@ -7326,12 +7386,12 @@
     "broken",
     "modem",
     "sunhuaidetiaozhijietiaoqi",
-    "qiasile",
-    "3",
+    "kasile",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "huaimao$"
   ],
   "c515": [
     "c515",
@@ -7341,11 +7401,11 @@
     "gift",
     "shenmiliwu",
     "weinijingxinbaozhuang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "liwuhe$"
   ],
   "c516": [
     "c516",
@@ -7353,7 +7413,6 @@
     "sprinkler",
     "sashuiqi",
     "sashui",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -7369,11 +7428,16 @@
     "zhadan",
     "kuaisuzhadan",
     "kuaisufangzhizhadan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xunlei$",
+    "shandianlei$",
+    "shandianzhadan$",
+    "qilei$",
+    "kuaisulei$",
+    "7lei$"
   ],
   "c518": [
     "c518",
@@ -7385,11 +7449,12 @@
     "box",
     "huobanmanghe",
     "huishishiyaoni",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "suijibaobao$",
+    "suijimanghebaobao$"
   ],
   "c519": [
     "c519",
@@ -7399,11 +7464,11 @@
     "delirium",
     "jingshencuoluanbaobao",
     "cuoluanhuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baibianbaobao$"
   ],
   "c520": [
     "c520",
@@ -7414,11 +7479,11 @@
     "kuajiedianlan",
     "shixuechongneng",
     "shixiechongneng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "xiaolujiao$"
   ],
   "c521": [
     "c521",
@@ -7426,11 +7491,12 @@
     "coupon",
     "daijinquan",
     "6zhouneijiaohuo",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "mianfeiquan$",
+    "mianfeika$"
   ],
   "c522": [
     "c522",
@@ -7438,11 +7504,13 @@
     "telekinesis",
     "nianli",
     "yizhideliliang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yishoujuzhi$",
+    "bazhang$",
+    "lanshouzhang$"
   ],
   "c523": [
     "c523",
@@ -7452,11 +7520,12 @@
     "box",
     "banjiahe",
     "dabaozaichaibao",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "dabaohe$",
+    "banyunhe$"
   ],
   "c524": [
     "c524",
@@ -7466,11 +7535,11 @@
     "zero",
     "kejiling",
     "jingdeanleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "keji0$"
   ],
   "c525": [
     "c525",
@@ -7478,7 +7547,6 @@
     "leprosy",
     "mafengbing",
     "niyaobawosisuile",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -7492,11 +7560,13 @@
     "seals",
     "qiyin",
     "tianqibaobao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "7yinbaobao$",
+    "qiyinbaobao$",
+    "tianqibaobao$"
   ],
   "c527": [
     "c527",
@@ -7506,11 +7576,11 @@
     "me",
     "ziwoxiansheng",
     "shimingbida",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "xiaotouhe$"
   ],
   "c528": [
     "c528",
@@ -7520,7 +7590,6 @@
     "prism",
     "tianshilengjing",
     "yuexiasanguang",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -7532,11 +7601,11 @@
     "pop",
     "pu",
     "yanqiuleidan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yanqiu$"
   ],
   "c530": [
     "c530",
@@ -7546,11 +7615,12 @@
     "list",
     "sishenmingce",
     "xiwangnibushixiayige",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "siwangbiji$",
+    "sishenbiji$"
   ],
   "c531": [
     "c531",
@@ -7559,11 +7629,12 @@
     "leixiezheng",
     "leixuezheng",
     "woyanqianyipianhongse",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "xueleizheng$",
+    "shuiqiu$"
   ],
   "c532": [
     "c532",
@@ -7571,11 +7642,11 @@
     "lachryphagy",
     "shileizheng",
     "weiyangtamen",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shileizheng$"
   ],
   "c533": [
     "c533",
@@ -7583,11 +7654,11 @@
     "trisagion",
     "sanshengsong",
     "jikuirude",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "liuhuangshui$"
   ],
   "c534": [
     "c534",
@@ -7595,11 +7666,11 @@
     "schoolbag",
     "shubao",
     "ewaizhudongdaojucao",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "beibao$"
   ],
   "c535": [
     "c535",
@@ -7607,7 +7678,6 @@
     "blanket",
     "maotan",
     "nigandaoanquan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -7621,11 +7691,11 @@
     "altar",
     "jitan",
     "taxunqiuxianji",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baozifan$"
   ],
   "c537": [
     "c537",
@@ -7635,11 +7705,11 @@
     "spewer",
     "outuchongbaobao",
     "outuhuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "outubaobao$"
   ],
   "c538": [
     "c538",
@@ -7647,11 +7717,11 @@
     "marbles",
     "danzhudai",
     "zhixiweixian",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shipindai$"
   ],
   "c539": [
     "c539",
@@ -7661,11 +7731,11 @@
     "egg",
     "shenmideluan",
     "xiechangshoujing",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shenmidedan$"
   ],
   "c540": [
     "c540",
@@ -7675,11 +7745,11 @@
     "stone",
     "bianshi",
     "tiaoyueleidan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "tiaoshi$"
   ],
   "c541": [
     "c541",
@@ -7687,11 +7757,11 @@
     "marrow",
     "gusui",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c542": [
     "c542",
@@ -7701,11 +7771,11 @@
     "rib",
     "hualeigu",
     "zidanhudun",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "guhuan$"
   ],
   "c543": [
     "c543",
@@ -7716,11 +7786,12 @@
     "holyshit",
     "shengdidabian",
     "bianxieshishengsuo",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shengxiang$",
+    "shengshi$"
   ],
   "c544": [
     "c544",
@@ -7730,11 +7801,11 @@
     "rib",
     "jianleigu",
     "tongrenshijian",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "guding$"
   ],
   "c545": [
     "c545",
@@ -7746,11 +7817,12 @@
     "dead",
     "wangzhezhishu",
     "juantuchonglai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "gutoushu$",
+    "kuloushu$"
   ],
   "c546": [
     "c546",
@@ -7760,11 +7832,11 @@
     "ring",
     "babadejiezhi",
     "fuqindezhufu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "bajie$"
   ],
   "c547": [
     "c547",
@@ -7775,7 +7847,6 @@
     "lihunxieyishu",
     "shesushangsheng",
     "nigandaokongxu",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -7789,11 +7860,11 @@
     "bone",
     "hegu",
     "nahuilai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xiabagu$"
   ],
   "c549": [
     "c549",
@@ -7803,11 +7874,12 @@
     "bones",
     "cuiguzheng",
     "naerduteng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "suigu$",
+    "chenggubuquan$"
   ],
   "c550": [
     "c550",
@@ -7817,7 +7889,6 @@
     "shovel",
     "chanzisuipian",
     "ganjuebeizuzhoule",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -7831,7 +7902,6 @@
     "shovel2",
     "chanzisuipian",
     "ganjuebeizuzhoule",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -7846,11 +7916,11 @@
     "chanzi",
     "mamadechanzi",
     "mishierweibeiyiwang",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "machan$"
   ],
   "c553": [
     "c553",
@@ -7858,7 +7928,6 @@
     "mucormycosis",
     "maomeijunbing",
     "baozileidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -7870,11 +7939,13 @@
     "2spooky",
     "kongburusi",
     "bengbuzhule",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "fengtou$",
+    "fengtou$",
+    "bengbuzhuliao$"
   ],
   "c555": [
     "c555",
@@ -7884,11 +7955,11 @@
     "razor",
     "jintidaopian",
     "youdeyoushi",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "jindaopian$"
   ],
   "c556": [
     "c556",
@@ -7897,11 +7968,11 @@
     "liuhuanghuo",
     "lianjinliuhuang",
     "zanshixingemoxingtai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "zhudongliuhuanghuo$"
   ],
   "c557": [
     "c557",
@@ -7911,11 +7982,11 @@
     "cookie",
     "xingyunbinggan",
     "chongnengxingyuyan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "yuyanbinggan$"
   ],
   "c558": [
     "c558",
@@ -7925,11 +7996,11 @@
     "sore",
     "yanliu",
     "gengduodeyanjing",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "duoyan$"
   ],
   "c559": [
     "c559",
@@ -7940,11 +8011,14 @@
     "220fu",
     "220v",
     "zi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "220v$",
+    "120v$",
+    "220fute$",
+    "120fute$"
   ],
   "c560": [
     "c560",
@@ -7954,11 +8028,11 @@
     "hurts",
     "haoteng",
     "bunibuteng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhen$"
   ],
   "c561": [
     "c561",
@@ -7970,11 +8044,11 @@
     "shanghaixiajiang",
     "shesushangsheng",
     "nigandaoqiguai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xingrenniunai$"
   ],
   "c562": [
     "c562",
@@ -7984,11 +8058,11 @@
     "bottom",
     "gudishi",
     "zhinengxiangshangpa",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shitoudizuo$"
   ],
   "c563": [
     "c563",
@@ -8001,11 +8075,13 @@
     "meicaizhadan",
     "suijibaozha",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "suijilei$",
+    "suijizhadan$",
+    "meicaizhadan$"
   ],
   "c564": [
     "c564",
@@ -8018,7 +8094,6 @@
     "feizao",
     "shesu",
     "dansushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8033,11 +8108,14 @@
     "shixuexiaochong",
     "shixiexiaochong",
     "duokeaidexiaodongxia",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "shixuexiaogou$",
+    "xiegou$",
+    "honggou$",
+    "xuexingxiaogou$"
   ],
   "c566": [
     "c566",
@@ -8047,7 +8125,6 @@
     "catcher",
     "bumengwang",
     "zuogehaomeng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8061,11 +8138,11 @@
     "candle",
     "yuyuejielazhu",
     "baochihuoyanranshao",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "fuhuojielazhu$"
   ],
   "c568": [
     "c568",
@@ -8075,11 +8152,11 @@
     "intervention",
     "shenshengganyu",
     "shuangjihudun",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shenshengganshe$"
   ],
   "c569": [
     "c569",
@@ -8089,7 +8166,6 @@
     "oath",
     "xieshi",
     "zhajinwuxie",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -8103,11 +8179,12 @@
     "cookie",
     "niantubinggan",
     "meiweicaihong",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "caihongdou$",
+    "caihongbinggan$"
   ],
   "c571": [
     "c571",
@@ -8118,11 +8195,11 @@
     "guerdewazi",
     "yisushangsheng",
     "jiaodenaici",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "guerwazi$"
   ],
   "c572": [
     "c572",
@@ -8136,7 +8213,6 @@
     "shanghaishangsheng",
     "shechengshangsheng",
     "kekongleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8151,11 +8227,11 @@
     "xin",
     "wuxiashengxin",
     "huanraoleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "xiaoshengxin$"
   ],
   "c574": [
     "c574",
@@ -8163,11 +8239,11 @@
     "monstrance",
     "shengtixia",
     "jinghuazhiguang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dianfengshan$"
   ],
   "c575": [
     "c575",
@@ -8177,11 +8253,11 @@
     "intruder",
     "qintizhizhu",
     "qinlvexinghuoban",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "siyanzhizhu$"
   ],
   "c576": [
     "c576",
@@ -8191,11 +8267,12 @@
     "mind",
     "wochuozhixin",
     "angzanghuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "zhanjiang$",
+    "xiaoshi$"
   ],
   "c577": [
     "c577",
@@ -8203,11 +8280,11 @@
     "damocles",
     "damokelisizhijian",
     "guowangdecaifudandaijiashishiyao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "damojian$"
   ],
   "c578": [
     "c578",
@@ -8218,11 +8295,13 @@
     "mianfeiningmengshui",
     "ningmeng",
     "paiduishijiandao",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "dahaoningmengshui$",
+    "dabeiningmengshui$",
+    "daningmengshui$"
   ],
   "c579": [
     "c579",
@@ -8232,11 +8311,11 @@
     "sword",
     "yinglingjian",
     "shenshengzhiren",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "dabaojian$"
   ],
   "c580": [
     "c580",
@@ -8247,7 +8326,6 @@
     "yaoshi",
     "hongyaoshi",
     "tansuolingyimian",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8261,11 +8339,12 @@
     "fly",
     "lingnengcangying",
     "hualideshouhuzhe",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "zicangying$",
+    "zidie$"
   ],
   "c582": [
     "c582",
@@ -8276,11 +8355,11 @@
     "mihuanmogu",
     "mogu",
     "shesushangsheng。deanfuwugandetiyan",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "yunnanmogu$"
   ],
   "c583": [
     "c583",
@@ -8293,11 +8372,12 @@
     "guanzhonghuojian",
     "huojiantuijin",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "huojianlei$",
+    "huojianzhadan$"
   ],
   "c584": [
     "c584",
@@ -8308,11 +8388,11 @@
     "virtues",
     "meidezhishu",
     "linghunbanlv",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "meideshu$"
   ],
   "c585": [
     "c585",
@@ -8322,11 +8402,11 @@
     "box",
     "baiyuxianggaohe",
     "shenshengxianli",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xuehuahe$"
   ],
   "c586": [
     "c586",
@@ -8336,11 +8416,11 @@
     "stairway",
     "tiantangjieti",
     "yuannidechangsuowang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "tianti$"
   ],
   "c587": [
     "c587",
@@ -8352,11 +8432,11 @@
     "sol",
     "taiyang",
     "guangrongkaixuan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "guangrongkaixuan$"
   ],
   "c589": [
     "c589",
@@ -8364,7 +8444,6 @@
     "luna",
     "yueliang",
     "muyuyuezhizhufu",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8377,11 +8456,11 @@
     "shuixing",
     "yisushangsheng",
     "nigandaozuxiashengfeng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "zuxiashengfeng$"
   ],
   "c591": [
     "c591",
@@ -8390,11 +8469,11 @@
     "jinxing",
     "tilishangsheng",
     "nigandaomeili",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "meili$"
   ],
   "c592": [
     "c592",
@@ -8402,11 +8481,11 @@
     "terra",
     "diqiu",
     "shengerweiyan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shengerweiyan$"
   ],
   "c593": [
     "c593",
@@ -8414,7 +8493,6 @@
     "mars",
     "huoxing",
     "shuangjichongci",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8426,11 +8504,11 @@
     "jupiter",
     "muxing",
     "nishiqitijuxing",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "qitijuxing$"
   ],
   "c595": [
     "c595",
@@ -8438,7 +8516,6 @@
     "saturnus",
     "tuxing",
     "leidanhuanrao",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8450,11 +8527,11 @@
     "uranus",
     "tianwangxing",
     "hanbingleidan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "hanbingleidan$"
   ],
   "c597": [
     "c597",
@@ -8462,11 +8539,11 @@
     "neptunus",
     "haiwangxing",
     "kaizhafangshui",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "kaizhafangshui$"
   ],
   "c598": [
     "c598",
@@ -8474,7 +8551,6 @@
     "pluto",
     "mingwangxing",
     "tixingsuoxiao",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8488,11 +8564,11 @@
     "head",
     "wuduwawatou",
     "ewaizuzhoufang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "citou$"
   ],
   "c600": [
     "c600",
@@ -8502,7 +8578,6 @@
     "drops",
     "yanyaoshui",
     "shesushangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8517,11 +8592,11 @@
     "contrition",
     "tonghuiduandao",
     "shesushangshengnigandaobeikuanshu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "daogao$"
   ],
   "c602": [
     "c602",
@@ -8532,11 +8607,15 @@
     "vipcard",
     "huiyuanka",
     "zhuanshuquanli",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "vipshangdianka$",
+    "dixiashangdianka$",
+    "huiyuanjinka$",
+    "viphuiyuanka$",
+    "vipjinka$"
   ],
   "c603": [
     "c603",
@@ -8548,11 +8627,11 @@
     "v",
     "dianchizu",
     "jikechongneng",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "dianchibao$"
   ],
   "c604": [
     "c604",
@@ -8562,7 +8641,6 @@
     "bracelet",
     "mamadeshouzhuo",
     "muqindeliliang",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -8576,11 +8654,11 @@
     "scooper",
     "wayanshao",
     "pu",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "kuiyanshao$"
   ],
   "c606": [
     "c606",
@@ -8590,11 +8668,12 @@
     "rift",
     "xieyanliekou",
     "ningshishenyuan",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "lieyan$",
+    "lieximoyan$"
   ],
   "c607": [
     "c607",
@@ -8604,11 +8683,11 @@
     "baby",
     "nongyenangbaobao",
     "luanjianhuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "nangdaibaobao$"
   ],
   "c608": [
     "c608",
@@ -8618,11 +8697,11 @@
     "baby",
     "bingdongbaobao",
     "bingbingbaobao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "bingbaobao$"
   ],
   "c609": [
     "c609",
@@ -8631,11 +8710,11 @@
     "eternal",
     "d6",
     "yonghengliumiantou",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yonghengd6$"
   ],
   "c610": [
     "c610",
@@ -8645,11 +8724,12 @@
     "cage",
     "niaofeilong",
     "feipanhuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "panniao$",
+    "feiniao$"
   ],
   "c611": [
     "c611",
@@ -8657,11 +8737,13 @@
     "larynx",
     "shengdai",
     "tingqingwodetongku",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "nahan$",
+    "dahandajiao$",
+    "dahoudajiao$"
   ],
   "c612": [
     "c612",
@@ -8671,11 +8753,11 @@
     "soul",
     "mishiyouhun",
     "baohuta",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaoluo$"
   ],
   "c613": [
     "c613",
@@ -8694,11 +8776,11 @@
     "xianxuebaozha",
     "xianxiebaozha",
     "tilishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xianxuelei$"
   ],
   "c615": [
     "c615",
@@ -8708,11 +8790,11 @@
     "dumpy",
     "piqiubaobao",
     "zhangqihuoban",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "fangpibaobao$"
   ],
   "c616": [
     "c616",
@@ -8722,11 +8804,12 @@
     "eye",
     "niaoyanjiao",
     "haola",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "hongjiao$",
+    "niaojiao$"
   ],
   "c617": [
     "c617",
@@ -8734,7 +8817,6 @@
     "lodestone",
     "cishi",
     "cihualeidan",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8748,7 +8830,6 @@
     "tomato",
     "lanfanqie",
     "haochi",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8759,11 +8840,11 @@
     "619",
     "birthright",
     "zhangzimingfen",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "zhangziquanli$"
   ],
   "c620": [
     "c620",
@@ -8778,7 +8859,6 @@
     "hongdoutang",
     "tilihuiman",
     "zanshixingshanghaishangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8790,11 +8870,11 @@
     "genesis",
     "chuangshiji",
     "genguzhichu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "chuangshiji$"
   ],
   "c623": [
     "c623",
@@ -8805,7 +8885,6 @@
     "yaoshi",
     "jiantouyaoshi",
     "dakainidediren",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -8819,11 +8898,15 @@
     "pack",
     "kuozhanbao",
     "quanshoujiba",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "wuzhangka$",
+    "5zhangka$",
+    "wuzhangpai$",
+    "5zhangpai$",
+    "tuozhanbao$"
   ],
   "c625": [
     "c625",
@@ -8832,13 +8915,15 @@
     "mega",
     "mush",
     "chaojimogu",
+    "damogu",
     "mogu",
     "woxianzaishigedananhaile",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "chaodamogu$",
+    "dududu$"
   ],
   "c626": [
     "c626",
@@ -8846,13 +8931,13 @@
     "knifepiece1",
     "knife",
     "piece",
-    "1",
     "caidaosuipian1",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "daobing$",
+    "daoba$"
   ],
   "c627": [
     "c627",
@@ -8860,13 +8945,12 @@
     "knifepiece2",
     "knife",
     "piece",
-    "2",
     "caidaosuipian2",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "daojian$"
   ],
   "c628": [
     "c628",
@@ -8876,11 +8960,11 @@
     "certificate",
     "siwangzhengming",
     "wozaina",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "sizheng$"
   ],
   "c629": [
     "c629",
@@ -8890,11 +8974,13 @@
     "fly",
     "jiqicangying",
     "fangyuxingwurenji",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "siwangzhengmingcangying$",
+    "sizhengcangying$",
+    "jixiecangying$"
   ],
   "c630": [
     "c630",
@@ -8908,7 +8994,6 @@
     "cleaver",
     "qieroudao",
     "qiepianbuqiedeng",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -8923,7 +9008,6 @@
     "xieyanhufu",
     "yunqishangsheng",
     "nigandaoshoubaohu",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -8935,7 +9019,6 @@
     "dogma",
     "jiaotiao",
     "feisheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -8947,11 +9030,11 @@
     "purgatory",
     "lianyuegui",
     "bianmengyou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baihun$"
   ],
   "c635": [
     "c635",
@@ -8959,11 +9042,11 @@
     "stitches",
     "zhibumoou",
     "toutianhuanri",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "wuduwawa$"
   ],
   "c636": [
     "c636",
@@ -8973,7 +9056,6 @@
     "key",
     "rjian",
     "shishihouchongxinkaishile",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -8987,11 +9069,11 @@
     "drops",
     "qianglianmianyao",
     "jinerzhenda",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "quantouyanlei$"
   ],
   "c638": [
     "c638",
@@ -8999,7 +9081,6 @@
     "eraser",
     "xiangpica",
     "cachurude",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -9014,11 +9095,11 @@
     "xin",
     "nanchidexin",
     "exin",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "fuxin$"
   ],
   "c640": [
     "c640",
@@ -9029,11 +9110,11 @@
     "souls",
     "linghunzhiweng",
     "shifangtamendebeitong",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "hunping$"
   ],
   "c641": [
     "c641",
@@ -9041,11 +9122,11 @@
     "akeldama",
     "xietian",
     "kaitangpodu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jiuzhuandachang$"
   ],
   "c642": [
     "c642",
@@ -9055,11 +9136,13 @@
     "skin",
     "xuanqilvpi",
     "manzunisuoyoudeyuanwang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "zhupi$",
+    "lvpi$",
+    "mopi$"
   ],
   "c643": [
     "c643",
@@ -9067,11 +9150,11 @@
     "revelation",
     "zhongmotianqi",
     "huanxingnidexinyang",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "qishi$"
   ],
   "c644": [
     "c644",
@@ -9081,8 +9164,6 @@
     "prize",
     "anweijiang",
     "geizuidedeshuxing",
-    "1",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -9094,7 +9175,6 @@
     "tinytoma",
     "xiaojitailiu",
     "kewangfuchou",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -9111,26 +9191,25 @@
     "liuhuanghuozhadan",
     "emobaozha",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "liuhuanghuolei$"
   ],
   "c647": [
     "c647",
     "647",
     "45volt",
-    "4",
     "5",
     "volt",
     "45fute",
     "batamendabaojiang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "sidianwufute$"
   ],
   "c648": [
     "c648",
@@ -9144,11 +9223,12 @@
     "plum",
     "tiantiantangmeibao",
     "dantiaohuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "dakeaibaobao$",
+    "tangmeibaobao$"
   ],
   "c650": [
     "c650",
@@ -9158,11 +9238,12 @@
     "flute",
     "tangmeiliuliudi",
     "youxishijian",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "dakeaidizi$",
+    "tangmeidizi$"
   ],
   "c651": [
     "c651",
@@ -9173,11 +9254,11 @@
     "bethlehem",
     "boliehengzhixing",
     "gensuiguang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "qimingxing$"
   ],
   "c652": [
     "c652",
@@ -9187,11 +9268,11 @@
     "baby",
     "bingkuaibaobao",
     "tita",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "bingbao$"
   ],
   "c653": [
     "c653",
@@ -9201,11 +9282,11 @@
     "retro",
     "qumohufu",
     "elingtuisan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "youlinghufu$"
   ],
   "c654": [
     "c654",
@@ -9216,11 +9297,13 @@
     "weizaoyaoxueboshizheng",
     "gengchadejiaonang",
     "xieeshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dhp$",
+    "dhq$",
+    "phq$"
   ],
   "c655": [
     "c655",
@@ -9231,11 +9314,11 @@
     "win",
     "xingyunzhuanpan",
     "zhuanqilai",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xingyuntuoluo$"
   ],
   "c656": [
     "c656",
@@ -9243,11 +9326,11 @@
     "damocles",
     "damokelisizhijian",
     "guowangdecaifudandaijiashishiyao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "damojian$"
   ],
   "c657": [
     "c657",
@@ -9256,7 +9339,6 @@
     "xieguanyan",
     "chongxuediren",
     "chongxiediren",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -9270,11 +9352,11 @@
     "cell",
     "juxibao",
     "weixinghuoban",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "xiaoyisabaobao$"
   ],
   "c659": [
     "c659",
@@ -9285,11 +9367,14 @@
     "tuozikaan",
     "leidanchicun",
     "shechengshangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "diyanye$",
+    "yanyaoshui$",
+    "jiaoshui$",
+    "santongji$"
   ],
   "c660": [
     "c660",
@@ -9299,11 +9384,12 @@
     "readeng",
     "paiyijiedu",
     "zhiyinnideweilai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "dukaqi$",
+    "baihuang$"
   ],
   "c661": [
     "c661",
@@ -9311,11 +9397,11 @@
     "quints",
     "wubaotai",
     "tamenqiancangzailimian",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "5baotai$"
   ],
   "c662": [
     "c662",
@@ -9330,7 +9416,6 @@
     "nail",
     "rouzhongci",
     "nigandaocitong",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -9344,11 +9429,11 @@
     "eater",
     "daweiwang",
     "langtunhuyan",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "gouliangwang$"
   ],
   "c665": [
     "c665",
@@ -9359,11 +9444,11 @@
     "gepimaodeyanjing",
     "gerpimaodeyanjing",
     "kuishimimideyanjing",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "maoyan$"
   ],
   "c666": [
     "c666",
@@ -9375,11 +9460,12 @@
     "strawman",
     "daocaoren",
     "yuanzhuzhishou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dianzhu$",
+    "dianchang$"
   ],
   "c668": [
     "c668",
@@ -9388,11 +9474,11 @@
     "dads",
     "note",
     "babadebiantiao",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "babadebiji$"
   ],
   "c669": [
     "c669",
@@ -9400,11 +9486,11 @@
     "sausage",
     "lachang",
     "suoyoushuxingshangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "daxiangchang$"
   ],
   "c670": [
     "c670",
@@ -9412,11 +9498,12 @@
     "options",
     "xuanze",
     "kenengyouxuanze",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "tiexuan$",
+    "yinxuan$"
   ],
   "c671": [
     "c671",
@@ -9427,11 +9514,11 @@
     "xin",
     "tangxin",
     "aideliliang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "tangguoxin$"
   ],
   "c672": [
     "c672",
@@ -9444,11 +9531,11 @@
     "yibangrou",
     "xuezhaixiechang",
     "xiezhaixiechang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "1bangrou$"
   ],
   "c673": [
     "c673",
@@ -9456,11 +9543,11 @@
     "redemption",
     "shuzui",
     "jiuwomentuolixionge",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "jiushu$"
   ],
   "c674": [
     "c674",
@@ -9470,11 +9557,12 @@
     "shackles",
     "linghunjiasuo",
     "weijizhishi",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "goulian$",
+    "linghunliantiao$"
   ],
   "c675": [
     "c675",
@@ -9484,7 +9572,6 @@
     "orb",
     "suiliedebaozhu",
     "zhishisuipian",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -9499,11 +9586,11 @@
     "xin",
     "kongxuzhixin",
     "chengbeizengzhang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "kongxin$"
   ],
   "c677": [
     "c677",
@@ -9513,7 +9600,6 @@
     "projection",
     "linghunchuqiao",
     "zhenzhengdelititiyan",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -9529,7 +9615,6 @@
     "genzong",
     "zhuizong",
     "taiersheji",
-    "4",
     "l4",
     "level4",
     "quality4",
@@ -9543,7 +9628,6 @@
     "abaddon",
     "yabadunbaobao",
     "shenyuanhuoban",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -9557,11 +9641,12 @@
     "revenge",
     "shuitubufuzheng",
     "buhao",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "hualaishi$",
+    "liuhuangxiang$"
   ],
   "c681": [
     "c681",
@@ -9571,7 +9656,6 @@
     "portal",
     "heidongbaobao",
     "takewangtunshi",
-    "1",
     "l1",
     "level1",
     "quality1",
@@ -9585,7 +9669,6 @@
     "friend",
     "chushoupengyou",
     "chanrenhuoban",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -9599,11 +9682,11 @@
     "spurs",
     "guci",
     "fensuinidediren",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "cigu$"
   ],
   "c684": [
     "c684",
@@ -9614,11 +9697,11 @@
     "jieyouhun",
     "shixuechengxing",
     "shixiechengxing",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "honghun$"
   ],
   "c685": [
     "c685",
@@ -9629,7 +9712,6 @@
     "wisps",
     "hunhuoguan",
     "nidexinyangzaizengzhang",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -9643,11 +9725,12 @@
     "locket",
     "linghundiaozhui",
     "xinyangdeliliang",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "hunlian$",
+    "linghunxianglian$"
   ],
   "c687": [
     "c687",
@@ -9657,11 +9740,11 @@
     "finder",
     "xunyouhufu",
     "haopengyouyibeizi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "shoulashou$"
   ],
   "c688": [
     "c688",
@@ -9671,11 +9754,11 @@
     "child",
     "neizaihaitong",
     "rangtaziyou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "neihai$"
   ],
   "c689": [
     "c689",
@@ -9684,11 +9767,13 @@
     "glitched",
     "crown",
     "cuowuwangguan",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "hunluanhuangguan$",
+    "hunluanwangguan$",
+    "cuowuhuangguan$"
   ],
   "c690": [
     "c690",
@@ -9698,7 +9783,6 @@
     "jelly",
     "duduruantang",
     "danlaidanqu",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -9712,11 +9796,11 @@
     "orb",
     "shizishengqiu",
     "zhudengweida",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "shenshengbaozhu$"
   ],
   "c692": [
     "c692",
@@ -9727,11 +9811,11 @@
     "xuesejiban",
     "xiesejiban",
     "tazaidengdainidexianji",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "emodici$"
   ],
   "c693": [
     "c693",
@@ -9741,7 +9825,6 @@
     "swarm",
     "chongqun",
     "zisheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -9753,11 +9836,11 @@
     "heartbreak",
     "xinsui",
     "yonghengbeitong",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "suixin$"
   ],
   "c695": [
     "c695",
@@ -9768,11 +9851,12 @@
     "shixuexingfeng",
     "shixiexingfeng",
     "yuannidenuhuodailaijisu",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xienuxingfeng$",
+    "huoyingrenzhe$"
   ],
   "c696": [
     "c696",
@@ -9780,11 +9864,11 @@
     "salvation",
     "jiuen",
     "shenshengdebaohu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yu$"
   ],
   "c697": [
     "c697",
@@ -9794,11 +9878,12 @@
     "twin",
     "xiaoshidebaotai",
     "takewangfuchou",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shupianbao$",
+    "damobao$"
   ],
   "c698": [
     "c698",
@@ -9808,11 +9893,13 @@
     "pair",
     "zuonieshuangzi",
     "mafanchengshuang",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "jiuchanshuangzi$",
+    "shuangzibaobao$",
+    "shuangshengbaobao$"
   ],
   "c699": [
     "c699",
@@ -9822,11 +9909,12 @@
     "rage",
     "asaxielezhinu",
     "yuangudeliliang",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "azjiao$",
+    "azduanjiao$"
   ],
   "c700": [
     "c700",
@@ -9836,11 +9924,11 @@
     "chamber",
     "huishengshi",
     "wonengkanjianweilaiweilaiweilai",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "huixiang$"
   ],
   "c701": [
     "c701",
@@ -9850,11 +9938,11 @@
     "tomb",
     "yisadefenmu",
     "maicangdejiyi",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "yisafenmu$"
   ],
   "c702": [
     "c702",
@@ -9865,11 +9953,11 @@
     "fuchouzhihun",
     "rexueranshao",
     "rexieranshao",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "fuchouhun$"
   ],
   "c703": [
     "c703",
@@ -9879,11 +9967,12 @@
     "jr",
     "xiaoyisao",
     "shiqudexiongde",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "xiaoyisaodeguanzi$",
+    "xiaoyisaoguan$"
   ],
   "c704": [
     "c704",
@@ -9891,11 +9980,11 @@
     "berserk",
     "kuangnu",
     "sihuigelie",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "kuangbaotou$"
   ],
   "c705": [
     "c705",
@@ -9906,11 +9995,12 @@
     "anyicidao",
     "anyingcidao",
     "dunruanying",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "heianyishu$",
+    "anyingcidao$"
   ],
   "c706": [
     "c706",
@@ -9918,11 +10008,13 @@
     "abyss",
     "wudekeng",
     "yongchushenyuan",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "hongxukong$",
+    "shenyuan$",
+    "wudidong$"
   ],
   "c707": [
     "c707",
@@ -9930,11 +10022,11 @@
     "supper",
     "wancan",
     "tilishangsheng",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "gouliang$"
   ],
   "c708": [
     "c708",
@@ -9942,7 +10034,6 @@
     "stapler",
     "dingshuji",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -9954,11 +10045,12 @@
     "suplex",
     "beishuai",
     "shishenbaoji",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "baoshuaiyaodai$",
+    "beishuaiyaodai$"
   ],
   "c710": [
     "c710",
@@ -9969,11 +10061,11 @@
     "crafting",
     "hechengbaodai",
     "chuangzaonidemingyun",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "hechengdai$"
   ],
   "c711": [
     "c711",
@@ -9981,11 +10073,11 @@
     "flip",
     "shengsinizhuan",
     "fanzhuanmingyun",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "oumiqie$"
   ],
   "c712": [
     "c712",
@@ -9993,11 +10085,12 @@
     "lemegeton",
     "suoluomenmodean",
     "wupinzhaohuanshu",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "quedeshu$",
+    "suoluomenmodian$"
   ],
   "c713": [
     "c713",
@@ -10005,7 +10098,6 @@
     "sumptorium",
     "shengxiexiguan",
     "yixiehuanxie",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -10017,7 +10109,6 @@
     "recall",
     "zhaohui",
     "guiwei",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -10029,7 +10120,6 @@
     "hold",
     "baoliu",
     "liuzhuobeiyong",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -10043,11 +10133,12 @@
     "sack",
     "dianzhudekuadai",
     "xiaofeideliliang",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "dianchangdai$",
+    "dianzhudai$"
   ],
   "c717": [
     "c717",
@@ -10057,11 +10148,11 @@
     "kin",
     "dianzhudeqinyou",
     "zaiyanshixiamian",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "shitouzhizhu$"
   ],
   "c718": [
     "c718",
@@ -10075,11 +10166,12 @@
     "box",
     "dianzhudehezi",
     "bianxieshishangdean",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "dianchanghe$",
+    "dianzhuhe$"
   ],
   "c720": [
     "c720",
@@ -10089,7 +10181,6 @@
     "jar",
     "baibaoguan",
     "yiqiejieyoukeneng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -10101,11 +10192,11 @@
     "tmtrainer",
     "cuowuji",
     "yisahetamuqinzhuzaishanshangdeyisuoxiaofangzili",
-    "0",
     "l0",
     "level0",
     "quality0",
-    "q0"
+    "q0",
+    "tmxunlianjia$"
   ],
   "c722": [
     "c722",
@@ -10115,11 +10206,11 @@
     "sola",
     "guhuntiesuo",
     "chanhui",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "tianzhisuolian$"
   ],
   "c723": [
     "c723",
@@ -10132,12 +10223,13 @@
     "d1",
     "touzi",
     "shaizi",
-    "1",
-    "4",
     "l4",
     "level4",
     "quality4",
-    "q4"
+    "q4",
+    "d-1$",
+    "djianyi$",
+    "djian1$"
   ],
   "c724": [
     "c724",
@@ -10146,7 +10238,6 @@
     "gaoningxie",
     "nongchouxueye",
     "nongchouxieye",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -10158,7 +10249,6 @@
     "ibs",
     "dachangjizaozheng",
     "nideduzihonglongzuoxiang",
-    "0",
     "l0",
     "level0",
     "quality0",
@@ -10176,11 +10266,11 @@
     "gexuezheng",
     "shuangjikexue",
     "shuangjikexie",
-    "1",
     "l1",
     "level1",
     "quality1",
-    "q1"
+    "q1",
+    "kexuezheng$"
   ],
   "c727": [
     "c727",
@@ -10193,11 +10283,12 @@
     "youlingzhadan",
     "kongbubaozha",
     "5gezhadan",
-    "2",
     "l2",
     "level2",
     "quality2",
-    "q2"
+    "q2",
+    "youlinglei$",
+    "guilei$"
   ],
   "c728": [
     "c728",
@@ -10205,11 +10296,11 @@
     "gello",
     "geluo",
     "emorenshen",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "geluo$"
   ],
   "c729": [
     "c729",
@@ -10219,7 +10310,6 @@
     "attack",
     "feitougongji",
     "rengchuqu",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -10234,7 +10324,6 @@
     "boliyan",
     "shanghai",
     "yunqishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
@@ -10247,7 +10336,6 @@
     "mailizhong",
     "shanghai",
     "shechengshangsheng",
-    "2",
     "l2",
     "level2",
     "quality2",
@@ -10261,11 +10349,12 @@
     "ring",
     "mamadejiezhi",
     "shanghaishangsheng",
-    "3",
     "l3",
     "level3",
     "quality3",
-    "q3"
+    "q3",
+    "mamajiezhi$",
+    "majie$"
   ],
   "t1": [
     "1",
@@ -10274,7 +10363,8 @@
     "swallowed",
     "penny",
     "beitunxiadeyingbi",
-    "gulu"
+    "gulu",
+    "koushuibi$"
   ],
   "t2": [
     "2",
@@ -10283,7 +10373,10 @@
     "petrified",
     "poop",
     "shihuadabian",
-    "xingyundeganjue"
+    "xingyundeganjue",
+    "bafenbao$",
+    "yinghuadabian$",
+    "shitoudabian$"
   ],
   "t3": [
     "3",
@@ -10303,7 +10396,8 @@
     "broken",
     "remote",
     "sunhuaideyaokongqi",
-    "huaideaole"
+    "huaideaole",
+    "pochuan$"
   ],
   "t5": [
     "5",
@@ -10322,7 +10416,8 @@
     "broken",
     "magnet",
     "duandeaodecitie",
-    "nengjiangjiuyong"
+    "nengjiangjiuyong",
+    "hongcitiesuipian$"
   ],
   "t7": [
     "7",
@@ -10337,7 +10432,7 @@
     "8",
     "t8",
     "cartridge",
-    "youxiqiadai",
+    "youxikadai",
     "wojidezheixie"
   ],
   "t9": [
@@ -10383,7 +10478,9 @@
     "store",
     "credet",
     "shangdeanjifen",
-    "haoye"
+    "haoye",
+    "lingyuangou$",
+    "duihuanjuan$"
   ],
   "t14": [
     "14",
@@ -10407,7 +10504,9 @@
     "momstoenail",
     "moms",
     "toenail",
-    "mamadejiaozhijia"
+    "mamadejiaozhijia",
+    "zhongfentou$",
+    "matui$"
   ],
   "t17": [
     "17",
@@ -10416,7 +10515,8 @@
     "black",
     "lipstick",
     "heisekouhong",
-    "xieeshangsheng"
+    "xieeshangsheng",
+    "heikouhong$"
   ],
   "t18": [
     "18",
@@ -10425,7 +10525,8 @@
     "bible",
     "tract",
     "shengjingxiaoce",
-    "xinyangshangsheng"
+    "xinyangshangsheng",
+    "baixince$"
   ],
   "t19": [
     "19",
@@ -10460,7 +10561,8 @@
     "daemons",
     "tail",
     "emodeweiba",
-    "xieeshangsheng"
+    "xieeshangsheng",
+    "emoweiba$"
   ],
   "t23": [
     "23",
@@ -10468,7 +10570,8 @@
     "missingposter",
     "missing",
     "poster",
-    "xunrenqishi"
+    "xunrenqishi",
+    "xunrenqishi$"
   ],
   "t24": [
     "24",
@@ -10477,7 +10580,8 @@
     "butt",
     "penny",
     "piguyingbi",
-    "caifujifangpi"
+    "caifujifangpi",
+    "pibi$"
   ],
   "t25": [
     "25",
@@ -10512,8 +10616,9 @@
     "brokenankh",
     "broken",
     "ankh",
-    "suianqiashizi",
-    "yongsheng"
+    "suiankashizi",
+    "yongsheng",
+    "xiaolanren$"
   ],
   "t29": [
     "29",
@@ -10531,7 +10636,8 @@
     "pinky",
     "eye",
     "jiaomoyan",
-    "duxingleidan"
+    "duxingleidan",
+    "du$"
   ],
   "t31": [
     "31",
@@ -10540,7 +10646,8 @@
     "push",
     "pin",
     "tudeng",
-    "chuancileidan"
+    "chuancileidan",
+    "chuantou$"
   ],
   "t32": [
     "32",
@@ -10550,7 +10657,8 @@
     "cap",
     "luogaimogu",
     "mogu",
-    "yimoyiqitangbanban"
+    "yimoyiqitangbanban",
+    "shitoumogu$"
   ],
   "t33": [
     "33",
@@ -10569,7 +10677,8 @@
     "heart",
     "xin",
     "xiaohaidexinzang",
-    "tazaihuhuanxiongde"
+    "tazaihuhuanxiongde",
+    "xiaohaixinzang$"
   ],
   "t35": [
     "35",
@@ -10578,7 +10687,9 @@
     "curved",
     "horn",
     "wanyangjiao",
-    "shanghaishangsheng"
+    "shanghaishangsheng",
+    "wanjiao$",
+    "shanyangjiao$"
   ],
   "t36": [
     "36",
@@ -10588,7 +10699,8 @@
     "key",
     "yaoshi",
     "shengxiudeyaoshi",
-    "xingyundeganjue"
+    "xingyundeganjue",
+    "mutouyaoshi$"
   ],
   "t37": [
     "37",
@@ -10615,7 +10727,8 @@
     "cancer",
     "trinket",
     "aizheng",
-    "haoyeaizheng"
+    "haoyeaizheng",
+    "aizheng$"
   ],
   "t40": [
     "40",
@@ -10651,7 +10764,8 @@
     "cursed",
     "skull",
     "zuzhoudetougu",
-    "zuzhou"
+    "zuzhou",
+    "zuzhoutougu$"
   ],
   "t44": [
     "44",
@@ -10660,7 +10774,8 @@
     "safety",
     "cap",
     "baoxianpinggai",
-    "bietunxiaqu"
+    "bietunxiaqu",
+    "yaowan$"
   ],
   "t45": [
     "45",
@@ -10670,7 +10785,8 @@
     "of",
     "spades",
     "heitaoa",
-    "shouqibucuo"
+    "shouqibucuo",
+    "kapai$"
   ],
   "t46": [
     "46",
@@ -10689,7 +10805,10 @@
     "missing",
     "page",
     "yishideshuye",
-    "tasanfazhuoliliang"
+    "tasanfazhuoliliang",
+    "shuye2$",
+    "yishishuye2$",
+    "yishideshuye2$"
   ],
   "t49": [
     "49",
@@ -10698,7 +10817,8 @@
     "bloody",
     "penny",
     "ranxieyingbi",
-    "caifujijiankang"
+    "caifujijiankang",
+    "xiebi$"
   ],
   "t50": [
     "50",
@@ -10707,7 +10827,9 @@
     "burnt",
     "penny",
     "jiaozhuoyingbi",
-    "caifujihunluan"
+    "caifujihunluan",
+    "jiaobi$",
+    "zhadanbi$"
   ],
   "t51": [
     "51",
@@ -10716,7 +10838,9 @@
     "flat",
     "penny",
     "bianpingyingbi",
-    "caifujidaan"
+    "caifujidaan",
+    "yaoshiyingbi$",
+    "yaoshibi$"
   ],
   "t52": [
     "52",
@@ -10768,7 +10892,8 @@
     "s",
     "soul",
     "delinghun",
-    "huanxianghuoban"
+    "huanxianghuoban",
+    "xiaolanrendelinghun$"
   ],
   "t58": [
     "58",
@@ -10777,7 +10902,8 @@
     "samsons",
     "lock",
     "cansundefaji",
-    "nuqizengzhang"
+    "nuqizengzhang",
+    "cansunfaji$"
   ],
   "t59": [
     "59",
@@ -10786,7 +10912,9 @@
     "cains",
     "eye",
     "gaiyindeyanjing",
-    "yuannikanjianzijideguisu"
+    "yuannikanjianzijideguisu",
+    "gaiyindezuoyan$",
+    "zhinanzhen$"
   ],
   "t60": [
     "60",
@@ -10796,7 +10924,8 @@
     "bird",
     "foot",
     "xiawadeniaozhao",
-    "bianfuchou"
+    "bianfuchou",
+    "xiawadezhuazi$"
   ],
   "t61": [
     "61",
@@ -10806,7 +10935,8 @@
     "left",
     "hand",
     "zuoduanshou",
-    "xingqiluzhedeebao"
+    "xingqiluzhedeebao",
+    "zuoshou$"
   ],
   "t62": [
     "62",
@@ -10815,7 +10945,10 @@
     "shiny",
     "rock",
     "shanliangyanshi",
-    "weitadexiongdemenshanliang"
+    "weitadexiongdemenshanliang",
+    "shanliangshitou$",
+    "faguangshitou$",
+    "faguangyanshi$"
   ],
   "t63": [
     "63",
@@ -10828,7 +10961,9 @@
     "boom",
     "bombs",
     "zhadan",
-    "qieduanyinxian"
+    "qieduanyinxian",
+    "furenjian$",
+    "lufurenjiandao$"
   ],
   "t64": [
     "64",
@@ -10855,7 +10990,8 @@
     "lazy",
     "worm",
     "lanlanchong",
-    "puchi"
+    "puchi",
+    "lanchong$"
   ],
   "t67": [
     "67",
@@ -10864,7 +11000,9 @@
     "cracked",
     "dece",
     "suilieliumiantou",
-    "nigandaoshouzuzhoudagai"
+    "nigandaoshouzuzhoudagai",
+    "potouzi$",
+    "posezi$"
   ],
   "t68": [
     "68",
@@ -10873,7 +11011,8 @@
     "super",
     "magnet",
     "chaojicitie",
-    "zhennengxi"
+    "zhennengxi",
+    "dacitie$"
   ],
   "t69": [
     "69",
@@ -10882,7 +11021,8 @@
     "faded",
     "polaroid",
     "tuishaidequanjiafu",
-    "nigandaomenglong"
+    "nigandaomenglong",
+    "tuishaiquanjiafu$"
   ],
   "t70": [
     "70",
@@ -10898,7 +11038,8 @@
     "bobs",
     "bladder",
     "baobodebangguang",
-    "kongbudezhadan"
+    "kongbudezhadan",
+    "baobobangguang$"
   ],
   "t72": [
     "72",
@@ -10909,7 +11050,8 @@
     "dianchi",
     "v",
     "niukoudianchi",
-    "xiaochongneng"
+    "xiaochongneng",
+    "xiaodianchi$"
   ],
   "t73": [
     "73",
@@ -10918,7 +11060,8 @@
     "blasting",
     "cap",
     "leiguan",
-    "papa"
+    "papa",
+    "hongleiguan$"
   ],
   "t74": [
     "74",
@@ -10927,14 +11070,18 @@
     "stud",
     "finder",
     "shidengdengweiqi",
-    "dexiahaoxiangshikongde"
+    "dexiahaoxiangshikongde",
+    "dixiashiyaoshi$",
+    "chekuyaoshi$",
+    "cheyaoshi$"
   ],
   "t75": [
     "75",
     "t75",
     "error",
     "cuowu",
-    "weizhaodaoxiaoguo"
+    "weizhaodaoxiaoguo",
+    "404$"
   ],
   "t76": [
     "76",
@@ -10943,14 +11090,16 @@
     "poker",
     "chip",
     "chouma",
-    "shuangbeixiazhushijian"
+    "shuangbeixiazhushijian",
+    "dubo$"
   ],
   "t77": [
     "77",
     "t77",
     "blister",
     "shuipao",
-    "danhuilai"
+    "danhuilai",
+    "shuipao$"
   ],
   "t78": [
     "78",
@@ -10959,7 +11108,9 @@
     "second",
     "hand",
     "miaozhen",
-    "yanchangshuxingxiaoguoshijian"
+    "yanchangshuxingxiaoguoshijian",
+    "hongmiaozhen$",
+    "hongzhen$"
   ],
   "t79": [
     "79",
@@ -10968,7 +11119,10 @@
     "endless",
     "nameless",
     "wumingwujin",
-    "woxianrulesixunhuan"
+    "woxianrulesixunhuan",
+    "wuxian$",
+    "fuzhikapai$",
+    "fuzhiyaowan$"
   ],
   "t80": [
     "80",
@@ -10977,7 +11131,9 @@
     "black",
     "feather",
     "heiseyumao",
-    "heiandailaililiang"
+    "heiandailaililiang",
+    "heiyumao$",
+    "emoyumao$"
   ],
   "t81": [
     "81",
@@ -10986,7 +11142,9 @@
     "blind",
     "rage",
     "mangmudenuhuo",
-    "qiangrentengtong"
+    "qiangrentengtong",
+    "toujin$",
+    "bengdai$"
   ],
   "t82": [
     "82",
@@ -10996,7 +11154,8 @@
     "horse",
     "shoe",
     "huangjinmatitie",
-    "xingyundeganjue"
+    "xingyundeganjue",
+    "jinmati$"
   ],
   "t83": [
     "83",
@@ -11006,7 +11165,9 @@
     "key",
     "yaoshi",
     "shangdeanyaoshi",
-    "shangdeankaimen"
+    "shangdeankaimen",
+    "dianzhuyaoshi$",
+    "shangdianyaoshi$"
   ],
   "t84": [
     "84",
@@ -11016,14 +11177,18 @@
     "of",
     "greed",
     "tanlandeleigu",
-    "nigandaotanlan"
+    "nigandaotanlan",
+    "tanlanleigu$"
   ],
   "t85": [
     "85",
     "t85",
     "karma",
     "yebao",
-    "yinguoshangsheng"
+    "yinguoshangsheng",
+    "fubao$",
+    "cunkuanji$",
+    "juankuanji$"
   ],
   "t86": [
     "86",
@@ -11032,7 +11197,8 @@
     "lil",
     "larva",
     "xiaoyouchong",
-    "dabianzairudong"
+    "dabianzairudong",
+    "dou$"
   ],
   "t87": [
     "87",
@@ -11041,14 +11207,17 @@
     "moms",
     "locket",
     "mamadediaozhui",
-    "nigandaoletadeai"
+    "nigandaoletadeai",
+    "yaoshidiaozhui$",
+    "mamadeaozhui$"
   ],
   "t88": [
     "88",
     "t88",
     "no",
     "bu",
-    "biezailaile"
+    "biezailaile",
+    "jinling$"
   ],
   "t89": [
     "89",
@@ -11057,7 +11226,8 @@
     "child",
     "leash",
     "ertongshuansheng",
-    "rangnidepengyoubaochiqinmi"
+    "rangnidepengyoubaochiqinmi",
+    "ertongsheng$"
   ],
   "t90": [
     "90",
@@ -11066,14 +11236,17 @@
     "brown",
     "cap",
     "zongseleiguan",
-    "pidan"
+    "pidan",
+    "zongleiguan$"
   ],
   "t91": [
     "91",
     "t91",
     "meconium",
     "taifen",
-    "exin"
+    "exin",
+    "heidabian$",
+    "heixiang$"
   ],
   "t92": [
     "92",
@@ -11082,7 +11255,11 @@
     "cracked",
     "crown",
     "suiliedewangguan",
-    "shuxingqianghua"
+    "shuxingqianghua",
+    "suihuanggua$",
+    "suihuangguan$",
+    "suiwangguan$",
+    "quanshuxingshangsheng$"
   ],
   "t93": [
     "93",
@@ -11100,7 +11277,8 @@
     "fish",
     "tail",
     "yuwei",
-    "yehaochou"
+    "yehaochou",
+    "yuweiba$"
   ],
   "t95": [
     "95",
@@ -11118,7 +11296,8 @@
     "ouroboros",
     "worm",
     "xianweichong",
-    "huluhulu"
+    "huluhulu",
+    "luoxuanchong$"
   ],
   "t97": [
     "97",
@@ -11134,7 +11313,8 @@
     "nose",
     "goblin",
     "bitipao",
-    "kanshangquhenyoumoli"
+    "kanshangquhenyoumoli",
+    "bishi$"
   ],
   "t99": [
     "99",
@@ -11143,7 +11323,8 @@
     "super",
     "ball",
     "chaojidanqiu",
-    "wodan"
+    "wodan",
+    "bengdaiqiu$"
   ],
   "t100": [
     "100",
@@ -11170,13 +11351,16 @@
     "fragmented",
     "card",
     "taluopaicanpian",
-    "shuangyue"
+    "shuangyue",
+    "suiyueliangka$",
+    "posuideyueliangka$"
   ],
   "t103": [
     "103",
     "t103",
     "equality",
-    "denghao"
+    "denghao",
+    "dengyu$"
   ],
   "t104": [
     "104",
@@ -11194,7 +11378,8 @@
     "bag",
     "lunch",
     "wucandai",
-    "limianshishiyaoni"
+    "limianshishiyaoni",
+    "gouliangdai$"
   ],
   "t106": [
     "106",
@@ -11203,7 +11388,9 @@
     "lost",
     "cork",
     "diushidepingsai",
-    "basaifangshui"
+    "basaifangshui",
+    "musai$",
+    "saizi$"
   ],
   "t107": [
     "107",
@@ -11213,7 +11400,8 @@
     "heart",
     "xin",
     "wuyadexin",
-    "chouganwodexie"
+    "chouganwodexie",
+    "wuyaxinzang$"
   ],
   "t108": [
     "108",
@@ -11229,7 +11417,8 @@
     "duct",
     "tape",
     "jiaodai",
-    "zhansile"
+    "zhansile",
+    "cezhi$"
   ],
   "t110": [
     "110",
@@ -11238,7 +11427,9 @@
     "silver",
     "dollar",
     "yinbi",
-    "xingyundeganjue"
+    "xingyundeganjue",
+    "yinyuan$",
+    "zigongshangdian$"
   ],
   "t111": [
     "111",
@@ -11247,7 +11438,13 @@
     "bloody",
     "crown",
     "ranxiewangguan",
-    "dezhuoxie"
+    "dezhuoxie",
+    "ranxiehuangguan$",
+    "ranxiewangguan$",
+    "honghuangguan$",
+    "hongwangguan$",
+    "zigongdaojufang$",
+    "zigongbaoxiangfang$"
   ],
   "t112": [
     "112",
@@ -11256,7 +11453,9 @@
     "pay",
     "to",
     "win",
-    "chongqianzhisheng"
+    "chongqianzhisheng",
+    "rollji$",
+    "buhuoji$"
   ],
   "t113": [
     "113",
@@ -11266,7 +11465,10 @@
     "of",
     "war",
     "zhanzhenghuangchong",
-    "wodailaizhanzheng"
+    "wodailaizhanzheng",
+    "hongcangying$",
+    "zhanzhengcangying$",
+    "baozhacangying$"
   ],
   "t114": [
     "114",
@@ -11276,7 +11478,10 @@
     "of",
     "pestilence",
     "wenyihuangchong",
-    "wodailaiwenyi"
+    "wodailaiwenyi",
+    "lvcangying$",
+    "wenyicangying$",
+    "lvducangying$"
   ],
   "t115": [
     "115",
@@ -11286,7 +11491,11 @@
     "of",
     "famine",
     "jihuanghuangchong",
-    "wodailaijihuang"
+    "wodailaijihuang",
+    "baicangying$",
+    "huicangying$",
+    "jihuangcangying$",
+    "jiansucangying$"
   ],
   "t116": [
     "116",
@@ -11296,7 +11505,9 @@
     "of",
     "death",
     "siwanghuangchong",
-    "wodailaisiwang"
+    "wodailaisiwang",
+    "heicangying$",
+    "siwangcangying$"
   ],
   "t117": [
     "117",
@@ -11306,7 +11517,10 @@
     "of",
     "conquest",
     "zhengfuhuangchong",
-    "wodailaizhengfu"
+    "wodailaizhengfu",
+    "zhengfucangying$",
+    "yincangying$",
+    "baicangying$"
   ],
   "t118": [
     "118",
@@ -11315,7 +11529,8 @@
     "bat",
     "wing",
     "bianfuchibang",
-    "tamenzaishengzhang"
+    "tamenzaishengzhang",
+    "feixingchibang$"
   ],
   "t119": [
     "119",
@@ -11324,14 +11539,17 @@
     "stem",
     "cell",
     "ganxibao",
-    "zaisheng"
+    "zaisheng",
+    "ganxibao$",
+    "qilongzhu$"
   ],
   "t120": [
     "120",
     "t120",
     "hairpin",
     "fajia",
-    "jinjichongneng"
+    "jinjichongneng",
+    "jinjichongneng$"
   ],
   "t121": [
     "121",
@@ -11340,7 +11558,8 @@
     "wooden",
     "cross",
     "mushizijia",
-    "wodexinyanghuibaohuwo"
+    "wodexinyanghuibaohuwo",
+    "doupeng$"
   ],
   "t122": [
     "122",
@@ -11356,7 +11575,10 @@
     "filigree",
     "feather",
     "yinsiyumao",
-    "tianshizhanlipin"
+    "tianshizhanlipin",
+    "tianshiyumao$",
+    "yinyumao$",
+    "yinseyumao$"
   ],
   "t124": [
     "124",
@@ -11374,7 +11596,11 @@
     "extension",
     "cord",
     "kuojiedeanxian",
-    "daideanhuoban"
+    "daideanhuoban",
+    "dianxianlan$",
+    "baobaodianlan$",
+    "dianlan$",
+    "kuozhandianxian$"
   ],
   "t126": [
     "126",
@@ -11383,7 +11609,10 @@
     "rotten",
     "penny",
     "fulanyingbi",
-    "caifujicangying"
+    "caifujicangying",
+    "fulanbi$",
+    "fubi$",
+    "lancangyingbi$"
   ],
   "t127": [
     "127",
@@ -11403,14 +11632,17 @@
     "finger",
     "bone",
     "zhigu",
-    "kanqilaihencui"
+    "kanqilaihencui",
+    "suigu$"
   ],
   "t129": [
     "129",
     "t129",
     "jawbreaker",
     "bengdeaoya",
-    "kebieyaota"
+    "kebieyaota",
+    "bengdiaoya$",
+    "yachizidan$"
   ],
   "t130": [
     "130",
@@ -11419,7 +11651,8 @@
     "chewed",
     "pen",
     "jiaolandebi",
-    "tazailoumo"
+    "tazailoumo",
+    "jiansuzidan$"
   ],
   "t131": [
     "131",
@@ -11428,7 +11661,10 @@
     "blessed",
     "penny",
     "shenshengyingbi",
-    "caifujichunjie"
+    "caifujichunjie",
+    "hunbi$",
+    "hunxinbi$",
+    "hunxinyingbi$"
   ],
   "t132": [
     "132",
@@ -11437,7 +11673,8 @@
     "broken",
     "syringe",
     "sunhuaidezhusheqi",
-    "shenmiyaowu"
+    "shenmiyaowu",
+    "zhen$"
   ],
   "t133": [
     "133",
@@ -11455,7 +11692,9 @@
     "gigante",
     "bean",
     "judou",
-    "chaojipi"
+    "chaojipi",
+    "dapi$",
+    "dapidou$"
   ],
   "t135": [
     "135",
@@ -11473,20 +11712,25 @@
     "broken",
     "padlock",
     "sunhuaideguasuo",
-    "zhadanyeshiyaoshi"
+    "zhadanyeshiyaoshi",
+    "zhasuo$",
+    "huaisuo$",
+    "zhadansuo$"
   ],
   "t137": [
     "137",
     "t137",
     "myosotis",
     "wuwangcao",
-    "biebawowangle"
+    "biebawowangle",
+    "wuwangwo$"
   ],
   "t138": [
     "138",
     "t138",
     "m",
-    "huaile9chongzhinideming"
+    "huaile9chongzhinideming",
+    "rollzhudong$"
   ],
   "t139": [
     "139",
@@ -11495,7 +11739,11 @@
     "teardrop",
     "charm",
     "leidehufu",
-    "xingyundeganjue"
+    "xingyundeganjue",
+    "texiaohufu$",
+    "yanleihufu$",
+    "leididiaozhui$",
+    "yanleidiaozhui$"
   ],
   "t140": [
     "140",
@@ -11505,7 +11753,12 @@
     "of",
     "sodom",
     "suoduomazhiguo",
-    "kongxudeganjue"
+    "kongxudeganjue",
+    "lanzhizhuguo$",
+    "lvpinguo$",
+    "hongxinguo$",
+    "hongxinpinguo$",
+    "jinguo$"
   ],
   "t141": [
     "141",
@@ -11514,7 +11767,10 @@
     "forgotten",
     "lullaby",
     "shiluoyaolanqu",
-    "weinidepengyouxianchang"
+    "weinidepengyouxianchang",
+    "haiyaozhige$",
+    "genbanshesushangsheng$",
+    "shiluoanhunqu$"
   ],
   "t142": [
     "142",
@@ -11523,7 +11779,8 @@
     "beths",
     "faith",
     "bodanidexinyang",
-    "wodexinyanghuibaohuwo"
+    "wodexinyanghuibaohuwo",
+    "bodanixinyang$"
   ],
   "t143": [
     "143",
@@ -11541,14 +11798,18 @@
     "brain",
     "worm",
     "naoxingchong",
-    "deng"
+    "deng",
+    "xiaowanshao$",
+    "naochong$"
   ],
   "t145": [
     "145",
     "t145",
     "perfection",
     "manfenkaojuan",
-    "yunqidafushangshengbienongdeule"
+    "yunqidafushangshengbienongdeule",
+    "a+$",
+    "wushang$"
   ],
   "t146": [
     "146",
@@ -11557,7 +11818,8 @@
     "devils",
     "crown",
     "emowangguan",
-    "tadexike"
+    "tadexike",
+    "emohuangguan$"
   ],
   "t147": [
     "147",
@@ -11566,7 +11828,9 @@
     "charged",
     "penny",
     "chongnengyingbi",
-    "caifujililiang"
+    "caifujililiang",
+    "dianbi$",
+    "chongnengbi$"
   ],
   "t148": [
     "148",
@@ -11575,7 +11839,9 @@
     "friendship",
     "necklace",
     "youyixianglian",
-    "juzaiyiqi"
+    "juzaiyiqi",
+    "huanraowuxianglian$",
+    "baobaoxianglian$"
   ],
   "t149": [
     "149",
@@ -11584,7 +11850,8 @@
     "panic",
     "button",
     "jinjianniu",
-    "jinjishianxia"
+    "jinjishianxia",
+    "anquananniu$"
   ],
   "t150": [
     "150",
@@ -11594,7 +11861,9 @@
     "key",
     "yaoshi",
     "lanyaoshi",
-    "zhakanfangjianzhijian"
+    "zhakanfangjianzhijian",
+    "lanyaoshi$",
+    "lanfangjianyaoshi$"
   ],
   "t151": [
     "151",
@@ -11603,7 +11872,9 @@
     "flat",
     "file",
     "biancuo",
-    "buzaiyoujianci"
+    "buzaiyoujianci",
+    "cuodao$",
+    "wujianci$"
   ],
   "t152": [
     "152",
@@ -11612,7 +11883,9 @@
     "telescope",
     "lens",
     "wangyuanjingpian",
-    "xunzhaoxingchen"
+    "xunzhaoxingchen",
+    "xingxiangjingpian$",
+    "xingxiangfangjingpian$"
   ],
   "t153": [
     "153",
@@ -11621,7 +11894,10 @@
     "moms",
     "lock",
     "mamadefaji",
-    "tadeyifenai"
+    "tadeyifenai",
+    "jinsefaji$",
+    "jinfaji$",
+    "jinbianzi$"
   ],
   "t154": [
     "154",
@@ -11632,7 +11908,8 @@
     "shaizi",
     "touzidai",
     "shaizidai",
-    "ewaichongzhi"
+    "ewaichongzhi",
+    "sezidai$"
   ],
   "t155": [
     "155",
@@ -11641,7 +11918,10 @@
     "holy",
     "crown",
     "shenshengwangguan",
-    "zoushangzhengdao"
+    "zoushangzhengdao",
+    "shenshenghuangguan$",
+    "tiantanghuangguan$",
+    "tiantangwangguan$"
   ],
   "t156": [
     "156",
@@ -11650,7 +11930,10 @@
     "mothers",
     "kiss",
     "muqindewen",
-    "tilishangsheng"
+    "tilishangsheng",
+    "mamadewen$",
+    "mawen$",
+    "muqinzhiwen$"
   ],
   "t157": [
     "157",
@@ -11659,7 +11942,16 @@
     "torn",
     "card",
     "pukepaicanpian",
-    "siwangzaidengdai"
+    "siwangzaidengdai",
+    "jingzitugen$",
+    "tugenjingzi$",
+    "pukepaisuipian$",
+    "suiliepukepai$",
+    "suiliedepukepai$",
+    "poliepukepai$",
+    "poliedepukepai$",
+    "posuipukepai$",
+    "posuidepukepai$"
   ],
   "t158": [
     "158",
@@ -11668,7 +11960,11 @@
     "torn",
     "pocket",
     "posundekoudai",
-    "koudailiyougedong"
+    "koudailiyougedong",
+    "pokoudai$",
+    "posunkoudai$",
+    "poliekoudai$",
+    "poliedekoudai$"
   ],
   "t159": [
     "159",
@@ -11678,7 +11974,8 @@
     "key",
     "yaoshi",
     "dujinyaoshi",
-    "duoduoyishan"
+    "duoduoyishan",
+    "jinxiangziyaoshi$"
   ],
   "t160": [
     "160",
@@ -11687,7 +11984,9 @@
     "lucky",
     "sack",
     "xingyundai",
-    "mianfeidehaodongxi"
+    "mianfeidehaodongxi",
+    "fudaidaizi$",
+    "xingyundaizi$"
   ],
   "t161": [
     "161",
@@ -11696,7 +11995,16 @@
     "wicked",
     "crown",
     "xieewangguan",
-    "zoushangxiedao"
+    "zoushangxiedao",
+    "emowangguan$",
+    "emohuangguan$",
+    "xieehuangguan$",
+    "diyuwangguan$",
+    "diyuhuangguan$",
+    "hongwangguan$",
+    "honghuangguan$",
+    "daohonghuangguan$",
+    "daohongwangguan$"
   ],
   "t162": [
     "162",
@@ -11705,7 +12013,10 @@
     "azazels",
     "stump",
     "asaxieledecanjiao",
-    "shifangnineixindeemo"
+    "shifangnineixindeemo",
+    "azjiao$",
+    "azcanjiao$",
+    "azdecanjiao$"
   ],
   "t163": [
     "163",
@@ -11723,7 +12034,8 @@
     "ring",
     "cap",
     "huoyaoquan",
-    "zhaliangxia"
+    "zhaliangxia",
+    "shuangleiguan$"
   ],
   "t165": [
     "165",
@@ -11732,7 +12044,9 @@
     "nuh",
     "uh",
     "guna",
-    "caibuyao"
+    "caibuyao",
+    "hongjinling$",
+    "hongno$"
   ],
   "t166": [
     "166",
@@ -11740,7 +12054,9 @@
     "modelingclay",
     "modeling",
     "clay",
-    "suxingniantu"
+    "suxingniantu",
+    "zhantukuai$",
+    "niantukuai$"
   ],
   "t167": [
     "167",
@@ -11759,7 +12075,8 @@
     "heart",
     "xin",
     "kongkexin",
-    "cuiruodezhufu"
+    "cuiruodezhufu",
+    "guxin$"
   ],
   "t169": [
     "169",
@@ -11768,7 +12085,9 @@
     "kids",
     "drawing",
     "ertongtuya",
-    "kanshangquhenshuxi"
+    "kanshangquhenshuxi",
+    "maopian$",
+    "maotao$"
   ],
   "t170": [
     "170",
@@ -11778,7 +12097,9 @@
     "key",
     "yaoshi",
     "shuijingyaoshi",
-    "huhuanlingyimian"
+    "huhuanlingyimian",
+    "shuijingyaoshi$",
+    "hongfangjian$"
   ],
   "t171": [
     "171",
@@ -11787,7 +12108,8 @@
     "keepers",
     "bargain",
     "dianzhudexieyi",
-    "jinqianwanneng"
+    "jinqianwanneng",
+    "dianzhuxieyi$"
   ],
   "t172": [
     "172",
@@ -11796,7 +12118,11 @@
     "cursed",
     "penny",
     "zuzhouyingbi",
-    "caifujieyun"
+    "caifujieyun",
+    "chuansongyingbi$",
+    "zhoubi$",
+    "zibi$",
+    "chuanbi$"
   ],
   "t173": [
     "173",
@@ -11805,7 +12131,9 @@
     "your",
     "soul",
     "nidelinghun",
-    "xiangeiwoba"
+    "xiangeiwoba",
+    "xiaoluo$",
+    "emojiaoyi$"
   ],
   "t174": [
     "174",
@@ -11814,7 +12142,9 @@
     "number",
     "magnet",
     "shuzibingxiangtie",
-    "6"
+    "6",
+    "6$",
+    "emofang$"
   ],
   "t175": [
     "175",
@@ -11824,7 +12154,9 @@
     "key",
     "yaoshi",
     "qiguaideyaoshi",
-    "nengdakaishenmeni"
+    "nengdakaishenmeni",
+    "panduolayaoshi$",
+    "lanyaoshi$"
   ],
   "t176": [
     "176",
@@ -11833,7 +12165,9 @@
     "lil",
     "clot",
     "xiaoxietuan",
-    "minihuoban"
+    "minihuoban",
+    "xiaoshilaimu$",
+    "hongshilaimu$"
   ],
   "t177": [
     "177",
@@ -11842,7 +12176,8 @@
     "temporary",
     "tattoo",
     "wenshentie",
-    "nigandaoyonggan"
+    "nigandaoyonggan",
+    "wenshentie$"
   ],
   "t178": [
     "178",
@@ -11851,7 +12186,8 @@
     "swallowed",
     "m80",
     "beitunxiadem80bianpao",
-    "peng"
+    "peng",
+    "beidongshenfeng$"
   ],
   "t179": [
     "179",
@@ -11860,7 +12196,8 @@
     "rc",
     "remote",
     "saicheyaokongqi",
-    "kekonghuoban"
+    "kekonghuoban",
+    "chuifengtong$"
   ],
   "t180": [
     "180",
@@ -11869,7 +12206,8 @@
     "found",
     "soul",
     "fudeyouhun",
-    "zhongyu"
+    "zhongyu",
+    "xiaoluo$"
   ],
   "t181": [
     "181",
@@ -11878,7 +12216,10 @@
     "expansion",
     "pack",
     "kuozhandeanluban",
-    "ewaidelequ"
+    "ewaidelequ",
+    "xianlutuozhanqi$",
+    "kuozhanxianluban$",
+    "xianlukuozhanqi$"
   ],
   "t182": [
     "182",
@@ -11887,7 +12228,8 @@
     "beths",
     "essence",
     "bodanidejinghua",
-    "meidedebaoda"
+    "meidedebaoda",
+    "bodanijinghua$"
   ],
   "t183": [
     "183",
@@ -11924,7 +12266,9 @@
     "best",
     "friend",
     "yabolundezhiyou",
-    "gongjixinghuoban"
+    "gongjixinghuoban",
+    "yabolundepengyou$",
+    "huangchong$"
   ],
   "t187": [
     "187",
@@ -11933,7 +12277,8 @@
     "broken",
     "glasses",
     "suideaodeyanjing",
-    "chongying"
+    "chongying",
+    "suiyanjing$"
   ],
   "t188": [
     "188",
@@ -11942,6 +12287,7 @@
     "ice",
     "cube",
     "bingkuai",
-    "baochigaoleng"
+    "baochigaoleng",
+    "shihuabingkuai$"
   ]
 }
