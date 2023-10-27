@@ -1,5 +1,6 @@
 <template>
-  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click="handleSpawn(item.id)">
+  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleSpawn(item.id)"
+    @click.right="handleGive(item._gid)">
     <div class="quality" v-show="props.showQuality" :class="'level' + item.quality"></div>
     <div class="image" :style="getImageSource(item.gfx)"></div>
     <div class="shadowed id" v-show="props.showId">{{ item._gid }}</div>
@@ -17,6 +18,10 @@ const props = defineProps(['item', 'isListStyled', 'showQuality', 'showId'])
 
 const handleSpawn = (id) => {
   emit("COMMAND", `spawn 5.100.${id}`);
+}
+
+const handleGive = (gid) => {
+  emit("COMMAND", `g ${gid}`);
 }
 
 const handleRemove = (id) => {
@@ -57,11 +62,10 @@ const getImageSource = (gfx) => {
       display: block;
       position: absolute;
       left: 64px;
-      height: 1.5rem;
-      line-height: 1.5rem;
-      right: 0;
-      top: .5rem;
-      font-size: 1.5rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      top: 0.375rem;
+      font-size: 1.75rem;
     }
 
     .description {
@@ -69,12 +73,10 @@ const getImageSource = (gfx) => {
       display: block;
       position: absolute;
       left: 64px;
-      line-height: 32px;
-      right: 0;
-      top: 32px;
+      line-height: 2rem;
+      top: 34px;
       bottom: 0;
-      font-size: 1rem;
-      color: #191919;
+      font-size: 1.25rem;
     }
 
     .id {

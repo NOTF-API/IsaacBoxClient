@@ -3,6 +3,9 @@
     <div class="options">
       <input id="show-pills-id" type="checkbox" v-model="isShowId" />
       <label for="show-pills-id">{{ $t("show id") }}</label>
+      <div class="idea-popover">
+        <div class="shadowed idea-text">{{ $t("$pills-idea") }}</div>
+      </div>
     </div>
     <div class="view-content pills-list no-scrollbar">
       <PillItem v-for="item in data" :item="item"  :is-show-id="isShowId" />

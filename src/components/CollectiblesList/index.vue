@@ -13,6 +13,9 @@
         <input id="show-collectible-as-list" type="checkbox" v-model="isListStyle" />
         <label for="show-collectible-as-list">{{ $t("list style") }}</label>
       </span>
+      <div class="idea-popover">
+        <div class="shadowed idea-text">{{ $t("$items-idea") }}</div>
+      </div>
     </div>
     <div class="view-content no-scrollbar">
       <CollectibleItem v-for="item in data" :is-list-styled="isListStyle" :item="item"

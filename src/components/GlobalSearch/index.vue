@@ -2,7 +2,7 @@
   <transition name="search">
     <div class="search view-container" v-show="props.searchInput.length !== 0">
       <div class="shadowed search-bar">{{ props.searchInput }}<span class="cursor"></span></div>
-      <div class="search-title">{{ getUITranslatedText("Search") }}</div>
+      <div class="search-title">{{ $t("Search") }}</div>
       <div class="search-result view-content">
         <CollectibleItem :is-list-styled="true" v-for="c in collectibles" :item="c" :show-quality="true"
           :show-id="true" />
@@ -30,7 +30,6 @@ import CollectibleItem from '@/components/CollectiblesList/CollectibleItem.vue';
 import TrinketItem from '@/components/TrinketsList/TrinketItem.vue';
 import CardItem from '../CardsList/CardItem.vue';
 import PillItem from '../PillsList/PillItem.vue';
-import { getUITranslatedText } from '@/utils/i18n'
 
 import { search } from '@/utils/resources'
 import { ref, watch } from 'vue'

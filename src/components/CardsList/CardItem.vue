@@ -1,5 +1,6 @@
 <template>
-  <div class="item card" :class="{ 'list-styled': props.isListStyled }" @click="handleSpawn(pocketItemsData[props.gid].id)">
+  <div class="item card" :class="{ 'list-styled': props.isListStyled }"
+    @click.left="handleSpawn(pocketItemsData[props.gid].id)" @click.right="handleGive(props.gid)">
     <div class="shadowed gid" v-show="props.showId">{{ props.gid }}</div>
     <div class="image">
       <div class="sprite" :style="{ backgroundPosition: `${-data[gid].left * 32}px ${-data[gid].top * 32}px` }"></div>
@@ -21,6 +22,11 @@ const pocketItemsData = window._resource.pocketItems
 
 const handleSpawn = (id) => {
   emit("COMMAND", `spawn 5.300.${id}`);
+}
+
+
+const handleGive = (gid) => {
+  emit("COMMAND", `g ${gid}`);
 }
 </script>
 
@@ -65,25 +71,23 @@ const handleSpawn = (id) => {
     }
 
     .name {
-      display: block;
       padding: 0 .75rem;
+      display: block;
       position: absolute;
       left: 64px;
-      line-height: 32px;
-      right: 0;
-      top: 0;
-      bottom: 0;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      top: 0.375rem;
       font-size: 1.75rem;
     }
 
     .description {
-      display: block;
       padding: 0 .75rem;
+      display: block;
       position: absolute;
       left: 64px;
-      line-height: 32px;
-      right: 0;
-      top: 32px;
+      line-height: 2rem;
+      top: 34px;
       bottom: 0;
       font-size: 1.25rem;
     }

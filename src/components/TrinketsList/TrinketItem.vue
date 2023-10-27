@@ -1,14 +1,15 @@
 <template>
   <div v-if="!props.isGolden" class="item" :class="{ 'list-styled': props.isListStyled }"
-    @click="handleSpawn(props.item.id)">
+    @click.left="handleSpawn(props.item.id)" @click.right="handleGive(props.item._gid)">
     <div class="shadowed id" v-show="showId">{{ props.item._gid }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="description">{{ props.item.description }}</div>
     <div class="image" :style="getImageSource(props.item.gfx)"></div>
   </div>
   <div v-else class="golden item" :class="{ 'list-styled': props.isListStyled }"
-    @click="handleSpawn(parseInt(props.item.id) + 32768)">
-    <div class="shadowed id" v-show="showId">T{{ parseInt(props.item._gid.substring(1,props.item._gid.length)) + 32768 }}</div>
+    @click.left="handleSpawn(parseInt(props.item.id) + 32768)"
+    @click.right="handleGive(props.item._gid.toUpperCase())">
+    <div class="shadowed id" v-show="showId">{{ 'T' + (parseInt(props.item.id) + 32768) }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="description">{{ props.item.description }}</div>
     <div class="image" :style="getImageSource(props.item.gfx)"></div>
@@ -22,6 +23,10 @@ const props = defineProps(['item', 'isGolden', 'showId', 'isListStyled'])
 
 const handleSpawn = (id) => {
   emit("COMMAND", `spawn 5.350.${id}`);
+}
+
+const handleGive = (gid) => {
+  emit("COMMAND", `g ${gid}`);
 }
 
 const handleRemove = (id) => {
@@ -53,11 +58,10 @@ const getImageSource = (gfx) => {
       display: block;
       position: absolute;
       left: 64px;
-      height: 1.5rem;
-      line-height: 1.5rem;
-      right: 0;
-      top: .5rem;
-      font-size: 1.5rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      top: 0.375rem;
+      font-size: 1.75rem;
     }
 
     .description {
@@ -65,12 +69,10 @@ const getImageSource = (gfx) => {
       display: block;
       position: absolute;
       left: 64px;
-      line-height: 32px;
-      right: 0;
-      top: 32px;
+      line-height: 2rem;
+      top: 34px;
       bottom: 0;
-      font-size: 1rem;
-      color: #191919;
+      font-size: 1.25rem;
     }
 
     .image {
@@ -106,17 +108,17 @@ const getImageSource = (gfx) => {
     background-color: #00000021;
   }
 
-//   @keyframes golden_blink {
+  //   @keyframes golden_blink {
 
-//     0%,
-//     100% {
-//       filter: sepia(1) saturate(10) brightness(2) hue-rotate(0deg);
-//     }
+  //     0%,
+  //     100% {
+  //       filter: sepia(1) saturate(10) brightness(2) hue-rotate(0deg);
+  //     }
 
-//     50% {
-//       filter: sepia(1) saturate(10) brightness(3) hue-rotate(-10deg);
-//     }
-//   }
+  //     50% {
+  //       filter: sepia(1) saturate(10) brightness(3) hue-rotate(-10deg);
+  //     }
+  //   }
 
   &.golden {
     .image {

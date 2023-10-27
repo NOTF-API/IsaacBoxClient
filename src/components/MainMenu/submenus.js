@@ -5,7 +5,6 @@ import OthersList from '@/components/OthersList/index.vue'
 import PillsList from '@/components/PillsList/index.vue'
 import MonstersList from '@/components/MonstersList/index.vue'
 import LanguageSelect from '@/components/LanguageSelect/index.vue'
-import { getUITranslatedText } from '@/utils/i18n'
 
 import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'

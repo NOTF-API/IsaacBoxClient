@@ -9,6 +9,9 @@
         <input id="show-cards-as-list" type="checkbox" v-model="isListStyled" />
         <label for="show-cards-as-list">{{ $t('list style') }}</label>
       </span>
+      <div class="idea-popover">
+        <div class="shadowed idea-text">{{ $t("$items-idea") }}</div>
+      </div>
     </div>
     <div class="view-content card-list no-scrollbar">
       <CardItem :gid="gid" v-for="gid in Object.keys(data)" :is-list-styled="isListStyled" :show-id="isShowId" />

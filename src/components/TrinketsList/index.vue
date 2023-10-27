@@ -9,6 +9,9 @@
         <input id="show-trinket-as-list" type="checkbox" v-model="isListStyle" />
         <label for="show-trinket-as-list">{{ $t('list style') }}</label>
       </span>
+      <div class="idea-popover">
+        <div class="shadowed idea-text">{{ $t("$items-idea") }}</div>
+      </div>
     </div>
     <div class="view-content no-scrollbar">
       <div class="items">

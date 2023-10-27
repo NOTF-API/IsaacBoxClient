@@ -77,4 +77,34 @@
       align-items: center;
     }
   }
+} 
+
+.idea-popover{
+  position: absolute;
+  cursor: pointer;
+  right: 0.25rem;
+  top: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  &::after{
+    position: absolute;
+    inset: 0;
+    line-height: 1.5rem;
+    text-align: center;
+    content: "?";
+  }
+  &:hover .idea-text{
+    display: block;
+  }
+  .idea-text{
+    cursor: default;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 18rem;
+    display: none;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+  }
 }

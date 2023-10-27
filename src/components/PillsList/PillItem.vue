@@ -1,5 +1,6 @@
 <template>
-  <div class="item list-styled" :class="{ large: props.isLarge }" @click="handleGive(props.item.id, props.isLarge)">
+  <div class="item list-styled" :class="{ large: props.isLarge }" @click.left="handleGive(props.item.id, props.isLarge)"
+    @click.right="handleGive(props.item.id, props.isLarge)">
     <div class="gid" v-show="props.isShowId">{{ props.item._gid }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="image"></div>
@@ -50,7 +51,7 @@ const handleGive = (id, isLarge) => {
     transform-origin: center center;
     background-repeat: no-repeat;
     background-position: 0 0;
-    transform: translate(8px, 8px);
+    transform: translate(10px, 9px);
     scale: 2;
     margin-left: auto;
     margin-right: .5rem;
@@ -67,24 +68,10 @@ const handleGive = (id, isLarge) => {
     display: block;
     position: absolute;
     left: 64px;
-    line-height: 32px;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    font-size: 1.5rem;
-  }
-
-  .description {
-    padding: 0 .75rem;
-    display: block;
-    position: absolute;
-    left: 64px;
-    line-height: 32px;
-    right: 0;
-    top: 32px;
-    bottom: 0;
-    font-size: 1.125rem;
-    color: #191919;
+    height: 4rem;
+    line-height: 4rem;
+    top: 0rem;
+    font-size: 1.75rem;
   }
 
   .gid {
