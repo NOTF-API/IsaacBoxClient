@@ -141,7 +141,7 @@ const messages = {
   },
   [I18N_TYPE.FRENCH]: {
     "Isaac's Box": "Boîte d'Isaac",
-    "Collectibles": "Objets de collection",
+    "Collectibles": "Collections",
     "Trinkets": "Bijoux",
     "Cards/Runes": "Cartes Runes",
     "Pills": "Pilules",
