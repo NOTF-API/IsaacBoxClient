@@ -91,7 +91,7 @@ const getTransformedStyle = computed(() => {
   &.active {
     .fly {
       transform: translate(240px, -50px);
-      animation: fly-in .375s ease-out .25s forwards,fly-up-and-down 1.25s ease-in-out infinite ;
+      animation: fly-in .375s ease-out .25s forwards, fly-up-and-down 1.25s ease-in-out infinite;
     }
   }
 
@@ -131,18 +131,9 @@ const getTransformedStyle = computed(() => {
     }
   }
 
-  @keyframes fly-out {
-    from {
-      transform: translate(0, 0);
-    }
-
-    to {
-      transform: translate(240px, -50px);
-    }
-  }
-
   @keyframes fly-up-and-down {
-    0%,100% {
+    0%,
+    100% {
       translate: 0 0px;
     }
 
@@ -152,12 +143,14 @@ const getTransformedStyle = computed(() => {
   }
 
   .fly {
+    display: none;
     position: absolute;
     top: 16rem;
     right: 6rem;
     width: 96px;
     height: 80px;
     transform: translate(0, 0);
+    will-change: transform;
 
     @keyframes fly-sprite {
 
