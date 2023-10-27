@@ -1,14 +1,14 @@
 <template>
   <div class="view" :style="getTransformedStyle">
     <div class="menu view-container" :class="{ active: isActive }">
-      <div class="title">{{ $t("Isaac's Box") }}</div>
+      <div class="title i18n-0">Isaac's Box</div>
       <div class="version">{{ $t("$version") }}</div>
       <div class="fly">
         <div class="sprite"></div>
         <div class="shadow"></div>
       </div>
       <div class="idea">
-        {{ $t("type some word to begin search") }}
+        {{ $t("$search-idea") }}
       </div>
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
@@ -91,7 +91,7 @@ const getTransformedStyle = computed(() => {
   &.active {
     .fly {
       transform: translate(240px, -50px);
-      animation: fly-in .5s ease-out .5s forwards;
+      animation: fly-in .375s ease-out .25s forwards,fly-up-and-down 1.25s ease-in-out infinite ;
     }
   }
 
@@ -141,6 +141,16 @@ const getTransformedStyle = computed(() => {
     }
   }
 
+  @keyframes fly-up-and-down {
+    0%,100% {
+      translate: 0 0px;
+    }
+
+    50% {
+      translate: 0 6px;
+    }
+  }
+
   .fly {
     position: absolute;
     top: 16rem;
@@ -148,9 +158,6 @@ const getTransformedStyle = computed(() => {
     width: 96px;
     height: 80px;
     transform: translate(0, 0);
-    // visibility: hidden;
-
-    // animation: fly-out .5s ease-in .5s forwards;
 
     @keyframes fly-sprite {
 
@@ -191,12 +198,12 @@ const getTransformedStyle = computed(() => {
 
     .sprite {
       background-position-x: 0;
-      animation: fly-sprite .1s steps(1) infinite;
+      animation: fly-sprite 75ms steps(1) infinite;
     }
 
     .shadow {
       background-position-x: -96px;
-      animation: fly-shadow .1s steps(1) infinite;
+      animation: fly-shadow 75ms steps(1) infinite;
     }
   }
 }
