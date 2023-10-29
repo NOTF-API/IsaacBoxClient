@@ -1,6 +1,6 @@
 <template>
   <div class="view" :style="getTransformedStyle">
-    <div class="menu view-container" :class="{ active: isActive }">
+    <div class="menu view-container" :class="{ active: isMainActive }">
       <div class="title i18n-0">Isaac's Box</div>
       <div class="version">{{ $t("$version") }}</div>
       <div class="fly">
@@ -39,7 +39,7 @@ window.addEventListener("keydown", (event) => {
         submenu.active.value === false
       }
     });
-    isActive.value = true;
+    isMainActive.value = true;
     transform.x = 0;
     transform.y = 0;
   }
@@ -54,15 +54,14 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-const isActive = ref(true);
+const isMainActive = ref(true);
 const transform = reactive({
   x: 0,
   y: 0
 })
 
 const handleActiveSubmenu = (submenu) => {
-  isActive.value = false;
-  submenu.active.value = true;
+  isMainActive.value = false;
   transform.x = submenu.gridOffset.x
   transform.y = submenu.gridOffset.y
 }
@@ -88,13 +87,6 @@ const getTransformedStyle = computed(() => {
   justify-content: center;
   align-items: flex-start;
 
-  &.active {
-    .fly {
-      transform: translate(240px, -50px);
-      animation: fly-in .375s ease-out .25s forwards, fly-up-and-down 1.25s ease-in-out infinite;
-    }
-  }
-
   .title {
     position: absolute;
     top: 3rem;
@@ -105,8 +97,9 @@ const getTransformedStyle = computed(() => {
 
   .idea {
     position: absolute;
-    right: 4rem;
-    bottom: 4rem;
+    right: 0;
+    bottom: 0;
+    padding: .5rem;
     font-size: 1.5rem;
     color: #f6f6f6;
     text-shadow: #9e0b0b 0 2px;
@@ -132,18 +125,19 @@ const getTransformedStyle = computed(() => {
   }
 
   @keyframes fly-up-and-down {
+
     0%,
     100% {
       translate: 0 0px;
     }
 
     50% {
-      translate: 0 6px;
+      translate: 0 4px;
     }
   }
 
   .fly {
-    display: none;
+    // display: none;
     position: absolute;
     top: 16rem;
     right: 6rem;
@@ -151,6 +145,7 @@ const getTransformedStyle = computed(() => {
     height: 80px;
     transform: translate(0, 0);
     will-change: transform;
+    animation: none;
 
     @keyframes fly-sprite {
 
@@ -191,12 +186,27 @@ const getTransformedStyle = computed(() => {
 
     .sprite {
       background-position-x: 0;
-      animation: fly-sprite 75ms steps(1) infinite;
     }
 
     .shadow {
       background-position-x: -96px;
-      animation: fly-shadow 75ms steps(1) infinite;
+    }
+  }
+
+  &.active {
+    .fly {
+      transform: translate(240px, -50px);
+      animation: fly-in .375s ease-out .25s forwards, fly-up-and-down 1.25s ease-in-out infinite;
+
+      .sprite {
+        background-position-x: 0;
+        animation: fly-sprite 75ms steps(1) infinite;
+      }
+
+      .shadow {
+        background-position-x: -96px;
+        animation: fly-shadow 75ms steps(1) infinite;
+      }
     }
   }
 }
