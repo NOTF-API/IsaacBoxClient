@@ -19,6 +19,11 @@ body {
 }
 
 @font-face {
+  font-family: Cubic_11;
+  src: url("/fonts/Cubic_11_1.013_R.ttf");
+}
+
+@font-face {
   font-family: fusion-chs;
   src: url("/fonts/fusion-pixel-12px-proportional-zh_hans.ttf");
 }
@@ -51,10 +56,22 @@ body {
 }
 
 .i18n-3 {
-  font-family: upheavtt, fusion-chs;
+  font-family: upheavtt, Cubic_11, fusion-chs;
 }
 
-.i18n-4,.i18n-5,.i18n-6,.i18n-7 {
+.chn_title{
+  width: 1804px!important;
+  height: 514px!important;
+  transform-origin: center top;
+  scale: .3;
+  background-size: 1804px 514px;
+  background-image: url("./title_chn_by_baiyutang.png");
+}
+
+.i18n-4,
+.i18n-5,
+.i18n-6,
+.i18n-7 {
   font-family: upheavtt, fusion-latin;
 }
 
