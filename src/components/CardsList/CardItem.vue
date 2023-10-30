@@ -40,6 +40,7 @@ const handleGive = (gid) => {
 
   &.list-styled {
     width: 100%;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
