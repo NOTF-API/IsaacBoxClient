@@ -7,7 +7,8 @@
     "fool",
     "yuzhe",
     "chuansong",
-    "tp"
+    "tp",
+    "yz"
   ],
   "k2": [
     "k2",
@@ -17,7 +18,8 @@
     "magician",
     "moshushi",
     "genzong",
-    "zhuizong"
+    "zhuizong",
+    "mss"
   ],
   "k3": [
     "k3",
@@ -26,7 +28,8 @@
     "the",
     "high",
     "priestess",
-    "nvjisi"
+    "nvjisi",
+    "njs"
   ],
   "k4": [
     "k4",
@@ -34,7 +37,8 @@
     "theempress",
     "the",
     "empress",
-    "huanghou"
+    "huanghou",
+    "hh"
   ],
   "k5": [
     "k5",
@@ -45,7 +49,8 @@
     "huangdi",
     "boss",
     "chuansong",
-    "tp"
+    "tp",
+    "hd"
   ],
   "k6": [
     "k6",
@@ -54,7 +59,8 @@
     "the",
     "hierophant",
     "jiaohuang",
-    "lanxin"
+    "lanxin",
+    "jh"
   ],
   "k7": [
     "k7",
@@ -63,7 +69,8 @@
     "the",
     "lovers",
     "lianren",
-    "hongxin"
+    "hongxin",
+    "lr"
   ],
   "k8": [
     "k8",
@@ -74,7 +81,8 @@
     "zhanche",
     "wudi",
     "qicai",
-    "caise"
+    "caise",
+    "zc"
   ],
   "k9": [
     "k9",
@@ -87,7 +95,8 @@
     "qianbi",
     "key",
     "boom",
-    "coins"
+    "coins",
+    "zy"
   ],
   "k10": [
     "k10",
@@ -96,7 +105,8 @@
     "the",
     "hermit",
     "yinzhe",
-    "shangdian"
+    "shangdian",
+    "yz"
   ],
   "k11": [
     "k11",
@@ -106,7 +116,8 @@
     "of",
     "fortune",
     "mingyunzhilun",
-    "duboji"
+    "duboji",
+    "myzl"
   ],
   "k12": [
     "k12",
@@ -114,7 +125,8 @@
     "strength",
     "liliang",
     "xieshangxian",
-    "xueshagnxian"
+    "xueshagnxian",
+    "ll"
   ],
   "k13": [
     "k13",
@@ -125,13 +137,15 @@
     "man",
     "daodiaoren",
     "fly",
-    "fei"
+    "fei",
+    "ddr"
   ],
   "k14": [
     "k14",
     "13",
     "death",
-    "siwang"
+    "siwang",
+    "sw"
   ],
   "k15": [
     "k15",
@@ -139,7 +153,8 @@
     "temperance",
     "jiezhi",
     "maixueji",
-    "maixieji"
+    "maixieji",
+    "jz"
   ],
   "k16": [
     "k16",
@@ -147,7 +162,8 @@
     "thedevil",
     "the",
     "devil",
-    "emo"
+    "emo",
+    "em"
   ],
   "k17": [
     "k17",
@@ -158,7 +174,8 @@
     "ta",
     "zhadan",
     "boom",
-    "lufuren"
+    "lufuren",
+    "t"
   ],
   "k18": [
     "k18",
@@ -169,7 +186,8 @@
     "xingxing",
     "daojufang",
     "tp",
-    "chuansong"
+    "chuansong",
+    "xx"
   ],
   "k19": [
     "k19",
@@ -180,7 +198,8 @@
     "yueliang",
     "yincang",
     "tp",
-    "chuansong"
+    "chuansong",
+    "yl"
   ],
   "k20": [
     "k20",
@@ -193,14 +212,16 @@
     "manxue",
     "manxie",
     "jiaxue",
-    "jiaxie"
+    "jiaxie",
+    "ty"
   ],
   "k21": [
     "k21",
     "20",
     "judgement",
     "shenpan",
-    "qigai"
+    "qigai",
+    "sp"
   ],
   "k22": [
     "k22",
@@ -209,7 +230,8 @@
     "the",
     "world",
     "shijie",
-    "kaitu"
+    "kaitu",
+    "sj"
   ],
   "k23": [
     "k23",
@@ -223,7 +245,8 @@
     "fanbei",
     "zhadan",
     "boom",
-    "x2"
+    "x2",
+    "mh2"
   ],
   "k24": [
     "k24",
@@ -236,7 +259,8 @@
     "fanbei",
     "coins",
     "fangpianer",
-    "fangpian2"
+    "fangpian2",
+    "fp2"
   ],
   "k25": [
     "k25",
@@ -249,7 +273,8 @@
     "heitao2",
     "yaoshi",
     "keys",
-    "fanbei"
+    "fanbei",
+    "ht2"
   ],
   "k26": [
     "k26",
@@ -263,7 +288,8 @@
     "hongxin",
     "fanbei",
     "heart",
-    "redheart"
+    "redheart",
+    "ht2"
   ],
   "k27": [
     "k27",
@@ -275,7 +301,8 @@
     "meihuaa",
     "meihua1",
     "zhadan",
-    "boom"
+    "boom",
+    "mh1"
   ],
   "k28": [
     "k28",
@@ -288,7 +315,8 @@
     "fangpian1",
     "coins",
     "jinbi",
-    "qian"
+    "qian",
+    "fp1"
   ],
   "k29": [
     "k29",
@@ -300,7 +328,8 @@
     "heitaoa",
     "heitao1",
     "keys",
-    "yaoshi"
+    "yaoshi",
+    "ht1"
   ],
   "k30": [
     "k30",
@@ -313,7 +342,8 @@
     "hongtao1",
     "hongxin",
     "redheart",
-    "heart"
+    "heart",
+    "ht1"
   ],
   "k31": [
     "k31",
@@ -325,7 +355,8 @@
     "xiaowang",
     "tp",
     "chuansong",
-    "emofang"
+    "emofang",
+    "gp"
   ],
   "k32": [
     "k32",
@@ -333,16 +364,20 @@
     "hagalaz",
     "bingbaofuwen",
     "fuwen",
-    "cuihui"
+    "fw",
+    "cuihui",
+    "bbfw"
   ],
   "k33": [
     "k33",
     "32",
     "jera",
     "fuwen",
+    "fw",
     "jiela",
     "shouhuofuwen",
-    "fuzhi"
+    "fuzhi",
+    "shfw"
   ],
   "k34": [
     "k34",
@@ -350,11 +385,13 @@
     "ehwaz",
     "maqifuwen",
     "fuwen",
+    "fw",
     "tongdao",
     "chanzi",
     "heishi",
     "dixiashi",
-    "sutong"
+    "sutong",
+    "mqfw"
   ],
   "k35": [
     "k35",
@@ -362,7 +399,9 @@
     "dagaz",
     "zhaoxifuwen",
     "fuwen",
-    "chunjie"
+    "fw",
+    "chunjie",
+    "zxfw"
   ],
   "k36": [
     "k36",
@@ -370,8 +409,10 @@
     "ansuz",
     "zhushenfuwen",
     "fuwen",
+    "fw",
     "shiye",
-    "kaitu"
+    "kaitu",
+    "zsfw"
   ],
   "k37": [
     "k37",
@@ -381,16 +422,20 @@
     "d6",
     "roll",
     "fuwen",
+    "fw",
     "gaibian",
-    "change"
+    "change",
+    "qtfw"
   ],
   "k38": [
     "k38",
     "37",
     "berkano",
     "fuwen",
+    "fw",
     "huamufuwen",
-    "huoban"
+    "huoban",
+    "hmfw"
   ],
   "k39": [
     "k39",
@@ -398,7 +443,9 @@
     "algiz",
     "baohufuwen",
     "wudi",
-    "fuwen"
+    "fuwen",
+    "fw",
+    "bhfw"
   ],
   "k40": [
     "k40",
@@ -407,7 +454,9 @@
     "blank",
     "rune",
     "kongbaifuwen",
-    "fuwen"
+    "fuwen",
+    "fw",
+    "kbfw"
   ],
   "k41": [
     "k41",
@@ -416,46 +465,55 @@
     "black",
     "rune",
     "fuwen",
+    "fw",
     "heifuwen",
     "xukong",
     "xi",
-    "yamen"
+    "yamen",
+    "hfw"
   ],
   "k42": [
     "k42",
     "41",
     "chaoscard",
     "chaos",
-    "card","kapian",
+    "card",
+    "kapian",
     "hundunka",
-    "miaosha"
+    "miaosha",
+    "hdk"
   ],
   "k43": [
     "k43",
     "42",
     "creditcard",
     "credit",
-    "card","kapian",
+    "card",
+    "kapian",
     "xinyongka",
     "shangdian",
     "emo",
     "jiaoyi",
-    "mianfei"
+    "mianfei",
+    "xyk"
   ],
   "k44": [
     "k44",
     "43",
     "rulescard",
     "rules",
-    "card","kapian",
-    "guizeka"
+    "card",
+    "kapian",
+    "guizeka",
+    "gzk"
   ],
   "k45": [
     "k45",
     "44",
     "acardagainsthumanity",
     "a",
-    "card","kapian",
+    "card",
+    "kapian",
     "against",
     "humanity",
     "fanrenleika",
@@ -466,7 +524,8 @@
     "xiaolanren",
     "shi",
     "xiang",
-    "haochou"
+    "haochou",
+    "frlk"
   ],
   "k46": [
     "k46",
@@ -475,7 +534,8 @@
     "suicide",
     "king",
     "zishazhiwang",
-    "zhenjieju"
+    "zhenjieju",
+    "zszw"
   ],
   "k47": [
     "k47",
@@ -486,21 +546,26 @@
     "of",
     "jail",
     "free",
-    "card","kapian",
+    "card",
+    "kapian",
     "mianfeibaoshika",
     "kaimen",
-    "zhimakaimen"
+    "zhimakaimen",
+    "mfbsk"
   ],
   "k48": [
     "k48",
     "47",
     "qcard",
     "q",
-    "card","kapian",
+    "card",
+    "kapian",
     "wenhaoka",
     "shuangbeizhudong",
     "zailaiyici",
-    "mianfeizhudong"
+    "mianfeizhudong",
+    "whk",
+    "wk"
   ],
   "k49": [
     "k49",
@@ -513,7 +578,8 @@
     "roll",
     "touzisuipian",
     "shaizisuipian",
-    "red"
+    "red",
+    "tzsp"
   ],
   "k50": [
     "k50",
@@ -523,17 +589,20 @@
     "contact",
     "jinjilianxidianhua",
     "mamadeshou",
-    "zhua"
+    "zhua",
+    "jjlxdh"
   ],
   "k51": [
     "k51",
     "50",
     "holycard",
     "holy",
-    "card","kapian",
+    "card",
+    "kapian",
     "shengshengka",
     "liluo",
-    "protect"
+    "protect",
+    "ssk"
   ],
   "k52": [
     "k52",
@@ -543,7 +612,8 @@
     "growth",
     "bianjushu",
     "biandashu",
-    "siyijianta"
+    "siyijianta",
+    "bjs"
   ],
   "k53": [
     "k53",
@@ -553,7 +623,8 @@
     "recall",
     "xianzuzhaohuan",
     "chouka",
-    "chousanzhangka"
+    "chousanzhangka",
+    "xzzh"
   ],
   "k54": [
     "k54",
@@ -562,7 +633,8 @@
     "era",
     "walk",
     "shikongmanbu",
-    "pinweizheyike"
+    "pinweizheyike",
+    "skmb"
   ],
   "k55": [
     "k55",
@@ -573,7 +645,9 @@
     "fuwensuipian",
     "faguang",
     "suipian",
-    "fuwen"
+    "fuwen",
+    "fw",
+    "fwsp"
   ],
   "k56": [
     "k56",
@@ -584,7 +658,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dyz",
+    "daoyuzhe",
+    "yuzhe"
   ],
   "k57": [
     "k57",
@@ -595,7 +672,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dmss",
+    "daomoshushi",
+    "moshushi"
   ],
   "k58": [
     "k58",
@@ -607,7 +687,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dnjs",
+    "daonvjisi",
+    "nvjisi"
   ],
   "k59": [
     "k59",
@@ -618,7 +701,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dhh",
+    "daohuanghou",
+    "huanghou"
   ],
   "k60": [
     "k60",
@@ -629,7 +715,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dhd",
+    "daohuangdi",
+    "huangdi"
   ],
   "k61": [
     "k61",
@@ -640,7 +729,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "djh",
+    "daojiaohuang",
+    "jiaohuang"
   ],
   "k62": [
     "k62",
@@ -651,7 +743,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dlr",
+    "daolianren",
+    "lianren"
   ],
   "k63": [
     "k63",
@@ -662,7 +757,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dzc",
+    "daozhanche",
+    "zhanche"
   ],
   "k64": [
     "k64",
@@ -672,7 +770,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dzy",
+    "daozhengyi",
+    "zhengyi"
   ],
   "k65": [
     "k65",
@@ -683,7 +784,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dyz",
+    "daoyinzhe",
+    "yinzhe"
   ],
   "k66": [
     "k66",
@@ -695,7 +799,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dmyzl",
+    "daomingyunzhilun",
+    "mingyunzhilun"
   ],
   "k67": [
     "k67",
@@ -705,7 +812,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dll",
+    "daoliliang",
+    "liliang"
   ],
   "k68": [
     "k68",
@@ -717,7 +827,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dddr",
+    "daodaodiaoren",
+    "daodiaoren"
   ],
   "k69": [
     "k69",
@@ -727,7 +840,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dsw",
+    "daosiwang",
+    "siwang"
   ],
   "k70": [
     "k70",
@@ -737,7 +853,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "djz",
+    "daojiezhi",
+    "jiezhi"
   ],
   "k71": [
     "k71",
@@ -748,7 +867,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dem",
+    "daoemo",
+    "emo"
   ],
   "k72": [
     "k72",
@@ -759,7 +881,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dt",
+    "daota",
+    "ta"
   ],
   "k73": [
     "k73",
@@ -770,7 +895,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dxx",
+    "daoxingxing",
+    "xingxing"
   ],
   "k74": [
     "k74",
@@ -781,7 +909,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dyl",
+    "daoyueliang",
+    "yueliang"
   ],
   "k75": [
     "k75",
@@ -792,7 +923,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dty",
+    "daotaiyang",
+    "tanyang"
   ],
   "k76": [
     "k76",
@@ -802,7 +936,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dsp",
+    "daoshenpan",
+    "shenpan"
   ],
   "k77": [
     "k77",
@@ -813,7 +950,10 @@
     "r",
     "dao",
     "reverse",
-    "daoka"
+    "daoka",
+    "dsj",
+    "daoshijie",
+    "shijie"
   ],
   "k78": [
     "k78",
@@ -826,7 +966,8 @@
     "hongyaoshi",
     "gaiyin",
     "kaimen",
-    "hongyin"
+    "hongyin",
+    "hyssp"
   ],
   "k79": [
     "k79",
@@ -837,18 +978,22 @@
     "hearts",
     "hongtaoq",
     "hongtaoquan",
-    "3"
+    "3",
+    "htq"
   ],
   "k80": [
     "k80",
     "79",
     "wildcard",
     "wild",
-    "card","kapian",
+    "card",
+    "kapian",
     "wanyongpai",
     "wanyongka",
     "unocard",
-    "zailaiyici"
+    "zailaiyici",
+    "wyp",
+    "wyk"
   ],
   "k81": [
     "k81",
@@ -856,9 +1001,11 @@
     "soulofisaac",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "isaac",
-    "yisa"
+    "yisa",
+    "ysdhs"
   ],
   "k82": [
     "k82",
@@ -866,9 +1013,11 @@
     "soulofmagdalene",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "magdalene",
-    "modala"
+    "modala",
+    "mdldhs"
   ],
   "k83": [
     "k83",
@@ -876,9 +1025,11 @@
     "soulofcain",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "cain",
-    "gaiyin"
+    "gaiyin",
+    "gydhs"
   ],
   "k84": [
     "k84",
@@ -886,9 +1037,11 @@
     "soulofjudas",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "judas",
-    "youda"
+    "youda",
+    "yddhs"
   ],
   "k85": [
     "k85",
@@ -896,9 +1049,12 @@
     "soulofbluebaby",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "bluebaby",
-    "xiaolanren"
+    "xiaolanren",
+    "xlrdhs",
+    "wwwdhs"
   ],
   "k86": [
     "k86",
@@ -906,9 +1062,11 @@
     "soulofeve",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "eve",
-    "xiawa"
+    "xiawa",
+    "xwdhs"
   ],
   "k87": [
     "k87",
@@ -916,10 +1074,13 @@
     "soulofsamson",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "samson",
     "cansun",
-    "sansun"
+    "sansun",
+    "csdhs",
+    "ssdhs"
   ],
   "k88": [
     "k88",
@@ -927,10 +1088,13 @@
     "soulofazazel",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "azazel",
     "az",
-    "amnesiaxiele"
+    "asaxieledehunshi",
+    "azdhs",
+    "asxldhs"
   ],
   "k89": [
     "k89",
@@ -938,9 +1102,11 @@
     "souloflazarus",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "lazarus",
-    "lasalu"
+    "lasalu",
+    "lsldhs"
   ],
   "k90": [
     "k90",
@@ -948,9 +1114,11 @@
     "soulofeden",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "eden",
-    "yidian"
+    "yidian",
+    "yddhs"
   ],
   "k91": [
     "k91",
@@ -958,10 +1126,12 @@
     "soulofthelost",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "the",
     "lost",
-    "youhun"
+    "youhun",
+    "yhdhs"
   ],
   "k92": [
     "k92",
@@ -969,9 +1139,11 @@
     "souloflilith",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "lilith",
-    "lilisi"
+    "lilisi",
+    "llsdhs"
   ],
   "k93": [
     "k93",
@@ -979,12 +1151,14 @@
     "soulofthekeeper",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "the",
     "keeper",
     "coins",
     "dianzhu",
-    "dianzhang"
+    "dianzhang",
+    "dzdhs"
   ],
   "k94": [
     "k94",
@@ -992,10 +1166,12 @@
     "soulofapollyon",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "apollyon",
     "yabolun",
-    "yamen"
+    "yamen",
+    "ybldhs"
   ],
   "k95": [
     "k95",
@@ -1003,12 +1179,15 @@
     "souloftheforgotten",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "the",
     "forgotten",
     "beiyiwangzhe",
     "guge",
-    "yihai"
+    "yihai",
+    "yhdhs",
+    "ggdhs"
   ],
   "k96": [
     "k96",
@@ -1016,10 +1195,12 @@
     "soulofbethany",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "bethany",
     "bodani",
-    "shangmawei"
+    "shangmawei",
+    "bdndhs"
   ],
   "k97": [
     "k97",
@@ -1027,6 +1208,7 @@
     "soulofjacobandesau",
     "soul",
     "hunshi",
+    "hs",
     "of",
     "jacob",
     "and",
@@ -1034,7 +1216,10 @@
     "yageheyisao",
     "yage",
     "yisao",
-    "shuangzi"
+    "shuangzi",
+    "ygdhs",
+    "ysdhs",
+    "ygyysdhs"
   ],
   "p0": [
     "p0",
@@ -1052,7 +1237,8 @@
     "badtrip",
     "bad",
     "trip",
-    "guojihuanjue"
+    "guojihuanjue",
+    "jdcp"
   ],
   "p2": [
     "p2",
@@ -1063,7 +1249,8 @@
     "steel",
     "gangtieshuangdan",
     "hunxin",
-    "shuangdan"
+    "shuangdan",
+    "gtsd"
   ],
   "p3": [
     "p3",
@@ -1072,8 +1259,9 @@
     "bombs",
     "are",
     "key",
-    "zhadan",
-    "yaoshi"
+    "zhadanbianyaoshi",
+    "yaoshi",
+    "zdbys"
   ],
   "p4": [
     "p4",
@@ -1082,8 +1270,9 @@
     "explosive",
     "diarrhea",
     "zhadan",
-    "baozha",
-    "fuxie"
+    "baozhaxingfuxie",
+    "fuxie",
+    "bzxfx"
   ],
   "p5": [
     "p5",
@@ -1096,7 +1285,8 @@
     "tilihuiman",
     "heart",
     "shangsheng",
-    "huiman"
+    "huiman",
+    "tlhm"
   ],
   "p6": [
     "p6",
@@ -1105,7 +1295,8 @@
     "health",
     "down",
     "tilixiajiang",
-    "xiajiang"
+    "xiajiang",
+    "tlxj"
   ],
   "p7": [
     "p7",
@@ -1114,9 +1305,13 @@
     "health",
     "up",
     "shangsheng",
+    "tilishangsheng",
     "jiaxie",
     "jiaxue",
-    "shangxian"
+    "shangxian",
+    "xueshangxian",
+    "xieshangxian",
+    "tlss"
   ],
   "p8": [
     "p8",
@@ -1125,13 +1320,17 @@
     "i",
     "found",
     "pills",
-    "wozhaodaomeiguaiyao"
+    "wozhaodaomeiguaiyao",
+    "guaiyao",
+    "mie",
+    "wzdmgy"
   ],
   "p9": [
     "p9",
     "9",
     "puberty",
-    "qingchunqi"
+    "qingchunqi",
+    "qcq"
   ],
   "p10": [
     "p10",
@@ -1139,7 +1338,8 @@
     "prettyfly",
     "pretty",
     "fly",
-    "piaoliangcangying"
+    "piaoliangcangying",
+    "plcy"
   ],
   "p11": [
     "p11",
@@ -1149,7 +1349,8 @@
     "down",
     "shechengxiajiang",
     "xiajiang",
-    "jiangdi"
+    "jiangdi",
+    "scxj"
   ],
   "p12": [
     "p12",
@@ -1159,7 +1360,8 @@
     "up",
     "shechengshangsheng",
     "shangsheng",
-    "zengjia"
+    "zengjia",
+    "scss"
   ],
   "p13": [
     "p13",
@@ -1170,7 +1372,8 @@
     "xiajiang",
     "jiangdi",
     "yisuxiajiang",
-    "yisujiangdi"
+    "yisujiangdi",
+    "ysxj"
   ],
   "p14": [
     "p14",
@@ -1181,7 +1384,8 @@
     "shangsheng",
     "zengjia",
     "yisushangsheng",
-    "yisuzengjia"
+    "yisuzengjia",
+    "ysss"
   ],
   "p15": [
     "p15",
@@ -1191,7 +1395,8 @@
     "down",
     "shesuxiajiang",
     "xiajiang",
-    "jiangdi"
+    "jiangdi",
+    "ssxj"
   ],
   "p16": [
     "p16",
@@ -1201,7 +1406,8 @@
     "up",
     "shesushangsheng",
     "shangsheng",
-    "zengjia"
+    "zengjia",
+    "ssss"
   ],
   "p17": [
     "p17",
@@ -1212,7 +1418,8 @@
     "yunqixiajiang",
     "xingyunxiajiang",
     "xiajiang",
-    "jiangdi"
+    "jiangdi",
+    "yqxj"
   ],
   "p18": [
     "p18",
@@ -1223,14 +1430,16 @@
     "yunqishangsheng",
     "xingyunshangsheng",
     "shangsheng",
-    "zengjia"
+    "zengjia",
+    "yqss"
   ],
   "p19": [
     "p19",
     "19",
     "telepills",
-    "chuansong",
-    "tp"
+    "chuansongjiaonang",
+    "tp",
+    "csjn"
   ],
   "p20": [
     "p20",
@@ -1238,7 +1447,10 @@
     "48hourenergy",
     "hour",
     "energy",
-    "dianchi"
+    "48xiaoshinengliang",
+    "sishibaxiaoshinengliang",
+    "dianchi",
+    "48xsnl"
   ],
   "p21": [
     "p21",
@@ -1248,15 +1460,23 @@
     "ouxue",
     "xiajiang",
     "jiangdi",
+    "tuxie",
+    "tuxue",
+    "ouxue",
+    "ouxie",
     "xue",
-    "xie"
+    "xie",
+    "ox"
   ],
   "p22": [
     "p22",
     "22",
     "paralysis",
     "mabi",
-    "freeze"
+    "freeze",
+    "mb",
+    "mabi",
+    "mb"
   ],
   "p23": [
     "p23",
@@ -1270,21 +1490,24 @@
     "kanqing",
     "wonengyongyuankanqing",
     "woyongyuannengkanqing",
-    "yincang"
+    "yincang",
+    "wnyykq"
   ],
   "p24": [
     "p24",
     "24",
     "pheromones",
     "xinxisu",
-    "meihuo"
+    "meihuo",
+    "xxs"
   ],
   "p25": [
     "p25",
     "25",
     "amnesia",
     "shiyizheng",
-    "milu"
+    "milu",
+    "syz"
   ],
   "p26": [
     "p26",
@@ -1293,36 +1516,34 @@
     "lemon",
     "party",
     "ningmengpaidui",
-    "ningmeng",
-    "paidui"
+    "paidui",
+    "nmpd"
   ],
   "p27": [
     "p27",
     "27",
     "ruawizard",
-    "r",
-    "dao",
-    "reverse",
-    "daoka",
-    "u",
-    "a",
     "wizard",
     "wushimao",
-    "nishiwushima"
+    "wushiyao",
+    "nishiwushima",
+    "nswsm"
   ],
   "p28": [
     "p28",
     "28",
     "percs",
     "zhitongyao",
-    "zhitengyao"
+    "zhitengyao",
+    "zty"
   ],
   "p29": [
     "p29",
     "29",
     "addicted",
     "shangyin",
-    "keyao"
+    "keyao",
+    "sy"
   ],
   "p30": [
     "p30",
@@ -1333,7 +1554,8 @@
     "laxiang",
     "dabian",
     "xiang",
-    "baba"
+    "baba",
+    "fs"
   ],
   "p31": [
     "p31",
@@ -1341,7 +1563,10 @@
     "questionmarks",
     "question",
     "marks",
-    "wenhao"
+    "wenhaowenhaowenhao",
+    "wenwenwen",
+    "www",
+    "qqq"
   ],
   "p32": [
     "p32",
@@ -1352,8 +1577,10 @@
     "you",
     "larger",
     "biandajiaonang",
+    "biandayao",
     "siyijianta",
-    "shizizuo"
+    "shizizuo",
+    "bdjn"
   ],
   "p33": [
     "p33",
@@ -1363,7 +1590,9 @@
     "makes",
     "you",
     "small",
-    "bianxiaojiaonang"
+    "bianxiaojiaonang",
+    "bianxiaoyao",
+    "nxjn"
   ],
   "p34": [
     "p34",
@@ -1371,7 +1600,10 @@
     "infested1",
     "infested",
     "daliangzisheng",
-    "zhizhu"
+    "zhizhu",
+    "lanzhizhu",
+    "spider",
+    "dlzs"
   ],
   "p35": [
     "p35",
@@ -1379,7 +1611,10 @@
     "infested2",
     "infested",
     "daliangzisheng",
-    "zhizhu"
+    "zhizhu",
+    "lanzhizhu",
+    "spider",
+    "dlzs"
   ],
   "p36": [
     "p36",
@@ -1387,9 +1622,9 @@
     "powerpill",
     "power",
     "pill",
-    "wudi",
     "daliwan",
-    "caise"
+    "wudiyao",
+    "dlw"
   ],
   "p37": [
     "p37",
@@ -1398,7 +1633,9 @@
     "retro",
     "vision",
     "fugushiye",
-    "xiangsufeng"
+    "xiangsufeng",
+    "xiangsushiye",
+    "fgsy"
   ],
   "p38": [
     "p38",
@@ -1409,16 +1646,20 @@
     "the",
     "end",
     "haopengyouyibeizi",
+    "haopengyou1beizi",
     "cangying",
     "fly",
-    "lancangying"
+    "lancangying",
+    "hpyybz"
   ],
   "p39": [
     "p39",
     "39",
     "xlax",
     "xieyao",
-    "lale"
+    "laxi",
+    "lale",
+    "xy"
   ],
   "p40": [
     "p40",
@@ -1428,7 +1669,11 @@
     "wrong",
     "nalibudui",
     "laxi",
-    "la"
+    "xieyao",
+    "laxi",
+    "lale",
+    "la",
+    "nlbd"
   ],
   "p41": [
     "p41",
@@ -1438,7 +1683,9 @@
     "drowsy",
     "haokun",
     "keshui",
-    "kun"
+    "jiansu",
+    "kun",
+    "hk"
   ],
   "p42": [
     "p42",
@@ -1448,7 +1695,9 @@
     "excited",
     "haoxingfen",
     "xingfen",
-    "gaoxing"
+    "jiasu",
+    "gaoxing",
+    "hxf"
   ],
   "p43": [
     "p43",
@@ -1456,14 +1705,17 @@
     "gulp",
     "gulu",
     "tunshipin",
+    "danzhudai",
     "shipin",
-    "yanle"
+    "yanle",
+    "gl"
   ],
   "p44": [
     "p44",
     "44",
     "horf",
-    "ou"
+    "ou",
+    "tugen"
   ],
   "p45": [
     "p45",
@@ -1476,14 +1728,19 @@
     "on",
     "sunshine",
     "wudi",
+    "wudiyao",
     "daliwan",
-    "caise"
+    "caise",
+    "gjxmbzygx"
   ],
   "p46": [
     "p46",
     "46",
     "vurp",
-    "ge"
+    "ge",
+    "lastpill",
+    "shangyigeyaowan",
+    "shangyigejiaonang"
   ],
   "p47": [
     "p47",
@@ -1494,7 +1751,8 @@
     "down",
     "dansuxiajiang",
     "xiajiang",
-    "jiangdi"
+    "jiangdi",
+    "dsxj"
   ],
   "p48": [
     "p48",
@@ -1505,7 +1763,8 @@
     "up",
     "dansushangsheng",
     "shangsheng",
-    "zengjia"
+    "zengjia",
+    "dsss"
   ],
   "p49": [
     "p49",
@@ -1514,6 +1773,7 @@
     "experimental",
     "pill",
     "shiyanxingjiaonang",
-    "huangzhen"
+    "huangzhen",
+    "syxjn"
   ]
 }

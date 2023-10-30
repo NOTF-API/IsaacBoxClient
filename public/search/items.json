@@ -641,7 +641,11 @@
     "c36",
     "36",
     "thepoop",
-    "xiaolanren","lanmen","baba","shi","xiang",
+    "xiaolanren",
+    "lanmen",
+    "baba",
+    "shi",
+    "xiang",
     "the",
     "poop",
     "dabian",
@@ -7052,6 +7056,7 @@
     "denfinity",
     "d",
     "infinity",
+    "dinfinity",
     "touzi",
     "shaizi",
     "wuxianmiantou",
@@ -8770,7 +8775,9 @@
     "level2",
     "quality2",
     "q2",
-    "xiaoluo$"
+    "xiaoluo$",
+    "lost",
+    "luosite"
   ],
   "c613": [
     "c613",
@@ -12163,6 +12170,8 @@
     "nidelinghun",
     "xiangeiwoba",
     "xiaoluo$",
+    "lost",
+    "luosite",
     "emojiaoyi$"
   ],
   "t174": [
@@ -12237,7 +12246,9 @@
     "soul",
     "fudeyouhun",
     "zhongyu",
-    "xiaoluo$"
+    "xiaoluo$",
+    "lost",
+    "luosite"
   ],
   "t181": [
     "181",
