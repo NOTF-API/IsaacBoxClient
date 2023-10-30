@@ -34,7 +34,7 @@
 + 或者提issue
 
 ## 项目使用
-+ 首先安装相关依赖(推荐yarn) 命令为:npm
++ 首先安装相关依赖(推荐npm) 命令为:npm install
 + npm run dev:网页开发调试 调试界面和基础功能用这个
 + npm run build:生成静态网页
 + npm run start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
