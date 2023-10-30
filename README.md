@@ -2,34 +2,52 @@
 
 这是一个基于IsaacSocket的外置控制台，基于Vue3+electron,通过WS与IsaacSocket进行连接，需要配合IsaacBox Mod来达到一个外置控制台的目的。
 ![./doc/main.png](./doc/main.png "主画面")
+![./doc/c.png](./doc/c.png "道具")
+![./doc/t.png](./doc/t.png "饰品")
+![./doc/k.png](./doc/k.png "卡牌与符文")
+![./doc/p.png](./doc/p.png "胶囊效果")
+![./doc/s.png](./doc/s.png "楼层")
+![./doc/d.png](./doc/d.png "debug")
+![./doc/search.png](./doc/p.png "全局搜索")
+![./doc/lang.png](./doc/lang.png "八国语言")
 
 ## 目前已有功能
-+ 道具生成(可以显示品级)
-+ 饰品生成(包含金色饰品)
-+ 卡牌/符文生成
++ 道具生成/给予
++ 饰品生成/给予
++ 卡牌/符文 生成/给予
 + 给予药丸/大药丸
 + 全局搜索
++ debug开关
++ 楼层
++ 八国语言
 
 ## 使用方法
-1. 于github上或创意工坊下载IsaacSocket Mod 并存放Mod于游戏安装目录的mod目录下
-https://github.com/LanbingIce/IsaacSocket-Mod
-2. 于github上下载Isaac Socket Utility 并运行
-https://github.com/LanbingIce/IsaacSocket-Utility
-3. 在[release](https://github.com/NOTF-API/IsaacBoxClient/releases/)页面下载最新版本的IsaacBox Client 或者自己使用本项目 build
-4. 在[IsaacBoxMod](https://github.com/NOTF-API/IsaacBoxMod)下载IsaacBox Mod并存放Mod于游戏安装目录的mod目录下
-5. 启动以撒的结合-忏悔 启用2个Mod
-6. 新游戏/继续游戏 待界面显示IsaacBox V?.?.?(版本号)即可使用外置控制台。
+1. 在[release](https://github.com/NOTF-API/IsaacBoxClient/releases/)页面或者其他途径下载最新版本的IsaacBox Client(以撒的盒子客户端)
+2. 解压缩文件夹，打开isaac-box.exe (会暂无界面)
+3. 启动游戏,此时界面弹出。
+4. 如果是第一次启动，会自动安装必要mod并自动关闭游戏，请您根据提示重新手动启动游戏。
+5. 新游戏/继续游戏后 看到屏幕顶部的IsaacBox + 版本 即可开始正常使用。
 
 ## 遇到问题
 + 参考https://github.com/LanbingIce/IsaacSocket-Mod 文档
-+ 更换梯子,开发环境则确保electron正确安装
++ 请检查是否曾经安装过IsaacSocket，同一时间只能开启一个IsaacSocket MOD
 + 或者提issue
 
 ## 项目使用
-+ 首先安装相关依赖(推荐yarn) 命令为:yarn
-+ yarn dev:网页开发调试 调试界面和基础功能用这个
-+ yarn build:生成静态网页
-+ yarn start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
-+ yarn make:打包生成用户可以一键运行的安装包
++ 首先安装相关依赖(推荐yarn) 命令为:npm
++ npm run dev:网页开发调试 调试界面和基础功能用这个
++ npm run build:生成静态网页
++ npm run start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
++ npm run make:打包生成用户可以一键运行的安装包
 ## 待开发功能
-+ DEBUG MODE SWITCH
++ 拥有道具的界面，可以移除道具
++ 部分语言未开发完毕
+
+## 特别感谢
+(不区分先后顺序)
+
+[LanbingIce](https://github.com/LanbingIce)
+
+[enthusiasmgame2001](https://github.com/enthusiasmgame2001)
+
+[白玉螳](https://space.bilibili.com/6126195)
