@@ -1,6 +1,6 @@
 <template>
   <div class="view-container">
-    <div class="view-content no-scrollbar">
+    <div class="lang-select view-content no-scrollbar">
       <div class="item" @click="handleSelectLanguage(value)" v-for="value in Object.values(I18N_TYPE)">{{
         getI18nLanguageSelectText(value) }}</div>
     </div>
@@ -26,6 +26,12 @@ const handleSelectLanguage = (value) => {
   line-height: 48px;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.lang-select {
+  top: 2rem;
+  border-top: 4px solid #726c69;
+
 }
 </style>
   

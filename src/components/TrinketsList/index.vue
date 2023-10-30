@@ -10,7 +10,7 @@
         <label for="show-trinket-as-list">{{ $t('list style') }}</label>
       </span>
       <div class="idea-popover">
-        <div class="shadowed idea-text">{{ $t("$items-idea") }}</div>
+        <div class="shadowed idea-text">{{ $t("$idea-items") }}</div>
       </div>
     </div>
     <div class="view-content no-scrollbar">
@@ -43,7 +43,7 @@ const data = Object.values(window._resource.items).filter((value) => {
 })
 </script>
   
-<style lang="less" scoped>
+<style lang="less">
 @import url("../list.less");
 </style>
   

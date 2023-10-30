@@ -65,7 +65,7 @@ const getItemsData = async (itemsMeta, i18nData) => {
     items[gid] = item
     Object.assign(item, itemsMeta[gid])
   })
-//   console.log(items)
+  //   console.log(items)
   delete items["c577"]//remove error damokelisizhijian
   return items;
 }
@@ -103,19 +103,57 @@ const getPocketItemsData = async (i18nData) => {
     }
     // return
     // console.log(item)
-    if ((item.id == 0 && item._gtype==="k") || !item.name) {
+    if ((item.id == 0 && item._gtype === "k") || !item.name) {
       return;
     }
     const nameKey = item.name.substring(1, item.name.length);
     item.name = i18nData.PocketItems[nameKey][i18nType]._value;
-    if(!item.description){
+    if (!item.description) {
       return;
     }
     const descriptionKey = item.description?.substring(1, item.description.length);
     item.description = i18nData.PocketItems[descriptionKey][i18nType]._value || item.description;
   })
-//   console.log(pocketItems)
+  //   console.log(pocketItems)
   return (pocketItems)
+}
+
+const getStagesData = async (i18nData) => {
+  const data = await getXMLDataAndParse("./assets/stages.xml")
+  const stages = {};
+  const i18nType = getI18nType();
+  data.forEach((item) => {
+    // console.log(item.id)
+    stages[item.id] = item; 
+    // if (item._type === "card" || item._type === "rune") {
+    //   item._gtype = "k"
+    //   item._gid = `k${item.id}`
+    //   pocketItems[item._gid] = item;
+    // }
+    // else if (item._type === "pilleffect") {
+    //   item._gtype = "p"
+    //   item._gid = `p${item.id}`
+    //   pocketItems[item._gid] = item;
+    // } else {
+    //   return
+    // }
+    // return
+    // console.log(item)
+    // if ((item.id == 0 && item._gtype === "k") || !item.name) {
+    //   return;
+    // }
+    const nameKey = item.name.substring(1, item.name.length);
+    item.name = i18nData.Stages[nameKey][i18nType]._value;
+    // if (!item.description) {
+    //   return;
+    // }
+    // const descriptionKey = item.description?.substring(1, item.description.length);
+    // item.description = i18nData.PocketItems[descriptionKey][i18nType]._value || item.description;
+  })
+//   console.log(stages)
+  delete stages["0"]
+  //   console.log(pocketItems)
+  return (stages)
 }
 
 const getI18nData = async () => {
@@ -214,13 +252,13 @@ const search = (keyword) => {
       return;
     }
     if (p._gtype === "k") {
-    //   console.log(p)
+      //   console.log(p)
       result[p._gtype]?.push(p._gid)
     } else {
       result[p._gtype]?.push(p)
     }
   })
-//   console.log(result)
+  //   console.log(result)
   return result
 }
 
@@ -229,10 +267,11 @@ const initResources = async () => {
   const metadata = await getItemsMetaData()
   const pocketItems = await getPocketItemsData(i18nData);
   const items = await getItemsData(metadata, i18nData);
+  const stages = await getStagesData(i18nData)
   //   console.log(items)
   await buildSearchTree(await getSearchData(), items, pocketItems);
   return {
-    pocketItems, items
+    pocketItems, items, stages
   }
 }
 

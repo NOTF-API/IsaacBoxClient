@@ -62,7 +62,9 @@ watch(() => props.searchInput, (newValue) => {
 
 <style scoped lang="less">
 @import url("../list.less");
+</style>
 
+<style lang="less">
 @keyframes cursor-blink {
 
   0%,

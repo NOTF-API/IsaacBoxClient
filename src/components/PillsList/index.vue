@@ -4,7 +4,7 @@
       <input id="show-pills-id" type="checkbox" v-model="isShowId" />
       <label for="show-pills-id">{{ $t("show id") }}</label>
       <div class="idea-popover">
-        <div class="shadowed idea-text">{{ $t("$pills-idea") }}</div>
+        <div class="shadowed idea-text">{{ $t("$idea-pills") }}</div>
       </div>
     </div>
     <div class="view-content pills-list no-scrollbar">
@@ -22,10 +22,10 @@ const data = Object.values(window._resource.pocketItems).filter((value) => {
   return value._type === "pilleffect"
 })
 
-const isShowId = ref(false)
+const isShowId = ref(true)
 </script>
     
-<style lang="less" scoped>
+<style lang="less">
 @import url("../list.less");
 </style>
     

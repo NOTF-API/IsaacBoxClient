@@ -1,6 +1,6 @@
 <template>
-  <div class="item list-styled" :class="{ large: props.isLarge }" @click.left="handleGive(props.item.id, props.isLarge)"
-    @click.right="handleGive(props.item.id, props.isLarge)">
+  <div class="pill item list-styled" :class="{ large: props.isLarge }"
+    @click.left="handleGive(props.item.id, props.isLarge)" @click.right="handleGive(props.item.id, props.isLarge)">
     <div class="gid" v-show="props.isShowId">{{ props.item._gid }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="image"></div>
@@ -22,17 +22,17 @@ const handleGive = (id, isLarge) => {
 </script>
 
 <style lang="less" scoped>
-.item.list-styled {
+.pill.item.list-styled {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
   width: 100% !important;
-  height: 64px;
+  height: 44px;
   position: relative;
   border-radius: 8px;
   margin-top: 0;
-  line-height: 48px;
+  line-height: 44px;
 
   &:hover {
     background-color: #00000021;
@@ -51,7 +51,7 @@ const handleGive = (id, isLarge) => {
     transform-origin: center center;
     background-repeat: no-repeat;
     background-position: 0 0;
-    transform: translate(10px, 9px);
+    transform: translate(4px, 4px);
     scale: 2;
     margin-left: auto;
     margin-right: .5rem;
@@ -60,6 +60,7 @@ const handleGive = (id, isLarge) => {
   &.large {
     .image {
       background-position: -192px 0;
+      transform: translate(4px, 4px);
     }
   }
 
@@ -67,9 +68,9 @@ const handleGive = (id, isLarge) => {
     padding: 0 .75rem;
     display: block;
     position: absolute;
-    left: 64px;
-    height: 4rem;
-    line-height: 4rem;
+    left: 44px;
+    height: 44px;
+    line-height: 44px;
     top: 0rem;
     font-size: 1.75rem;
   }
@@ -82,8 +83,8 @@ const handleGive = (id, isLarge) => {
     border-radius: 4px;
     right: 0;
     display: block;
-    height: 16px;
-    line-height: 16px;
+    height: 14px;
+    line-height: 14px;
     text-align: center;
     font-size: 1rem;
     display: block;
@@ -93,7 +94,7 @@ const handleGive = (id, isLarge) => {
     bottom: .25rem;
     display: block;
     width: auto;
-    padding: .5rem;
+    padding: .25rem .375rem;
     height: 16px;
     line-height: 16px;
     text-align: center;

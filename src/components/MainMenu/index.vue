@@ -1,14 +1,15 @@
 <template>
   <div class="view" :style="getTransformedStyle">
     <div class="menu view-container" :class="{ active: isMainActive }">
-      <div class="title i18n-0">Isaac's Box</div>
+      <div class="title i18n-0" v-if="getI18nType() !== '3'">Isaac's Box</div>
+      <div class="chn_title" v-else></div>
       <div class="version">{{ $t("$version") }}</div>
       <div class="fly">
         <div class="sprite"></div>
         <div class="shadow"></div>
       </div>
       <div class="idea">
-        {{ $t("$search-idea") }}
+        {{ $t("$idea-search") }}
       </div>
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
@@ -23,6 +24,7 @@
 <script setup>
 import { ref, reactive, computed } from 'vue'
 import { getSubmenus } from './submenus'
+import { getI18nType } from '@/utils/i18n'
 import GlobalSearch from '@/components/GlobalSearch/index.vue'
 const searchInput = ref("")
 
@@ -87,12 +89,14 @@ const getTransformedStyle = computed(() => {
   justify-content: center;
   align-items: flex-start;
 
-  .title {
+  .title,
+  .chn_title {
     position: absolute;
     top: 3rem;
     font-size: 7rem;
     color: #c50500;
     text-shadow: #430000 0px 4px;
+    animation: up-and-down 1.25s steps(3) infinite;
   }
 
   .idea {
@@ -124,7 +128,7 @@ const getTransformedStyle = computed(() => {
     }
   }
 
-  @keyframes fly-up-and-down {
+  @keyframes up-and-down {
 
     0%,
     100% {
@@ -196,7 +200,7 @@ const getTransformedStyle = computed(() => {
   &.active {
     .fly {
       transform: translate(240px, -50px);
-      animation: fly-in .375s ease-out .25s forwards, fly-up-and-down 1.25s ease-in-out infinite;
+      animation: fly-in .375s ease-out .25s forwards, up-and-down 1.25s steps(3) infinite;
 
       .sprite {
         background-position-x: 0;
@@ -212,7 +216,7 @@ const getTransformedStyle = computed(() => {
 }
 
 .menu-content {
-  margin-top: 14rem;
+  margin-top: 13.5rem;
   width: 363px;
   padding: 2rem 0;
   background-color: #e9dadf;
@@ -221,16 +225,16 @@ const getTransformedStyle = computed(() => {
 
   .menu-item {
     display: block;
-    height: 1.5rem;
-    line-height: 1.5rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
     margin-bottom: 1rem;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     margin-right: auto;
     padding: 0;
     border: none;
     background: none;
     color: #352e2c;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: bold;
     cursor: pointer;
     outline: none;
