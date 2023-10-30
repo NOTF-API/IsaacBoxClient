@@ -1,4 +1,3 @@
-
 .options {
   display: flex;
   align-items: center;
@@ -68,7 +67,8 @@
       background-color: #00000051;
     }
 
-    .image {
+    .image,
+    .image>* {
       image-rendering: pixelated;
       pointer-events: none;
       transform-origin: center center;
@@ -76,27 +76,34 @@
       justify-content: center;
       align-items: center;
     }
-  }
-} 
 
-.idea-popover{
+    &:active {
+      background-color: #527e4551;
+    }
+  }
+}
+
+.idea-popover {
   position: absolute;
   cursor: pointer;
   right: 0.25rem;
   top: 0.25rem;
   width: 1.5rem;
   height: 1.5rem;
-  &::after{
+
+  &::after {
     position: absolute;
     inset: 0;
     line-height: 1.5rem;
     text-align: center;
     content: "?";
   }
-  &:hover .idea-text{
+
+  &:hover .idea-text {
     display: block;
   }
-  .idea-text{
+
+  .idea-text {
     cursor: default;
     position: absolute;
     right: 0;
