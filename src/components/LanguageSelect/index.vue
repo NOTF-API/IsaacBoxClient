@@ -31,7 +31,6 @@ const handleSelectLanguage = (value) => {
 .lang-select {
   top: 2rem;
   border-top: 4px solid #726c69;
-
 }
 </style>
   
