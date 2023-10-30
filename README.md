@@ -10,6 +10,7 @@
 ![./doc/d.png](./doc/d.png "debug")
 ![./doc/search.png](./doc/p.png "全局搜索")
 ![./doc/lang.png](./doc/lang.png "八国语言")
+![./doc/search.png](./doc/search.png "全局搜索")
 
 ## 目前已有功能
 + 道具生成/给予
