@@ -99,6 +99,15 @@ const getTransformedStyle = computed(() => {
     animation: up-and-down 1.25s steps(3) infinite;
   }
 
+  .chn_title {
+    width: 1804px !important;
+    height: 514px !important;
+    transform-origin: center top;
+    scale: .3;
+    background-size: 1804px 514px;
+    background-image: url("/title_chn_by_baiyutang.png");
+  }
+
   .idea {
     position: absolute;
     right: 0;
