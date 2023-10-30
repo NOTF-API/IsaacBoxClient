@@ -1,4 +1,4 @@
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 const debugConsole = (...args) => {
   if (!DEBUG_MODE) {
     return;
