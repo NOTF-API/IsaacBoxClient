@@ -97,6 +97,7 @@ const getTransformedStyle = computed(() => {
     color: #c50500;
     text-shadow: #430000 0px 4px;
     animation: up-and-down 1.25s steps(3) infinite;
+    filter: drop-shadow(16px 32px 16px #00000036);
   }
 
   .chn_title {
