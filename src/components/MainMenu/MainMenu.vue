@@ -25,7 +25,7 @@
 import { ref, reactive, computed } from 'vue'
 import { getSubmenus } from './submenus'
 import { getI18nType } from '@/utils/i18n'
-import GlobalSearch from '@/components/GlobalSearch/index.vue'
+import GlobalSearch from '@/components/GlobalSearch/GlobalSearch.vue'
 const searchInput = ref("")
 
 const submenus = getSubmenus();

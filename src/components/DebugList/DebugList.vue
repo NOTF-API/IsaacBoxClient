@@ -1,5 +1,10 @@
 <template>
   <div class="view-container">
+    <div class="options">
+      <div class="idea-popover">
+        <div class="shadowed idea-text">{{ $t("$idea-debug") }}</div>
+      </div>
+    </div>
     <div class="view-content no-scrollbar">
       <div class="item" @click="handleDebug(dbg.id)" v-for="dbg in debugs">{{
         $t(`$debug${dbg.id}`) }} <div class="shadowed did">DEBUG {{ dbg.id }}</div>
@@ -21,8 +26,8 @@ const handleDebug = (id) => {
 @import url("../list.less");
 
 .view-content {
-  border-top: 4px solid #726c69;
-  top: 2rem;
+  //   border-top: 4px solid #726c69;
+  //   top: 2rem;
 
   .item {
     width: 100% !important;

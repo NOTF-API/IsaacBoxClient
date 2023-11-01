@@ -1,12 +1,12 @@
-import CollectiblesList from '@/components/CollectiblesList/index.vue';
-import TrinketsList from '@/components/TrinketsList/index.vue';
-import CardsList from '@/components/CardsList/index.vue'
-import StageList from '@/components/StageList/index.vue'
-// import OthersList from '@/components/OthersList/index.vue'
-import PillsList from '@/components/PillsList/index.vue'
+import CollectiblesList from '@/components/CollectiblesList/CollectiblesList.vue';
+import TrinketsList from '@/components/TrinketsList/TrinketsList.vue';
+import CardsList from '@/components/CardsList/CardsList.vue'
+import StageList from '@/components/StageList/StageList.vue'
+import PillsList from '@/components/PillsList/PillsList.vue'
 // import MonstersList from '@/components/MonstersList/index.vue'
-import LanguageSelect from '@/components/LanguageSelect/index.vue'
-import DebugList from '@/components/DebugList/index.vue'
+// import OthersList from '@/components/OthersList/index.vue'
+import LanguageSelect from '@/components/LanguageSelect/LanguageSelect.vue'
+import DebugList from '@/components/DebugList/DebugList.vue'
 
 import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'
@@ -38,7 +38,7 @@ const submenusMetaData = [
     active: ref(false),
   },
   {
-    name: "Cards/Runes",
+    name: "Cards Runes",
     component: CardsList,
     gridOffset: {
       x: -1,
@@ -103,8 +103,8 @@ const submenusMetaData = [
 ]
 
 export const getSubmenus = () => {
+  const { t } = useI18n()
   return submenusMetaData.map((submenu) => {
-    const { t } = useI18n()
     return {
       ...submenu,
       name: t(submenu.name),
