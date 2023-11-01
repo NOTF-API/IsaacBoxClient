@@ -24,12 +24,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: "Trinkets"
-}
-</script>
   
 <script setup>
 import TrinketItem from './TrinketItem.vue';
