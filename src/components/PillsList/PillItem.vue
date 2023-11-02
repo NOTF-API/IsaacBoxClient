@@ -1,7 +1,7 @@
 <template>
   <div class="pill item list-styled" :class="{ large: props.isLarge }"
     @click.left="handleGive(props.item.id, props.isLarge)" @click.right="handleGive(props.item.id, props.isLarge)">
-    <div class="gid" v-show="props.isShowId">{{ props.item._gid }}</div>
+    <div class="shadowed gid" v-show="props.isShowId">{{ props.item._gid }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="image"></div>
   </div>
