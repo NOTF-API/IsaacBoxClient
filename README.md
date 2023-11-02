@@ -8,7 +8,6 @@
 ![./doc/p.png](./doc/p.png "胶囊效果")
 ![./doc/s.png](./doc/s.png "楼层")
 ![./doc/d.png](./doc/d.png "debug")
-![./doc/search.png](./doc/p.png "全局搜索")
 ![./doc/lang.png](./doc/lang.png "八国语言")
 ![./doc/search.png](./doc/search.png "全局搜索")
 
