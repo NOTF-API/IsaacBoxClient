@@ -11,11 +11,6 @@
       <div class="idea">
         {{ $t("$idea-search") }}
       </div>
-      <div class="idea-launch-game" v-show="!isGameReady" @click="isGameReady = true">
-        {{ $t("$idea-launch-game") }}
-        <br />
-        {{ $t("$idea-ignore-game") }}
-      </div>
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
           @click="handleActiveSubmenu(submenu)"></button>
@@ -34,15 +29,6 @@ import GlobalSearch from '@/components/GlobalSearch/GlobalSearch.vue'
 const searchInput = ref("")
 
 const submenus = getSubmenus();
-
-const isGameReady = ref(false);
-
-const sid = setInterval(() => {
-  if (window.isGameReady) {
-    isGameReady.value = true;
-    clearInterval(sid);
-  }
-}, 1000);
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
