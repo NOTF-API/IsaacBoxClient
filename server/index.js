@@ -39,7 +39,7 @@ const initServer = (port) => {
       }
     })
   });
-  console.log("ws listening on ws://localhost:8888")
+  console.log("ws listening on ws://localhost:58869")
 }
 
 module.exports = {

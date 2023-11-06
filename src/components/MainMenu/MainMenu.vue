@@ -11,6 +11,11 @@
       <div class="idea">
         {{ $t("$idea-search") }}
       </div>
+      <div class="idea-launch-game" v-show="!isGameReady" @click="isGameReady = true">
+        {{ $t("$idea-launch-game") }}
+        <br />
+        {{ $t("$idea-ignore-game") }}
+      </div>
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
           @click="handleActiveSubmenu(submenu)"></button>
@@ -29,6 +34,15 @@ import GlobalSearch from '@/components/GlobalSearch/GlobalSearch.vue'
 const searchInput = ref("")
 
 const submenus = getSubmenus();
+
+const isGameReady = ref(false);
+
+const sid = setInterval(() => {
+  if (window.isGameReady) {
+    isGameReady.value = true;
+    clearInterval(sid);
+  }
+}, 1000);
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
@@ -117,6 +131,20 @@ const getTransformedStyle = computed(() => {
     font-size: 1.5rem;
     color: #f6f6f6;
     text-shadow: #9e0b0b 0 2px;
+  }
+
+  .idea-launch-game {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .version {

@@ -1,99 +1,26 @@
 const { BrowserWindow, app, dialog } = require("electron");
+const net = require('net');
 const path = require("path")
-const fs = require("fs")
 const { initServer } = require("./server/index")
-const cp = require("child_process");
 
-const ISAAC_BOX_MOD_NAME = "isaac_box"
-const ISAAC_SOCKET_MOD_NAME = "isaac_socket_3033763718"
-
+const { getAllModsMetadata,
+  getRequiredModsVersionInfo,
+  patchMods,
+  getGameDirectorySync,
+//   waitForGameLaunch,
+  killGameProcess,
+  openIsaacSocketUtility } = require("./env");
 
 let win;
-let gameDir = null;
-
-const getGameDirectorySync = () => {
-  return new Promise((resolve, reject) => {
-    cp.execFile("./dependencies/IsaacBoxUtility.exe", ['-D'], (error, stdout, stderr) => {
-      if (!error) {
-        const filePath = stdout;
-        const directory = path.dirname(filePath);
-        gameDir = directory
-        resolve(directory);
-      }
-      reject(error)
-    })
-  })
-}
-
-const killGameProcess = () => {
-  return new Promise((resolve, reject) => {
-    cp.execFile("./dependencies/IsaacBoxUtility.exe", ['-K'], (error, stdout, stderr) => {
-      if (!error) {
-        resolve();
-      }
-      reject(error)
-    })
-  })
-}
-
-const checkIsaacSocketMod = async () => {
-  return new Promise((resolve, reject) => {
-    fs.access(`${gameDir}/mods/${ISAAC_SOCKET_MOD_NAME}`, (err) => {
-      if (err) {
-        resolve(false)
-      } else {
-        resolve(true)
-      }
-    })
-  })
-}
-
-const checkIsaacBoxMod = async () => {
-  return new Promise((resolve, reject) => {
-    fs.access(`${gameDir}/mods/${ISAAC_BOX_MOD_NAME}`, (err) => {
-      if (err) {
-        resolve(false)
-      } else {
-        resolve(true)
-      }
-    })
-  })
-}
-
-const installIsaacSocketMod = () => {
-  const cmd = `xcopy ".\\dependencies\\${ISAAC_SOCKET_MOD_NAME}\\" "${gameDir}\\mods\\${ISAAC_SOCKET_MOD_NAME}\\" /e /y /q`
-  return new Promise((resolve, reject) => {
-    cp.exec(cmd, (err) => {
-      if (err) {
-        reject(err)
-      }
-      resolve()
-    })
-  })
-}
-
-const installIsaacBoxMod = () => {
-  const cmd = `xcopy ".\\dependencies\\${ISAAC_BOX_MOD_NAME}\\" "${gameDir}\\mods\\${ISAAC_BOX_MOD_NAME}\\" /e /y /q`
-  return new Promise((resolve, reject) => {
-    cp.exec(cmd, (err) => {
-      if (err) {
-        reject(err)
-      }
-      resolve()
-    })
-  })
-}
-
-const openIsaacSocketUtility = () => {
-  cp.execFile("./dependencies/IsaacSocketUtility/IsaacSocket.exe");
-}
 
 const createMainWindow = () => {
+  //forbid multiple windows
   win = new BrowserWindow({
     width: 800,
     height: 600 + 28,
     resizable: false,
     show: false,
+    icon: path.join(__dirname, './public/favicon.ico'),
     webPreferences: {
       preload: path.join(__dirname, "./preload.js")
     }
@@ -102,7 +29,7 @@ const createMainWindow = () => {
   // win.webContents.openDevTools() // 打开electron控制台
   win.loadFile(path.join(__dirname, "dist", "index.html"))
   win.on("ready-to-show", () => {
-    // win.show();
+    win.show();
   })
   win.on("close", () => {
     app.quit();
@@ -110,37 +37,48 @@ const createMainWindow = () => {
   return win;
 }
 
+const isPortTaken = (port) => {
+  return new Promise((resolve) => {
+    const server = net.createServer()
+      .once('error', () => resolve(true))
+      .once('listening', () => {
+        server.close();
+        resolve(false);
+      })
+      .listen(port);
+  });
+}
+
 (async () => {
-  await app.whenReady()
-  console.log("waiting for game launch...")
-  await getGameDirectorySync()
-  console.log("checking for mod...")
-  let modsReady = true;
-  const isIsaacSocketModInstalled = await checkIsaacSocketMod();
-  const isIsaacBoxModInstalled = await checkIsaacBoxMod();
-  if (!isIsaacSocketModInstalled) {
-    installIsaacSocketMod();
-    modsReady = false;
-  }
-  if (!isIsaacBoxModInstalled) {
-    installIsaacBoxMod();
-    modsReady = false;
-  }
-  console.log("opening Isaac Socket Utility...")
-  await openIsaacSocketUtility();
-  initServer(8888);
-  win = createMainWindow();
-  if (!modsReady) {
-    await killGameProcess();
-    await dialog.showMessageBox({
-      title: '提示',
-      type: 'info',
-      message: '依赖已经安装完成,请手动重新启动游戏,请勿关闭IsaacSocket连接程序。',
-      isAlwaysOnTop: true
+  const PORT = 58869
+  await app.whenReady();
+  if (await isPortTaken(PORT)) {
+    dialog.showMessageBoxSync({
+      title: "警告",
+      message: `工具所需要使用的端口${PORT}已被占用，无法开启工具`,
+      type: "warning"
     })
-    win.show();
-  } else {
-    win.show();
+    app.quit();
+    return;
+  }
+  initServer(PORT);
+  win = createMainWindow();
+  try {
+    const gameDir = await getGameDirectorySync();
+    const mods = await getAllModsMetadata(gameDir);
+    const requiredMods = await getRequiredModsVersionInfo(mods);
+    const isPatched = await patchMods(gameDir, requiredMods)
+    if (isPatched) {
+      await killGameProcess();
+      dialog.showMessageBox({
+        title: "提示",
+        type: "info",
+        message: "所需MOD已经为您安装完成,请您手动重新启动游戏"
+      })
+    }
+    openIsaacSocketUtility();
+  } catch (error) {
+    console.log(error);
   }
 })();
 

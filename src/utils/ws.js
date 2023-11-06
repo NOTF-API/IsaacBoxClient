@@ -106,7 +106,7 @@ handler.on("OFFER_ITEMS", (message) => {
 export const init = () => {
   let itemQueryInterval; 
   statusText.value = "正在连接服务器"
-  socket = new WebSocket(`ws://localhost:${8888}`)
+  socket = new WebSocket(`ws://localhost:${58869}`)
   socket.onopen = () => {
     statusText.value = "与服务器连接成功"
     isConsoleReady.value = true

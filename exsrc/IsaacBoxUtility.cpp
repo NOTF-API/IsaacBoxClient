@@ -10,6 +10,7 @@ DWORD GetGameProcessId();
 bool GetGameDirectory();
 void PrintGameDirectorySync();
 void KillGameProcess();
+void WaitForGameLaunch();
 
 
 int main(int argc, char* argv[])
@@ -24,6 +25,9 @@ int main(int argc, char* argv[])
     }
     else if (strcmp(arg, "-K") == 0) {
         KillGameProcess();
+    }
+    else if (strcmp(arg, "-W") == 0) {
+        WaitForGameLaunch();
     }
     return 0;
 }
@@ -47,6 +51,15 @@ void PrintGameDirectorySync() {
     for (;;) {
         if (GetGameDirectory()) {
             printf("%s", exePath);
+            break;
+        }
+        Sleep(1000);
+    }
+}
+
+void WaitForGameLaunch() {
+    for (;;) {
+        if (GetGameProcessId()!=0) {
             break;
         }
         Sleep(1000);
