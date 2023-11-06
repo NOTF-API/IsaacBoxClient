@@ -1,7 +1,7 @@
 <metadata>
- <name>IsaacBox</name>
- <directory>isaac_box</directory>
+ <name>IsaacBox(auto installed)</name>
+ <directory>isaac_box_ex</directory>
  <description/>
- <version>0.2.0</version>
+ <version>0.2.1</version>
  <visibility/>
 </metadata>

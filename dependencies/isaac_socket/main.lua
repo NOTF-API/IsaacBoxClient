@@ -37,6 +37,8 @@ local connectionState
 local hintTextTimer
 -- debug模式
 local debugMode
+-- 文件夹名称
+local folderName
 ----------------------------------------------------------------
 -- 类定义
 -- 接收表
@@ -203,6 +205,7 @@ local function cw(...)
     end
     return false
 end
+
 -- 读取配置文件
 local function LoadConfig()
     local modData = isaacSocketMod:LoadData()
@@ -213,29 +216,35 @@ local function LoadConfig()
     end
 end
 
--- 发送一条内存消息
-local function Send(channel, data)
-    return sendTable.AddNewMessage(string.pack("<I1", channel) .. data)
-end
-
 -- 渲染提示文字
 local function RenderHintText()
     if connectionState == ConnectionState.CONNECTED and hintTextTimer > 0 then
-        font:DrawStringScaledUTF8("IsaacSocket 连接成功!", 2, 0, 0.5, 0.5, KColor(0, 1, 0, 1), 0, false)
+        if debugMode then
+            font:DrawStringScaledUTF8("IsaacSocket (" .. folderName .. ") 连接成功!", 2, 0, 0.5, 0.5,
+                KColor(0, 1, 0, 1), 0, false)
+        else
+            font:DrawStringScaledUTF8("IsaacSocket 连接成功!", 2, 0, 0.5, 0.5, KColor(0, 1, 0, 1), 0, false)
+        end
     elseif connectionState == ConnectionState.CONNECTING then
         font:DrawStringScaledUTF8(
-            "IsaacSocket 连接失败,请查看 IsaacSocket 的创意工坊页面,按照页面上的使用步骤下载 IsaacSocket.exe 并启动,如果仍然失败,可以尝试关闭杀毒软件或者使用管理员模式启动 IsaacSocket.exe",
+            "IsaacSocket 连接失败,请查看 IsaacSocket 的创意工坊页面,按照页面上的使用步骤下载 \"IsaacSocket 连接工具\" 并启动,如果仍然失败,可以尝试关闭杀毒软件或者使用管理员模式启动 \"IsaacSocket 连接工具\"",
             2, 0, 0.5, 0.5, KColor(1, 1, 1, 1), 0, false)
     end
 
 end
 
 -- 更新内存连接状态，同时进行收发数据，需要每帧运行60次
-local function StateUpdate()
+local function StateUpdate(heartbeat)
     if connectionState == ConnectionState.CONNECTED then
         -- 正常连接状态
-        -- 解析接收变量，如果成功更新，说明有新消息，将心跳包计时器置为 0
-        if require("isaac_socket.modules.common").Heartbeat.Update(receiveTable.Update(ext_receive)) then
+        -- 解析接收变量，如果需要心跳，则将解析结果作为参数进行一次心跳
+        -- 如果不需要心跳，则视为心跳成功
+        -- 如果心跳成功，则处理要发送的消息
+        local isSuccess = receiveTable.Update(ext_receive) or not heartbeat
+        if heartbeat then
+            isSuccess = require("isaac_socket.modules.common").Heartbeat.Update(isSuccess)
+        end
+        if isSuccess then
             local newMessage = receiveTable.GetMessage()
             while newMessage do
                 local messageChannel, messageOffset = string.unpack("<I1", newMessage)
@@ -266,20 +275,20 @@ local function StateUpdate()
         if ext_send == 2128394904 and ext_receive == 1842063751 then
             return
         elseif ext_send == 1 and ext_receive >= 64 and ext_receive <= 4 * 1024 * 1024 then
+            -- 加载mod时读取配置可能会失败，因此这里再读取一次
             LoadConfig()
             dataSpaceSize = ext_receive
             dataBodySize = dataSpaceSize - DATA_HEAD_SIZE
-            sendTable.Initialize()
-            receiveTable.Initialize()
 
             ext_receive = string.rep("\0", dataSpaceSize)
             ext_send = sendTable.Serialize()
             connectionState = ConnectionState.CONNECTED
-            cw("Connected[" .. dataSpaceSize .. "]")
             -- 5秒钟的连接成功提示
             hintTextTimer = 5 * 30
             -- 触发所有模块的已连接事件
             require("isaac_socket.modules.common").Connected()
+
+            cw("Connected[" .. dataSpaceSize .. "]")
             -- 触发自定义回调：已连接
             Isaac.RunCallback("ISAAC_SOCKET_CONNECTED")
         else
@@ -291,15 +300,26 @@ local function StateUpdate()
         cw("Loaded")
     elseif connectionState == ConnectionState.UNLOADING then
         connectionState = ConnectionState.UNLOADED
-        cw("Unloaded")
         ext_send = nil
         ext_receive = nil
+        cw("Unloaded")
     elseif connectionState == ConnectionState.DISCONNECTED then
         connectionState = ConnectionState.CONNECTING
-        cw("Connecting...")
         ext_send = 2128394904
         ext_receive = 1842063751
+        sendTable.Initialize()
+        receiveTable.Initialize()
+        cw("Connecting...")
     end
+end
+
+-- 发送一条内存消息
+local function Send(channel, data)
+    if sendTable.AddNewMessage(string.pack("<I1", channel) .. data) then
+        StateUpdate(false)
+        return true
+    end
+    return false
 end
 ----------------------------------------------------------------
 -- 回调函数定义
@@ -320,6 +340,8 @@ local function ModuleCallback(callbackType, channel, message)
                 channelName = "ClipBoard"
             elseif channel == 3 then
                 channelName = "HttpClient"
+            elseif channel == 4 then
+                channelName = "IsaacAPI"
             else
                 channelName = channel
             end
@@ -339,7 +361,7 @@ end
 
 -- 画面渲染回调
 local function OnRender()
-    StateUpdate()
+    StateUpdate(true)
     RenderHintText()
 end
 
@@ -357,24 +379,33 @@ local function OnUnload(_, mod)
     end
 
     connectionState = ConnectionState.UNLOADING
-    StateUpdate()
+    StateUpdate(false)
 end
 ----------------------------------------------------------------
 -- 此处代码在Mod被加载时运行
+-- 获取文件夹名称
+local _, err = pcall(require, "")
+local parts = {}
+for part in string.gmatch(err, "[^/]+") do
+    table.insert(parts, part)
+end
+folderName = parts[#parts - 1]
+
 font:Load("font/cjk/lanapixel.fnt")
-hintTextTimer = 0
-
-LoadConfig()
-
-connectionState = ConnectionState.UNLOADED
-StateUpdate()
 
 receiveTable = NewReceiveTable()
 sendTable = NewSendTable()
 
+hintTextTimer = 0
+-- 这里读取配置可能会失败，所以连接成功时会再次读取
+LoadConfig()
+
+connectionState = ConnectionState.UNLOADED
+StateUpdate(false)
+
 require("isaac_socket.modules.common").SetCallback(ModuleCallback)
 
-StateUpdate()
+StateUpdate(false)
 
 isaacSocketMod:AddCallback(ModCallbacks.MC_POST_RENDER, OnRender)
 isaacSocketMod:AddCallback(ModCallbacks.MC_POST_UPDATE, OnUpdate)
@@ -385,6 +416,7 @@ IsaacSocket = {}
 IsaacSocket.WebSocketClient = {}
 IsaacSocket.Clipboard = {}
 IsaacSocket.HttpClient = {}
+IsaacSocket.IsaacAPI = {}
 
 -- 获取连接状态,如果返回false，说明IsaacSocket尚未连接，暂时不可用
 function IsaacSocket.IsConnected()
@@ -393,8 +425,8 @@ end
 
 -- 创建一个WebsocketClient对象，第一个参数是地址，后面四个参数是回调，请提供函数
 function IsaacSocket.WebSocketClient.New(address, callbackOnOpen, callbackOnMessage, callbackOnClosed, callbackOnError)
-    return require("isaac_socket.modules.common").WebSocketClient.New(address, callbackOnOpen, callbackOnMessage, callbackOnClosed,
-        callbackOnError)
+    return require("isaac_socket.modules.common").WebSocketClient.New(address, callbackOnOpen, callbackOnMessage,
+        callbackOnClosed, callbackOnError)
 end
 -- 获取剪贴板文本
 function IsaacSocket.Clipboard.GetClipboard()
@@ -414,4 +446,55 @@ end
 -- 发送post请求，headers是table或者留空，body是正文，返回一个Task对象
 function IsaacSocket.HttpClient.PostAsync(url, headers, body)
     return require("isaac_socket.modules.common").HttpClient.PostAsync(url, headers, body)
+end
+
+-- 重新加载Lua环境
+function IsaacSocket.IsaacAPI.ReloadLua()
+    return require("isaac_socket.modules.common").IsaacAPI.ReloadLua()
+end
+
+-- 设置debug标志
+-- function IsaacSocket.IsaacAPI.SetDebugFlag(debugFlag)
+--     return require("isaac_socket.modules.common").IsaacAPI.SetDebugFlag(debugFlag)
+-- end
+
+-- 获取debug标志
+function IsaacSocket.IsaacAPI.GetDebugFlag()
+    return require("isaac_socket.modules.common").IsaacAPI.GetDebugFlag()
+end
+
+-- 获取能否射击
+-- function IsaacSocket.IsaacAPI.GetCanShoot(playerId)
+--     return require("isaac_socket.modules.common").IsaacAPI.GetCanShoot(playerId)
+-- end
+
+-- 设置能否射击
+function IsaacSocket.IsaacAPI.SetCanShoot(playerId, canShoot)
+    return require("isaac_socket.modules.common").IsaacAPI.SetCanShoot(playerId, canShoot)
+end
+
+-- 获取主动VarData
+function IsaacSocket.IsaacAPI.GetActiveVarData(playerId, activeSlot)
+    return require("isaac_socket.modules.common").IsaacAPI.GetActiveVarData(playerId, activeSlot)
+end
+
+-- 设置主动VarData
+function IsaacSocket.IsaacAPI.SetActiveVarData(playerId, activeSlot, activeVarData)
+    return require("isaac_socket.modules.common").IsaacAPI.SetActiveVarData(playerId, activeSlot, activeVarData)
+end
+-- 获取主动PartialCharge
+function IsaacSocket.IsaacAPI.GetActivePartialCharge(playerId, activeSlot)
+    return require("isaac_socket.modules.common").IsaacAPI.GetActivePartialCharge(playerId, activeSlot)
+end
+-- 设置主动PartialCharge
+function IsaacSocket.IsaacAPI.SetActivePartialCharge(playerId, activeSlot, partialCharge)
+    return require("isaac_socket.modules.common").IsaacAPI.SetActivePartialCharge(playerId, activeSlot, partialCharge)
+end
+-- 获取主动SubCharge
+function IsaacSocket.IsaacAPI.GetActiveSubCharge(playerId, activeSlot)
+    return require("isaac_socket.modules.common").IsaacAPI.GetActiveSubCharge(playerId, activeSlot)
+end
+-- 设置主动SubCharge
+function IsaacSocket.IsaacAPI.SetActiveSubCharge(playerId, activeSlot, subCharge)
+    return require("isaac_socket.modules.common").IsaacAPI.SetActiveSubCharge(playerId, activeSlot, subCharge)
 end

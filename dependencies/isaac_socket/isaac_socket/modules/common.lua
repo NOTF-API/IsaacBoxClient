@@ -16,7 +16,9 @@ local Channel = {
     -- 剪贴板
     CLIPBOARD = 2,
     -- Http客户端
-    HTTP_CLIENT = 3
+    HTTP_CLIENT = 3,
+    -- 以撒API
+    ISAAC_API = 4
 }
 -- 回调类型枚举
 local CallbackType = {
@@ -35,7 +37,9 @@ local modules
 -- 函数定义
 -- 将内存消息分发给对应模块
 local function ReceiveMemoryMessage(channel, message)
-    return modules[channel].ReceiveMemoryMessage(message)
+    if modules[channel] then
+        return modules[channel].ReceiveMemoryMessage(message)
+    end
 end
 -- 在成功连接时被执行，调用所有模块的对应方法
 local function Connected()
@@ -75,11 +79,12 @@ end
 ----------------------------------------------------------------
 -- 初始化模块
 modules = {}
+modules[Channel.TASK] = require("isaac_socket.modules.task")
 modules[Channel.HEARTBEAT] = require("isaac_socket.modules.heartbeat")
 modules[Channel.WEB_SOCKET_CLIENT] = require("isaac_socket.modules.web_socket_client")
 modules[Channel.CLIPBOARD] = require("isaac_socket.modules.clipboard")
 modules[Channel.HTTP_CLIENT] = require("isaac_socket.modules.http_client")
-modules[Channel.TASK] = require("isaac_socket.modules.task")
+modules[Channel.ISAAC_API] = require("isaac_socket.modules.isaac_api")
 Callback = EMPTY_FUNCTION
 ----------------------------------------------------------------
 -- 模块定义
@@ -95,27 +100,20 @@ module.MemoryMessageGenerated = MemoryMessageGenerated
 module.SetCallback = SetCallback
 --------------------------------
 -- Task模块
-module.Task = {}
-module.Task.New = modules[Channel.TASK].New
-module.Task.Complete = modules[Channel.TASK].Complete
-module.Task.Fail = modules[Channel.TASK].Fail
+module.Task = modules[Channel.TASK]
 --------------------------------
 -- Heartbeat模块
-module.Heartbeat = {}
-module.Heartbeat.Update = modules[Channel.HEARTBEAT].Update
+module.Heartbeat = modules[Channel.HEARTBEAT]
 --------------------------------
 -- WebSocketClient模块
-module.WebSocketClient = {}
-module.WebSocketClient.New = modules[Channel.WEB_SOCKET_CLIENT].New
+module.WebSocketClient = modules[Channel.WEB_SOCKET_CLIENT]
 --------------------------------
 -- Clipboard模块
-module.Clipboard = {}
-module.Clipboard.GetClipboard = modules[Channel.CLIPBOARD].GetClipboard
-module.Clipboard.SetClipboard = modules[Channel.CLIPBOARD].SetClipboard
+module.Clipboard = modules[Channel.CLIPBOARD]
 --------------------------------
 -- HttpClient模块
-module.HttpClient = {}
-module.HttpClient.GetAsync = modules[Channel.HTTP_CLIENT].GetAsync
-module.HttpClient.PostAsync = modules[Channel.HTTP_CLIENT].PostAsync
-
+module.HttpClient = modules[Channel.HTTP_CLIENT]
+--------------------------------
+-- IsaacAPI模块
+module.IsaacAPI = modules[Channel.ISAAC_API]
 return module
