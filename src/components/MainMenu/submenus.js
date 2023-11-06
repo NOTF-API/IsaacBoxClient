@@ -38,7 +38,7 @@ const submenusMetaData = [
     active: ref(false),
   },
   {
-    name: "Cards Runes",
+    name: "Cards",
     component: CardsList,
     gridOffset: {
       x: -1,
