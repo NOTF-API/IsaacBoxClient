@@ -10,6 +10,7 @@
 6. 新游戏/继续游戏后 看到屏幕顶部的IsaacBox + 版本 即可开始正常使用。
 
 ![./doc/main.png](./doc/main.png "主画面")
+![./doc/main.png](./doc/m_en.png "英文版主画面")
 ![./doc/c.png](./doc/c.png "道具")
 ![./doc/t.png](./doc/t.png "饰品")
 ![./doc/k.png](./doc/k.png "卡牌与符文")
@@ -20,6 +21,7 @@
 ![./doc/search.png](./doc/search.png "全局搜索")
 
 ## 目前已有功能
++ 显示与移除身上的道具
 + 道具生成/给予
 + 饰品生成/给予
 + 卡牌/符文 生成/给予
@@ -27,7 +29,7 @@
 + 全局搜索
 + debug开关
 + 楼层
-+ 八国语言
++ 八国语言支持(简中,英,德,法,俄,日,韩,西班牙)
 
 
 ## 遇到问题
@@ -42,11 +44,8 @@
 + npm run start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
 + npm run make:打包生成用户可以一键运行的安装包
 ## 待开发功能
-+ 拥有道具的界面，可以移除道具
-+ 部分语言未开发完毕
++ 目前仅支持中英双语的全局搜索,并且拼音缩写搜索目前只支持卡牌和符文与胶囊
 
-## 特别感谢
-(不区分先后顺序)
 
 [LanbingIce](https://github.com/LanbingIce)
 
