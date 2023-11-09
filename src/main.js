@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 import 'normalize.css'
 import './style.css'
 import App from './App.vue'
@@ -11,7 +10,7 @@ import { i18n,getI18nType } from '@/utils/i18n'
   window._resource = resource
   document.body.classList.add("i18n-" + getI18nType())
   const loadingEl = document.querySelector("#loading")
-  await createApp(App).use(createPinia()).use(i18n).mount('#app')
+  await createApp(App).use(i18n).mount('#app')
   loadingEl.classList.add("fade-out")
   setTimeout(() => {
     loadingEl.remove()
