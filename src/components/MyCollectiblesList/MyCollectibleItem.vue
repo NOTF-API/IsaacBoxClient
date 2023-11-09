@@ -3,7 +3,7 @@
     @click.right="handleRemoveAll(item._gid, props.count)">
     <div class="quality" v-show="props.showQuality" :class="'level' + item.quality"></div>
     <div class="image" :style="getImageSource(item.gfx)"></div>
-    <div class="shadowed count" v-show="props.showCount">x{{ props.count }}</div>
+    <div class="shadowed count" v-show="props.showCount">{{ props.count }}</div>
     <div class="name" v-text="item.name"></div>
     <div class="description ellipsis" v-text="item.description"></div>
     <div class="remove">x</div>
