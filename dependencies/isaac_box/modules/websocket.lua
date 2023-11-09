@@ -35,9 +35,7 @@ local function callbackOnMessage(messageReceieved, isBinary)
     if topic == "COMMAND" then
       Isaac.ExecuteCommand(message)
     elseif topic == "GET_ITEMS" then
-      print("GET_ITEMS")
       if Items then
-        print("CHANGED")
         emit("OFFER_ITEMS", require("json").encode(Items))
       end
     else
