@@ -1,4 +1,5 @@
 import CollectiblesList from '@/components/CollectiblesList/CollectiblesList.vue';
+import MyCollectiblesList from '@/components/MyCollectiblesList/MyCollectiblesList.vue';
 import TrinketsList from '@/components/TrinketsList/TrinketsList.vue';
 import CardsList from '@/components/CardsList/CardsList.vue'
 import StageList from '@/components/StageList/StageList.vue'
@@ -19,6 +20,15 @@ const getViewStyle = (submenu) => {
 }
 
 const submenusMetaData = [
+  {
+    name: ("MyCollectibles"),
+    component: MyCollectiblesList,
+    gridOffset: {
+      x: 0,
+      y: 1
+    },
+    active: ref(false),
+  },
   {
     name: ("Collectibles"),
     component: CollectiblesList,

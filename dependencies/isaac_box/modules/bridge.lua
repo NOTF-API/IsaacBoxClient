@@ -1,12 +1,19 @@
-local function GetAllCollectibles()
-  local obj = {}
+-- update all collectibles,return true if has changed
+local function UpdateAllCollectibles()
+  if Items == nil then
+    return false
+  end
+  local isChanged = false;
   for i = 1, Isaac.GetItemConfig():GetCollectibles().Size - 1, 1 do
     local count = Isaac.GetPlayer(0):GetCollectibleNum(i, true)
-    obj[i] = count;
+    if (Items[i] ~= count) then
+      isChanged = true;
+      Items[i] = count;
+    end
   end
-  return require("json").encode(obj)
+  return isChanged;
 end
 
 local module = {}
-module.GetAllCollectibles = GetAllCollectibles
+module.UpdateAllCollectibles = UpdateAllCollectibles
 return module

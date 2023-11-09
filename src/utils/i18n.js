@@ -16,12 +16,13 @@ export const I18N_TYPE = Object.freeze({
   FRENCH: 7
 })
 
-const $VERSION_TEXT = "V0.2.1"
+const $VERSION_TEXT = "V0.3.0"
 
 const messages = {
   [I18N_TYPE.ENGLISH]: {
     "Isaac's Box": "Isaac's Box",
     "Collectibles": "Collectibles",
+    "MyCollectibles": "My Collectibles",
     "Trinkets": "Trinkets",
     "Cards": "Cards",
     "Pills": "Pills",
@@ -31,6 +32,7 @@ const messages = {
     "Stage": "Stage",
     "show id": "show id",
     "show quality": "show quality",
+    "show count": "show count",
     "list style": "list style",
     "$version": $VERSION_TEXT,
     "$idea-items": "Click left to spawn,click right to give",
@@ -38,6 +40,7 @@ const messages = {
     "$idea-search": "type some word to begin search",
     "$idea-stage": "click to jump to target stage",
     "$idea-debug": "click to open,click again to close",
+    "$idea-remove": "click left to remove one,click right to remove all",
     "$debug1": "Entity Positions",
     "$debug2": "Grid",
     "$debug3": "Infinite HP",
@@ -56,6 +59,7 @@ const messages = {
   [I18N_TYPE.JAPANESE]: {
     "Isaac's Box": "アイザックの箱",
     "Collectibles": "コレクタブル",
+    "MyCollectibles": "私の",
     "Trinkets": "装飾品",
     "Cards": "カード",
     "Pills": "錠剤",
@@ -65,6 +69,7 @@ const messages = {
     "Stage": "ステージ",
     "show id": "IDを表示",
     "show quality": "品質を表示",
+    "show count": "表示数",
     "list style": "リスト形式",
     "$version": $VERSION_TEXT,
     "$idea-items": "左クリックで生成、右クリックで与える",
@@ -72,6 +77,7 @@ const messages = {
     "$idea-search": "検索を開始するには単語を入力",
     "$idea-stage": "目標ステージにジャンプ",
     "$idea-debug": "開くためにクリック、再度クリックして閉じる",
+    "$idea-remove": "左クリックして1つを削除、右クリックしてすべてを削除",
     "$debug1": "エンティティ位置",
     "$debug2": "グリッド",
     "$debug3": "無限HP",
@@ -90,6 +96,7 @@ const messages = {
   [I18N_TYPE.KOREAN]: {
     "Isaac's Box": "이삭의 상자",
     "Collectibles": "수집품",
+    "MyCollectibles": "나의",
     "Trinkets": "장신구",
     "Cards": "카드",
     "Pills": "알약",
@@ -99,6 +106,7 @@ const messages = {
     "Stage": "스테이지",
     "show id": "ID 표시",
     "show quality": "품질 표시",
+    "show count": "수량 보이기",
     "list style": "목록 스타일",
     "$version": $VERSION_TEXT,
     "$idea-items": "왼쪽 클릭으로 생성, 오른쪽 클릭으로 제공",
@@ -106,6 +114,7 @@ const messages = {
     "$idea-search": "검색을 시작하려면 단어 입력",
     "$idea-stage": "목표 스테이지로 이동",
     "$idea-debug": "열려면 클릭, 다시 클릭하여 닫기",
+    "$idea-remove": "왼쪽 클릭하여 하나 제거, 오른쪽 클릭하여 모두 제거",
     "$debug1": "엔티티 위치",
     "$debug2": "그리드",
     "$debug3": "무한 HP",
@@ -124,6 +133,7 @@ const messages = {
   [I18N_TYPE.CHINESE]: {
     "Isaac's Box": "以撒的盒子",
     "Collectibles": "道具",
+    "MyCollectibles": "我的",
     "Trinkets": "饰品",
     "Cards": "卡牌",
     "Pills": "胶囊",
@@ -133,6 +143,7 @@ const messages = {
     "Stage": "楼层",
     "show id": "显示ID",
     "show quality": "显示品级",
+    "show count": "显示数量",
     "list style": "以列表显示",
     "$version": $VERSION_TEXT,
     "$idea-items": "点击鼠标左键生成道具 , 点击鼠标右键给予道具",
@@ -140,6 +151,7 @@ const messages = {
     "$idea-search": "输入一些字母或数字即可开始搜索",
     "$idea-stage": "点击鼠标即可进入目标楼层",
     "$idea-debug": "点击后开启,再次点击关闭",
+    "$idea-remove": "点击鼠标左键移除一个,点击鼠标右键移除全部",
     "$debug1": "实体位置",
     "$debug2": "单元格",
     "$debug3": "无限血量",
@@ -158,6 +170,7 @@ const messages = {
   [I18N_TYPE.RUSSIAN]: {
     "Isaac's Box": "Ящик Исаака",
     "Collectibles": "Коллекционные предметы",
+    "MyCollectibles": "Мои",
     "Trinkets": "Брелоки",
     "Cards": "Карты",
     "Pills": "Таблетки",
@@ -167,6 +180,7 @@ const messages = {
     "Stage": "Этаж",
     "show id": "Показать ID",
     "show quality": "Показать качество",
+    "show count": "показать количество",
     "list style": "Список стилей",
     "$version": $VERSION_TEXT,
     "$idea-items": "Нажмите левой кнопкой мыши, чтобы создать, нажмите правой кнопкой мыши, чтобы выдать",
@@ -174,6 +188,7 @@ const messages = {
     "$idea-search": "Введите слово для начала поиска",
     "$idea-stage": "Нажмите, чтобы перейти на целевой этаж",
     "$idea-debug": "Нажмите, чтобы открыть, нажмите еще раз, чтобы закрыть",
+    "$idea-remove": "нажмите левую кнопку мыши, чтобы удалить один, нажмите правую кнопку мыши, чтобы удалить все",
     "$debug1": "Позиции объектов",
     "$debug2": "Сетка",
     "$debug3": "Бесконечное здоровье",
@@ -192,6 +207,7 @@ const messages = {
   [I18N_TYPE.GERMAN]: {
     "Isaac's Box": "Isaacs Schachtel",
     "Collectibles": "Sammlerstücke",
+    "MyCollectibles": "Meine",
     "Trinkets": "Schmuckstücke",
     "Cards": "Karten",
     "Pills": "Pillen",
@@ -201,6 +217,7 @@ const messages = {
     "Stage": "Etage",
     "show id": "ID anzeigen",
     "show quality": "Qualität anzeigen",
+    "show count": "Anzahl anzeigen",
     "list style": "Liste anzeigen",
     "$version": $VERSION_TEXT,
     "$idea-items": "Linksklick zum Erzeugen, Rechtsklick zum Geben",
@@ -208,6 +225,7 @@ const messages = {
     "$idea-search": "Geben Sie ein Wort ein, um die Suche zu starten",
     "$idea-stage": "Klicken zum Wechseln der Etage",
     "$idea-debug": "Klicken zum Öffnen, erneut klicken zum Schließen",
+    "$idea-remove": "Klicken Sie links, um einen zu entfernen, klicken Sie mit der rechten Maustaste, um alle zu entfernen",
     "$debug1": "Objektpositionen",
     "$debug2": "Raster",
     "$debug3": "Unendliche HP",
@@ -226,6 +244,7 @@ const messages = {
   [I18N_TYPE.SPANISH]: {
     "Isaac's Box": "Caja de Isaac",
     "Collectibles": "Coleccionables",
+    "MyCollectibles": "Mis",
     "Trinkets": "Amuletos",
     "Cards": "Cartas",
     "Pills": "Pastillas",
@@ -235,6 +254,7 @@ const messages = {
     "Stage": "Nivel",
     "show id": "Mostrar ID",
     "show quality": "Mostrar calidad",
+    "show count": "mostrar cantidad",
     "list style": "Estilo de lista",
     "$version": $VERSION_TEXT,
     "$idea-items": "Clic izquierdo para generar, clic derecho para dar",
@@ -242,6 +262,7 @@ const messages = {
     "$idea-search": "Escriba una palabra para comenzar la búsqueda",
     "$idea-stage": "Clic para saltar al nivel objetivo",
     "$idea-debug": "Clic para abrir, clic de nuevo para cerrar",
+    "$idea-remove": "haga clic izquierdo para eliminar uno, haga clic derecho para eliminar todos",
     "$debug1": "Posiciones de entidades",
     "$debug2": "Cuadrícula",
     "$debug3": "Vida infinita",
@@ -260,6 +281,7 @@ const messages = {
   [I18N_TYPE.FRENCH]: {
     "Isaac's Box": "Boîte d'Isaac",
     "Collectibles": "Objets de collection",
+    "MyCollectibles": "Mes",
     "Trinkets": "Bijoux",
     "Cards": "Cartes",
     "Pills": "Pilules",
@@ -269,6 +291,7 @@ const messages = {
     "Stage": "Étage",
     "show id": "Afficher l'ID",
     "show quality": "Afficher la qualité",
+    "show count": "afficher le nombre",
     "list style": "Afficher sous forme de liste",
     "$version": $VERSION_TEXT,
     "$idea-items": "Cliquez à gauche pour générer, cliquez à droite pour donner",
@@ -276,6 +299,7 @@ const messages = {
     "$idea-search": "Tapez un mot pour commencer la recherche",
     "$idea-stage": "Cliquez pour accéder à l'étage cible",
     "$idea-debug": "Cliquez pour ouvrir, cliquez à nouveau pour fermer",
+    "$idea-remove": "cliquez gauche pour supprimer un, cliquez droit pour supprimer tous",
     "$debug1": "Positions des entités",
     "$debug2": "Grille",
     "$debug3": "Points de vie infinis",

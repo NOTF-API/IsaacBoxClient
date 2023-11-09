@@ -1,31 +1,29 @@
 <template>
-  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleSpawn(item.id)"
-    @click.right="handleGive(item._gid)">
+  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleRemoveOne(item._gid)"
+    @click.right="handleRemoveAll(item._gid, props.count)">
     <div class="quality" v-show="props.showQuality" :class="'level' + item.quality"></div>
     <div class="image" :style="getImageSource(item.gfx)"></div>
-    <div class="shadowed id" v-show="props.showId">{{ item._gid }}</div>
+    <div class="shadowed count" v-show="props.showCount">x{{ props.count }}</div>
     <div class="name" v-text="item.name"></div>
     <div class="description ellipsis" v-text="item.description"></div>
+    <div class="remove">x</div>
     <!-- <div class="remove" v-show="collectibles[i - 1]" @click.self.stop="handleRemove(i)">x</div> -->
-    <!-- <div class="count" v-if="collectibles[i - 1]">{{ collectibles[i - 1] }}</div> -->
   </div>
 </template>
 
 <script setup>
 import { emit } from "@/utils/ws"
 
-const props = defineProps(['item', 'isListStyled', 'showQuality', 'showId'])
+const props = defineProps(['item', 'isListStyled', 'showQuality', 'showCount', 'count'])
 
-const handleSpawn = (id) => {
-  emit("COMMAND", `spawn 5.100.${id}`);
+const handleRemoveOne = (gid) => {
+  emit("COMMAND", `r ${gid}`);
 }
 
-const handleGive = (gid) => {
-  emit("COMMAND", `g ${gid}`);
-}
-
-const handleRemove = (id) => {
-  emit("COMMAND", `r c${id}`);
+const handleRemoveAll = (gid, count) => {
+  for (let i = 0; i < count; i++) {
+    emit("COMMAND", `r ${gid}`);
+  }
 }
 
 const getImageSource = (gfx) => {
@@ -37,6 +35,8 @@ const getImageSource = (gfx) => {
 
 <style lang="less" scoped>
 .item {
+  overflow: hidden;
+
   &.list-styled {
     width: 100% !important;
     margin-bottom: .25rem;
@@ -71,41 +71,17 @@ const getImageSource = (gfx) => {
       font-size: 1.25rem;
     }
 
-    .id {
+    .count {
       position: absolute;
-      right: .25rem;
-      bottom: .25rem;
-      display: block;
-      width: auto;
-      padding: .5rem;
-      height: 16px;
-      line-height: 16px;
-      text-align: center;
-      font-size: 1.5rem;
+      left: 64px;
+      transform: translateX(-100%);
+      bottom: 0rem;
+      //   width: 2rem;
+      width: fit-content;
     }
 
   }
 
-  >* {
-    pointer-events: none;
-  }
-
-  .number {
-    font-size: 1.25rem;
-    visibility: hidden;
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 2rem;
-    line-height: 2rem;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #000;
-    z-index: 1000;
-  }
 
   .quality {
     position: absolute;
@@ -151,19 +127,41 @@ const getImageSource = (gfx) => {
   }
 
   .image {
+    position: absolute;
     width: 32px;
     height: 32px;
     scale: 2;
     background-repeat: no-repeat;
   }
 
+
+  &:hover .remove {
+    visibility: visible;
+  }
+
+  .remove {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(255, 0, 0, 0.5);
+    line-height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+  }
+
+
   .description,
   .name {
     display: none;
   }
 
-  .id {
-    background-color: #fff;
+  .count {
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     bottom: 0;
     padding: 0 .25rem;

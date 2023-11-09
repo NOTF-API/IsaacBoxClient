@@ -105,8 +105,9 @@ handler.on("COMMAND", (ws, message) => {
 })
 
 handler.on("GET_ITEMS", (ws, message) => {
-  // debugConsole("redirecting GET_ITEMS");
-  if (context.gameSocket == null || context.consoleSocket == null) {
+//   debugConsole("redirecting GET_ITEMS");
+    //因为这个消息只会由console发送过来，因此无需判断console是否为空
+  if (context.gameSocket == null) {
     // debugConsole("some part not ready while redirect GET_ITEMS");
     return;
   }
@@ -115,7 +116,8 @@ handler.on("GET_ITEMS", (ws, message) => {
 
 handler.on("OFFER_ITEMS", (ws, message) => {
   // debugConsole("redirecting OFFER_ITEMS");
-  if (context.gameSocket == null || context.consoleSocket == null) {
+  if (context.consoleSocket == null) {
+    //因为这个消息只会由game发送过来，因此无需判断game是否为空
     // debugConsole("some part not ready while redirect OFFER_ITEMS");
     return;
   }

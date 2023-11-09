@@ -13,8 +13,8 @@ export const collectibles = ref([]);
  * @param {boolean} checkGame if set true,while game is not ready,do nothing
  */
 export const emit = (topic, message, checkGame = true) => {
-//   console.log(message)
-//   console.log(socket !== null, socket.readyState === 1, isConsoleReady.value, (!checkGame || isGameReady.value))
+  //   console.log(message)
+  //   console.log(socket !== null, socket.readyState === 1, isConsoleReady.value, (!checkGame || isGameReady.value))
   if (socket !== null && socket.readyState === 1 && isConsoleReady.value && (!checkGame || isGameReady.value)) {
     socket.send(JSON.stringify({
       topic,
@@ -104,16 +104,16 @@ handler.on("OFFER_ITEMS", (message) => {
 })
 
 export const init = () => {
-  let itemQueryInterval; 
+  let itemQueryInterval;
   statusText.value = "正在连接服务器"
   socket = new WebSocket(`ws://localhost:${58869}`)
   socket.onopen = () => {
     statusText.value = "与服务器连接成功"
     isConsoleReady.value = true
     emit("JOIN_AS_CONSOLE", "", false);
-    // itemQueryInterval = setInterval(() => {
-    //   emit("GET_ITEMS")
-    // }, 1000)
+    setTimeout(() => {
+      emit("GET_ITEMS")//查询一次持有物品
+    }, 5000)
   }
   socket.onclose = () => {
     statusText.value = "与服务器断开连接"

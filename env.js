@@ -6,11 +6,13 @@ const parseString = promisify(require('xml2js').parseString);
 
 const ISAAC_BOX_MOD_DIRNAME = "isaac_box"
 const ISAAC_BOX_MOD_NAME = "IsaacBox(auto installed)"
-const TARGET_ISAAC_BOX_MOD_VERSION = "0.2.1"
+const TARGET_ISAAC_BOX_MOD_VERSION = "0.3.0"
 
 const ISAAC_SOCKET_MOD_DIRNAME = "isaac_socket"
+const ISAAC_SOCKET_OFFICIAL_MOD_NAME = "IsaacSocket"
 const ISAAC_SOCKET_MOD_NAME = "IsaacSocket(auto installed)"
 const TARGET_ISAAC_SOCKET_MOD_VERSION = "1.0"
+
 
 const compareVersion = (v1, v2) => {
   const v1Arr = v1.split('.')
@@ -36,7 +38,6 @@ const parseModMetaData = async (filePath) => {
     const metadata = parsedData.metadata;
     const obj = {};
     Object.entries(metadata).forEach(([key, value]) => {
-    //   console.log(key, value)
       obj[key] = (value[0] && typeof value[0] === "string" && value[0].trim()) || value[0] || ""
     })
     return obj;
@@ -67,15 +68,21 @@ const getAllModsMetadata = async (gameDir) => {
 const getRequiredModsVersionInfo = async (mods) => {
   const versionInfo = {
     IsaacBox: null,
+    IsaacSocketIsOfficial: false,
     IsaacSocket: null
   }
   const socketMod = mods.find(mod => mod.name === ISAAC_SOCKET_MOD_NAME)
+  const officialSocketMod = mods.find(mod => mod.name === ISAAC_SOCKET_OFFICIAL_MOD_NAME)
   const boxMod = mods.find(mod => mod.name === ISAAC_BOX_MOD_NAME)
-  if (socketMod) {
-    versionInfo.IsaacSocket = socketMod.version
-  }
   if (boxMod) {
     versionInfo.IsaacBox = boxMod.version
+  }
+  if (officialSocketMod) {
+    versionInfo.IsaacSocketIsOfficial = true;
+    return versionInfo;
+  }
+  if (socketMod) {
+    versionInfo.IsaacSocket = socketMod.version
   }
   return versionInfo;
 }
@@ -86,6 +93,9 @@ const patchMods = async (gameDir, info) => {
     await installMod(gameDir, ISAAC_BOX_MOD_DIRNAME)
     isOld = true
   }
+  if (info.IsaacSocketIsOfficial) {
+    return isOld;
+  }
   if (info.IsaacSocket === null || versionIsLowerThan(info.IsaacSocket, TARGET_ISAAC_SOCKET_MOD_VERSION)) {
     await installMod(gameDir, ISAAC_SOCKET_MOD_DIRNAME)
     isOld = true
@@ -93,14 +103,13 @@ const patchMods = async (gameDir, info) => {
   return isOld;
 }
 
-/**
- * Installs the Isaac Socket mod to the specified game directory.
- *
- * @param {string} gameDir - The directory where the game is installed.
- * @return {Promise} A promise that resolves when the mod is successfully installed, or rejects with an error if installation fails.
- */
-const installMod = (gameDir, modName) => {
-  const cmd = `xcopy ".\\dependencies\\${modName}\\" "${gameDir}\\mods\\${modName}\\" /e /y /q`
+const installMod = async (gameDir, dirname) => {
+  try {
+    await fs.promises.rm(`${gameDir}\\mods\\${dirname}\\`, { recursive: true })
+  } catch (e) {
+    console.log("无需删除原有的mod", e)
+  }
+  const cmd = `xcopy ".\\dependencies\\${dirname}\\" "${gameDir}\\mods\\${dirname}\\" /e /y /q`
   return new Promise((resolve, reject) => {
     cp.exec(cmd, (err) => {
       if (err) {

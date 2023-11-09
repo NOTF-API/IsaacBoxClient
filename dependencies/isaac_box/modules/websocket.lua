@@ -7,12 +7,12 @@ local state = {
 }
 
 local function emit(topic, message)
-  local obj = {
-    topic = topic,
-    message = message or ""
-  }
-  local data = require("json").encode(obj)
   if state.connection ~= nil then
+    local obj = {
+      topic = topic,
+      message = message or ""
+    }
+    local data = require("json").encode(obj)
     state.connection.Send(data)
   end
 end
@@ -37,22 +37,26 @@ local function callbackOnMessage(messageReceieved, isBinary)
     if topic == "COMMAND" then
       Isaac.ExecuteCommand(message)
     elseif topic == "GET_ITEMS" then
-      emit("OFFER_ITEMS", bridge.GetAllCollectibles())
+      print("GET_ITEMS")
+      if Items then
+        print("CHANGED")
+        emit("OFFER_ITEMS", require("json").encode(Items))
+      end
     else
-    --   print("[unknown topic] " .. topic)
+      --   print("[unknown topic] " .. topic)
     end
   end
 end
 
 local function callbackOnClose(closeStatus, statusDescription)
---   print("Websocket connection closed: ", closeStatus, statusDescription)
+  --   print("Websocket connection closed: ", closeStatus, statusDescription)
   state.connection = nil
   state.ready = false
   state.connecting = false
 end
 
 local function callbackOnError(message)
---   print("Websocket connection error: ", message)
+  --   print("Websocket connection error: ", message)
   state.connection = nil
   state.ready = false
   state.connecting = false
