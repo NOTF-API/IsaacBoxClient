@@ -1,5 +1,3 @@
-local bridge = require("Modules.bridge")
-
 local state = {
   connection = nil,
   ready = false,
