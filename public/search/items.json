@@ -3851,7 +3851,8 @@
     "level2",
     "quality2",
     "q2",
-    "kongbaifuwen$"
+    "kongbaifuwen$",
+    "baifuwen$"
   ],
   "c264": [
     "c264",
@@ -9816,7 +9817,7 @@
     "sacred",
     "orb",
     "shizishengqiu",
-    "zhudengweida",
+    "zhudingweida",
     "l4",
     "level4",
     "quality4",
@@ -9836,7 +9837,8 @@
     "level1",
     "quality1",
     "q1",
-    "emodici$"
+    "emodici$",
+    "dici"
   ],
   "c693": [
     "c693",
@@ -9877,6 +9879,7 @@
     "quality2",
     "q2",
     "xienuxingfeng$",
+    "xuenuxingfeng$",
     "huoyingrenzhe$"
   ],
   "c696": [
@@ -9889,7 +9892,8 @@
     "level3",
     "quality3",
     "q3",
-    "yu$"
+    "yu$",
+    "fish"
   ],
   "c697": [
     "c697",
