@@ -18,6 +18,9 @@ local function onPostRender()
     font:DrawStringScaledUTF8("[IsaacBox] Version:" .. (VERSION), 216, 0, 0.5,
       0.5,
       white, 0, false)
+    if bridge.UpdateAllCollectibles() then
+      websocket.emit("OFFER_ITEMS", require("json").encode(Items))
+    end
   end
 end
 
@@ -27,7 +30,7 @@ end
 -- Returning any value will have no effect on later callback executions.
 local function onPreGameExit(_, bool)
   if IsaacSocket == nil and not IsaacSocket.IsConnected() then return end
-  websocket.emit("OFFER_ITEMS","[]")
+  websocket.emit("OFFER_ITEMS", "[]")
 end
 
 -- This function gets called when you start a game.
@@ -49,25 +52,14 @@ end
 
 local function onPostGameEnd(_, bool)
   if IsaacSocket == nil and not IsaacSocket.IsConnected() then return end
-  websocket.emit("OFFER_ITEMS","[]")
+  websocket.emit("OFFER_ITEMS", "[]")
 end
 
 
--- Called after every game update.
--- Returning any value will have no effect on later callback executions.
--- This callback is called 30 times per second.
---  It will not be called, when its paused (for example on screentransitions or on the pause menu).
-local function onPostUpdate()
-  if IsaacSocket == nil and not IsaacSocket.IsConnected() then return end
-  if bridge.UpdateAllCollectibles() then
-    websocket.emit("OFFER_ITEMS",require("json").encode(Items))
-  end
-end
 
 local Module = {}
 Module.onPostRender = onPostRender
 Module.onPreGameExit = onPreGameExit
 Module.onPostGameStarted = onPostGameStarted
 Module.onPostGameEnd = onPostGameEnd
-Module.onPostUpdate = onPostUpdate
 return Module
