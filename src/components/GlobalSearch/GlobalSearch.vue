@@ -9,8 +9,8 @@
         <TrinketItem :is-list-styled="true" v-for="t in trinkets" :item="t" :show-id="true" />
         <TrinketItem :is-list-styled="true" v-for="t in trinkets" :item="t" :show-id="true" :is-golden="true" />
         <CardItem :is-list-styled="true" v-for="k in cards" :gid="k" :show-id="true" />
-        <PillItem v-for="p in pills" :item="p" :is-list-styled="true" :is-show-id="true" />
-        <PillItem v-for="p in pills" :item="p" :is-list-styled="true" :is-large="true" :is-show-id="true" />
+        <PillEffectItem v-for="p in pills" :item="p" :is-list-styled="true" :is-show-id="true" />
+        <PillEffectItem v-for="p in pills" :item="p" :is-list-styled="true" :is-large="true" :is-show-id="true" />
         <div class="empty"
           v-show="collectibles.length === 0 && trinkets.length === 0 && cards.length === 0 && pills.length === 0">NOT
           FOUND</div>
@@ -29,7 +29,7 @@ export default {
 import CollectibleItem from '@/components/CollectiblesList/CollectibleItem.vue';
 import TrinketItem from '@/components/TrinketsList/TrinketItem.vue';
 import CardItem from '../CardsList/CardItem.vue';
-import PillItem from '../PillsList/PillItem.vue';
+import PillEffectItem from '../PillEffectsList/PillEffectItem.vue';
 
 import { search } from '@/utils/resources'
 import { ref, watch } from 'vue'

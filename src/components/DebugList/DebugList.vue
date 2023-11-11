@@ -7,7 +7,7 @@
     </div>
     <div class="view-content">
       <div class="item" @click="handleDebug(dbg.id)" v-for="dbg in debugs">{{
-        $t(`$debug${dbg.id}`) }} <div class="shadowed did">DEBUG {{ dbg.id }}</div>
+        $t(`$debug${dbg.id}`) }} <div class="did">DEBUG {{ dbg.id }}</div>
       </div>
     </div>
   </div>
@@ -26,28 +26,24 @@ const handleDebug = (id) => {
 @import url("../list.less");
 
 .view-content {
-  //   border-top: 4px solid #726c69;
-  //   top: 2rem;
-
   .item {
     width: 100% !important;
     height: 44px;
     line-height: 44px;
     font-size: 2rem;
-    font-weight: bold;
     text-align: left;
     padding: 0 1rem;
     justify-content: flex-start;
 
     .did {
       position: absolute;
-      right: 0;
-      top: 10px;
-      height: 1.5rem;
-      line-height: 1.5rem;
-      margin-right: .75rem;
-      width: 7rem;
-      font-size: 24px;
+      right: .25rem;
+      bottom: .25rem;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      padding: 0 .75rem;
+      min-width: 9rem;
+      font-size: 2rem;
       text-align: center;
       background-color: #fff;
       border-radius: 4px;

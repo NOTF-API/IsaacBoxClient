@@ -2,7 +2,7 @@
   <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleStageJump(item.sid)"
     @click.right="handleStageJump(item.sid)">
     <div class="image" :style="getSpriteOffsetStyle(props.item.spriteOffset)"></div>
-    <div class="shadowed id" v-show="props.showId">{{ props.item?.sid }}</div>
+    <div class="id" v-show="props.showId">{{ props.item?.sid }}</div>
     <div class="name">{{ props.item.name }} {{ props.item?.exname }}</div>
   </div>
 </template>
@@ -58,17 +58,18 @@ const getSpriteOffsetStyle = (offset) => {
 
     .id {
       border-radius: 4px;
-      background-color: #fff;
+      background-color: #ffffffbf;
       position: absolute;
-      right: .25rem;
-      bottom: .25rem;
+      right: .5rem;
+      bottom: .5rem;
       display: block;
-      width: auto;
-      padding: .5rem;
-      height: 16px;
-      line-height: 16px;
+      padding: 0 1rem;
+      width: fit-content;
+      min-width: 3rem;
+      height: calc(64px - 1rem);
+      line-height: calc(64px - 1rem);
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
 

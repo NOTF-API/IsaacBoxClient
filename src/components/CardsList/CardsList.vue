@@ -10,7 +10,8 @@
         <label for="show-cards-as-list">{{ $t('list style') }}</label>
       </span>
       <div class="idea-popover">
-        <div class="shadowed idea-text">{{ $t("$idea-items") }}</div>
+        <div class="
+         idea-text">{{ $t("$idea-items") }}</div>
       </div>
     </div>
     <div class="view-content card-list">
@@ -24,7 +25,7 @@ import { ref } from 'vue'
 import CardItem from "./CardItem.vue";
 import data from './cards.js'
 
-const isShowId = ref(true)
+const isShowId = ref(false)
 const isListStyled = ref(true)
 
 

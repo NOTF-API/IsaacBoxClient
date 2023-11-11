@@ -1,7 +1,7 @@
 <template>
   <div v-if="!props.isGolden" class="item" :class="{ 'list-styled': props.isListStyled }"
     @click.left="handleSpawn(props.item.id)" @click.right="handleGive(props.item._gid)">
-    <div class="shadowed id" v-show="showId">{{ props.item._gid }}</div>
+    <div class="id" v-show="showId">{{ props.item._gid }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="description">{{ props.item.description }}</div>
     <div class="image" :style="getImageSource(props.item.gfx)"></div>
@@ -9,7 +9,7 @@
   <div v-else class="golden item" :class="{ 'list-styled': props.isListStyled }"
     @click.left="handleSpawn(parseInt(props.item.id) + 32768)"
     @click.right="handleGive(props.item._gid.toUpperCase())">
-    <div class="shadowed id" v-show="showId">{{ 'T' + (parseInt(props.item.id) + 32768) }}</div>
+    <div class="id" v-show="showId">{{ 'T' + (parseInt(props.item.id) + 32768) }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="description">{{ props.item.description }}</div>
     <div class="image" :style="getImageSource(props.item.gfx)"></div>
@@ -28,11 +28,6 @@ const handleSpawn = (id) => {
 const handleGive = (gid) => {
   emit("COMMAND", `g ${gid}`);
 }
-
-const handleRemove = (id) => {
-  emit("COMMAND", `r c${id}`);
-}
-
 const getImageSource = (gfx) => {
   return {
     backgroundImage: `url('${gfx}')`
@@ -85,16 +80,15 @@ const getImageSource = (gfx) => {
 
     .id {
       position: absolute;
-      right: 0;
-      right: .25rem;
-      bottom: .25rem;
+      right: .5rem;
+      bottom: .5rem;
       display: block;
-      width: auto;
-      padding: .5rem;
-      height: 16px;
-      line-height: 16px;
+      padding: 0 1rem;
+      width: fit-content;
+      height: calc(64px - 1rem);
+      line-height: calc(64px - 1rem);
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
     .remove {}
@@ -135,7 +129,7 @@ const getImageSource = (gfx) => {
   }
 
   .id {
-    background-color: #fff;
+    background-color: #ffffffbf;
     position: absolute;
     bottom: 0;
     padding: 0 .25rem;

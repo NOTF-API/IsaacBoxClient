@@ -1,7 +1,7 @@
 <template>
   <div class="item card" :class="{ 'list-styled': props.isListStyled }"
     @click.left="handleSpawn(pocketItemsData[props.gid].id)" @click.right="handleGive(props.gid)">
-    <div class="shadowed gid" v-show="props.showId">{{ props.gid }}</div>
+    <div class="gid" v-show="props.showId">{{ props.gid }}</div>
     <div class="image">
       <div class="sprite" :style="{ backgroundPosition: `${-data[gid].left * 32}px ${-data[gid].top * 32}px` }"></div>
     </div>
@@ -17,8 +17,6 @@ import data from './cards.js'
 
 const props = defineProps(['gid', 'isListStyled', 'showId'])
 const pocketItemsData = window._resource.pocketItems
-
-// console.log(pocketItemsData[props.gid].id)
 
 const handleSpawn = (id) => {
   emit("COMMAND", `spawn 5.300.${id}`);
@@ -63,15 +61,16 @@ const handleGive = (gid) => {
 
     .gid {
       position: absolute;
-      right: .25rem;
-      bottom: .25rem;
+      right: .5rem;
+      bottom: .5rem;
       display: block;
-      width: auto;
-      padding: .5rem;
-      height: 16px;
-      line-height: 16px;
+      padding: 0 1rem;
+      width: fit-content;
+      min-width: 5rem;
+      height: calc(64px - 1rem);
+      line-height: calc(64px - 1rem);
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
     .image {
@@ -111,7 +110,7 @@ const handleGive = (gid) => {
   }
 
   .gid {
-    background-color: #fff;
+    background-color: #ffffffbf;
     position: absolute;
     bottom: 0;
     padding: 0 .25rem;

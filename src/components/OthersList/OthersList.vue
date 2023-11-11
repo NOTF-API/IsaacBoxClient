@@ -1,23 +1,23 @@
 <template>
-  <div class="others view-container">
+  <div class="view-container">
+    <div class="options">
+      <div class="idea-popover">
+        <div class="shadowed idea-text">{{ $t("$idea-others") }}</div>
+      </div>
+    </div>
     <div class="view-content">
-      <CoinItems />
-      <BoomItems />
-      <KeyItems />
-      <BatteryItems />
-      <ChestItems />
-      <GrabBagItems />
-      <OtherItems />
+      <CoinItems @spawn="handleSpawn" />
+      <BoomItems @spawn="handleSpawn" />
+      <KeyItems @spawn="handleSpawn" />
+      <BatteryItems @spawn="handleSpawn" />
+      <ChestItems @spawn="handleSpawn" />
+      <GrabBagItems @spawn="handleSpawn" />
+      <Pills @spawn="handleSpawn" />
+      <OtherItems @spawn="handleSpawn" />
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: "Others"
-}
-</script>
-    
 <script setup>
 import CoinItems from './coins.vue'
 import BoomItems from './booms.vue'
@@ -26,8 +26,13 @@ import ChestItems from './chests.vue'
 import GrabBagItems from './grab-bags.vue'
 import BatteryItems from './batteries.vue'
 import OtherItems from './others.vue'
-const props = defineProps(["open"])
+import Pills from './pills.vue'
 
+import { emit } from "@/utils/ws"
+
+const handleSpawn = (id) => {
+  emit("COMMAND", `spawn ${id}`)
+}
 </script>
     
 <style lang="less">

@@ -51,12 +51,12 @@ export default [
   {
     id: "6.6.0",
     image: "./assets/entity/Entity_6.6.0.png",
-    large: true
+    huge: true
   },
   {
     id: "6.15.0",
     image: "./assets/entity/Entity_6.15.0.png",
-    large: true
+    huge: true
   },
   {
     id: "6.16.0",

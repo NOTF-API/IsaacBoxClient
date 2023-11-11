@@ -9,11 +9,10 @@
 </template>
 
 <script setup>
-import { emit } from "@/utils/ws"
-
 import arr from './chests.js'
+const emit = defineEmits(["spawn"])
 const handleSpawn = (id) => {
-  emit("COMMAND", `spawn ${id}`);
+  emit("spawn", id)
 }
 </script>
 
@@ -21,6 +20,11 @@ const handleSpawn = (id) => {
 .items .item.chest {
   .image img {
     scale: 2;
+  }
+
+  &.large {
+    width: 128px;
+    height: 128px;
   }
 }
 </style>

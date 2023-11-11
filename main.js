@@ -14,11 +14,12 @@ const { getAllModsMetadata,
 let win;
 
 const createMainWindow = () => {
-  //forbid multiple windows
   win = new BrowserWindow({
     width: 800,
     height: 600 + 28,
-    resizable: false,
+    minWidth:800,
+    minHeight: 600 + 28,
+    // resizable: false,
     show: false,
     icon: path.join(__dirname, './public/favicon.ico'),
     webPreferences: {
@@ -26,7 +27,7 @@ const createMainWindow = () => {
     }
   })
   win.menuBarVisible = false
-  // win.webContents.openDevTools() // 打开electron控制台
+//   win.webContents.openDevTools() // 打开electron控制台
   win.loadFile(path.join(__dirname, "dist", "index.html"))
   win.on("ready-to-show", () => {
     win.show();

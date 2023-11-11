@@ -3,9 +3,9 @@ import MyCollectiblesList from '@/components/MyCollectiblesList/MyCollectiblesLi
 import TrinketsList from '@/components/TrinketsList/TrinketsList.vue';
 import CardsList from '@/components/CardsList/CardsList.vue'
 import StageList from '@/components/StageList/StageList.vue'
-import PillsList from '@/components/PillsList/PillsList.vue'
+import PillEffectsList from '@/components/PillEffectsList/PillEffectsList.vue'
 // import MonstersList from '@/components/MonstersList/index.vue'
-// import OthersList from '@/components/OthersList/index.vue'
+import OthersList from '@/components/OthersList/OthersList.vue'
 import LanguageSelect from '@/components/LanguageSelect/LanguageSelect.vue'
 import DebugList from '@/components/DebugList/DebugList.vue'
 
@@ -57,8 +57,8 @@ const submenusMetaData = [
     active: ref(false),
   },
   {
-    name: "Pills",
-    component: PillsList,
+    name: "PillEffects",
+    component: PillEffectsList,
     gridOffset: {
       x: 1,
       y: 1
@@ -84,6 +84,15 @@ const submenusMetaData = [
     active: ref(false),
   },
   {
+    name: "Others",
+    component: OthersList,
+    gridOffset: {
+      x: 2,
+      y: 2
+    },
+    active: ref(false),
+  },
+  {
     name: "Language",
     component: LanguageSelect,
     gridOffset: {
@@ -92,15 +101,6 @@ const submenusMetaData = [
     },
     active: ref(false),
   },
-  //   {
-  //     name: "Others",
-  //     component: OthersList,
-  //     gridOffset: {
-  //       x: 0,
-  //       y: 1
-  //     },
-  //     active: ref(false),
-  //   },
   //   {
   //     name: "Monsters",
   //     component: MonstersList,

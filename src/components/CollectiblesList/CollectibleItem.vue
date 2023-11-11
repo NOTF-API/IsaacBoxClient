@@ -3,11 +3,9 @@
     @click.right="handleGive(item._gid)">
     <div class="quality" v-show="props.showQuality" :class="'level' + item.quality"></div>
     <div class="image" :style="getImageSource(item.gfx)"></div>
-    <div class="shadowed id" v-show="props.showId">{{ item._gid }}</div>
+    <div class="id" v-show="props.showId">{{ item._gid }}</div>
     <div class="name" v-text="item.name"></div>
     <div class="description ellipsis" v-text="item.description"></div>
-    <!-- <div class="remove" v-show="collectibles[i - 1]" @click.self.stop="handleRemove(i)">x</div> -->
-    <!-- <div class="count" v-if="collectibles[i - 1]">{{ collectibles[i - 1] }}</div> -->
   </div>
 </template>
 
@@ -22,10 +20,6 @@ const handleSpawn = (id) => {
 
 const handleGive = (gid) => {
   emit("COMMAND", `g ${gid}`);
-}
-
-const handleRemove = (id) => {
-  emit("COMMAND", `r c${id}`);
 }
 
 const getImageSource = (gfx) => {
@@ -73,15 +67,16 @@ const getImageSource = (gfx) => {
 
     .id {
       position: absolute;
-      right: .25rem;
-      bottom: .25rem;
+      right: .5rem;
+      bottom: .5rem;
       display: block;
-      width: auto;
-      padding: .5rem;
-      height: 16px;
-      line-height: 16px;
+      padding: 0 1rem;
+      width: fit-content;
+      min-width: 5rem;
+      height: calc(64px - 1rem);
+      line-height: calc(64px - 1rem);
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
   }
@@ -163,7 +158,7 @@ const getImageSource = (gfx) => {
   }
 
   .id {
-    background-color: #fff;
+    background-color: #ffffffbf;
     position: absolute;
     bottom: 0;
     padding: 0 .25rem;

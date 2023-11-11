@@ -8,9 +8,9 @@
         <div class="sprite"></div>
         <div class="shadow"></div>
       </div>
-      <div class="idea">
+      <!-- <div class="idea">
         {{ $t("$idea-search") }}
-      </div>
+      </div> -->
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
           @click="handleActiveSubmenu(submenu)"></button>

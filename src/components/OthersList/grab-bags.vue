@@ -10,10 +10,9 @@
 
 <script setup>
 import arr from './grab-bags.js'
-import { emit } from "@/utils/ws"
-
+const emit = defineEmits(["spawn"])
 const handleSpawn = (id) => {
-  emit("COMMAND", `spawn ${id}`);
+  emit("spawn", id)
 }
 </script>
 
