@@ -3,7 +3,7 @@ import 'normalize.css'
 import './style.css'
 import App from './App.vue'
 import { initResources } from '@/utils/resources'
-import { i18n,getI18nType } from '@/utils/i18n'
+import { i18n, getI18nType } from '@/utils/i18n'
 
 (async () => {
   const resource = await initResources();
@@ -16,3 +16,14 @@ import { i18n,getI18nType } from '@/utils/i18n'
     loadingEl.remove()
   }, 1000);
 })();
+
+document.onkeydown = function HandleTabKey(evt) {
+  if (evt.keyCode == 9) {
+    if (evt.preventDefault) {
+      evt.preventDefault();
+    }
+    else {
+      evt.returnValue = false;
+    }
+  }
+}
