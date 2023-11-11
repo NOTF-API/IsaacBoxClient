@@ -65,8 +65,6 @@ const getItemsData = async (itemsMeta, i18nData) => {
     items[gid] = item
     Object.assign(item, itemsMeta[gid])
   })
-  //   console.log(items)
-  delete items["c577"]//remove error damokelisizhijian
   return items;
 }
 
