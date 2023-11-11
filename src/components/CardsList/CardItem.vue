@@ -32,11 +32,27 @@ const handleGive = (gid) => {
 
 <style lang="less" scoped>
 .card.item {
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
+  .image {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+
+    .sprite {
+      scale: 2;
+      width: 32px;
+      height: 32px;
+      background-image: url("/assets/cards_sprite.png");
+      background-size: 640px 160px;
+      background-repeat: no-repeat;
+      image-rendering: pixelated;
+    }
+  }
 
   &.list-styled {
     width: 100%;
@@ -115,16 +131,5 @@ const handleGive = (gid) => {
     display: none;
   }
 
-  .image {
-    .sprite {
-      scale: 3;
-      width: 32px;
-      height: 32px;
-      background-image: url("/assets/cards_sprite.png");
-      background-size: 640px 160px;
-      background-repeat: no-repeat;
-      image-rendering: pixelated;
-    }
-  }
 }
 </style>
