@@ -17,7 +17,7 @@
         <div class="shadowed idea-text">{{ $t("$idea-remove") }}</div>
       </div>
     </div>
-    <div class="view-content no-scrollbar">
+    <div class="view-content">
       <template v-for="count, index in collectibles">
         <MyCollectibleItem v-if="count > 0" :is-list-styled="isListStyle" :item="data[index + 1]" :show-count="isShowCount"
           :show-quality="isShowQuality" :count="count" />

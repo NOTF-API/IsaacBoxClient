@@ -5,7 +5,7 @@
         <div class="shadowed idea-text">{{ $t("$idea-debug") }}</div>
       </div>
     </div>
-    <div class="view-content no-scrollbar">
+    <div class="view-content">
       <div class="item" @click="handleDebug(dbg.id)" v-for="dbg in debugs">{{
         $t(`$debug${dbg.id}`) }} <div class="shadowed did">DEBUG {{ dbg.id }}</div>
       </div>

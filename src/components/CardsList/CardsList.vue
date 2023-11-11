@@ -13,7 +13,7 @@
         <div class="shadowed idea-text">{{ $t("$idea-items") }}</div>
       </div>
     </div>
-    <div class="view-content card-list no-scrollbar">
+    <div class="view-content card-list">
       <CardItem :gid="gid" v-for="gid in Object.keys(data)" :is-list-styled="isListStyled" :show-id="isShowId" />
     </div>
   </div>

@@ -17,7 +17,7 @@
         <div class="shadowed idea-text">{{ $t("$idea-items") }}</div>
       </div>
     </div>
-    <div class="view-content no-scrollbar">
+    <div class="view-content">
       <CollectibleItem v-for="item in data" :is-list-styled="isListStyle" :item="item"
         :show-id="isShowId" :show-quality="isShowQuality" />
     </div>

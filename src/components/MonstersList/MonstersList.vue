@@ -1,6 +1,6 @@
 <template>
   <div class="monsters view-container">
-    <div class="view-content no-scrollbar">
+    <div class="view-content">
       <div class="items" v-for="itemGroup in itemGroups">
         <div class="item monster" v-for="id in itemGroup" @click="handleSpawn(id)">
           <div class="image">

@@ -41,8 +41,19 @@
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
-    width: 0;
-    opacity: 0;
+    width: 14px;
+
+    &-track {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    &-thumb {
+      background: #00000051;
+    }
+
+    &-thumb:hover {
+      background: #527e4551;
+    }
   }
 
   .items {

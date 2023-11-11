@@ -9,7 +9,7 @@
         <div class="shadowed idea-text">{{ $t("$idea-stage") }}</div>
       </div>
     </div>
-    <div class="view-content no-scrollbar">
+    <div class="view-content">
       <StageItem v-for="stage in stages" 
       :is-list-styled="true" 
       :item="Object.assign(stage,data[stage.id])" 

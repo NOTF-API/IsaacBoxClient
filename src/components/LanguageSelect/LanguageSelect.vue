@@ -1,6 +1,6 @@
 <template>
   <div class="view-container">
-    <div class="lang-select view-content no-scrollbar">
+    <div class="lang-select view-content">
       <div class="item" @click="handleSelectLanguage(value)" v-for="value in Object.values(I18N_TYPE)">{{
         getI18nLanguageSelectText(value) }}</div>
     </div>

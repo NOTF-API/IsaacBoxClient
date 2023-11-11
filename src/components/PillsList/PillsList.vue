@@ -7,7 +7,7 @@
         <div class="shadowed idea-text">{{ $t("$idea-pills") }}</div>
       </div>
     </div>
-    <div class="view-content pills-list no-scrollbar">
+    <div class="view-content pills-list">
       <PillItem v-for="item in data" :item="item"  :is-show-id="isShowId" />
       <PillItem v-for="item in data" :item="item" :is-large="true" :is-show-id="isShowId"/>
     </div>

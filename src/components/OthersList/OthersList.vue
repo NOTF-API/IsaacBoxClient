@@ -1,6 +1,6 @@
 <template>
   <div class="others view-container">
-    <div class="view-content no-scrollbar">
+    <div class="view-content">
       <CoinItems />
       <BoomItems />
       <KeyItems />
