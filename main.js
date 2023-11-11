@@ -7,7 +7,7 @@ const { getAllModsMetadata,
   getRequiredModsVersionInfo,
   patchMods,
   getGameDirectorySync,
-//   waitForGameLaunch,
+  //   waitForGameLaunch,
   killGameProcess,
   openIsaacSocketUtility } = require("./env");
 
@@ -63,11 +63,47 @@ const isPortTaken = (port) => {
   }
   initServer(PORT);
   win = createMainWindow();
+
+  let gameDir;
   try {
-    const gameDir = await getGameDirectorySync();
-    const mods = await getAllModsMetadata(gameDir);
-    const requiredMods = await getRequiredModsVersionInfo(mods);
-    const isPatched = await patchMods(gameDir, requiredMods)
+    gameDir = await getGameDirectorySync();
+  }
+  catch (e) {
+    dialog.showMessageBoxSync({
+      title: "错误",
+      message: `无法获取游戏目录，请检查IsaacBoxUtility.exe是否被杀毒软件删除或限制访问`,
+      type: "error"
+    })
+    return;
+  }
+
+  let mods;
+  try {
+    mods = await getAllModsMetadata(gameDir);
+  } catch (e) {
+    dialog.showMessageBoxSync({
+      title: "错误",
+      message: `无法获取MOD信息`,
+      type: "error"
+    })
+    return;
+  }
+
+  let requiredMods;
+  try {
+    requiredMods = await getRequiredModsVersionInfo(mods);
+  } catch (e) {
+    dialog.showMessageBoxSync({
+      title: "错误",
+      message: `无法获取所需MOD信息`,
+      type: "error"
+    })
+    return;
+  }
+
+  let isPatched;
+  try {
+    isPatched = await patchMods(gameDir, requiredMods)
     if (isPatched) {
       await killGameProcess();
       dialog.showMessageBox({
@@ -76,9 +112,25 @@ const isPortTaken = (port) => {
         message: "所需MOD已经为您安装完成,请您手动重新启动游戏"
       })
     }
-    openIsaacSocketUtility();
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    dialog.showMessageBoxSync({
+      title: "错误",
+      message: `无法安装所需MOD`,
+      type: "error"
+    })
+    return;
+  }
+
+  try {
+    await openIsaacSocketUtility();
+  }
+  catch (e) {
+    dialog.showMessageBoxSync({
+      title: "错误",
+      message: `无法打开IsaacSocket连接工具，请检查.NET环境是否安装，IsaacSocketUtility.exe是否被杀毒软件删除或限制访问，IsaacBoxUtility.exe,或者请以管理员权限打开。`,
+      type: "error"
+    })
+    return;
   }
 })();
 

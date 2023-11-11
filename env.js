@@ -171,14 +171,20 @@ const killGameProcess = () => {
   })
 }
 
-/**
- * Opens the IsaacSocketUtility by executing the IsaacSocket.exe file.
- *
- * @param {void} none - no parameters
- * @return {void} none - no return value
- */
+
 const openIsaacSocketUtility = () => {
-  cp.execFile("./dependencies/IsaacSocketUtility/IsaacSocket.exe", ["-silent"]);
+  return new Promise((resolve,reject)=>{
+    if(!fs.existsSync("./dependencies/IsaacSocketUtility/IsaacSocket.exe")){
+      console.log("IsaacSocket.exe not found");
+      reject();
+    }
+    cp.execFile("./dependencies/IsaacSocketUtility/IsaacSocket.exe", ["-silent"], (error) => {
+      if (error) {
+        reject(error)
+      }
+      resolve();
+    });
+  })
 }
 
 module.exports = {
