@@ -7,8 +7,6 @@ const { getAllModsMetadata,
   getRequiredModsVersionInfo,
   patchMods,
   getGameDirectorySync,
-  //   waitForGameLaunch,
-  killGameProcess,
   openIsaacSocketUtility } = require("./env");
 
 let win;
@@ -111,11 +109,10 @@ const isPortTaken = (port) => {
   try {
     isPatched = await patchMods(gameDir, requiredMods)
     if (isPatched) {
-      await killGameProcess();
       dialog.showMessageBox({
         title: "提示",
         type: "info",
-        message: "所需MOD已经为您安装完成,请您手动重新启动游戏"
+        message: "所需MOD已经为您安装/更新完成,请您手动重新启动游戏"
       })
     }
   } catch (e) {

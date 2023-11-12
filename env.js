@@ -6,7 +6,7 @@ const parseString = promisify(require('xml2js').parseString);
 
 const ISAAC_BOX_MOD_DIRNAME = "isaac_box"
 const ISAAC_BOX_MOD_NAME = "IsaacBox(auto installed)"
-const TARGET_ISAAC_BOX_MOD_VERSION = "0.3.1"
+const TARGET_ISAAC_BOX_MOD_VERSION = "0.3.2"
 
 const ISAAC_SOCKET_MOD_DIRNAME = "isaac_socket"
 const ISAAC_SOCKET_OFFICIAL_MOD_NAME = "IsaacSocket"
@@ -138,40 +138,6 @@ const getGameDirectorySync = () => {
   })
 }
 
-/**
- * Waits for the game to launch.
- *
- * @return {Promise} A promise that resolves when the game launches.
- *                   Rejects with an error if there was an error launching the game.
- */
-const waitForGameLaunch = () => {
-  return new Promise((resolve, reject) => {
-    cp.execFile("./dependencies/IsaacBoxUtility.exe", ['-W'], (error) => {
-      if (!error) {
-        resolve();
-      }
-      reject(error)
-    })
-  })
-}
-
-/**
- * Kills the game process.
- *
- * @return {Promise} A promise that resolves when the game process is killed, or rejects with an error if there was an error killing the process.
- */
-const killGameProcess = () => {
-  return new Promise((resolve, reject) => {
-    cp.execFile("./dependencies/IsaacBoxUtility.exe", ['-K'], (error, stdout, stderr) => {
-      if (!error) {
-        resolve();
-      }
-      reject(error)
-    })
-  })
-}
-
-
 const openIsaacSocketUtility = () => {
   return new Promise((resolve,reject)=>{
     if(!fs.existsSync("./dependencies/IsaacSocketUtility/IsaacSocket.exe")){
@@ -192,7 +158,5 @@ module.exports = {
   getRequiredModsVersionInfo,
   patchMods,
   getGameDirectorySync,
-  waitForGameLaunch,
-  killGameProcess,
   openIsaacSocketUtility
 }

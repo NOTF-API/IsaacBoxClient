@@ -1,23 +1,23 @@
 local websocket = require("modules.websocket")
 local bridge = require("modules.bridge")
 local font = Font()
-local green = KColor(0, 1, 0, 1)
-local white = KColor(1, 1, 1, 1)
 font:Load("font/cjk/lanapixel.fnt")
 
 local function onPostRender()
   if IsaacSocket == nil or not IsaacSocket.IsConnected() then
     -- 因为IsaacSocket已经做了提示，故无需提示。
   elseif websocket.state.connecting then
-    font:DrawStringScaledUTF8("[IsaacBox]正在尝试连接...如果失败请检查IsaacBox是否已经开启", 2, 28, 0.5,
-      0.5,
-      green, 0, false)
+    -- 静悄悄地，不要告诉用户，不然扎眼
   elseif not websocket.state.ready then
     websocket.init(WEBSOCKET_PORT)
   else
-    font:DrawStringScaledUTF8("[IsaacBox] Version:" .. (VERSION), 216, 0, 0.5,
-      0.5,
-      white, 0, false)
+    if not websocket.state.shown then
+      local game = Game()
+      local hud = game:GetHUD()
+      hud:ShowItemText("IsaacBox", "Version:" .. VERSION)
+      print("IsaacBox Version:" .. VERSION)
+      websocket.state.shown = true
+    end
     if bridge.UpdateAllCollectibles() then
       websocket.emit("OFFER_ITEMS", require("json").encode(Items))
     end

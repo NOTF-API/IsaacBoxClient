@@ -1,7 +1,8 @@
 local state = {
   connection = nil,
   ready = false,
-  connecting = false
+  connecting = false,
+  shown = false
 }
 
 local function emit(topic, message)
@@ -45,17 +46,17 @@ local function callbackOnMessage(messageReceieved, isBinary)
 end
 
 local function callbackOnClose(closeStatus, statusDescription)
-  --   print("Websocket connection closed: ", closeStatus, statusDescription)
   state.connection = nil
   state.ready = false
   state.connecting = false
+  state.shown = false
 end
 
 local function callbackOnError(message)
-  --   print("Websocket connection error: ", message)
   state.connection = nil
   state.ready = false
   state.connecting = false
+  state.shown = false
 end
 
 local function init(port)
