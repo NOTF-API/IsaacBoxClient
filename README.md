@@ -7,8 +7,19 @@
 2. 以前安装过相关Mod(IsaacBox与IsaacSocket)的请您手动删除这两个Mod。
 3. 解压缩文件夹，打开isaac-box.exe。
 4. 启动游戏,如果未安装所需Mod，则会自动安装，安装完毕后会要求您重新手动启动游戏。（仅会在第一次启动时安装）
-6. 新游戏/继续游戏后 看到屏幕顶部的IsaacBox + 版本 即可开始正常使用。
+6. 新游戏/继续游戏后 控制台输出IsaacBox即可正常使用。
 
+## 遇到问题
++ 请检查是否曾经安装过IsaacSocket，同一时间只能开启一个IsaacSocket MOD，请手动删除或者在MOD菜单中禁用
+
++ 检查是否被杀毒软件拦截或者限制访问了
++ 如果不能为您自动安装mod，请手动复制dependencies下的两个mod至游戏MOD文件夹。
++ 是否不能主动打开IsaacSocket.exe 可能需要安装.net环境
++ 如果不能为您自动启动IsaacSocket.exe，请在每次游戏前手动运行dependencies/IsaacSocketUtility下的IsaacSocket.exe
++ 参考https://github.com/LanbingIce/IsaacSocket-Mod 文档
++ 或者提issue
+
+## 功能图
 ![./doc/main.png](./doc/main.png "主画面")
 ![./doc/main.png](./doc/m_en.png "英文版主画面")
 ![./doc/c.png](./doc/c.png "道具")
@@ -32,18 +43,13 @@
 + 八国语言支持(简中,英,德,法,俄,日,韩,西班牙)
 
 
-## 遇到问题
-+ 参考https://github.com/LanbingIce/IsaacSocket-Mod 文档
-+ 请检查是否曾经安装过IsaacSocket，同一时间只能开启一个IsaacSocket MOD
-+ 或者提issue
-
 ## 项目使用(普通用户无需关注,开发者需关注)
 + 首先安装相关依赖(推荐npm) 命令为:npm install
 + npm run dev:网页开发调试 调试界面和基础功能用这个
 + npm run build:生成静态网页
 + npm run start:生成静态网页并运行electron 模拟真实使用环境 调试WebSocket用这个
 + npm run make:打包生成用户可以一键运行的安装包
-## 待开发功能
+## 未完成功能
 + 目前仅支持中英双语的全局搜索,并且拼音缩写搜索目前只支持卡牌和符文与胶囊
 
 ## 特别感谢
