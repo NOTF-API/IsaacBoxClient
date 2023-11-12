@@ -31,6 +31,7 @@ end
 local function onPreGameExit(_, bool)
   if IsaacSocket == nil and not IsaacSocket.IsConnected() then return end
   websocket.emit("OFFER_ITEMS", "[]")
+  websocket.state.shown = false
 end
 
 -- This function gets called when you start a game.
@@ -53,6 +54,7 @@ end
 local function onPostGameEnd(_, bool)
   if IsaacSocket == nil and not IsaacSocket.IsConnected() then return end
   websocket.emit("OFFER_ITEMS", "[]")
+  websocket.state.shown = false
 end
 
 
