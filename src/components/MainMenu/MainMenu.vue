@@ -18,7 +18,7 @@
     </div>
     <component v-for="submenu in submenus" :is="submenu.component" :style="submenu.style" />
   </div>
-  <GlobalSearch :searchInput="searchInput" />
+  <GlobalSearch :searchInput="searchInput" @clear="handleClear" />
 </template>
 
 <script setup>
@@ -29,6 +29,10 @@ import GlobalSearch from '@/components/GlobalSearch/GlobalSearch.vue'
 const searchInput = ref("")
 
 const submenus = getSubmenus();
+
+const handleClear = () => {
+  searchInput.value = ""
+}
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {

@@ -1,6 +1,7 @@
 <template>
   <transition name="search">
     <div class="search view-container" v-show="props.searchInput.length !== 0">
+      <div class="shadowed search-clear" @click="emit('clear')">x</div>
       <div class="shadowed search-bar">{{ props.searchInput }}<span class="cursor"></span></div>
       <div class="search-title">{{ $t("Search") }}</div>
       <div class="search-result view-content">
@@ -19,12 +20,6 @@
   </transition>
 </template>
 
-<script>
-export default {
-  name: "GlobalSearch"
-}
-</script>
-
 <script setup>
 import CollectibleItem from '@/components/CollectiblesList/CollectibleItem.vue';
 import TrinketItem from '@/components/TrinketsList/TrinketItem.vue';
@@ -35,6 +30,7 @@ import { search } from '@/utils/resources'
 import { ref, watch } from 'vue'
 
 const props = defineProps(["searchInput"])
+const emit = defineEmits(["clear"])
 
 const collectibles = ref([])
 const trinkets = ref([])
@@ -80,6 +76,26 @@ watch(() => props.searchInput, (newValue) => {
 .search {
   background-color: #605a59;
 
+  .search-clear {
+    z-index: 10000000;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    border-radius: 0 4px 4px 0;
+    font-size: 2rem;
+    background-color: #b22222;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f02424;
+    }
+  }
+
   .search-bar {
     z-index: 10000000;
     display: flex;
@@ -88,7 +104,7 @@ watch(() => props.searchInput, (newValue) => {
     font-size: 2rem;
     position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: 4rem;
     width: 20rem;
     overflow: hidden;
     height: 3rem;
