@@ -12,9 +12,6 @@ local function onPostRender()
     websocket.init(WEBSOCKET_PORT)
   else
     if not websocket.state.shown then
-      local game = Game()
-      local hud = game:GetHUD()
-      hud:ShowItemText("IsaacBox", "Version:" .. VERSION)
       print("IsaacBox Version:" .. VERSION)
       websocket.state.shown = true
     end
