@@ -16,7 +16,7 @@ export const I18N_TYPE = Object.freeze({
   FRENCH: 7
 })
 
-const $VERSION_TEXT = "V0.3.2"
+const $VERSION_TEXT = "V1.0.0"
 
 const messages = {
   [I18N_TYPE.ENGLISH]: {
