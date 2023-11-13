@@ -6,11 +6,11 @@ import StageList from '@/components/StageList/StageList.vue'
 import PillEffectsList from '@/components/PillEffectsList/PillEffectsList.vue'
 // import MonstersList from '@/components/MonstersList/index.vue'
 import OthersList from '@/components/OthersList/OthersList.vue'
-import LanguageSelect from '@/components/LanguageSelect/LanguageSelect.vue'
 import DebugList from '@/components/DebugList/DebugList.vue'
 
 import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'
+
 
 const getViewStyle = (submenu) => {
   const { gridOffset } = submenu;
@@ -92,15 +92,6 @@ const submenusMetaData = [
     },
     active: ref(false),
   },
-  {
-    name: "Language",
-    component: LanguageSelect,
-    gridOffset: {
-      x: 0,
-      y: -1
-    },
-    active: ref(false),
-  },
   //   {
   //     name: "Monsters",
   //     component: MonstersList,
@@ -111,6 +102,7 @@ const submenusMetaData = [
   //     active: ref(false),
   //   }
 ]
+
 
 export const getSubmenus = () => {
   const { t } = useI18n()

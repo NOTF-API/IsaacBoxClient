@@ -1,16 +1,11 @@
 <template>
   <div class="view" :style="getTransformedStyle">
     <div class="menu view-container" :class="{ active: isMainActive }">
-      <div class="title i18n-0" v-if="getI18nType() !== '3'">Isaac's Box</div>
-      <div class="chn_title" v-else></div>
+      <button @click="isLanguageSelectVisible = !isLanguageSelectVisible" class="i18n-btn"><img :src="i18nIcon"></button>
+      <div class="title i18n-en" v-if="getI18nType() !== 'zh'">Isaac's Box</div>
+      <div class="title-zh" v-else></div>
       <div class="version">{{ $t("$version") }}</div>
-      <div class="fly">
-        <div class="sprite"></div>
-        <div class="shadow"></div>
-      </div>
-      <!-- <div class="idea">
-        {{ $t("$idea-search") }}
-      </div> -->
+      <div class="fly"></div>
       <div class="menu-content">
         <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
           @click="handleActiveSubmenu(submenu)"></button>
@@ -19,14 +14,20 @@
     <component v-for="submenu in submenus" :is="submenu.component" :style="submenu.style" />
   </div>
   <GlobalSearch :searchInput="searchInput" @clear="handleClear" />
+  <LanguageSelect :class="{ active: isLanguageSelectVisible }" @close="isLanguageSelectVisible = false" />
 </template>
 
 <script setup>
 import { ref, reactive, computed } from 'vue'
 import { getSubmenus } from './submenus'
-import { getI18nType } from '@/utils/i18n'
+import { getI18nType, getI18nState } from '@/utils/i18n'
+import i18nIcon from '@/assets/icon/i18n.svg'
+
 import GlobalSearch from '@/components/GlobalSearch/GlobalSearch.vue'
+import LanguageSelect from '@/components/LanguageSelect/LanguageSelect.vue'
 const searchInput = ref("")
+
+const isLanguageSelectVisible = ref(false)
 
 const submenus = getSubmenus();
 
@@ -36,6 +37,10 @@ const handleClear = () => {
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
+    if (isLanguageSelectVisible.value) {
+      isLanguageSelectVisible.value = false;
+      return;
+    }
     if (searchInput.value.length !== 0) {
       searchInput.value = ""
       return;
@@ -83,6 +88,27 @@ const getTransformedStyle = computed(() => {
 </script>
 
 <style scoped lang="less">
+.i18n-btn {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  background: none;
+  border: none;
+  outline: none;
+
+  &:hover {
+    filter: invert(1);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .menu {
   width: 100%;
   height: 100%;
@@ -94,7 +120,7 @@ const getTransformedStyle = computed(() => {
   align-items: flex-start;
 
   .title,
-  .chn_title {
+  .title-zh {
     position: absolute;
     top: 3rem;
     font-size: 7rem;
@@ -104,37 +130,13 @@ const getTransformedStyle = computed(() => {
     filter: drop-shadow(16px 32px 16px #00000036);
   }
 
-  .chn_title {
+  .title-zh {
     width: 1804px !important;
     height: 514px !important;
     transform-origin: center top;
     scale: .3;
     background-size: 1804px 514px;
     background-image: url("/title_chn_by_baiyutang.png");
-  }
-
-  .idea {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding: .5rem;
-    font-size: 1.5rem;
-    color: #f6f6f6;
-    text-shadow: #9e0b0b 0 2px;
-  }
-
-  .idea-launch-game {
-    position: absolute;
-    z-index: 1000;
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    background-color: #fff;
-    color: #000;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .version {
@@ -169,7 +171,6 @@ const getTransformedStyle = computed(() => {
   }
 
   .fly {
-    // display: none;
     position: absolute;
     top: 16rem;
     right: 6rem;
@@ -203,8 +204,9 @@ const getTransformedStyle = computed(() => {
       }
     }
 
-    .sprite,
-    .shadow {
+    &::before,
+    &::after {
+      content: "";
       will-change: background-position-y;
       position: absolute;
       background-image: url("/assets/gfx/ui/main menu/fly.png");
@@ -216,11 +218,11 @@ const getTransformedStyle = computed(() => {
       image-rendering: pixelated;
     }
 
-    .sprite {
+    &::before {
       background-position-x: 0;
     }
 
-    .shadow {
+    &::after {
       background-position-x: -96px;
     }
   }
@@ -230,12 +232,12 @@ const getTransformedStyle = computed(() => {
       transform: translate(240px, -50px);
       animation: fly-in .375s ease-out .25s forwards, up-and-down 1.25s steps(3) infinite;
 
-      .sprite {
+      &::before {
         background-position-x: 0;
         animation: fly-sprite 75ms steps(1) infinite;
       }
 
-      .shadow {
+      &::after {
         background-position-x: -96px;
         animation: fly-shadow 75ms steps(1) infinite;
       }

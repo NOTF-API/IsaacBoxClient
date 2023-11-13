@@ -3,27 +3,17 @@ import 'normalize.css'
 import './style.css'
 import App from './App.vue'
 import { initResources } from '@/utils/resources'
-import { i18n, getI18nType } from '@/utils/i18n'
+import { initI18n } from '@/utils/i18n'
+import { disableTab } from '@/utils/keys'
 
-(async () => {
-  const resource = await initResources();
-  window._resource = resource
-  document.body.classList.add("i18n-" + getI18nType())
-  const loadingEl = document.querySelector("#loading")
-  await createApp(App).use(i18n).mount('#app')
-  loadingEl.classList.add("fade-out")
-  setTimeout(() => {
-    loadingEl.remove()
-  }, 1000);
-})();
-
-document.onkeydown = function HandleTabKey(evt) {
-  if (evt.keyCode == 9) {
-    if (evt.preventDefault) {
-      evt.preventDefault();
-    }
-    else {
-      evt.returnValue = false;
-    }
-  }
+const init = async () => {
+  disableTab();
+  const i18n = initI18n();
+  await initResources();
+  await createApp(App)
+    .use(i18n)
+    .mount('#app')
+  document.querySelector("#loading").remove()
 }
+
+init();

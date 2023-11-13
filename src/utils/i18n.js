@@ -1,20 +1,45 @@
 
 import { createI18n } from 'vue-i18n'
 
+const I18N_TYPE_KEY = "i18n"
+
+export const getI18nState = () => {
+  return localStorage.getItem(I18N_TYPE_KEY) !== null
+}
+
 export const getI18nType = () => {
-  return localStorage.getItem("i18n") || "0"
+  let t = localStorage.getItem(I18N_TYPE_KEY)
+  if (!t) {
+    t = I18N_TYPE.CHINESE
+    localStorage.setItem(I18N_TYPE_KEY, t)
+  }
+  return t;
 }
 
 export const I18N_TYPE = Object.freeze({
-  ENGLISH: 0,
-  JAPANESE: 1,
-  KOREAN: 2,
-  CHINESE: 3,
-  RUSSIAN: 4,
-  GERMAN: 5,
-  SPANISH: 6,
-  FRENCH: 7
+  ENGLISH: "en",
+  JAPANESE: "ja",
+  KOREAN: "ko",
+  CHINESE: "zh",
+  RUSSIAN: "ru",
+  GERMAN: "de",
+  SPANISH: "es",
+  FRENCH: "fr",
 })
+
+export const getIndexByI18nType = (i18nType) => {
+  switch (i18nType) {
+    case I18N_TYPE.ENGLISH: return 0
+    case I18N_TYPE.JAPANESE: return 1
+    case I18N_TYPE.KOREAN: return 2
+    case I18N_TYPE.CHINESE: return 3
+    case I18N_TYPE.RUSSIAN: return 4
+    case I18N_TYPE.GERMAN: return 5
+    case I18N_TYPE.SPANISH: return 6
+    case I18N_TYPE.FRENCH: return 7
+    default: return 0
+  }
+}
 
 const $VERSION_TEXT = "V1.0.0"
 
@@ -332,11 +357,19 @@ const messages = {
     "$debug14": "Afficher l'utilisation de la mémoire Lua",
   }
 }
-export const i18n = createI18n({
-  legacy: false,
-  locale: getI18nType(),
-  messages
-})
+
+
+export const initI18n = () => {
+  console.log(getI18nType())
+  document.body.classList.add(`i18n-${getI18nType()}`);
+  window._i18n = getI18nType();
+  window._i18n_index = getIndexByI18nType(window._i18n)
+  return createI18n({
+    legacy: false,
+    locale: window._i18n,
+    messages
+  })
+}
 
 export const getI18nLanguageSelectText = (i18nType) => {
   switch (i18nType) {

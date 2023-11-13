@@ -1,4 +1,4 @@
-import { getI18nType } from '@/utils/i18n'
+import { getI18nType, getIndexByI18nType } from '@/utils/i18n'
 /**
  * 
  * @param {string} src 
@@ -37,7 +37,7 @@ const getXMLDataAndParse = async (src) => {
 const getItemsData = async (itemsMeta, i18nData) => {
   const data = await getXMLDataAndParse("./assets/items.xml")
   const items = {};
-  const i18nType = getI18nType();
+  const i18nIndex = window._i18n_index
   data.forEach((item) => {
     let gid;
     if (item._type === "active" || item._type === "familiar" || item._type === "passive") {
@@ -58,8 +58,8 @@ const getItemsData = async (itemsMeta, i18nData) => {
 
     const descriptionKey = item.description.substring(1, item.description.length);
     const nameKey = item.name.substring(1, item.name.length);
-    item.description = i18nData.Items[descriptionKey][i18nType]._value || item.description;
-    item.name = i18nData.Items[nameKey][i18nType]._value || item.name;
+    item.description = i18nData.Items[descriptionKey][i18nIndex]._value || item.description;
+    item.name = i18nData.Items[nameKey][i18nIndex]._value || item.name;
 
 
     items[gid] = item
@@ -85,7 +85,7 @@ const getItemsMetaData = async () => {
 const getPocketItemsData = async (i18nData) => {
   const data = await getXMLDataAndParse("./assets/pocketitems.xml")
   const pocketItems = {};
-  const i18nType = getI18nType();
+  const i18nIndex = window._i18n_index;
   data.forEach((item) => {
     if (item._type === "card" || item._type === "rune") {
       item._gtype = "k"
@@ -99,58 +99,30 @@ const getPocketItemsData = async (i18nData) => {
     } else {
       return
     }
-    // return
-    // console.log(item)
     if ((item.id == 0 && item._gtype === "k") || !item.name) {
       return;
     }
     const nameKey = item.name.substring(1, item.name.length);
-    item.name = i18nData.PocketItems[nameKey][i18nType]._value;
+    item.name = i18nData.PocketItems[nameKey][i18nIndex]._value;
     if (!item.description) {
       return;
     }
     const descriptionKey = item.description?.substring(1, item.description.length);
-    item.description = i18nData.PocketItems[descriptionKey][i18nType]._value || item.description;
+    item.description = i18nData.PocketItems[descriptionKey][i18nIndex]._value || item.description;
   })
-  //   console.log(pocketItems)
   return (pocketItems)
 }
 
 const getStagesData = async (i18nData) => {
   const data = await getXMLDataAndParse("./assets/stages.xml")
   const stages = {};
-  const i18nType = getI18nType();
+  const i18nIndex = window._i18n_index;
   data.forEach((item) => {
-    // console.log(item.id)
-    stages[item.id] = item; 
-    // if (item._type === "card" || item._type === "rune") {
-    //   item._gtype = "k"
-    //   item._gid = `k${item.id}`
-    //   pocketItems[item._gid] = item;
-    // }
-    // else if (item._type === "pilleffect") {
-    //   item._gtype = "p"
-    //   item._gid = `p${item.id}`
-    //   pocketItems[item._gid] = item;
-    // } else {
-    //   return
-    // }
-    // return
-    // console.log(item)
-    // if ((item.id == 0 && item._gtype === "k") || !item.name) {
-    //   return;
-    // }
+    stages[item.id] = item;
     const nameKey = item.name.substring(1, item.name.length);
-    item.name = i18nData.Stages[nameKey][i18nType]._value;
-    // if (!item.description) {
-    //   return;
-    // }
-    // const descriptionKey = item.description?.substring(1, item.description.length);
-    // item.description = i18nData.PocketItems[descriptionKey][i18nType]._value || item.description;
+    item.name = i18nData.Stages[nameKey][i18nIndex]._value;
   })
-//   console.log(stages)
   delete stages["0"]
-  //   console.log(pocketItems)
   return (stages)
 }
 
@@ -178,14 +150,11 @@ const getSearchData = async () => {
 const searchTreeRoot = {};
 
 const buildSearchTree = (searchData, items, pocketItems) => {
-  // console.log(searchData)
   Object.entries(searchData).forEach(([gid, keywords]) => {
     keywords.forEach((keyword) => {
-      //   console.log(keyword)
       buildSearchBranch(searchTreeRoot, keyword, items[gid] || pocketItems[gid])
     })
   })
-  //   console.log(searchTreeRoot)
 }
 
 const buildSearchBranch = (node, text, leaf) => {
@@ -250,13 +219,11 @@ const search = (keyword) => {
       return;
     }
     if (p._gtype === "k") {
-      //   console.log(p)
       result[p._gtype]?.push(p._gid)
     } else {
       result[p._gtype]?.push(p)
     }
   })
-  //   console.log(result)
   return result
 }
 
@@ -266,9 +233,8 @@ const initResources = async () => {
   const pocketItems = await getPocketItemsData(i18nData);
   const items = await getItemsData(metadata, i18nData);
   const stages = await getStagesData(i18nData)
-  //   console.log(items)
   await buildSearchTree(await getSearchData(), items, pocketItems);
-  return {
+  window._resource = {
     pocketItems, items, stages
   }
 }
