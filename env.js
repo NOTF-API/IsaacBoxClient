@@ -55,6 +55,9 @@ const getAllModsMetadata = async (gameDir) => {
       const modsDirs = await promisify(fs.readdir)(dir, 'utf-8');
       for (const modDir of modsDirs) {
         const targetFile = `${gameDir}/mods/${modDir}/metadata.xml`
+        if(!fs.existsSync(targetFile)) {
+          continue;
+        }
         const metadata = await parseModMetaData(targetFile)
         mods.push(metadata);
       }
