@@ -11,7 +11,7 @@ const TARGET_ISAAC_BOX_MOD_VERSION = "1.0.0"
 const ISAAC_SOCKET_MOD_DIRNAME = "isaac_socket"
 const ISAAC_SOCKET_OFFICIAL_MOD_NAME = "IsaacSocket"
 const ISAAC_SOCKET_MOD_NAME = "IsaacSocket(auto installed)"
-const TARGET_ISAAC_SOCKET_MOD_VERSION = "1.0"
+const TARGET_ISAAC_SOCKET_MOD_VERSION = "1.1"
 
 const compareVersion = (v1, v2) => {
   const v1Arr = v1.split('.')

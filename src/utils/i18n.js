@@ -41,7 +41,7 @@ export const getIndexByI18nType = (i18nType) => {
   }
 }
 
-const $VERSION_TEXT = "V1.1.0"
+const $VERSION_TEXT = "V1.1.1"
 
 const messages = {
   [I18N_TYPE.ENGLISH]: {
