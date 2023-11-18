@@ -25,7 +25,7 @@ const handleClick = ($event, isLarge) => {
     emit("COMMAND", `g ${isLarge ? gid.toUpperCase() : gid}`);
   } else {
     const id = parseInt(props.item.id);
-    emit("COMMAND", `spawn 5.300.${isLarge ? id + 32768 : id}`);
+    emit("COMMAND", `spawn 5.350.${isLarge ? id + 32768 : id}`);
   }
 }
 
