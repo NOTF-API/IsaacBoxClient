@@ -1,14 +1,12 @@
 <template>
   <div v-if="!props.isGolden" class="item" :class="{ 'list-styled': props.isListStyled }"
-    @click.left="handleSpawn(props.item.id)" @click.right="handleGive(props.item._gid)">
+    @click="handleClick($event, false)">
     <div class="id" v-show="showId">{{ props.item._gid }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="description">{{ props.item.description }}</div>
     <div class="image" :style="getImageSource(props.item.gfx)"></div>
   </div>
-  <div v-else class="golden item" :class="{ 'list-styled': props.isListStyled }"
-    @click.left="handleSpawn(parseInt(props.item.id) + 32768)"
-    @click.right="handleGive(props.item._gid.toUpperCase())">
+  <div v-else class="golden item" :class="{ 'list-styled': props.isListStyled }" @click="handleClick($event, true)">
     <div class="id" v-show="showId">{{ 'T' + (parseInt(props.item.id) + 32768) }}</div>
     <div class="name">{{ props.item.name }}</div>
     <div class="description">{{ props.item.description }}</div>
@@ -21,13 +19,16 @@ import { emit } from "@/utils/ws"
 
 const props = defineProps(['item', 'isGolden', 'showId', 'isListStyled'])
 
-const handleSpawn = (id) => {
-  emit("COMMAND", `spawn 5.350.${id}`);
+const handleClick = ($event, isLarge) => {
+  if ($event.ctrlKey) {
+    const gid = props.item._gid
+    emit("COMMAND", `g ${isLarge ? gid.toUpperCase() : gid}`);
+  } else {
+    const id = parseInt(props.item.id);
+    emit("COMMAND", `spawn 5.300.${isLarge ? id + 32768 : id}`);
+  }
 }
 
-const handleGive = (gid) => {
-  emit("COMMAND", `g ${gid}`);
-}
 const getImageSource = (gfx) => {
   return {
     backgroundImage: `url('${gfx}')`

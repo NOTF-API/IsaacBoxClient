@@ -1,6 +1,5 @@
 <template>
-  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleSpawn(item.id)"
-    @click.right="handleGive(item._gid)">
+  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click="handleClick($event, item)">
     <div class="quality" v-show="props.showQuality" :class="'level' + item.quality"></div>
     <div class="image" :style="getImageSource(item.gfx)"></div>
     <div class="id" v-show="props.showId">{{ item._gid }}</div>
@@ -14,12 +13,20 @@ import { emit } from "@/utils/ws"
 
 const props = defineProps(['item', 'isListStyled', 'showQuality', 'showId'])
 
-const handleSpawn = (id) => {
-  emit("COMMAND", `spawn 5.100.${id}`);
-}
 
-const handleGive = (gid) => {
-  emit("COMMAND", `g ${gid}`);
+/**
+ * Handles the click event.
+ *
+ * @param {MouseEvent} $event - The click event object.
+ * @param {Object} item - The item object.
+ */
+const handleClick = ($event, item) => {
+  const { id, _gid } = item
+  if ($event.ctrlKey) {
+    emit("COMMAND", `g ${_gid}`);
+  } else {
+    emit("COMMAND", `spawn 5.100.${id}`);
+  }
 }
 
 const getImageSource = (gfx) => {

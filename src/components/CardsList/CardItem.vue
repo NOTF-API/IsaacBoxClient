@@ -1,6 +1,5 @@
 <template>
-  <div class="item card" :class="{ 'list-styled': props.isListStyled }"
-    @click.left="handleSpawn(pocketItemsData[props.gid].id)" @click.right="handleGive(props.gid)">
+  <div class="item card" :class="{ 'list-styled': props.isListStyled }" @click="handleClick($event)">
     <div class="gid" v-show="props.showId">{{ props.gid }}</div>
     <div class="image">
       <div class="sprite" :style="{ backgroundPosition: `${-data[gid].left * 32}px ${-data[gid].top * 32}px` }"></div>
@@ -18,13 +17,13 @@ import data from './cards.js'
 const props = defineProps(['gid', 'isListStyled', 'showId'])
 const pocketItemsData = window._resource.pocketItems
 
-const handleSpawn = (id) => {
-  emit("COMMAND", `spawn 5.300.${id}`);
-}
-
-
-const handleGive = (gid) => {
-  emit("COMMAND", `g ${gid}`);
+const handleClick = ($event) => {
+  const gid = props.gid
+  if ($event.ctrlKey) {
+    emit("COMMAND", `g ${gid}`);
+  } else {
+    emit("COMMAND", `spawn 5.300.${pocketItemsData[gid].id}`);
+  }
 }
 </script>
 

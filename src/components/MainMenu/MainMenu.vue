@@ -35,28 +35,19 @@ const handleClear = () => {
   searchInput.value = ""
 }
 
+window.addEventListener("mousedown", (event) => {
+  if (event.button === 2) {
+    handleReturn();
+  }
+})
+
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
-    if (isLanguageSelectVisible.value) {
-      isLanguageSelectVisible.value = false;
-      return;
-    }
-    if (searchInput.value.length !== 0) {
-      searchInput.value = ""
-      return;
-    }
-    submenus.forEach((submenu) => {
-      if (submenu.active.value) {
-        submenu.active.value === false
-      }
-    });
-    isMainActive.value = true;
-    transform.x = 0;
-    transform.y = 0;
+    handleReturn();
   }
   else if (/^[a-zA-Z0-9\x20\.]{1}$$/.test(event.key)) {
     searchInput.value += event.key;
-  } else if (event.key === "Backspace") {
+  } else if (event.key === "Backspace" || event.key === "Delete") {
     if (searchInput.value.length === 0) {
       return;
     } else {
@@ -64,6 +55,25 @@ window.addEventListener("keydown", (event) => {
     }
   }
 });
+
+const handleReturn = () => {
+  if (isLanguageSelectVisible.value) {
+    isLanguageSelectVisible.value = false;
+    return;
+  }
+  if (searchInput.value.length !== 0) {
+    searchInput.value = ""
+    return;
+  }
+  submenus.forEach((submenu) => {
+    if (submenu.active.value) {
+      submenu.active.value === false
+    }
+  });
+  isMainActive.value = true;
+  transform.x = 0;
+  transform.y = 0;
+}
 
 const isMainActive = ref(true);
 const transform = reactive({
