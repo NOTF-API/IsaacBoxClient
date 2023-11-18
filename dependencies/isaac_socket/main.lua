@@ -226,9 +226,9 @@ local function RenderHintText()
             font:DrawStringScaledUTF8("IsaacSocket 连接成功!", 2, 0, 0.5, 0.5, KColor(0, 1, 0, 1), 0, false)
         end
     elseif connectionState == ConnectionState.CONNECTING then
-        font:DrawStringScaledUTF8(
-            "IsaacSocket 连接失败,请查看 IsaacSocket 的创意工坊页面,按照页面上的使用步骤下载 \"IsaacSocket 连接工具\" 并启动,如果仍然失败,可以尝试关闭杀毒软件或者使用管理员模式启动 \"IsaacSocket 连接工具\"",
-            2, 0, 0.5, 0.5, KColor(1, 1, 1, 1), 0, false)
+        -- font:DrawStringScaledUTF8(
+        --     "IsaacSocket 连接失败,请查看 IsaacSocket 的创意工坊页面,按照页面上的使用步骤下载 \"IsaacSocket 连接工具\" 并启动,如果仍然失败,可以尝试关闭杀毒软件或者使用管理员模式启动 \"IsaacSocket 连接工具\"",
+        --     2, 0, 0.5, 0.5, KColor(1, 1, 1, 1), 0, false)
     end
 
 end
