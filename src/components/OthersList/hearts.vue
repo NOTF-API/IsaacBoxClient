@@ -1,9 +1,8 @@
 <template>
   <div class="item heart" v-for="item in arr" @click="handleSpawn(item.id)">
     <div class="image">
-      <img :src="`${item.image}`" alt="" srcset="">
+      <img :src="`${item.image}`" alt="">
     </div>
-    <div class="id">{{ item.id }}</div>
   </div>
 </template>
 
@@ -18,5 +17,6 @@ const handleSpawn = (id) => {
 <style lang="less">
 .item.heart .image img {
   width: 100%;
+  scale: 2;
 }
 </style>

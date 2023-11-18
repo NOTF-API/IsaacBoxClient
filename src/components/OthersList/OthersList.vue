@@ -6,6 +6,7 @@
       </div>
     </div>
     <div class="view-content">
+      <HeartItems @spawn="handleSpawn" />
       <CoinItems @spawn="handleSpawn" />
       <BoomItems @spawn="handleSpawn" />
       <KeyItems @spawn="handleSpawn" />
@@ -19,6 +20,7 @@
 </template>
 
 <script setup>
+import HeartItems from './hearts.vue'
 import CoinItems from './coins.vue'
 import BoomItems from './booms.vue'
 import KeyItems from './keys.vue'
