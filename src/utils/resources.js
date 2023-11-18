@@ -1,4 +1,3 @@
-import { getI18nType, getIndexByI18nType } from '@/utils/i18n'
 /**
  * 
  * @param {string} src 
@@ -41,7 +40,6 @@ const getItemsData = async (itemsMeta, i18nData) => {
   data.forEach((item) => {
     let gid;
     if (item._type === "active" || item._type === "familiar" || item._type === "passive") {
-      //   console.log(i18nData.Items)
       gid = `c${item.id}`
       item._gtype = "c"
       item._gid = gid
@@ -55,13 +53,10 @@ const getItemsData = async (itemsMeta, i18nData) => {
     } else {
       return;
     }
-
     const descriptionKey = item.description.substring(1, item.description.length);
     const nameKey = item.name.substring(1, item.name.length);
     item.description = i18nData.Items[descriptionKey][i18nIndex]._value || item.description;
     item.name = i18nData.Items[nameKey][i18nIndex]._value || item.name;
-
-
     items[gid] = item
     Object.assign(item, itemsMeta[gid])
   })
