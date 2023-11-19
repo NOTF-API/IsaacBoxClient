@@ -12,7 +12,7 @@ local function onPostRender()
     websocket.init(WEBSOCKET_PORT)
   else
     if not websocket.state.shown then
-      print("IsaacBox Version:" .. VERSION)
+      print("IsaacBox MOD Version:" .. MOD_VERSION)
       websocket.state.shown = true
     end
     if bridge.UpdateAllCollectibles() then
