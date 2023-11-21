@@ -17,7 +17,7 @@ export const getI18nType = () => {
 }
 
 export const I18N_TYPE = Object.freeze({
-  ENGLISH: "en",
+  // ENGLISH: "en",
   CHINESE: "zh",
   //   JAPANESE: "ja",
   //   KOREAN: "ko",
@@ -29,7 +29,7 @@ export const I18N_TYPE = Object.freeze({
 
 export const getIndexByI18nType = (i18nType) => {
   switch (i18nType) {
-    case I18N_TYPE.ENGLISH: return 0
+    // case I18N_TYPE.ENGLISH: return 0
     case I18N_TYPE.CHINESE: return 3
     // case I18N_TYPE.JAPANESE: return 1
     // case I18N_TYPE.KOREAN: return 2
@@ -44,44 +44,44 @@ export const getIndexByI18nType = (i18nType) => {
 const $VERSION_TEXT = "V1.1.1"
 
 const messages = {
-  [I18N_TYPE.ENGLISH]: {
-    "Isaac's Box": "Isaac's Box",
-    "Collectibles": "Collectibles",
-    "MyCollectibles": "My Collectibles",
-    "Trinkets": "Trinkets",
-    "Cards": "Cards",
-    "PillEffects": "PillEffects",
-    "Language": "Language",
-    "Search": "Search",
-    "Debug": "Debug",
-    "Stage": "Stage",
-    "Others": "Others",
-    "show id": "show id",
-    "show quality": "show quality",
-    "show count": "show count",
-    "list style": "list style",
-    "$version": $VERSION_TEXT,
-    "$idea-others": "Click left to spawn,click right to go back",
-    "$idea-items": "Click left to spawn,click Ctrl+left to give,click right to go back",
-    "$idea-pills": "Click left to give,click right to go back,click right to go back",
-    "$idea-stage": "Click left to jump to target stage,click right to go back",
-    "$idea-debug": "Click left to open,click again to close,click right to go back",
-    "$idea-remove": "Click left to remove one,click Ctrl+left to remove all,click right to go back",
-    "$debug1": "Entity Positions",
-    "$debug2": "Grid",
-    "$debug3": "Infinite HP",
-    "$debug4": "High Damage",
-    "$debug5": "Show Room Info",
-    "$debug6": "Show Hitspheres",
-    "$debug7": "Show Damage Values",
-    "$debug8": "Infinite Item Charges",
-    "$debug9": "High Luck",
-    "$debug10": "Quick Kill",
-    "$debug11": "Grid Info",
-    "$debug12": "Player Item Info",
-    "$debug13": "Show Grid Collision Points",
-    "$debug14": "Show Lua Memory Usage",
-  },
+  // [I18N_TYPE.ENGLISH]: {
+  //   "Isaac's Box": "Isaac's Box",
+  //   "Collectibles": "Collectibles",
+  //   "MyCollectibles": "My Collectibles",
+  //   "Trinkets": "Trinkets",
+  //   "Cards": "Cards",
+  //   "PillEffects": "PillEffects",
+  //   "Language": "Language",
+  //   "Search": "Search",
+  //   "Debug": "Debug",
+  //   "Stage": "Stage",
+  //   "Others": "Others",
+  //   "show id": "show id",
+  //   "show quality": "show quality",
+  //   "show count": "show count",
+  //   "list style": "list style",
+  //   "$version": $VERSION_TEXT,
+  //   "$idea-others": "Click left to spawn,click right to go back",
+  //   "$idea-items": "Click left to spawn,click Ctrl+left to give,click right to go back",
+  //   "$idea-pills": "Click left to give,click right to go back,click right to go back",
+  //   "$idea-stage": "Click left to jump to target stage,click right to go back",
+  //   "$idea-debug": "Click left to open,click again to close,click right to go back",
+  //   "$idea-remove": "Click left to remove one,click Ctrl+left to remove all,click right to go back",
+  //   "$debug1": "Entity Positions",
+  //   "$debug2": "Grid",
+  //   "$debug3": "Infinite HP",
+  //   "$debug4": "High Damage",
+  //   "$debug5": "Show Room Info",
+  //   "$debug6": "Show Hitspheres",
+  //   "$debug7": "Show Damage Values",
+  //   "$debug8": "Infinite Item Charges",
+  //   "$debug9": "High Luck",
+  //   "$debug10": "Quick Kill",
+  //   "$debug11": "Grid Info",
+  //   "$debug12": "Player Item Info",
+  //   "$debug13": "Show Grid Collision Points",
+  //   "$debug14": "Show Lua Memory Usage",
+  // },
   //   [I18N_TYPE.JAPANESE]: {
   //     "Isaac's Box": "アイザックの箱",
   //     "Collectibles": "コレクタブル",
@@ -371,14 +371,14 @@ export const initI18n = () => {
 
 export const getI18nLanguageSelectText = (i18nType) => {
   switch (i18nType) {
-    case I18N_TYPE.ENGLISH: return "English";
-    case I18N_TYPE.JAPANESE: return "日本語";
-    case I18N_TYPE.KOREAN: return "한국어";
+    // case I18N_TYPE.ENGLISH: return "English";
+    // case I18N_TYPE.JAPANESE: return "日本語";
+    // case I18N_TYPE.KOREAN: return "한국어";
     case I18N_TYPE.CHINESE: return "简体中文";
-    case I18N_TYPE.RUSSIAN: return "Русский язык";
-    case I18N_TYPE.GERMAN: return "Deutsch";
-    case I18N_TYPE.SPANISH: return "Español";
-    case I18N_TYPE.FRENCH: return "Français";
+    // case I18N_TYPE.RUSSIAN: return "Русский язык";
+    // case I18N_TYPE.GERMAN: return "Deutsch";
+    // case I18N_TYPE.SPANISH: return "Español";
+    // case I18N_TYPE.FRENCH: return "Français";
     default: return ""
   }
 }
