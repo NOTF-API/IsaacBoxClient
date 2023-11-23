@@ -1,8 +1,8 @@
 
 const { WebSocketServer } = require("ws")
 const { context } = require("./context.js")
-const { handler } = require("./handler.js")
-const { debugConsole } = require("./console.js")
+const { handler, emitToConsole } = require("./handler.js")
+const { WEBSOCKET_PORT } = require("../app.config.commonjs.js")
 
 const initServer = (port) => {
   const server = new WebSocketServer({ port });
@@ -22,24 +22,20 @@ const initServer = (port) => {
         console.log(e)
         console.warn("[warn] error while parsing json of data: " + data.toString())
       }
-
     });
     ws.on("close", () => {
-      if (ws === context.game) {
+      if (ws === context.gameSocket) {
         context.gameSocket = null;
-        context.enableForward = false;
-        debugConsole("game left,stop forward");
-        context.consoleSocket?.send("GAME_LEFT")
+        // console.log("SERVER ON CLOSE AND EMIT TO CONSOLE GAME_LEFT")
+        emitToConsole("GAME_LEFT")
       } else if (ws === context.consoleSocket) {
         context.consoleSocket = null;
-        context.enableForward = false;
-        debugConsole("console left,stop forward");
       } else {
 
       }
     })
   });
-  console.log("ws listening on ws://localhost:58869")
+  console.log(`ws listening on ws://localhost:${WEBSOCKET_PORT}`)
 }
 
 module.exports = {

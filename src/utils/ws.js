@@ -1,9 +1,9 @@
+import { TITLE, WEBSOCKET_PORT } from '../../app.config'
 import { ref } from 'vue'
 
 let socket = null;
-export const isConsoleReady = ref(false);
-export const isGameReady = ref(false);
-export const statusText = ref("")
+let isConsoleReady = false;
+let isGameReady = false;
 export const collectibles = ref([]);
 
 /**
@@ -13,9 +13,8 @@ export const collectibles = ref([]);
  * @param {boolean} checkGame if set true,while game is not ready,do nothing
  */
 export const emit = (topic, message, checkGame = true) => {
-  console.log(message)
-  //   console.log(socket !== null, socket.readyState === 1, isConsoleReady.value, (!checkGame || isGameReady.value))
-  if (socket !== null && socket.readyState === 1 && isConsoleReady.value && (!checkGame || isGameReady.value)) {
+  console.log(topic,message)
+  if (socket !== null && socket.readyState === 1 && isConsoleReady && (!checkGame || isGameReady)) {
     socket.send(JSON.stringify({
       topic,
       message
@@ -79,23 +78,22 @@ const handler = {
 }
 
 handler.on("GAME_NOT_READY", () => {
-  statusText.value = "游戏未就绪"
-  isGameReady.value = false
+  isGameReady = false
+  document.title = `[!游戏未就绪] ${TITLE}`
 })
 
 handler.on("GAME_READY", () => {
-  statusText.value = "游戏已连接"
-  isGameReady.value = true
+  isGameReady = true
+  document.title = `[OK] ${TITLE}`
 })
 
 handler.on("GAME_LEFT", () => {
-  statusText.value = "游戏已断开"
-  isGameReady.value = false
+  isGameReady = false
+  document.title = `[!游戏已退出] ${TITLE}`
 })
 
 handler.on("CONSOLE_ALREADY_IN_USE", () => {
-  statusText.value = "错误:存在多个控制台"
-  isConsoleReady.value = false
+  isConsoleReady = false
 })
 
 handler.on("OFFER_ITEMS", (message) => {
@@ -104,24 +102,21 @@ handler.on("OFFER_ITEMS", (message) => {
 })
 
 export const init = () => {
-  let itemQueryInterval;
-  statusText.value = "正在连接服务器"
-  socket = new WebSocket(`ws://localhost:${58869}`)
+  socket = new WebSocket(`ws://localhost:${WEBSOCKET_PORT}`)
   socket.onopen = () => {
-    statusText.value = "与服务器连接成功"
-    isConsoleReady.value = true
+    isConsoleReady = true
     emit("JOIN_AS_CONSOLE", "", false);
     setTimeout(() => {
-      emit("GET_ITEMS")//查询一次持有物品
+      emit("GET_ITEMS")//查询一次持有物品 因为可能是中途开启了外置控制台
     }, 5000)
   }
   socket.onclose = () => {
-    statusText.value = "与服务器断开连接"
-    isConsoleReady.value = false
-    clearInterval(itemQueryInterval);
+    isConsoleReady = false
+    document.title = `[服务器连接中断] ${TITLE}`
   }
   socket.onerror = () => {
-    statusText.value = "与服务器发生错误"
+    isConsoleReady = false
+    document.title = `[服务器连接中断] ${TITLE}`
   }
   socket.onmessage = (messageReceieved) => {
     const data = messageReceieved.data

@@ -6,7 +6,7 @@ const parseString = promisify(require('xml2js').parseString);
 
 const ISAAC_BOX_MOD_DIRNAME = "isaac_box"
 const ISAAC_BOX_MOD_NAME = "IsaacBox(auto installed)"
-const TARGET_ISAAC_BOX_MOD_VERSION = "1.0.0"
+const TARGET_ISAAC_BOX_MOD_VERSION = "1.1"
 
 const ISAAC_SOCKET_MOD_DIRNAME = "isaac_socket"
 const ISAAC_SOCKET_OFFICIAL_MOD_NAME = "IsaacSocket"
@@ -146,7 +146,7 @@ const openIsaacSocketUtility = () => {
       console.log("IsaacSocket.exe not found");
       reject();
     }
-    cp.execFile("./dependencies/IsaacSocketUtility/IsaacSocket.exe", ["-silent"], (error) => {
+    cp.execFile("./dependencies/IsaacSocketUtility/IsaacSocket.exe", ["-silent","-noupdate"], (error) => {
       if (error) {
         reject(error)
       }

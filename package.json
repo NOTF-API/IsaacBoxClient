@@ -9,7 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "start": "vite build && electron main.js",
-    "make": "electron-forge make && ./makeDependencies.bat"
+    "preview": "electron main.js",
+    "make": "vite build && electron-forge make && ./makeDependencies.bat"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",

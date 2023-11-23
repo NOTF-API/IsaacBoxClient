@@ -5,8 +5,10 @@ import App from './App.vue'
 import { initResources } from '@/utils/resources'
 import { initI18n } from '@/utils/i18n'
 import { disableTab } from '@/utils/keys'
+import { TITLE } from '../app.config'
 
 const init = async () => {
+  document.title = TITLE;
   disableTab();
   const i18n = initI18n();
   await initResources();

@@ -1,5 +1,5 @@
 WEBSOCKET_PORT = 58869
-MOD_VERSION = "1.0.0"
+MOD_VERSION = "1.1"
 Mod = RegisterMod("IsaacBox", 1)
 local callbacks = require("modules.callbacks")
 

@@ -2,6 +2,7 @@ const { BrowserWindow, app, dialog } = require("electron");
 const net = require('net');
 const path = require("path")
 const { initServer } = require("./server/index")
+const { WEBSOCKET_PORT } = require("./app.config.commonjs")
 
 const { getAllModsMetadata,
   getRequiredModsVersionInfo,
@@ -25,7 +26,7 @@ const createMainWindow = () => {
     }
   })
   win.menuBarVisible = false
-  //   win.webContents.openDevTools() // 打开electron控制台
+  // win.webContents.openDevTools() // 打开electron控制台
   win.loadFile(path.join(__dirname, "dist", "index.html"))
   win.on("ready-to-show", () => {
     win.show();
@@ -49,18 +50,17 @@ const isPortTaken = (port) => {
 }
 
 (async () => {
-  const PORT = 58869
   await app.whenReady();
-  if (await isPortTaken(PORT)) {
+  if (await isPortTaken(WEBSOCKET_PORT)) {
     dialog.showMessageBoxSync({
       title: "警告",
-      message: `工具所需要使用的端口${PORT}已被占用，无法开启工具`,
+      message: `工具所需要使用的端口${WEBSOCKET_PORT}已被占用,无法开启工具.您可能是开启了第二个应用,请勿重复开启`,
       type: "warning"
     })
     app.quit();
     return;
   }
-  initServer(PORT);
+  initServer(WEBSOCKET_PORT);
   win = createMainWindow();
 
   let gameDir;
@@ -70,8 +70,9 @@ const isPortTaken = (port) => {
   catch (e) {
     dialog.showMessageBoxSync({
       title: "错误",
-      message: `无法获取游戏目录，请检查IsaacBoxUtility.exe是否被杀毒软件删除或限制访问。
-      您可以手动复制dependencies文件夹下的isaac_box与isaac_socket目录到游戏MOD目录，然后重新启动游戏.
+      message: `无法获取游戏目录,请检查IsaacBoxUtility.exe是否被杀毒软件删除或限制访问.
+      您可以手动复制dependencies文件夹下的isaac_box与isaac_socket目录到游戏MOD目录,然后重新启动游戏.
+      如果您已经手动复制了MOD,但是依旧提示,可以忽略该提示.
       请确保游戏内只有一个IsaacBox和IsaacSocket MOD,否则无法正常运行!`,
       type: "error"
     })
@@ -84,9 +85,7 @@ const isPortTaken = (port) => {
   } catch (e) {
     dialog.showMessageBoxSync({
       title: "错误",
-      message: `无法获取所有MOD信息.
-      您可以手动复制dependencies文件夹下的isaac_box与isaac_socket目录到游戏MOD目录,
-      然后重新启动游戏.请确保游戏内只有一个IsaacBox和IsaacSocket MOD,否则无法正常运行!`,
+      message: `无法获取所有MOD信息,请检查您的游戏版本是否正确,当前仅支持忏悔版本.`,
       type: "error"
     })
     return;
@@ -98,8 +97,8 @@ const isPortTaken = (port) => {
   } catch (e) {
     dialog.showMessageBoxSync({
       title: "错误",
-      message: `无法读取您是否安装了必须的MOD，您可以手动复制dependencies文件夹下的isaac_box与isaac_socket目录到游戏MOD目录,
-      然后重新启动游戏.请确保游戏内只有一个IsaacBox和IsaacSocket MOD,否则无法正常运行!`,
+      message: `无法读取您是否安装了必须的MOD,您可以手动复制dependencies文件夹下的isaac_box与isaac_socket目录到游戏MOD目录,
+      然后重新启动游戏.如果已手动安装,请忽略该提示.`,
       type: "error"
     })
     return;
@@ -119,23 +118,12 @@ const isPortTaken = (port) => {
     dialog.showMessageBoxSync({
       title: "错误",
       message: `无法安装所需MOD.您可以手动复制dependencies文件夹下的isaac_box与isaac_socket目录到游戏MOD目录,
-      然后重新启动游戏.请确保游戏内只有一个IsaacBox和IsaacSocket MOD,否则无法正常运行!`,
+      然后重新启动游戏.请尝试管理员权限运行该程序,或关闭杀毒软件`,
       type: "error"
     })
     return;
   }
-
-  try {
-    await openIsaacSocketUtility();
-  }
-  catch (e) {
-    dialog.showMessageBoxSync({
-      title: "错误",
-      message: `无法打开IsaacSocket连接工具，请检查.NET环境是否安装或IsaacSocketUtility.exe是否被杀毒软件删除或限制访问,或者请以管理员权限打开。如果无法解决，请手动开启dependencies/IsaacSocketUtility/IsaacSocket.exe 并在游戏运行时保持开启状态。`,
-      type: "error"
-    })
-    return;
-  }
+  openIsaacSocketUtility();
 })();
 
 

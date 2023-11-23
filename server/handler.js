@@ -1,5 +1,4 @@
 const { context } = require("./context.js")
-const { debugConsole } = require("./console.js")
 const handler = {
   callbacksMap: new Map(),
   /**
@@ -71,26 +70,23 @@ const emitToGame = (topic, message) => {
 }
 
 handler.on("JOIN_AS_GAME", (ws, message) => {
+  // console.log("SERVER ON:JOIN_AS_GAME")
   context.gameSocket = ws;
-  debugConsole("game ready");
   if (context.consoleSocket) {
-    debugConsole("and console is ready");
     emitToConsole("GAME_READY")
   }
 })
 
 handler.on("JOIN_AS_CONSOLE", (ws, message) => {
+  // console.log("SERVER ON:JOIN_AS_CONSOLE")
   if (context.consoleSocket !== null) {
-    debugConsole("console is already in use");
     emit(ws, "CONSOLE_ALREADY_IN_USE");
     return;
   }
   context.consoleSocket = ws;
   if (context.gameSocket == null) {
-    debugConsole("console is ready,waiting for game");
     emit(ws, "GAME_NOT_READY");
   } else {
-    debugConsole("console is ready and game is ready too");
     emitToConsole("GAME_READY")
   }
 })
@@ -98,31 +94,26 @@ handler.on("JOIN_AS_CONSOLE", (ws, message) => {
 //以下为需要转发的内容
 handler.on("COMMAND", (ws, message) => {
   if (context.gameSocket == null) {
-    debugConsole("game not ready while redirect command");
     return;
   }
   emitToGame("COMMAND", message)
 })
 
 handler.on("GET_ITEMS", (ws, message) => {
-//   debugConsole("redirecting GET_ITEMS");
-    //因为这个消息只会由console发送过来，因此无需判断console是否为空
+  //因为这个消息只会由console发送过来，因此无需判断console是否为空
   if (context.gameSocket == null) {
-    // debugConsole("some part not ready while redirect GET_ITEMS");
     return;
   }
   emitToGame("GET_ITEMS")
 })
 
 handler.on("OFFER_ITEMS", (ws, message) => {
-  // debugConsole("redirecting OFFER_ITEMS");
   if (context.consoleSocket == null) {
     //因为这个消息只会由game发送过来，因此无需判断game是否为空
-    // debugConsole("some part not ready while redirect OFFER_ITEMS");
     return;
   }
   emitToConsole("OFFER_ITEMS", message)
 })
 
 
-module.exports = { handler };
+module.exports = { handler, emit, emitToConsole, emitToGame };

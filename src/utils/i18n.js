@@ -1,5 +1,6 @@
 
 import { createI18n } from 'vue-i18n'
+import { VERSION } from '../../app.config'
 
 const I18N_TYPE_KEY = "i18n"
 
@@ -41,7 +42,7 @@ export const getIndexByI18nType = (i18nType) => {
   }
 }
 
-const $VERSION_TEXT = "V1.1.1"
+const $VERSION_TEXT = `V${VERSION}`
 
 const messages = {
   // [I18N_TYPE.ENGLISH]: {
