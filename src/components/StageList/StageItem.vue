@@ -1,6 +1,5 @@
 <template>
-  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleStageJump(item.sid)"
-    @click.right="handleStageJump(item.sid)">
+  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleStageJump(item.sid)">
     <div class="image" :style="getSpriteOffsetStyle(props.item.spriteOffset)"></div>
     <div class="id" v-show="props.showId">{{ props.item?.sid }}</div>
     <div class="name">{{ props.item.name }} {{ props.item?.exname }}</div>
