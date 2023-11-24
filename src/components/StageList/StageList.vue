@@ -22,10 +22,9 @@
 import { ref } from 'vue'
 import StageItem from "./StageItem.vue";
 import stages from './stages'
-const isShowId = ref(true)
+const isShowId = ref(false)
 
 const data = window._resource.stages
-// console.log(data)
 
 </script>
 

@@ -22,10 +22,10 @@ const data = Object.values(window._resource.pocketItems).filter((value) => {
   return value._type === "pilleffect"
 })
 
-const isShowId = ref(true)
+const isShowId = ref(false)
 </script>
     
-<style lang="less">
+<style lang="less" scoped>
 @import url("../list.less");
 </style>
     

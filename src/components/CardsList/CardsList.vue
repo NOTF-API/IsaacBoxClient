@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="view-content card-list">
-      <CardItem :gid="gid" v-for="gid in Object.keys(data)" :is-list-styled="isListStyled" :show-id="isShowId" />
+      <CardItem v-bind="item" v-for="item in data" :is-list-styled="isListStyled" :show-id="isShowId" />
     </div>
   </div>
 </template>
@@ -26,9 +26,7 @@ import CardItem from "./CardItem.vue";
 import data from './cards.js'
 
 const isShowId = ref(false)
-const isListStyled = ref(true)
-
-
+const isListStyled = ref(false)
 </script>
   
 <style lang="less">

@@ -2,13 +2,14 @@
   <div class="view" :style="getTransformedStyle">
     <div class="menu view-container" :class="{ active: isMainActive }">
       <button @click="isLanguageSelectVisible = !isLanguageSelectVisible" class="i18n-btn"><img :src="i18nIcon"></button>
-      <div class="title i18n-en" v-if="getI18nType() !== 'zh'">Isaac's Box</div>
-      <div class="title-zh" v-else></div>
-      <div class="version">{{ $t("$version") }}</div>
-      <div class="fly"></div>
-      <div class="menu-content">
-        <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
-          @click="handleActiveSubmenu(submenu)"></button>
+      <div class="menu-wrapper">
+        <div class="title i18n-en" v-if="getI18nType() !== 'zh'">Isaac's Box</div>
+        <div class="title-zh" v-else></div>
+        <div class="fly"></div>
+        <div class="menu-content">
+          <button class="menu-item" v-for="submenu in submenus" v-text="submenu.name"
+            @click="handleActiveSubmenu(submenu)"></button>
+        </div>
       </div>
     </div>
     <component v-for="submenu in submenus" :is="submenu.component" :style="submenu.style" />
@@ -125,94 +126,49 @@ const getTransformedStyle = computed(() => {
   inset: 0;
   position: absolute;
   display: flex;
-  column-gap: 4rem;
+  // column-gap: 4rem;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  // align-items: flex-start;
+
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: .5rem;
+    position: relative;
+  }
 
   .title,
   .title-zh {
-    position: absolute;
+    // position: absolute;
     top: 3rem;
     font-size: 7rem;
-    color: #c50500;
-    text-shadow: #430000 0px 4px;
+    // color: #c50500;
+    // text-shadow: #430000 0px 4px;
     animation: up-and-down 1.25s steps(3) infinite;
     filter: drop-shadow(16px 32px 16px #00000036);
   }
 
   .title-zh {
-    width: 1804px !important;
-    height: 514px !important;
+    width: calc(1804px / 3.5);
+    height: calc(514px / 3.5);
     transform-origin: center top;
-    scale: .3;
-    background-size: 1804px 514px;
+    // scale: .3;
+    background-size: calc(1804px / 3.5) calc(514px / 3.5);
     background-image: url("/title_chn_by_baiyutang.png");
-  }
-
-  .version {
-    position: absolute;
-    right: 4.875rem;
-    top: 10rem;
-    font-size: 2rem;
-    color: #c50500;
-    text-shadow: #430000 0px 2px;
-  }
-
-  @keyframes fly-in {
-    from {
-      transform: translate(240px, -50px);
-    }
-
-    to {
-      transform: translate(0, 0);
-    }
-  }
-
-  @keyframes up-and-down {
-
-    0%,
-    100% {
-      translate: 0 0px;
-    }
-
-    50% {
-      translate: 0 4px;
-    }
   }
 
   .fly {
     position: absolute;
-    top: 16rem;
-    right: 6rem;
+    top: 250px;
+    right: -40px;
     width: 96px;
     height: 80px;
     transform: translate(0, 0);
     will-change: transform;
     animation: none;
-
-    @keyframes fly-sprite {
-
-      0%,
-      100% {
-        background-position-y: 0;
-      }
-
-      50% {
-        background-position-y: -80px;
-      }
-    }
-
-    @keyframes fly-shadow {
-
-      0%,
-      100% {
-        background-position-y: 0px;
-      }
-
-      50% {
-        background-position-y: -80px;
-      }
-    }
 
     &::before,
     &::after {
@@ -256,7 +212,7 @@ const getTransformedStyle = computed(() => {
 }
 
 .menu-content {
-  margin-top: 13.5rem;
+  // margin-top: 13.5rem;
   width: 363px;
   padding: 2rem 0;
   background-color: #e9dadf;
@@ -300,6 +256,53 @@ const getTransformedStyle = computed(() => {
     &:hover::after {
       visibility: visible;
     }
+  }
+}
+
+
+@keyframes fly-in {
+  from {
+    transform: translate(240px, -50px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes up-and-down {
+
+  0%,
+  100% {
+    translate: 0 0px;
+  }
+
+  50% {
+    translate: 0 4px;
+  }
+}
+
+@keyframes fly-sprite {
+
+  0%,
+  100% {
+    background-position-y: 0;
+  }
+
+  50% {
+    background-position-y: -80px;
+  }
+}
+
+@keyframes fly-shadow {
+
+  0%,
+  100% {
+    background-position-y: 0px;
+  }
+
+  50% {
+    background-position-y: -80px;
   }
 }
 </style>

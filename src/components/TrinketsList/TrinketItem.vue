@@ -86,6 +86,7 @@ const getImageSource = (gfx) => {
       display: block;
       padding: 0 1rem;
       width: fit-content;
+      min-width: 5rem;
       height: calc(64px - 1rem);
       line-height: calc(64px - 1rem);
       text-align: center;

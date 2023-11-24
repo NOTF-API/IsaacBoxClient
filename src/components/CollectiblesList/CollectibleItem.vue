@@ -110,44 +110,57 @@ const getImageSource = (gfx) => {
   }
 
   .quality {
+    font-size: 1rem;
     position: absolute;
-    left: -4px;
+    left: 0;
     top: 0;
-    width: 9px;
-    height: 9px;
-    background-image: url("/assets/eid_inline_icons.png");
-    background-size: 140px 204px;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 18px;
+    background-color: #000;
+    box-shadow: 0 0 0 2.5px #000 inset;
+    border-radius: 6px;
     image-rendering: pixelated;
     transform-origin: left bottom;
-    transform: translate(5px, 10px) scale(2);
     z-index: 1000;
+    color: #000;
 
     &.level {
       visibility: hidden;
-
       &0 {
-        visibility: visible;
-        background-position: -44px -33px;
+        background-image: linear-gradient(#ffffff,#838383);
+        &::after {
+          content: "0";
+        }
       }
 
       &1 {
-        visibility: visible;
-        background-position: -55px -33px;
+        background-image: linear-gradient(#dbffc3,#4dd300);
+        &::after {
+          content: "1";
+        }
       }
 
       &2 {
-        visibility: visible;
-        background-position: -66px -33px;
+        background-image: linear-gradient(#d5ffff,#00a1dd);
+        &::after {
+          content: "2";
+        }
       }
 
       &3 {
-        visibility: visible;
-        background-position: -77px -33px;
+        background-image: linear-gradient(#e388d8,#c729b5);
+        &::after {
+          content: "3";
+        }
       }
 
       &4 {
-        visibility: visible;
-        background-position: -88px -33px;
+        background-image: linear-gradient(#fff69a,#e6a600);
+        &::after {
+          content: "4";
+        }
       }
     }
   }

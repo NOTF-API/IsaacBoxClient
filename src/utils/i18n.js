@@ -1,6 +1,5 @@
 
 import { createI18n } from 'vue-i18n'
-import { VERSION } from '../../app.config'
 
 const I18N_TYPE_KEY = "i18n"
 
@@ -41,8 +40,6 @@ export const getIndexByI18nType = (i18nType) => {
     default: return 0
   }
 }
-
-const $VERSION_TEXT = `V${VERSION}`
 
 const messages = {
   // [I18N_TYPE.ENGLISH]: {
@@ -177,7 +174,6 @@ const messages = {
     "show quality": "显示品级",
     "show count": "显示数量",
     "list style": "以列表显示",
-    "$version": $VERSION_TEXT,
     "$idea-others": "点击鼠标左键生成实体,点击右键返回上一级菜单",
     "$idea-items": "点击鼠标左键生成道具,点击Ctrl+鼠标左键给予道具,点击右键返回上一级菜单",
     "$idea-pills": "点击鼠标左键给予胶囊,点击右键返回上一级菜单",

@@ -13,7 +13,7 @@ export const collectibles = ref([]);
  * @param {boolean} checkGame if set true,while game is not ready,do nothing
  */
 export const emit = (topic, message, checkGame = true) => {
-  console.log(topic,message)
+  // console.log(topic,message)
   if (socket !== null && socket.readyState === 1 && isConsoleReady && (!checkGame || isGameReady)) {
     socket.send(JSON.stringify({
       topic,

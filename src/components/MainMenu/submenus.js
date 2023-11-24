@@ -4,8 +4,6 @@ import TrinketsList from '@/components/TrinketsList/TrinketsList.vue';
 import CardsList from '@/components/CardsList/CardsList.vue'
 import StageList from '@/components/StageList/StageList.vue'
 import PillEffectsList from '@/components/PillEffectsList/PillEffectsList.vue'
-// import MonstersList from '@/components/MonstersList/index.vue'
-import OthersList from '@/components/OthersList/OthersList.vue'
 import DebugList from '@/components/DebugList/DebugList.vue'
 
 import { useI18n } from 'vue-i18n'
@@ -82,25 +80,7 @@ const submenusMetaData = [
       y: -1
     },
     active: ref(false),
-  },
-  {
-    name: "Others",
-    component: OthersList,
-    gridOffset: {
-      x: 2,
-      y: 2
-    },
-    active: ref(false),
-  },
-  //   {
-  //     name: "Monsters",
-  //     component: MonstersList,
-  //     gridOffset: {
-  //       x: 0,
-  //       y: 2
-  //     },
-  //     active: ref(false),
-  //   }
+  }
 ]
 
 
