@@ -1,13 +1,11 @@
 <template>
-  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click.left="handleRemoveOne(item._gid)"
-    @click.right="handleRemoveAll(item._gid, props.count)">
+  <div class="item" :class="{ 'list-styled': props.isListStyled }" @click="handleRemove($event, item._gid)">
     <div class="quality" v-show="props.showQuality" :class="'level' + item.quality"></div>
     <div class="image" :style="getImageSource(item.gfx)"></div>
     <div class="count" v-show="props.showCount">{{ props.count }}</div>
     <div class="name" v-text="item.name"></div>
     <div class="description ellipsis" v-text="item.description"></div>
     <div class="remove">x</div>
-    <!-- <div class="remove" v-show="collectibles[i - 1]" @click.self.stop="handleRemove(i)">x</div> -->
   </div>
 </template>
 
@@ -15,6 +13,15 @@
 import { emit } from "@/utils/ws"
 
 const props = defineProps(['item', 'isListStyled', 'showQuality', 'showCount', 'count'])
+
+const handleRemove = ($event, gid) => {
+  if ($event.ctrlKey) {
+    handleRemoveAll(gid, props.count)
+  }
+  else {
+    handleRemoveOne(gid)
+  }
+}
 
 const handleRemoveOne = (gid) => {
   emit("COMMAND", `r ${gid}`);
