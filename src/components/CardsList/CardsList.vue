@@ -11,7 +11,7 @@
       </span>
       <div class="idea-popover">
         <div class="
-         idea-text">{{ $t("$idea-items") }}</div>
+        shadowed idea-text">{{ $t("$idea-items") }}</div>
       </div>
     </div>
     <div class="view-content card-list">
