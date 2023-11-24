@@ -41,106 +41,18 @@ const getImageSource = (gfx) => {
 </script>
 
 <style lang="less" scoped>
+@import url("../CollectiblesList/CollectibleItem.less");
+
 .item {
-  overflow: hidden;
-
   &.list-styled {
-    width: 100% !important;
-    margin-bottom: .25rem;
-
-    .image {
-      transform-origin: left top;
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
-
-
-    .name {
-      padding: 0 .75rem;
-      display: block;
-      position: absolute;
-      left: 64px;
-      height: 1.75rem;
-      line-height: 1.75rem;
-      top: 0.375rem;
-      font-size: 1.75rem;
-    }
-
-    .description {
-      padding: 0 .75rem;
-      display: block;
-      position: absolute;
-      left: 64px;
-      line-height: 2rem;
-      top: 34px;
-      bottom: 0;
-      font-size: 1.25rem;
-    }
-
     .count {
       position: absolute;
       left: 64px;
       transform: translateX(-100%);
       bottom: 0rem;
-      //   width: 2rem;
       width: fit-content;
     }
-
   }
-
-
-  .quality {
-    position: absolute;
-    left: -4px;
-    top: 0;
-    width: 9px;
-    height: 9px;
-    background-image: url("/assets/eid_inline_icons.png");
-    background-size: 140px 204px;
-    image-rendering: pixelated;
-    transform-origin: left bottom;
-    transform: translate(5px, 10px) scale(2);
-    z-index: 1000;
-
-    &.level {
-      visibility: hidden;
-
-      &0 {
-        visibility: visible;
-        background-position: -44px -33px;
-      }
-
-      &1 {
-        visibility: visible;
-        background-position: -55px -33px;
-      }
-
-      &2 {
-        visibility: visible;
-        background-position: -66px -33px;
-      }
-
-      &3 {
-        visibility: visible;
-        background-position: -77px -33px;
-      }
-
-      &4 {
-        visibility: visible;
-        background-position: -88px -33px;
-      }
-    }
-  }
-
-  .image {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    scale: 2;
-    background-repeat: no-repeat;
-  }
-
 
   &:hover .remove {
     visibility: visible;
@@ -159,12 +71,6 @@ const getImageSource = (gfx) => {
     text-align: center;
     color: #fff;
     border-radius: 8px;
-  }
-
-
-  .description,
-  .name {
-    display: none;
   }
 
   .count {
