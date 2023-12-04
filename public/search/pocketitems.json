@@ -154,7 +154,11 @@
     "jiezhi",
     "maixueji",
     "maixieji",
-    "jz"
+    "jz",
+    "xianxueji",
+    "xianxieji",
+    "maixueji",
+    "maixieji"
   ],
   "k16": [
     "k16",
@@ -1331,7 +1335,8 @@
     "puberty",
     "qingchunqi",
     "qcq",
-    "chengrentao","adult"
+    "chengrentao",
+    "adult"
   ],
   "p10": [
     "p10",
@@ -1582,7 +1587,9 @@
     "siyijianta",
     "shizizuo",
     "bdjn",
-    "siyijianta","biandatao","stompy"
+    "siyijianta",
+    "biandatao",
+    "stompy"
   ],
   "p33": [
     "p33",
