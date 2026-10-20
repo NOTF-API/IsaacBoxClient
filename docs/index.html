@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>以撒的盒子 · Isaac's Box</title>
+  <meta name="description" content="以撒的盒子（Isaac's Box）是一个基于 IsaacSocket 的《以撒的结合》外置控制台：道具生成、移除、全局搜索、楼层与 Debug，支持忏悔 DLC，中文界面。">
+  <meta name="theme-color" content="#0b0808">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="以撒的盒子 · Isaac's Box">
+  <meta property="og:description" content="把控制台搬到游戏外面。道具、饰品、卡牌、药丸、全局搜索，一个盒子就够了。">
+  <meta property="og:image" content="./assets/screens/m.png">
+  <link rel="icon" type="image/png" href="./assets/img/d6.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="以撒的盒子首页">
+      <img src="./assets/img/d6.png" alt="" class="brand-icon" width="32" height="32">
+      <span>ISAAC'S <b>BOX</b></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="主导航">
+      <a href="#features">功能</a>
+      <a href="#screens">截图</a>
+      <a href="#start">开始使用</a>
+      <a href="#faq">常见问题</a>
+      <a class="nav-github" href="https://github.com/NOTF-API/IsaacBoxClient" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="site-nav">MENU</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-floats" aria-hidden="true">
+        <img class="float float-1" src="./assets/img/godhead.png" alt="">
+        <img class="float float-2" src="./assets/img/sacredheart.png" alt="">
+        <img class="float float-3" src="./assets/img/brimstone.png" alt="">
+        <img class="float float-4" src="./assets/img/fly.png" alt="">
+        <img class="float float-5" src="./assets/img/rockbottom.png" alt="">
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse-dot"></span> THE BINDING OF ISAAC · EXTERNAL CONSOLE</p>
+        <h1>
+          <span class="h1-cn">以撒的盒子</span>
+          <span class="h1-en">ISAAC'S BOX</span>
+        </h1>
+        <p class="lead">把控制台搬到游戏外面。生成、移除、搜索、跳层，一个盒子就够了。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/NOTF-API/IsaacBoxClient/releases/download/v2.0.5/isaac_box-v2.0.5.zip">下载 v2.0.5</a>
+          <a class="btn btn-ghost" href="https://github.com/NOTF-API/IsaacBoxClient" target="_blank" rel="noreferrer">查看 GitHub</a>
+        </div>
+        <ul class="hero-meta" aria-label="支持信息">
+          <li>忏悔 DLC</li>
+          <li>单机</li>
+          <li>中英双语</li>
+          <li>Windows 64 位</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="window">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+            <em>isaac-box.exe</em>
+          </div>
+          <img src="./assets/screens/m.png" alt="以撒的盒子主界面截图" width="786" height="621">
+        </div>
+        <div class="window-stamp">v2.0.5</div>
+      </div>
+    </section>
+
+    <section class="notice-wrap" aria-label="兼容性提示">
+      <div class="notice">
+        <div class="notice-icon" aria-hidden="true">!</div>
+        <div>
+          <h2>先看清楚：目前只支持忏悔</h2>
+          <p>本版本仅支持《以撒的结合：忏悔》DLC，单机模式使用。</p>
+          <p class="notice-small">忏悔+（Repentance+）暂不支持。IsaacSocket 尚未适配 J460，连接会一直显示“未就绪”，不是 MOD 没装好。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-head reveal">
+        <span class="chapter">01 / FEATURES</span>
+        <h2>盒子里有什么？</h2>
+        <p>把常用操作从游戏内控制台搬到桌面。点一下，比敲命令快。</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon"><img src="./assets/img/d6.png" alt=""></div>
+          <h3>道具生成与移除</h3>
+          <p>按名称、ID 或别名搜索道具，直接给予或移除。当前持有物也会实时显示。</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon"><img src="./assets/img/card.png" alt=""></div>
+          <h3>卡牌、符文与饰品</h3>
+          <p>塔罗牌、符文、饰品分门别类，支持中文名、英文名和拼音缩写搜索。</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon"><img src="./assets/img/pill.png" alt=""></div>
+          <h3>药丸与大药丸</h3>
+          <p>直接给予指定药丸效果，不用再赌未知胶囊。右键误触也修好了。</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon"><img src="./assets/img/chaos.png" alt=""></div>
+          <h3>全局搜索</h3>
+          <p>一个搜索框同时找道具、饰品、卡牌和药丸，结果按类别分组。</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon"><img src="./assets/img/stage.png" alt=""></div>
+          <h3>楼层与 Debug</h3>
+          <p>快速跳转楼层、开关 Debug 功能，省去记命令和查 ID 的时间。</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon"><img src="./assets/img/godhead.png" alt=""></div>
+          <h3>自动安装与重连</h3>
+          <p>首次启动自动安装所需 MOD；连接中断后自动重连，不需要反复重启盒子。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-screens" id="screens">
+      <div class="section-head reveal">
+        <span class="chapter">02 / SCREENSHOTS</span>
+        <h2>打开盒子，看看里面</h2>
+        <p>点击任意截图可以放大查看。</p>
+      </div>
+
+      <div class="screens-grid">
+        <figure class="shot shot-large reveal" tabindex="0" role="button" aria-label="放大查看主界面截图">
+          <img src="./assets/screens/m.png" alt="主界面：持有物与道具面板" loading="lazy" width="786" height="621">
+          <figcaption><span>主界面</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看道具截图">
+          <img src="./assets/screens/c.png" alt="道具列表" loading="lazy" width="786" height="621">
+          <figcaption><span>道具</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看饰品截图">
+          <img src="./assets/screens/t.png" alt="饰品列表" loading="lazy" width="786" height="621">
+          <figcaption><span>饰品</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看卡牌与符文截图">
+          <img src="./assets/screens/k.png" alt="卡牌与符文" loading="lazy" width="786" height="621">
+          <figcaption><span>卡牌与符文</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看药丸截图">
+          <img src="./assets/screens/p.png" alt="药丸效果" loading="lazy" width="786" height="621">
+          <figcaption><span>药丸效果</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看楼层截图">
+          <img src="./assets/screens/s.png" alt="楼层" loading="lazy" width="786" height="621">
+          <figcaption><span>楼层</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看全局搜索截图">
+          <img src="./assets/screens/search.png" alt="全局搜索" loading="lazy" width="786" height="621">
+          <figcaption><span>全局搜索</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+        <figure class="shot reveal" tabindex="0" role="button" aria-label="放大查看 Debug 截图">
+          <img src="./assets/screens/d.png" alt="Debug 功能" loading="lazy" width="786" height="621">
+          <figcaption><span>Debug</span><span class="shot-hint">点击放大</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="start">
+      <div class="section-head reveal">
+        <span class="chapter">03 / GET STARTED</span>
+        <h2>三步，打开盒子</h2>
+        <p>不需要配置环境，也不需要手动改文件。首次启动会把该装的 MOD 装好。</p>
+      </div>
+
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step-num">01</span>
+          <h3>下载并解压</h3>
+          <p>下载便携版压缩包，解压到任意目录，双击 <code>isaac-box.exe</code>。</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-num">02</span>
+          <h3>首次启动，安装 MOD</h3>
+          <p>盒子会自动把 IsaacBox 与 IsaacSocket 安装到游戏目录的 <code>mods</code> 文件夹，然后提示你重启游戏。</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-num">03</span>
+          <h3>进入游戏，开始使用</h3>
+          <p>重新打开游戏并进入一局，看到游戏内出现连接提示、盒子标题变成“已就绪”即可。</p>
+        </article>
+      </div>
+
+      <p class="tip reveal"><b>小提示：</b>如果切出去盒子游戏会暂停，请把 <code>文档/My Games/Binding of Isaac Repentance/options.ini</code> 里的 <code>PauseOnFocusLost</code> 改成 <code>0</code>。</p>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-head reveal">
+        <span class="chapter">04 / FAQ</span>
+        <h2>常见问题</h2>
+        <p>遇到问题先看这里，大部分情况都能自己解决。</p>
+      </div>
+
+      <div class="faq reveal">
+        <details>
+          <summary>忏悔+（Repentance+）能用吗？</summary>
+          <p>暂时不能。IsaacSocket 还没有适配忏悔+ 的 J460 版本，盒子会一直显示“未就绪”。当前版本只支持忏悔 DLC 的单机模式。</p>
+        </details>
+        <details>
+          <summary>盒子一直显示“未就绪”怎么办？</summary>
+          <p>先确认游戏版本是忏悔而不是忏悔+；再确认游戏目录的 <code>mods</code> 文件夹里只有一份 IsaacBox 和 IsaacSocket。曾经手动装过旧版 MOD 的，请先删除旧文件夹再让盒子重新安装。</p>
+        </details>
+        <details>
+          <summary>一使用盒子，游戏就暂停？</summary>
+          <p>这是游戏默认的失焦暂停。把 <code>文档/My Games/Binding of Isaac Repentance/options.ini</code> 中的 <code>PauseOnFocusLost</code> 改为 <code>0</code>，保存后重启游戏。</p>
+        </details>
+        <details>
+          <summary>杀毒软件报毒或拦截？</summary>
+          <p>新版已经重写了游戏目录识别工具，移除了高风险的进程内存读取调用，误报概率已降低。如果仍被拦截，请把 <code>isaac-box.exe</code> 和 <code>resources/dependencies/IsaacSocketUtility/IsaacSocket.exe</code> 加入信任。</p>
+        </details>
+        <details>
+          <summary>非 Steam 版本能用吗？</summary>
+          <p>可以。盒子会通过游戏窗口自动识别游戏目录，Steam 与非 Steam 版本都支持；但游戏版本需要与 MOD 兼容。</p>
+        </details>
+        <details>
+          <summary>为什么没有 MOD 道具和 EID 详细说明？</summary>
+          <p>MOD 道具涉及大量解析工作，EID 说明则没有获得汉化授权，所以当前版本没有包含这些内容。</p>
+        </details>
+        <details>
+          <summary>IsaacSocket 启动失败 / 提示缺少 .NET？</summary>
+          <p>手动运行一次 <code>resources/dependencies/IsaacSocketUtility/IsaacSocket.exe</code>，如果弹出安装 .NET 运行时的提示，按提示安装后重新启动盒子。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section download-section" id="download">
+      <div class="download-card reveal">
+        <div class="download-copy">
+          <span class="chapter">05 / DOWNLOAD</span>
+          <h2>带走这个盒子</h2>
+          <p>推荐下载便携版：解压即用，不写注册表。也可以使用安装版，适合希望自动创建快捷方式的用户。</p>
+          <div class="download-actions">
+            <a class="btn btn-primary" href="https://github.com/NOTF-API/IsaacBoxClient/releases/download/v2.0.5/isaac_box-v2.0.5.zip">下载便携版 v2.0.5</a>
+            <a class="btn btn-ghost" href="https://github.com/NOTF-API/IsaacBoxClient/releases/download/v2.0.5/isaac-box-2.0.5.Setup.exe">下载安装版</a>
+          </div>
+          <p class="file-meta"><code>isaac_box-v2.0.5.zip</code> · 约 115 MB · Windows 64 位</p>
+
+          <details class="checksum">
+            <summary>查看文件校验</summary>
+            <div class="checksum-row">
+              <code id="sha256">D5B4205D692FA94C369D0B0A077E937E9FFF29C172679D17B1694B80EB81B485</code>
+              <button type="button" class="copy-btn" data-copy="D5B4205D692FA94C369D0B0A077E937E9FFF29C172679D17B1694B80EB81B485">复制</button>
+            </div>
+            <p>MD5：<code>37E1BD7C0096A19F61CBF49CDD48D60D</code><br>CRC32：<code>3C7016A5</code></p>
+          </details>
+
+          <p class="download-note">所有版本都在 <a href="https://github.com/NOTF-API/IsaacBoxClient/releases" target="_blank" rel="noreferrer">GitHub Releases</a>。遇到问题可以先看 <a href="#faq">常见问题</a>。</p>
+        </div>
+
+        <div class="download-art" aria-hidden="true">
+          <div class="item-glow"></div>
+          <img src="./assets/img/d6.png" alt="" class="big-item">
+          <div class="pedestal"></div>
+          <span class="art-caption">REROLL YOUR RUN</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="brand footer-brand" href="#top">
+        <img src="./assets/img/d6.png" alt="" class="brand-icon" width="28" height="28">
+        <span>ISAAC'S <b>BOX</b></span>
+      </a>
+      <nav class="footer-links" aria-label="页脚链接">
+        <a href="https://github.com/NOTF-API/IsaacBoxClient" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/NOTF-API/IsaacBoxClient/releases" target="_blank" rel="noreferrer">Releases</a>
+        <a href="https://github.com/NOTF-API/IsaacBoxClient/issues" target="_blank" rel="noreferrer">反馈问题</a>
+      </nav>
+    </div>
+    <p class="credits">IsaacSocket by <a href="https://github.com/LanbingIce" target="_blank" rel="noreferrer">LanbingIce</a> · 搜索词 by <a href="https://github.com/enthusiasmgame2001" target="_blank" rel="noreferrer">enthusiasmgame2001</a> · 主界面插画 by 白玉螳</p>
+    <p class="disclaimer">非官方粉丝项目，与 Edmund McMillen、Nicalis 及《以撒的结合》官方无关。游戏素材版权归原作者所有。</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="截图预览">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="关闭预览">×</button>
+    <figure>
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
