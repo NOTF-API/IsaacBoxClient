@@ -51,6 +51,12 @@ const getDependenciesDirectory = () => {
   if (fs.existsSync(packagedDir)) {
     return packagedDir
   }
+  if (process.resourcesPath) {
+    const resourcesDir = path.join(process.resourcesPath, "dependencies")
+    if (fs.existsSync(resourcesDir)) {
+      return resourcesDir
+    }
+  }
   return path.join(__dirname, "dependencies")
 }
 
@@ -117,13 +123,7 @@ const getSteamGameDirectorySync = () => {
   return null
 }
 
-const getModsDirectory = (gameDir, documentsDir) => {
-  if (documentsDir) {
-    const repPlusDir = path.join(documentsDir, "My Games", "Binding of Isaac Repentance+")
-    if (fs.existsSync(repPlusDir)) {
-      return path.join(repPlusDir, "mods")
-    }
-  }
+const getModsDirectory = (gameDir) => {
   return path.join(gameDir, "mods")
 }
 

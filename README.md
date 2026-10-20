@@ -1,6 +1,8 @@
 # Isaac Box 以撒的盒子
 
-这是一个基于[IsaacSocket](https://github.com/LanbingIce/IsaacSocket-Mod)的外置控制台，基于Vue3+electron,通过WS与IsaacSocket进行连接，需要配合IsaacBox Mod来达到一个外置控制台的目的。支持忏悔与忏悔+（Repentance+）DLC，仅限单机使用；忏悔+联机模式需要禁用Mod。
+这是一个基于[IsaacSocket](https://github.com/LanbingIce/IsaacSocket-Mod)的外置控制台，基于Vue3+electron,通过WS与IsaacSocket进行连接，需要配合IsaacBox Mod来达到一个外置控制台的目的。目前仅支持忏悔（Repentance）DLC，不支持忏悔+（Repentance+），仅限单机使用。
+
+> 注意：忏悔+（Repentance+）暂不支持。IsaacSocket 尚未适配忏悔+的游戏版本（如 J460），连接会一直显示“未就绪”。
 
 ## 授权信息
 + 带有"$"后缀的搜索词均来自与[enthusiasmgame2001](https://github.com/enthusiasmgame2001)，已授权。
@@ -21,7 +23,7 @@
 建议先打开盒子，但是互不影响。
 
 + 一使用就暂停？
-请设置 `文档/My Games/Binding of Isaac Repentance/options.ini` 或 `文档/My Games/Binding of Isaac Repentance+/options.ini` 中的 `PauseOnFocusLost=1`，然后保存
+请设置 `文档/My Games/Binding of Isaac Repentance/options.ini` 中的 `PauseOnFocusLost=1`，然后保存
 
 + 各种报错？
 请先检查是否以管理员权限运行，再手动以管理员权限打开IsaacSocket.exe查看是否需要安装.NET运行时，如果弹窗，请点击是，下载.NET运行时。安装之后请重新启动以撒的盒子。
@@ -37,7 +39,7 @@
 
 + 请检查是否曾经安装过IsaacSocket，同一时间只能开启一个IsaacSocket MOD，请手动删除或者在MOD菜单中禁用
 + 检查是否被杀毒软件拦截或者限制访问了
-+ 如果不能为您自动安装mod，请手动复制dependencies下的两个mod至游戏mod文件夹。忏悔版本的路径通常为游戏目录下的`mods`，忏悔+的路径为`文档/My Games/Binding of Isaac Repentance+/mods`。
++ 如果不能为您自动安装mod，请手动复制dependencies下的两个mod至游戏mod文件夹。路径通常为游戏目录下的`mods`。
 + 如果不能为您自动启动IsaacSocket.exe，请在每次游戏前手动运行dependencies/IsaacSocketUtility下的IsaacSocket.exe
 + 参考https://github.com/LanbingIce/IsaacSocket-Mod 文档
 

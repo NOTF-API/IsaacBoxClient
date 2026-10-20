@@ -83,7 +83,7 @@ const isPortTaken = (port) => {
 
   let modsDir;
   try {
-    modsDir = getModsDirectory(gameDir, app.getPath("documents"));
+    modsDir = getModsDirectory(gameDir);
     fs.mkdirSync(modsDir, { recursive: true });
   } catch (e) {
     dialog.showMessageBoxSync({
@@ -100,7 +100,7 @@ const isPortTaken = (port) => {
   } catch (e) {
     dialog.showMessageBoxSync({
       title: "错误",
-      message: `无法获取所有MOD信息,请检查您的游戏版本是否正确.当前支持忏悔与忏悔+版本.`,
+      message: `无法获取所有MOD信息,请检查您的游戏版本是否正确.当前仅支持忏悔版本.`,
       type: "error"
     })
     return;

@@ -2,7 +2,8 @@ module.exports = {
   packagerConfig: {
     asar: true,
     name: "isaac-box",
-    icon: "./public/favicon.ico"
+    icon: "./public/favicon.ico",
+    extraResource: ["./dependencies"]
   },
   rebuildConfig: {},
   makers: [
