@@ -1,10 +1,12 @@
 const { BrowserWindow, app, dialog } = require("electron");
+const fs = require("fs");
 const net = require('net');
 const path = require("path")
 const { initServer } = require("./server/index")
 const { WEBSOCKET_PORT } = require("./app.config.commonjs")
 
-const { getAllModsMetadata,
+const { getModsDirectory,
+  getAllModsMetadata,
   getRequiredModsVersionInfo,
   patchMods,
   getGameDirectorySync,
@@ -79,13 +81,26 @@ const isPortTaken = (port) => {
     return;
   }
 
-  let mods;
+  let modsDir;
   try {
-    mods = await getAllModsMetadata(gameDir);
+    modsDir = getModsDirectory(gameDir, app.getPath("documents"));
+    fs.mkdirSync(modsDir, { recursive: true });
   } catch (e) {
     dialog.showMessageBoxSync({
       title: "错误",
-      message: `无法获取所有MOD信息,请检查您的游戏版本是否正确,当前仅支持忏悔版本.`,
+      message: `无法创建MOD目录.请尝试以管理员权限运行该程序,或检查文档目录是否可写.`,
+      type: "error"
+    })
+    return;
+  }
+
+  let mods;
+  try {
+    mods = await getAllModsMetadata(modsDir);
+  } catch (e) {
+    dialog.showMessageBoxSync({
+      title: "错误",
+      message: `无法获取所有MOD信息,请检查您的游戏版本是否正确.当前支持忏悔与忏悔+版本.`,
       type: "error"
     })
     return;
@@ -106,7 +121,7 @@ const isPortTaken = (port) => {
 
   let isPatched;
   try {
-    isPatched = await patchMods(gameDir, requiredMods)
+    isPatched = await patchMods(modsDir, requiredMods)
     if (isPatched) {
       dialog.showMessageBox({
         title: "提示",
@@ -123,7 +138,11 @@ const isPortTaken = (port) => {
     })
     return;
   }
-  openIsaacSocketUtility();
+  try {
+    await openIsaacSocketUtility();
+  } catch (e) {
+    console.error("无法启动 IsaacSocketUtility", e);
+  }
 })();
 
 

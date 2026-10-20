@@ -29,7 +29,7 @@ const handler = {
       return;
     }
     if (!callback) {
-      this.callbacks.delete(eventName);
+      this.callbacksMap.delete(eventName);
     } else {
       let callbackSet = this.callbacksMap.get(eventName);
       if (callbackSet) {

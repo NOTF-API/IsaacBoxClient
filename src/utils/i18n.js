@@ -9,7 +9,7 @@ export const getI18nState = () => {
 
 export const getI18nType = () => {
   let t = localStorage.getItem(I18N_TYPE_KEY)
-  if (!t) {
+  if (!t || !Object.values(I18N_TYPE).includes(t)) {
     t = I18N_TYPE.CHINESE
     localStorage.setItem(I18N_TYPE_KEY, t)
   }

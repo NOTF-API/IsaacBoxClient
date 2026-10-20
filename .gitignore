@@ -25,3 +25,10 @@ dist-ssr
 *.lnk
 
 out/
+
+exsrc/*.obj
+exsrc/*.res
+exsrc/*.pdb
+exsrc/*.ilk
+exsrc/*.exp
+exsrc/*.lib

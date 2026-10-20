@@ -38,14 +38,21 @@ const trinkets = ref([])
 const cards = ref([])
 const pills = ref([])
 
+const clearResults = () => {
+  collectibles.value = [];
+  trinkets.value = [];
+  cards.value = [];
+  pills.value = [];
+}
+
 watch(() => props.searchInput, (newValue) => {
   if (!newValue) {
-    collectibles.value = [];
-    trinkets.value = [];
+    clearResults();
     return;
   }
   const keyword = newValue.toLowerCase().replaceAll(/\s/g, "");
   if (keyword.length === 0) {
+    clearResults();
     return;
   }
   const { c, t, k, p } = search(keyword);

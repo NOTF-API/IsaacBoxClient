@@ -4,6 +4,7 @@ import { ref } from 'vue'
 let socket = null;
 let isConsoleReady = false;
 let isGameReady = false;
+let reconnectTimer = null;
 export const collectibles = ref([]);
 
 /**
@@ -52,7 +53,7 @@ const handler = {
       return;
     }
     if (!callback) {
-      this.callbacks.delete(topic);
+      this.callbacksMap.delete(topic);
     } else {
       let callbackSet = this.callbacksMap.get(topic);
       if (callbackSet) {
@@ -85,10 +86,14 @@ handler.on("GAME_NOT_READY", () => {
 handler.on("GAME_READY", () => {
   isGameReady = true
   document.title = `[OK] ${TITLE}`
+  setTimeout(() => {
+    emit("GET_ITEMS")
+  }, 500)
 })
 
 handler.on("GAME_LEFT", () => {
   isGameReady = false
+  collectibles.value = []
   document.title = `[!游戏已退出] ${TITLE}`
 })
 
@@ -101,21 +106,34 @@ handler.on("OFFER_ITEMS", (message) => {
   collectibles.value = data;
 })
 
-export const init = () => {
+const scheduleReconnect = () => {
+  if (reconnectTimer !== null) {
+    return;
+  }
+  reconnectTimer = setTimeout(() => {
+    reconnectTimer = null;
+    connect();
+  }, 2000);
+}
+
+const connect = () => {
+  if (socket !== null && socket.readyState !== WebSocket.CLOSED) {
+    return;
+  }
   socket = new WebSocket(`ws://localhost:${WEBSOCKET_PORT}`)
   socket.onopen = () => {
     isConsoleReady = true
     emit("JOIN_AS_CONSOLE", "", false);
-    setTimeout(() => {
-      emit("GET_ITEMS")//查询一次持有物品 因为可能是中途开启了外置控制台
-    }, 5000)
   }
   socket.onclose = () => {
     isConsoleReady = false
+    isGameReady = false
     document.title = `[服务器连接中断] ${TITLE}`
+    scheduleReconnect();
   }
   socket.onerror = () => {
     isConsoleReady = false
+    isGameReady = false
     document.title = `[服务器连接中断] ${TITLE}`
   }
   socket.onmessage = (messageReceieved) => {
@@ -131,6 +149,10 @@ export const init = () => {
       console.warn("[warn] error while parsing message:" + messageReceieved)
     }
   }
+}
+
+export const init = () => {
+  connect();
 }
 
 init();

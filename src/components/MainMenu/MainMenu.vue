@@ -68,7 +68,7 @@ const handleReturn = () => {
   }
   submenus.forEach((submenu) => {
     if (submenu.active.value) {
-      submenu.active.value === false
+      submenu.active.value = false
     }
   });
   isMainActive.value = true;
